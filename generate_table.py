@@ -29,7 +29,7 @@ with open("results.json") as json_file:
     writer = MarkdownTableWriter()
     writer.headers = ["Project", "Dependencies"]
     writer.value_matrix = [
-        [format_with_link(project), filter_list(dependencies)]
+        [format_with_link(project), ", ".join(filter_list(dependencies))]
         for project, dependencies in data.items()
         if (
             len(filter_list(dependencies)) > 0
