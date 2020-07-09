@@ -8,11 +8,11 @@ mp: Dict[str, Union[set, list]] = {}
 
 for line in f_in.readlines():
     try:
-        rep_name = line.split('/')[1]
+        rep_name = line.split("/")[1]
     except IndexError:
         rep_name = ""
     mp[rep_name] = mp.get(rep_name, set())
-    result = re.search(r'from (\w+)[\.\w+]*|:[ ]*import (\w*)\n', line)
+    result = re.search(r"from (\w+)[\.\w+]*|:[ ]*import (\w*)\n", line)
     if result:
         if result.group(1):
             mp[rep_name].add(result.group(1))
@@ -22,7 +22,7 @@ for line in f_in.readlines():
 for key in mp:
     mp[key] = list(mp[key])
 
-with open('results.json', 'w') as f:
+with open("results.json", "w") as f:
     json.dump(mp, f, sort_keys=True, indent=2)
 
 print(len(mp))
