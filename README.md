@@ -1,6 +1,6 @@
 # Awesome FastAPI Projects
 
-The aim of this task is to have an organized list of projects that uses FastAPI.
+The aim of this repository is to have an organized list of projects that use FastAPI.
 
 If you're looking for FastAPI content, you might want to check [Awesome FastAPI](https://github.com/mjhea0/awesome-fastapi).
 
@@ -539,7 +539,6 @@ If you're looking for FastAPI content, you might want to check [Awesome FastAPI]
 |[yatsm](https://github.com/danielmartins/yatsm )                                                                                                                                                 |dramatiq, walrus, pytest, pendulum, passlib, apscheduler, typer, assertpy, pytz, jwt, yatsm                                                                                                                                                     |
 |[yumemi_intern_API](https://github.com/tkrk1209/yumemi_intern_API )                                                                                                                              |aiohttp, sqlalchemy, myapp, google, alembic                                                                                                                                                                                                     |
 |[zo](https://github.com/wazo-platform/wazo-router-calld )                                                                                                                                        |PIL, requests, ssdb, setuptools, loguru, urllib3, zo, munch                                                                                                                                                                                     |
-
 
 ## Contributing
 
