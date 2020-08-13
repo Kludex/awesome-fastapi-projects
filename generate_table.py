@@ -24,6 +24,7 @@ def format_with_link(project: str) -> str:
         if project in link:
             return f"[{project}]({link})"
 
+
 with open("results.json") as json_file:
     data = json.load(json_file)
     writer = MarkdownTableWriter()
