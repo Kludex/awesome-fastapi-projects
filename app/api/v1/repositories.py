@@ -6,9 +6,7 @@ router = APIRouter()
 @router.get("/")
 def get_repositories():  # Paginate
     """
-    # TODO: Decide the sorted key. Maybe should use the votes at some point.
-    Retrieves a sorted list of repositories. The sorted key is the number of
-    stars the repository have on GitHub.
+    Retrieves a sorted list of repositories.
 
     This endpoint is used to generate the `home page`.
     """
