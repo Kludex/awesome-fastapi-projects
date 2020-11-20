@@ -3,3 +3,13 @@ links.txt
 unique_links.txt
 imports.txt
 reps/
+
+# Text editor
+.vscode
+
+# Temporary files
+tmp/*
+!tmp/.gitkeep
+
+# Python
+**/__pycache__/
