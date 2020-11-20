@@ -1,19 +1,15 @@
+import json
 import logging
 import os
 import re
 import shutil
-from contextlib import contextmanager
-from typing import Set
+from datetime import datetime
+from typing import List
 
 from git import Git
 from git.exc import GitCommandError
 from github import Github
 from github.Repository import Repository
-from sqlalchemy import ForeignKey, create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship, sessionmaker
-from sqlalchemy.sql.schema import Column, UniqueConstraint
-from sqlalchemy.sql.sqltypes import Integer, String
 
 logging.basicConfig(level=logging.INFO)
 
@@ -26,52 +22,9 @@ MAX_SIZE = 100 * 1000  # 100 MB
 # Directory
 dir = os.getcwd()
 clone_dir = os.path.join(dir, "tmp")
+data_file = os.path.join(dir, "results.json")
 
 INVALID_FOLDERS = ("site-packages", "venv")
-
-# Database
-engine = create_engine("sqlite:///packages.db")
-SessionLocal = sessionmaker(bind=engine)
-
-Base = declarative_base()
-
-
-class Association(Base):
-    __tablename__ = "association"
-
-    package_id = Column(Integer, ForeignKey("package.id"), primary_key=True)
-    project_id = Column(Integer, ForeignKey("project.id"), primary_key=True)
-
-    package = relationship("Package", backref="package_associations")
-    project = relationship("Project", backref="project_associations")
-
-
-class Package(Base):
-    __tablename__ = "package"
-    __table_args__ = (UniqueConstraint("name"),)
-
-    id = Column(Integer, primary_key=True)
-    name = Column(String, nullable=False)
-
-
-class Project(Base):
-    __tablename__ = "project"
-    __table_args__ = (UniqueConstraint("name", "owner"),)
-
-    id = Column(Integer, primary_key=True)
-    name = Column(String, nullable=False)
-    owner = Column(String)
-    packages = relationship("Package", secondary="association")
-
-
-Base.metadata.create_all(engine, checkfirst=True)
-
-
-@contextmanager
-def get_session():
-    session = SessionLocal()
-    yield session
-    session.close()
 
 
 # Functions
@@ -83,7 +36,7 @@ def clone(repository: Repository):
         pass
 
 
-def get_packages_from_file(path: str) -> Set[str]:
+def get_packages_from_file(path: str) -> List[str]:
     packages = set()
     logging.info("Reading file '%s'.", path)
     try:
@@ -99,7 +52,7 @@ def get_packages_from_file(path: str) -> Set[str]:
         logging.info("File not found '%s'.", path)
     except UnicodeDecodeError:
         logging.info("Invalid character on file '%s'.", path)
-    return packages
+    return list(packages)
 
 
 def extract_data(repository: Repository) -> dict:
@@ -115,51 +68,44 @@ def extract_data(repository: Repository) -> dict:
 
 
 def run():
+    with open(data_file) as json_file:
+        data = json.load(json_file)
+
     snippets = g.search_code('l=Python&q="from+fastapi+import+FastAPI"&type=Code')
-    for snippet in snippets:
+    found = len(snippets)
+    logging.info("Found '%d' snippets.", found)
+
+    for i, snippet in enumerate(snippets):
         repository = snippet.repository
         name = repository.name
-        owner = repository.owner.name
-        logging.info("Got repository '%s'.", name)
+        owner = repository.owner
+        logging.info("Got repository '%s' (%d / %d).", name, i + 1, found)
 
-        with get_session() as session:
-            if (
-                session.query(Project)
-                .filter(Project.name == name, Project.owner == owner)
-                .first()
-            ):
+        if repository.id in data:
+            commits = repository.get_commits()
+            last_commit_date = [commit.commit.author.date for commit in commits][0]
+            if (datetime.today() - last_commit_date).days > 7:
+                logging.info("Repository '%s' already stored.", name)
                 continue
 
-        # NOTE: When deployed! Ignore repositories that didn't change.
-        # from datetime import datetime
-        # commits = repository.get_commits()
-        # last_commit_date = [commit.commit.author.date for commit in commits][0]
-        # if (datetime.today() - last_commit_date).days > 7:
-        #     continue
-
         if repository.size > MAX_SIZE:
+            logging.info("Repository size is '%d' MB. (SKIP)", repository.size // 1000)
             continue
 
         logging.info("Cloning repository '%s'.", name)
         clone(repository)
 
         logging.info("Extracting data from '%s'.", name)
-        data = extract_data(repository)
+        extracted_data = extract_data(repository)
 
-        with get_session() as session:
-            project = Project(name=name, owner=owner)
-            for package_name in data.get("packages", {}):
-                package = (
-                    session.query(Package).filter(Package.name == package_name).first()
-                )
-                if package is None:
-                    package = Package(name=package_name)
-                project.packages.append(package)
-            session.add(project)
-            session.commit()
+        data[repository.id] = {"name": name, "owner": owner, **extracted_data}
 
         logging.info("Removing repository '%s'.", name)
         shutil.rmtree(os.path.join(clone_dir, name))
+
+    logging.info("Writing on file!")
+    with open(os.path.join(dir, "results.json"), "w") as json_file:
+        json.dump(data, json_file)
 
 
 # Run!

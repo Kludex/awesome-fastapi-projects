@@ -2,7 +2,7 @@ import json
 
 import dash
 import dash_html_components as html
-import dash_table
+import dash_table as dt
 from dash.dependencies import Input, Output
 
 HEADERS = ("name", "age", "dependencies")
@@ -17,7 +17,8 @@ print(data)
 
 app.layout = html.Div(
     [
-        dash_table.DataTable(
+        html.Link(rel="stylesheet", href="/static/dash-datatable.css"),
+        dt.DataTable(
             id="datatable-interactivity",
             columns=[
                 {"name": i.capitalize(), "id": i, "deletable": True, "selectable": True}
