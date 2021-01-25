@@ -1,5 +1,6 @@
-from typing import List
 import json
+from typing import List
+
 from pytablewriter import MarkdownTableWriter
 from stdlib_list import stdlib_list
 
@@ -23,6 +24,7 @@ def format_with_link(project: str) -> str:
     for link in links.readlines():
         if project in link:
             return f"[{project}]({link})"
+
 
 with open("results.json") as json_file:
     data = json.load(json_file)
