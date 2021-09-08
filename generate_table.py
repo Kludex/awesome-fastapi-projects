@@ -1,12 +1,13 @@
-from typing import List
 import json
+from typing import List
+
 from pytablewriter import MarkdownTableWriter
 from stdlib_list import stdlib_list
 
 NATIVE = ["fastapi", "starlette", "pydantic", "typing", "uvicorn", "app"]
 
 
-def filter_list(dependencies: List[str]) -> List[str]:
+def filter_native_and_std_libs(dependencies: List[str]) -> List[str]:
     return [
         dependency
         for dependency in dependencies
@@ -24,16 +25,20 @@ def format_with_link(project: str) -> str:
         if project in link:
             return f"[{project}]({link})"
 
+
 with open("results.json") as json_file:
     data = json.load(json_file)
     writer = MarkdownTableWriter()
     writer.headers = ["Project", "Dependencies"]
     writer.value_matrix = [
-        [format_with_link(project), ", ".join(filter_list(dependencies))]
+        [
+            format_with_link(project),
+            ", ".join(filter_native_and_std_libs(dependencies)),
+        ]
         for project, dependencies in data.items()
         if (
-            len(filter_list(dependencies)) > 0
-            and len(filter_list(dependencies)) < 20
+            len(filter_native_and_std_libs(dependencies)) > 0
+            and len(filter_native_and_std_libs(dependencies)) < 20
             and project != ""
         )
     ]
