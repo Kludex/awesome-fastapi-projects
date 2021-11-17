@@ -5,3 +5,6 @@ black==21.10b0
 PyGithub==1.55
 pyhumps==3.0.2
 sqlalchemy==1.4.27
+alembic==1.7.5
+rich==10.14.0
+GitPython==3.1.24

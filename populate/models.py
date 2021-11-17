@@ -1,7 +1,9 @@
+import tempfile
 from datetime import datetime
 from typing import Any, Dict, Optional, TypeVar
 
 import humps
+from git import Repo
 from sqlalchemy import Column, inspect
 from sqlalchemy.ext.declarative import as_declarative, declared_attr
 from sqlalchemy.orm import relationship
@@ -28,7 +30,7 @@ class Base:
 
     @classmethod
     def get(cls, session: Session, *args: Any, **kwargs: Any) -> Optional[Self]:
-        session.query(cls).filter(*args).filter_by(**kwargs).first()
+        return session.query(cls).filter(*args).filter_by(**kwargs).first()
 
 
 class Repository(Base):
@@ -39,6 +41,9 @@ class Repository(Base):
     stargazers = Column(Integer, nullable=False)
 
     packages = relationship("Package", secondary="dependency")
+
+    def clone(self, repo_dir: tempfile.TemporaryDirectory) -> Repo:
+        return Repo.clone_from(self.clone_url, repo_dir, depth=1)
 
 
 class Package(Base):
