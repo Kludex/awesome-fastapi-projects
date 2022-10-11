@@ -1,5 +1,9 @@
 # Awesome FastAPI Projects
 
+> **Warning**
+> If you want to help me to maintain this project, please send a message on https://github.com/Kludex/awesome-fastapi-projects/issues/16.
+> I'll happily onboard you.
+
 The aim of this repository is to have an organized list of projects that use FastAPI.
 
 If you're looking for FastAPI content, you might want to check [Awesome FastAPI](https://github.com/mjhea0/awesome-fastapi).
