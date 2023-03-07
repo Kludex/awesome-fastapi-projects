@@ -40,15 +40,15 @@ filename = "links.txt"
 file1 = open(filename, "a")  # append mode
 has_next = True
 page = 1
-while True:
+while page < 3:
     sleep(1)
+    print(f"Page: {page}")
     res = get_response(page)
     res_json = res.json()
-    # print(res_json)
-    if "items" in res_json:
-        for item in res_json["items"]:
-            file1.write(f"{item['repository'].get('html_url')}\n")
-    print(f"Page: {page}")
+    print(res_json)
+    for item in res_json["items"]:
+        file1.write(f"{item['repository'].get('html_url')}\n")
+    
 
     if not 'next' in res.links.keys():
         break
