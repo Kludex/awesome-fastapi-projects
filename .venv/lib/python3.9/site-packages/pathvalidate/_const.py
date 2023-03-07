@@ -1,0 +1,16 @@
+_NTFS_RESERVED_FILE_NAMES = (
+    "$Mft",
+    "$MftMirr",
+    "$LogFile",
+    "$Volume",
+    "$AttrDef",
+    "$Bitmap",
+    "$Boot",
+    "$BadClus",
+    "$Secure",
+    "$Upcase",
+    "$Extend",
+    "$Quota",
+    "$ObjId",
+    "$Reparse",
+)  # Only in root directory

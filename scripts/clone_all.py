@@ -14,8 +14,4 @@ with open("unique_links.txt") as fp:
         link = link.rstrip()
         name = parse(link).name
         print(f"File num: {i}")
-        Repo.clone_from(link, name)
-        try:
-            shutil.move(name, "reps")
-        except:
-            shutil.rmtree(name)
+        Repo.clone_from(link, f"reps/{name}")

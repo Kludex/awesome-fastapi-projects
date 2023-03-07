@@ -1,0 +1,242 @@
+Metadata-Version: 2.1
+Name: typepy
+Version: 1.3.0
+Summary: typepy is a Python library for variable type checker/validator/converter at a run time.
+Home-page: https://github.com/thombashi/typepy
+Author: Tsuyoshi Hombashi
+Author-email: tsuyoshi.hombashi@gmail.com
+License: MIT License
+Project-URL: Documentation, https://typepy.rtfd.io/
+Project-URL: Source, https://github.com/thombashi/typepy
+Project-URL: Tracker, https://github.com/thombashi/typepy/issues
+Project-URL: Changes, https://github.com/thombashi/typepy/releases
+Keywords: library,type-checking,type-conversion,validator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: mbstrdecoder (<2,>=1.0.0)
+Provides-Extra: datetime
+Requires-Dist: python-dateutil (<3.0.0,>=2.8.0) ; extra == 'datetime'
+Requires-Dist: pytz (>=2018.9) ; extra == 'datetime'
+Requires-Dist: packaging ; extra == 'datetime'
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0.1) ; extra == 'test'
+Requires-Dist: tcolorpy ; extra == 'test'
+Requires-Dist: python-dateutil (<3.0.0,>=2.8.0) ; extra == 'test'
+Requires-Dist: pytz (>=2018.9) ; extra == 'test'
+Requires-Dist: packaging ; extra == 'test'
+
+.. contents:: **typepy**
+   :backlinks: top
+   :depth: 2
+
+Summary
+=========
+`typepy <https://github.com/thombashi/typepy>`__ is a Python library for variable type checker/validator/converter at a run time.
+
+.. image:: https://badge.fury.io/py/typepy.svg
+    :target: https://badge.fury.io/py/typepy
+    :alt: PyPI package version
+
+.. image:: https://anaconda.org/conda-forge/typepy/badges/version.svg
+    :target: https://anaconda.org/conda-forge/typepy
+    :alt: conda-forge package version
+
+.. image:: https://img.shields.io/pypi/pyversions/typepy.svg
+    :target: https://pypi.org/project/typepy
+    :alt: Supported Python versions
+
+.. image:: https://img.shields.io/pypi/implementation/typepy.svg
+    :target: https://pypi.org/project/typepy
+    :alt: Supported Python implementations
+
+.. image:: https://github.com/thombashi/typepy/workflows/Tests/badge.svg
+    :target: https://github.com/thombashi/typepy/actions?query=workflow%3ATests
+    :alt: Linux/macOS/Windows CI status
+
+.. image:: https://coveralls.io/repos/github/thombashi/typepy/badge.svg?branch=master
+    :target: https://coveralls.io/github/thombashi/typepy?branch=master
+    :alt: Test coverage
+
+.. image:: https://github.com/thombashi/typepy/actions/workflows/codeql-analysis.yml/badge.svg
+    :target: https://github.com/thombashi/typepy/actions/workflows/codeql-analysis.yml
+    :alt: CodeQL
+
+Features
+==========
+- checking a value type
+- validate a value for a type
+- convert a value from a type to the other type
+
+The correspondence between Python types and ``typepy`` classes are as follows:
+
+.. table:: Supported Types
+
+    ================================================  =======================================================================================================
+    Python Type                                       typepy: Type Class
+    ================================================  =======================================================================================================
+    ``bool``                                          `Bool <https://typepy.rtfd.io/en/latest/pages/reference/type.html#bool-type>`__
+    ``datetime``                                      `DateTime <https://typepy.rtfd.io/en/latest/pages/reference/type.html#datetime-type>`__
+    ``dict``                                          `Dictionary <https://typepy.rtfd.io/en/latest/pages/reference/type.html#dictionary-type>`__
+    ``float``/``decimal.Decimal`` (not infinity/NaN)  `RealNumber <https://typepy.rtfd.io/en/latest/pages/reference/type.html#real-number-type>`__
+    ``float``/``decimal.Decimal`` (infinity)          `Infinity <https://typepy.rtfd.io/en/latest/pages/reference/type.html#infinity-type>`__
+    ``float``/``decimal.Decimal`` (NaN)               `Nan <https://typepy.rtfd.io/en/latest/pages/reference/type.html#nan-type>`__
+    ``int``                                           `Integer <https://typepy.rtfd.io/en/latest/pages/reference/type.html#integer-type>`__
+    ``list``                                          `List <https://typepy.rtfd.io/en/latest/pages/reference/type.html#list-type>`__
+    ``None``                                          `None <https://typepy.rtfd.io/en/latest/pages/reference/type.html#none-type>`__
+    ``str`` (not null)                                `String <https://typepy.rtfd.io/en/latest/pages/reference/type.html#string-type>`__
+    ``str`` (null)                                    `NullString <https://typepy.rtfd.io/en/latest/pages/reference/type.html#null-string-type>`__
+    ``str`` (IP address)                              `IpAddress <https://typepy.rtfd.io/en/latest/pages/reference/type.html#ip-address-type>`__
+    ================================================  =======================================================================================================
+
+Installation
+============
+
+Installation: pip
+------------------------------
+::
+
+    pip install typepy
+
+Install additional dependency packages with the following command if using ``typepy.DateTime`` class
+
+::
+
+    pip install typepy[datetime]
+
+Installation: conda
+------------------------------
+::
+
+    conda install -c conda-forge typepy
+
+Installation: apt
+------------------------------
+::
+
+    sudo add-apt-repository ppa:thombashi/ppa
+    sudo apt update
+    sudo apt install python3-typepy
+
+
+Dependencies
+============
+- Python 3.6+
+- `Python package dependencies (automatically installed) <https://github.com/thombashi/typepy/network/dependencies>`__
+
+Optioal dependencies
+----------------------------------
+These packages can be installed via ``pip install typepy[datetime]``:
+
+- `python-dateutil <https://dateutil.readthedocs.io/en/stable/>`__
+- `pytz <https://pypi.org/project/pytz/>`__
+
+Usage
+=======
+Type Check Method
+----------------------
+:Examples:
+    .. code-block:: pycon
+
+        >>> from typepy import Integer
+        >>> Integer(1).is_type()
+        True
+        >>> Integer(1.1).is_type()
+        False
+
+
+Type Validation Method
+--------------------------------------------
+:Examples:
+    .. code-block:: pycon
+
+        >>> from typepy import Integer
+        >>> Integer(1).validate()
+        >>> try:
+        ...     Integer(1.1).validate()
+        ... except TypeError as e:
+        ...     # validate() raised TypeError when the value unmatched the type class
+        ...     print(e)
+        ...
+        invalid value type: expected=INTEGER, actual=<type 'float'>
+
+
+Type Conversion Methods
+--------------------------------------------
+
+convert method
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:Examples:
+    .. code-block:: pycon
+
+        >>> from typepy import Integer, TypeConversionError
+        >>> Integer("1").convert()
+        1
+        >>> try:
+        ...     Integer(1.1).convert()
+        ... except TypeConversionError as e:
+        ...     # convert() raised TypeConversionError when conversion failed
+        ...     print(e)
+        ...
+        failed to convert from float to INTEGER
+
+try_convert method
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:Examples:
+    .. code-block:: pycon
+
+        >>> from typepy import Integer
+        >>> Integer("1").try_convert()
+        1
+        >>> print(Integer(1.1).try_convert())  # try_convert() returned None when conversion failed
+        None
+
+force_convert
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:Examples:
+    .. code-block:: pycon
+
+        >>> from typepy import Integer, TypeConversionError
+        >>> Integer("1").force_convert()  # force_convert() forcibly convert the value
+        1
+        >>> Integer(1.1).force_convert()
+        1
+        >>> try:
+        ...     Integer("abc").force_convert()
+        ... except TypeConversionError as e:
+        ...     # force_convert() raised TypeConversionError when the value not convertible
+        ...     print(e)
+        ...
+        failed to force_convert to int: type=<class 'str'>
+
+
+For more information
+--------------------------------------------
+Type check/validate/convert results differed according to
+``strict_level`` value which can pass to typepy classes constructors as an argument.
+More information can be found in the
+`API reference <https://typepy.rtfd.io/en/latest/pages/reference/index.html>`__.
+
+Documentation
+===============
+https://typepy.rtfd.io/
+
+
+

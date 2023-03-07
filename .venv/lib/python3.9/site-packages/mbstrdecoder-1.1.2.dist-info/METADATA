@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: mbstrdecoder
+Version: 1.1.2
+Summary: multi-byte character string decoder
+Home-page: https://github.com/thombashi/mbstrdecoder
+Author: Tsuyoshi Hombashi
+Author-email: tsuyoshi.hombashi@gmail.com
+License: MIT License
+Project-URL: Source, https://github.com/thombashi/mbstrdecoder
+Project-URL: Tracker, https://github.com/thombashi/mbstrdecoder/issues
+Keywords: multi-byte character,unicode,decoder
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: chardet (<6,>=3.0.4)
+Provides-Extra: test
+Requires-Dist: Faker (>=1.0.2) ; extra == 'test'
+Requires-Dist: pytest (>=6.0.1) ; extra == 'test'
+Requires-Dist: pytest-md-report (>=0.1) ; extra == 'test'
+
+.. contents:: **mbstrdecoder**
+   :backlinks: top
+   :local:
+
+
+Summary
+=======
+`mbstrdecoder <https://github.com/thombashi/mbstrdecoder>`__ is a Python library for multi-byte character string decoder.
+
+
+.. image:: https://badge.fury.io/py/mbstrdecoder.svg
+    :target: https://badge.fury.io/py/mbstrdecoder
+    :alt: PyPI package version
+
+.. image:: https://img.shields.io/pypi/pyversions/mbstrdecoder.svg
+   :target: https://pypi.org/project/mbstrdecoder
+    :alt: Supported Python versions
+
+.. image:: https://img.shields.io/pypi/implementation/mbstrdecoder.svg
+    :target: https://pypi.org/project/mbstrdecoder
+    :alt: Supported Python implementations
+
+.. image:: https://github.com/thombashi/mbstrdecoder/actions/workflows/lint_and_test.yml/badge.svg
+    :target: https://github.com/thombashi/mbstrdecoder/actions/workflows/lint_and_test.yml
+    :alt: CI status of Linux/macOS/Windows
+
+.. image:: https://coveralls.io/repos/github/thombashi/mbstrdecoder/badge.svg?branch=master
+    :target: https://coveralls.io/github/thombashi/mbstrdecoder?branch=master
+    :alt: Test coverage
+
+.. image:: https://github.com/thombashi/mbstrdecoder/actions/workflows/codeql-analysis.yml/badge.svg
+    :target: https://github.com/thombashi/mbstrdecoder/actions/workflows/codeql-analysis.yml
+    :alt: CodeQL
+
+
+Installation
+============
+
+Install from PyPI
+------------------------------
+::
+
+    pip install mbstrdecoder
+
+Install from PPA (for Ubuntu)
+------------------------------
+::
+
+    sudo add-apt-repository ppa:thombashi/ppa
+    sudo apt update
+    sudo apt install python3-mbstrdecoder
+
+
+Usage
+=====
+
+:Sample Code:
+    .. code:: python
+
+        from mbstrdecoder import MultiByteStrDecoder
+
+        encoded_multibyte_text = "マルチバイト文字".encode("utf-8")
+        decoder = MultiByteStrDecoder(encoded_multibyte_text)
+
+        print("encoded bytes: {}".format(encoded_multibyte_text))
+        print("unicode: {}".format(decoder.unicode_str))
+        print("codec: {}".format(decoder.codec))
+
+:Output:
+    ::
+
+        encoded bytes: b'\xe3\x83\x9e\xe3\x83\xab\xe3\x83\x81\xe3\x83\x90\xe3\x82\xa4\xe3\x83\x88\xe6\x96\x87\xe5\xad\x97'
+        unicode: マルチバイト文字
+        codec: utf_8
+
+
+Dependencies
+============
+- Python 3.7+
+- `Python package dependencies (automatically installed) <https://github.com/thombashi/mbstrdecoder/network/dependencies>`__
