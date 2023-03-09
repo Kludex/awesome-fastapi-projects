@@ -14,7 +14,7 @@ username = os.getenv("GITHUB_USERNAME")
 password = os.getenv("GITHUB_PASSWORD")
 API_URL = "https://api.github.com"
 
-@on_exception(expo, RateLimitException, max_tries=8)
+@on_exception(expo, RateLimitException, max_tries=20)
 @limits(calls=30, period=60)
 def get_response(page: int) -> dict:
     res = requests.get(
@@ -40,16 +40,19 @@ filename = "links.txt"
 file1 = open(filename, "a")  # append mode
 has_next = True
 page = 1
-while page < 5:
-    sleep(1)
+while True:
+    sleep(30)
     print(f"Page: {page}")
     res = get_response(page)
+    print(res.headers)
     res_json = res.json()
     print(res_json)
-    for item in res_json["items"]:
-        file1.write(f"{item['repository'].get('html_url')}\n")
+    if "items" in res_json:
+        for item in res_json["items"]:
+            file1.write(f"{item['repository'].get('html_url')}\n")
 
     if not 'next' in res.links.keys():
+        print("Last page, exiting query.")
         break   
     page += 1
 

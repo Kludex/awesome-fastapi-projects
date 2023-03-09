@@ -14,5 +14,5 @@ with open("unique_links.txt") as fp:
         link = link.rstrip()
         owner = parse(link).owner
         name = parse(link).name
-        print(f"File num: {i}")
+        print(f"File num: {i} - {owner}/{name}")
         Repo.clone_from(link, f"reps/{owner}|{name}")
