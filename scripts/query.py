@@ -20,7 +20,7 @@ def get_response(page: int) -> dict:
     res = requests.get(
         f"{API_URL}/search/code",
         auth=(username, password),
-        params={"q": "fastapi language:python stars:>1", "per_page": 100, "page": page},
+        params={"q": "fastapi+language:python+stars:>1&sort=stars&order=desc", "per_page": 100, "page": page},
     )
     return res
 
@@ -45,7 +45,7 @@ while True:
     res = get_response(page)
     print(res.headers)
     res_json = res.json()
-    print(res_json)
+    # print(res_json)
     if "items" in res_json:
         for item in res_json["items"]:
             file1.write(f"{item['repository'].get('html_url')}\n")
