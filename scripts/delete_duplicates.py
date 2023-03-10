@@ -1,10 +1,11 @@
 f_in = open("links.txt", "r")
 f_out = open("unique_links.txt", "w")
-
-links = set()
+# Using a list instead of set to keep same order in links and unique_links urls
+links = []
 
 for line in f_in.readlines():
-    links.add(line)
+    if line not in links:
+        links.append(line)
 
 for link in links:
     f_out.write(link)

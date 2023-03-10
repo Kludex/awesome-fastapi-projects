@@ -18,9 +18,9 @@ API_URL = "https://api.github.com"
 @limits(calls=30, period=60)
 def get_response(page: int) -> dict:
     res = requests.get(
-        f"{API_URL}/search/code",
+        f"{API_URL}/search/repositories",
         auth=(username, password),
-        params={"q": "fastapi+language:python+stars:>1&sort=stars&order=desc", "per_page": 100, "page": page},
+        params={"q": "fastapi+language:python+stars:>1", "sort": "stars", "order":"desc", "per_page": 100, "page": page},
     )
     return res
 
@@ -48,7 +48,7 @@ while True:
     # print(res_json)
     if "items" in res_json:
         for item in res_json["items"]:
-            file1.write(f"{item['repository'].get('html_url')}\n")
+            file1.write(f"{item['html_url']}\n")
 
     if not 'next' in res.links.keys():
         print(f"Last page received is {page}, exiting query. If you want to continue from it call the script with the --continue option.")
