@@ -1,12 +1,41 @@
 source .venv/bin/activate
 pip install -r requirements.txt
-rm -f unique_links.txt
-rm -f links.txt
-rm -f imports.txt
 
-if [ -d reps ];then rm -rf reps ; fi 
 
-python3 scripts/query.py
+continue_script=false
+
+# Loop through all the arguments
+while [[ $# -gt 0 ]]
+do
+    key="$1"
+
+    case $key in
+        --continue)
+            continue_script=true
+            shift
+            ;;
+        *)
+            # Ignore unknown options
+            shift
+            ;;
+    esac
+done
+
+
+if [ "$continue_script" = false ]; then
+
+    rm -f unique_links.txt
+    rm -f links.txt
+    rm -f imports.txt
+    rm -f .checkpoint
+    if [ -d reps ];then rm -rf reps ; fi 
+    python3 scripts/query.py 1
+
+else
+    page=$(cat .checkpoint)
+    python3 scripts/query.py $page
+fi
+
 python3 scripts/delete_duplicates.py
 python3 scripts/clone_all.py
 . scripts/list_imports.sh

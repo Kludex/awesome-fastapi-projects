@@ -20,7 +20,7 @@ def get_response(page: int) -> dict:
     res = requests.get(
         f"{API_URL}/search/code",
         auth=(username, password),
-        params={"q": "fastapi language:python", "per_page": 100, "page": page},
+        params={"q": "fastapi language:python stars:>1", "per_page": 100, "page": page},
     )
     return res
 
@@ -38,10 +38,9 @@ def get_next_link(link_header: str) -> str:
 
 filename = "links.txt"
 file1 = open(filename, "a")  # append mode
-has_next = True
-page = 1
+page = int(sys.argv[1])
 while True:
-    sleep(30)
+    sleep(2)
     print(f"Page: {page}")
     res = get_response(page)
     print(res.headers)
@@ -52,8 +51,11 @@ while True:
             file1.write(f"{item['repository'].get('html_url')}\n")
 
     if not 'next' in res.links.keys():
-        print("Last page, exiting query.")
+        print(f"Last page received is {page}, exiting query. If you want to continue from it call the script with the --continue option.")
         break   
     page += 1
 
 file1.close()
+
+with open(".checkpoint", "w") as f2:
+    f2.write(str(page))

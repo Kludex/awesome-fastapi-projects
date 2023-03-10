@@ -3,10 +3,7 @@ import shutil
 import git
 from git.repo.base import Repo
 from giturlparse import parse
-
-# class Progress(git.remote.RemoteProgress):
-#     def update(self, op_code, cur_count, max_count=None, message=''):
-#         print(self._cur_line)
+import os
 
 with open("unique_links.txt") as fp:
     links = fp.readlines()
@@ -14,5 +11,12 @@ with open("unique_links.txt") as fp:
         link = link.rstrip()
         owner = parse(link).owner
         name = parse(link).name
-        print(f"File num: {i} - {owner}/{name}")
-        Repo.clone_from(link, f"reps/{owner}|{name}")
+        repo_dir = f"reps/{owner}|{name}"
+        if os.path.exists(repo_dir):
+            print(f"File num: {i} - {owner}/{name} - directory already exists, skipping...")
+        else:
+            print(f"File num: {i} - {owner}/{name}")
+            try:
+                Repo.clone_from(link, f"reps/{owner}|{name}")
+            except Exception as e:
+                print(f"Exception {e}")
