@@ -1,0 +1,87 @@
+[project]
+name = "awesome-fastapi-projects"
+description = "A web app built with FastAPI to index awesome projects built with FastAPI."
+version = "0.1.0"
+authors = [
+    {name = "Vladyslav Fedoriuk", email="vlad.fedoriuk2000@gmail.com"}
+]
+dependencies = [
+    "fastapi[all]",
+    "aiosqlite",
+    "sqlalchemy[asyncio]",
+    "alembic",
+]
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+dev = [
+    "black",
+    "isort",
+    "pyupgrade",
+    "ruff",
+    "pip-tools",
+    "pre-commit",
+]
+
+[tool.black]
+line-length = 88
+target_version = ['py311']
+include = '\.pyi?$'
+force-exclude = '''
+(
+  /(
+     \.bzr
+    | \.direnv
+    | \.eggs
+    | \.git
+    | \.git-rewrite
+    | \.hg
+    | \.mypy_cache
+    | \.ruff_cache
+    | \.tox
+    | \.nox
+    | \.pants.d
+    | \.pytype
+    | \.venv
+    | \.svn
+    | \.ipynb_checkpoints
+    | \.egg-info
+    | __pypackages__
+    | _build
+    | buck-out
+    | build
+    | dist
+    | node_modules
+    | venv
+  )/
+)
+''' # To comply with files excluded by ruff
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.ruff]
+line-length = 88
+target-version = 'py311'
+required-version = "0.0.280"
+extend-select = [
+    "D", # pydocstyle
+    "UP", # pyupgrade
+    "B", # flake8-bugbear
+    "ANN", # flake8-annotations
+    "S", # flake8-bandit
+    "C", # flake8-comprehensions
+    "T", # flake8-debugger
+    "INP", # flake8-no-pep420
+    "ERA", # eradicate
+    "PD", # pandas-vet
+    "NPY", # numpy-specific rules
+    "Q", # flake8-quotes
+]
+
+[tool.ruff.pydocstyle]
+convention = "numpy"

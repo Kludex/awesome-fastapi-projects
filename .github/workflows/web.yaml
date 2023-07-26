@@ -1,0 +1,41 @@
+name: Web application CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with: # https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#caching-packages
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: '**/requirements/*.txt'
+      - name: Install dev dependencies
+        run: |
+          cd web
+          python -m pip install --upgrade pip
+          pip install -r requirements/dev.txt
+      - name: Lint with ruff
+        uses: chartboost/ruff-action@v1
+        with:
+          src: web
+          version: 0.0.280
+        continue-on-error: true
+      - name: Lint with isort
+        run: |
+          cd web
+          python -m isort --check --diff .
+        continue-on-error: true
+      - name: Lint with black
+        run: |
+          cd web
+          python -m black --check --verbose .
+        continue-on-error: true
+      - name: Lint with pyupgrade
+        run: |
+          cd web
+          python -m pyupgrade --py311-plus .
+        continue-on-error: true
