@@ -3,7 +3,7 @@ name: Web application CI
 on: [push]
 
 jobs:
-  build:
+  quality:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
