@@ -15,23 +15,18 @@ jobs:
           cache-dependency-path: '**/requirements/*.txt'
       - name: Install dev dependencies
         run: |
-          cd web
           python -m pip install --upgrade pip
           pip install -r requirements/dev.txt
       - name: Lint with ruff
         uses: chartboost/ruff-action@v1
         with:
-          src: web
           version: 0.0.280
       - name: Lint with isort
         run: |
-          cd web
           python -m isort --check --diff .
       - name: Lint with black
         run: |
-          cd web
           python -m black --check --verbose .
       - name: Lint with pyupgrade
         run: |
-          cd web
           python -m pyupgrade --py311-plus
