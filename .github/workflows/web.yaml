@@ -23,19 +23,15 @@ jobs:
         with:
           src: web
           version: 0.0.280
-        continue-on-error: true
       - name: Lint with isort
         run: |
           cd web
           python -m isort --check --diff .
-        continue-on-error: true
       - name: Lint with black
         run: |
           cd web
           python -m black --check --verbose .
-        continue-on-error: true
       - name: Lint with pyupgrade
         run: |
           cd web
-          python -m pyupgrade --py311-plus .
-        continue-on-error: true
+          python -m pyupgrade --py311-plus
