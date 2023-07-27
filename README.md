@@ -1,8 +1,10 @@
-# Local development
+# A web app to index and search awesome FastAPI projects
 
-## Setup
+## Local Development
 
-### Python and Virtual Environment
+### Setup
+
+#### Python and Virtual Environment
 
 The instructions below assume you have [pyenv](https://github.com/pyenv/pyenv) installed.
 If you don't, use any other method to create a virtual environment
