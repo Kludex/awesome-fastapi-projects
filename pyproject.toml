@@ -7,27 +7,30 @@ authors = [
 ]
 requires-python = ">=3.11"
 classifiers = [
-  "Programming Language :: Python :: 3 :: Only",
-  "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
 ]
 dependencies = [
-  "aiosqlite",
-  "alembic",
-  "fastapi[all]",
-  "sqlalchemy[asyncio]",
+    "aiosqlite",
+    "alembic",
+    "fastapi[all]",
+    "sqlalchemy[asyncio]",
 ]
 [project.optional-dependencies]
 dev = [
-  "black",
-  "isort",
-  "pip-tools",
-  "pre-commit",
-  "pyproject-fmt",
-  "pyupgrade",
-  "ruff",
+    "black",
+    "isort",
+    "pip-tools",
+    "pre-commit",
+    "pyproject-fmt",
+    "pyupgrade",
+    "ruff",
 ]
 test = [
-  "pytest",
+    "polyfactory",
+    "pytest",
+    "pytest-anyio",
+    "pytest-mock",
 ]
 
 [tool.setuptools]
@@ -93,6 +96,7 @@ extend-select = [
 # Ignore missing docstrings in migrations and alembic files
 "**/migrations/*.py" = ["D"]
 "**/migrations/env.py" = ["ERA001"]
+"**/tests/*.py" = ["S101"]
 
 [tool.ruff.pydocstyle]
 convention = "numpy"

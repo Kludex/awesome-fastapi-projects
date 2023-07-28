@@ -22,6 +22,7 @@ from typing import Final
 from sqlalchemy import ForeignKey, String
 from sqlalchemy.ext.asyncio import (
     AsyncAttrs,
+    AsyncEngine,
     AsyncSession,
     async_sessionmaker,
     create_async_engine,
@@ -32,9 +33,11 @@ DB_PATH: Final[PurePath] = PurePath(__file__).parent.parent / "db.sqlite3"
 
 SQLALCHEMY_DATABASE_URL: Final[str] = f"sqlite+aiosqlite:///{DB_PATH}"
 
-engine = create_async_engine(SQLALCHEMY_DATABASE_URL)
+engine: Final[AsyncEngine] = create_async_engine(SQLALCHEMY_DATABASE_URL)
 
-async_session_maker = async_sessionmaker(engine, expire_on_commit=False)
+async_session_maker: Final[async_sessionmaker[AsyncSession]] = async_sessionmaker(
+    engine, expire_on_commit=False, autoflush=False, autocommit=False
+)
 
 
 async def get_async_session() -> AsyncGenerator[AsyncSession, None]:
@@ -65,7 +68,7 @@ class Dependency(Base):
 
     __tablename__ = "dependency"
     id: Mapped[int] = mapped_column(primary_key=True)
-    name: Mapped[str] = mapped_column(String(255), nullable=False)
+    name: Mapped[str] = mapped_column(String(255), nullable=False, unique=True)
     repos: Mapped[list["Repo"]] = relationship(
         "Repo", secondary="repo_dependency", back_populates="dependencies"
     )

@@ -37,6 +37,7 @@ repos:
     rev: "0.11.1"
     hooks:
       - id: pyproject-fmt
+        args: ["--indent=4"]
   - repo: https://github.com/jorisroovers/gitlint
     rev:  'v0.19.1'
     hooks:

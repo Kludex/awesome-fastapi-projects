@@ -32,4 +32,4 @@ jobs:
           python -m pyupgrade --py311-plus
       - name: Lint with pyproject-fmt
         run: |
-          python -m pyproject_fmt --stdout --check
+          python -m pyproject_fmt --stdout --check --indent=4
