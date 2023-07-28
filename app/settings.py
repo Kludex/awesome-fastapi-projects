@@ -1,0 +1,1 @@
+"""The application settings."""

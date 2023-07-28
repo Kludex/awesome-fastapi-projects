@@ -89,6 +89,10 @@ extend-select = [
     "NPY", # numpy-specific rules
     "Q", # flake8-quotes
 ]
+[tool.ruff.per-file-ignores]
+# Ignore missing docstrings in migrations and alembic files
+"**/migrations/*.py" = ["D"]
+"**/migrations/env.py" = ["ERA001"]
 
 [tool.ruff.pydocstyle]
 convention = "numpy"
