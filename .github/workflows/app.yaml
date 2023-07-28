@@ -12,7 +12,7 @@ jobs:
         with: # https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#caching-packages
           python-version: '3.11'
           cache: 'pip'
-          cache-dependency-path: '**/requirements/*.txt'
+          cache-dependency-path: 'requirements/dev.txt'
       - name: Install dev dependencies
         run: |
           python -m pip install --upgrade pip
@@ -30,3 +30,6 @@ jobs:
       - name: Lint with pyupgrade
         run: |
           python -m pyupgrade --py311-plus
+      - name: Lint with pyproject-fmt
+        run: |
+          python -m pyproject_fmt --stdout --check
