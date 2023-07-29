@@ -95,6 +95,7 @@ extend-select = [
 "**/migrations/*.py" = ["D"]
 "**/migrations/env.py" = ["ERA001"]
 "**/tests/*.py" = ["S101"]
+"**/conftest.py" = ["S101"]
 
 [tool.ruff.pydocstyle]
 convention = "numpy"
