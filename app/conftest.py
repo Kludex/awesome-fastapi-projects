@@ -5,12 +5,12 @@ from typing import Literal
 
 import pytest
 from pytest_mock import MockerFixture
-from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.ext.asyncio import AsyncConnection, AsyncSession
 
 from app.database import async_session_maker
 
 
-@pytest.fixture
+@pytest.fixture(autouse=True, scope="session")
 def anyio_backend() -> Literal["asyncio"]:
     """Use asyncio as the async backend."""
     return "asyncio"
@@ -39,8 +39,8 @@ def event_loop(
         loop.close()
 
 
-@pytest.fixture
-async def test_db_session() -> AsyncGenerator[AsyncSession, None]:
+@pytest.fixture(scope="session")
+async def test_db_connection() -> AsyncGenerator[AsyncConnection, None]:
     """Use the in-memory database for tests."""
     from app.database import Base, engine
 
@@ -48,14 +48,23 @@ async def test_db_session() -> AsyncGenerator[AsyncSession, None]:
         async with engine.begin() as conn:
             await conn.run_sync(Base.metadata.drop_all)
             await conn.run_sync(Base.metadata.create_all)
+            yield conn
+    finally:
+        # for AsyncEngine created in function scope, close and
+        # clean-up pooled connections
+        await engine.dispose()
+
+
+@pytest.fixture
+async def test_db_session(
+    test_db_connection: AsyncConnection,
+) -> AsyncGenerator[AsyncSession, None]:
+    """Use the in-memory database for tests."""
+    async with async_session_maker() as session:
         try:
-            async with async_session_maker() as session:
+            async with session.begin():
                 yield session
         finally:
             await session.flush()
             await session.rollback()
             await session.close()
-    finally:
-        # for AsyncEngine created in function scope, close and
-        # clean-up pooled connections
-        await engine.dispose()

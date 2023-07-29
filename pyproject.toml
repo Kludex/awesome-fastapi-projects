@@ -27,6 +27,7 @@ dev = [
     "ruff",
 ]
 test = [
+    "dirty-equals",
     "polyfactory",
     "pytest",
     "pytest-anyio",
