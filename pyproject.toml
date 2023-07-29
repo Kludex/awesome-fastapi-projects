@@ -72,10 +72,6 @@ force-exclude = '''
 )
 ''' # To comply with ruff config
 
-[tool.isort]
-profile = "black"
-line_length = 88
-
 [tool.ruff]
 line-length = 88
 target-version = 'py311'
@@ -102,3 +98,7 @@ extend-select = [
 
 [tool.ruff.pydocstyle]
 convention = "numpy"
+
+[tool.isort]
+profile = "black"
+line_length = 88
