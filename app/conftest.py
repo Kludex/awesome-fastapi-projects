@@ -19,7 +19,7 @@ def anyio_backend() -> Literal["asyncio"]:
 @pytest.fixture(autouse=True)
 def test_db(mocker: MockerFixture) -> None:
     """Use the in-memory database for tests."""
-    mocker.patch("app.database.DB_PATH", "sqlite+aiosqlite:///")
+    mocker.patch("app.database.SQLALCHEMY_DATABASE_URL", "sqlite+aiosqlite:///")
 
 
 @pytest.fixture(scope="session")

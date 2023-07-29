@@ -31,6 +31,7 @@ test = [
     "polyfactory",
     "pytest",
     "pytest-anyio",
+    "pytest-cov",
     "pytest-mock",
 ]
 

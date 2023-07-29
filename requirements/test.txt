@@ -22,6 +22,8 @@ certifi==2023.7.22
     #   httpx
 click==8.1.6
     # via uvicorn
+coverage[toml]==7.2.7
+    # via pytest-cov
 dirty-equals==0.6.0
     # via awesome-fastapi-projects (pyproject.toml)
 dnspython==2.4.1
@@ -84,8 +86,11 @@ pytest==7.4.0
     # via
     #   awesome-fastapi-projects (pyproject.toml)
     #   pytest-anyio
+    #   pytest-cov
     #   pytest-mock
 pytest-anyio==0.0.0
+    # via awesome-fastapi-projects (pyproject.toml)
+pytest-cov==4.1.0
     # via awesome-fastapi-projects (pyproject.toml)
 pytest-mock==3.11.1
     # via awesome-fastapi-projects (pyproject.toml)
