@@ -33,7 +33,7 @@ jobs:
           python -m pyupgrade --py311-plus
       - name: Lint with pyproject-fmt
         run: |
-          python -m pyproject_fmt --check --indent=4
+          python -m pyproject_fmt --check --indent=4 .
   test:
     needs: [quality]
     runs-on: ubuntu-latest
