@@ -18,10 +18,8 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements/dev.txt
       - name: Lint with ruff
-        uses: chartboost/ruff-action@v1
-        with:
-          version: 0.0.280
-          args: --verbose
+        run: |
+          python -m ruff check --verbose --format=github .
       - name: Lint with isort
         run: |
           python -m isort --check --diff .
@@ -52,3 +50,6 @@ jobs:
       - name: Test with pytest
         run: |
           python -m pytest -v -s --failed-first --cov=app --cov-report=xml
+      - name: Generate Coverage Report
+        run: |
+          coverage report -m

@@ -20,7 +20,7 @@ async def test_create_repo_no_dependencies(
     await test_db_session.refresh(repo)
     assert repo.id is not None
     assert repo.url == str(repo_create_data.url)
-    assert (await repo.awaitable_attrs.dependencies) == []
+    assert (await repo.awaitable_attrs.dependencies) == IsList(length=0)
 
 
 async def test_create_repo_with_dependencies(
