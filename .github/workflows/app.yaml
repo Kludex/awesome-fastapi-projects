@@ -21,6 +21,7 @@ jobs:
         uses: chartboost/ruff-action@v1
         with:
           version: 0.0.280
+          args: --verbose
       - name: Lint with isort
         run: |
           python -m isort --check --diff .
@@ -32,7 +33,7 @@ jobs:
           python -m pyupgrade --py311-plus
       - name: Lint with pyproject-fmt
         run: |
-          python -m pyproject_fmt --stdout --check --indent=4
+          python -m pyproject_fmt --check --indent=4
   test:
     needs: [quality]
     runs-on: ubuntu-latest
