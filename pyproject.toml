@@ -14,11 +14,14 @@ dependencies = [
     "aiosqlite",
     "alembic",
     "fastapi[all]",
+    "httpx-sse",
     "sqlalchemy[asyncio]",
+    "stamina",
 ]
 [project.optional-dependencies]
 dev = [
     "black",
+    "ipython",
     "isort",
     "pip-tools",
     "pre-commit",

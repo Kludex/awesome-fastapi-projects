@@ -15,6 +15,10 @@ anyio==3.7.1
     #   httpcore
     #   starlette
     #   watchfiles
+asttokens==2.2.1
+    # via stack-data
+backcall==0.2.0
+    # via ipython
 black==23.7.0
     # via awesome-fastapi-projects (pyproject.toml)
 build==0.10.0
@@ -30,12 +34,16 @@ click==8.1.6
     #   black
     #   pip-tools
     #   uvicorn
+decorator==5.1.1
+    # via ipython
 distlib==0.3.7
     # via virtualenv
 dnspython==2.4.1
     # via email-validator
 email-validator==2.0.0.post2
     # via fastapi
+executing==1.2.0
+    # via stack-data
 fastapi[all]==0.100.0
     # via awesome-fastapi-projects (pyproject.toml)
 filelock==3.12.2
@@ -52,6 +60,8 @@ httptools==0.6.0
     # via uvicorn
 httpx==0.24.1
     # via fastapi
+httpx-sse==0.3.1
+    # via awesome-fastapi-projects (pyproject.toml)
 identify==2.5.26
     # via pre-commit
 idna==3.4
@@ -59,10 +69,14 @@ idna==3.4
     #   anyio
     #   email-validator
     #   httpx
+ipython==8.14.0
+    # via awesome-fastapi-projects (pyproject.toml)
 isort==5.12.0
     # via awesome-fastapi-projects (pyproject.toml)
 itsdangerous==2.1.2
     # via fastapi
+jedi==0.19.0
+    # via ipython
 jinja2==3.1.2
     # via fastapi
 mako==1.2.4
@@ -71,6 +85,8 @@ markupsafe==2.1.3
     # via
     #   jinja2
     #   mako
+matplotlib-inline==0.1.6
+    # via ipython
 mypy-extensions==1.0.0
     # via black
 natsort==8.4.0
@@ -84,8 +100,14 @@ packaging==23.1
     #   black
     #   build
     #   pyproject-fmt
+parso==0.8.3
+    # via jedi
 pathspec==0.11.1
     # via black
+pexpect==4.8.0
+    # via ipython
+pickleshare==0.7.5
+    # via ipython
 pip-tools==7.1.0
     # via awesome-fastapi-projects (pyproject.toml)
 platformdirs==3.9.1
@@ -94,6 +116,12 @@ platformdirs==3.9.1
     #   virtualenv
 pre-commit==3.3.3
     # via awesome-fastapi-projects (pyproject.toml)
+prompt-toolkit==3.0.39
+    # via ipython
+ptyprocess==0.7.0
+    # via pexpect
+pure-eval==0.2.2
+    # via stack-data
 pydantic==2.1.1
     # via
     #   fastapi
@@ -105,6 +133,8 @@ pydantic-extra-types==2.0.0
     # via fastapi
 pydantic-settings==2.0.2
     # via fastapi
+pygments==2.15.1
+    # via ipython
 pyproject-fmt==0.13.0
     # via awesome-fastapi-projects (pyproject.toml)
 pyproject-hooks==1.0.0
@@ -124,6 +154,8 @@ pyyaml==6.0.1
     #   uvicorn
 ruff==0.0.280
     # via awesome-fastapi-projects (pyproject.toml)
+six==1.16.0
+    # via asttokens
 sniffio==1.3.0
     # via
     #   anyio
@@ -133,12 +165,22 @@ sqlalchemy[asyncio]==2.0.19
     # via
     #   alembic
     #   awesome-fastapi-projects (pyproject.toml)
+stack-data==0.6.2
+    # via ipython
+stamina==23.1.0
+    # via awesome-fastapi-projects (pyproject.toml)
 starlette==0.27.0
     # via fastapi
+tenacity==8.2.2
+    # via stamina
 tokenize-rt==5.1.0
     # via pyupgrade
 tomlkit==0.12.1
     # via pyproject-fmt
+traitlets==5.9.0
+    # via
+    #   ipython
+    #   matplotlib-inline
 typing-extensions==4.7.1
     # via
     #   alembic
@@ -156,6 +198,8 @@ virtualenv==20.24.2
     # via pre-commit
 watchfiles==0.19.0
     # via uvicorn
+wcwidth==0.2.6
+    # via prompt-toolkit
 websockets==11.0.3
     # via uvicorn
 wheel==0.41.0
