@@ -1,4 +1,5 @@
 """The client for the SourceGraph API."""
+import asyncio
 import datetime
 from collections.abc import AsyncGenerator, Mapping
 from contextlib import asynccontextmanager
@@ -46,6 +47,7 @@ class SourceGraphRepoData(BaseModel):
 
 #: The type adapter for the SourceGraphRepoData.
 SourceGraphRepoDataAdapter = TypeAdapter(SourceGraphRepoData)
+
 #: The type adapter for the SourceGraphRepoData list.
 SourceGraphRepoDataListAdapter = TypeAdapter(list[SourceGraphRepoData])
 
@@ -108,16 +110,17 @@ class AsyncSourceGraphSSEClient:
         self: Self, **kwargs: Mapping[AnyStr, Any]
     ) -> AsyncGenerator[ServerSentEvent, None]:
         """Iterate over the SourceGraph SSE API with retries."""
-        async for attempt in stamina.retry_context(
-            on=httpx.ReadError, wait_initial=max(self._reconnection_delay, 0.1)
-        ):
+        async for attempt in stamina.retry_context(on=httpx.ReadError):
             with attempt:
+                await asyncio.sleep(self._reconnection_delay)
                 async for event in self._aiter_sse(**kwargs):
                     self._last_event_id = event.id
                     if event.retry is not None:
                         self._reconnection_delay = timedelta(
                             milliseconds=event.retry
                         ).total_seconds()
+                    else:
+                        self._reconnection_delay = 0.0
                     yield event
 
     async def aiter_fastapi_repos(self: Self) -> AsyncGenerator[ServerSentEvent, None]:
