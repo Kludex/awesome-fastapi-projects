@@ -52,4 +52,4 @@ jobs:
           python -m pytest -v -s --failed-first --cov=app --cov-report=xml
       - name: Generate Coverage Report
         run: |
-          coverage report -m
+          python -m coverage report -m
