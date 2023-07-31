@@ -84,12 +84,12 @@ def source_graph_matched_repos_data() -> Json:
 
 def test_source_graph_repo_data(source_graph_matched_repos_data: Json) -> None:
     """Test the SourceGraphRepoData deserialization."""
-    assert source_graph_matched_repos_data == HasLen(3)
+    assert source_graph_matched_repos_data == HasLen(4)
     _SourceGraphRepoDataListValidator = TypeAdapter(list[SourceGraphRepoData])
     repos_parsed = _SourceGraphRepoDataListValidator.validate_python(
         source_graph_matched_repos_data
     )
-    assert repos_parsed == HasLen(3)
+    assert repos_parsed == HasLen(4)
     assert all(repo == IsInstance[SourceGraphRepoData] for repo in repos_parsed)
     assert all(
         repo.repo_id == repo_data["repositoryID"]
