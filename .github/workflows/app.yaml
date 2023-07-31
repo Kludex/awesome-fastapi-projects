@@ -20,15 +20,9 @@ jobs:
       - name: Lint with ruff
         run: |
           python -m ruff check --verbose --format=github .
-      - name: Lint with isort
-        run: |
-          python -m isort --check --diff .
       - name: Lint with black
         run: |
           python -m black --check --verbose .
-      - name: Lint with pyupgrade
-        run: |
-          python -m pyupgrade --py311-plus
       - name: Lint with pyproject-fmt
         run: |
           python -m pyproject_fmt --check --indent=4 .

@@ -22,11 +22,9 @@ dependencies = [
 dev = [
     "black",
     "ipython",
-    "isort",
     "pip-tools",
     "pre-commit",
     "pyproject-fmt",
-    "pyupgrade",
     "ruff",
 ]
 test = [
@@ -81,13 +79,21 @@ target-version = 'py311'
 required-version = "0.0.280"
 extend-select = [
     "D", # pydocstyle
+    "W", # pycodestyle
+    "C90", # mccabe
+    "I", # isort
     "UP", # pyupgrade
+    "ASYNC", # flake8-async
+    "S", # flake8-bandit
     "B", # flake8-bugbear
     "ANN", # flake8-annotations
     "S", # flake8-bandit
-    "C", # flake8-comprehensions
-    "T", # flake8-debugger
+    "C4", # flake8-comprehensions
+    "T10", # flake8-debugger
     "INP", # flake8-no-pep420
+    "PT", # flake8-pytest-style
+    "TID", # flake8-tidy-imports
+    "PTH", # flake8-use-pathlib
     "ERA", # eradicate
     "PD", # pandas-vet
     "NPY", # numpy-specific rules
@@ -102,7 +108,3 @@ extend-select = [
 
 [tool.ruff.pydocstyle]
 convention = "numpy"
-
-[tool.isort]
-profile = "black"
-line_length = 88

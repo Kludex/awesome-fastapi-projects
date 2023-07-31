@@ -15,14 +15,12 @@ REQUIREMENTS?=requirements
 
 requirements-base: # Compile base requirements
 	python -m piptools compile \
-	--resolver=backtracking \
 	--output-file=requirements/base.txt \
 	-v \
 	pyproject.toml
 
 requirements-test: requirements-base # Compile test requirements
 	python -m piptools compile \
-	--resolver=backtracking \
 	--extra=test \
 	--output-file=requirements/test.txt \
 	-v \
@@ -30,7 +28,6 @@ requirements-test: requirements-base # Compile test requirements
 
 requirements-dev: requirements-base # Compile dev requirements
 	python -m piptools compile \
-	--resolver=backtracking \
 	--extra=dev \
 	--output-file=requirements/dev.txt \
 	-v \

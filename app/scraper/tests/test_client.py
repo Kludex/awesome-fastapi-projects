@@ -6,7 +6,7 @@ from pydantic import Json, TypeAdapter
 from app.scraper.client import SourceGraphRepoData
 
 
-@pytest.fixture
+@pytest.fixture()
 def source_graph_matched_repos_data() -> Json:
     """Return the sample data of the matched repositories."""
     return [

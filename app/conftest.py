@@ -19,7 +19,7 @@ def anyio_backend() -> Literal["asyncio"]:
 
 
 @pytest.fixture(autouse=True)
-def test_db(mocker: MockerFixture) -> None:
+def _test_db(mocker: MockerFixture) -> None:
     """Use the in-memory database for tests."""
     mocker.patch("app.database.DB_PATH", "")
 
@@ -57,7 +57,7 @@ async def test_db_connection() -> AsyncGenerator[AsyncConnection, None]:
         await engine.dispose()
 
 
-@pytest.fixture
+@pytest.fixture()
 async def test_db_session(
     test_db_connection: AsyncConnection,
 ) -> AsyncGenerator[AsyncSession, None]:
@@ -71,7 +71,7 @@ async def test_db_session(
                 await session.rollback()
 
 
-@pytest.fixture
+@pytest.fixture()
 async def some_repos(
     test_db_session: AsyncSession, repo_create_data_factory: RepoCreateDataFactory
 ) -> list[Repo]:
@@ -90,4 +90,4 @@ async def some_repos(
     test_db_session.add_all(repos)
     await test_db_session.flush()
     await asyncio.gather(*[test_db_session.refresh(repo) for repo in repos])
-    yield repos
+    return repos
