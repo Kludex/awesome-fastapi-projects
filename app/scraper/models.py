@@ -25,7 +25,7 @@ class SourceGraphRepoData(BaseModel):
     last_fetched_at: datetime.datetime = Field(..., alias="repoLastFetched")
     description: str = Field(default="")
 
-    @computed_field
+    @computed_field  # type: ignore[misc]
     @property
     def repo_url(self: Self) -> HttpUrl:
         """The URL of the repository."""

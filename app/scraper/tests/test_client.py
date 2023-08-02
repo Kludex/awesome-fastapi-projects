@@ -1,4 +1,6 @@
 """Test the client module of the scraper app."""
+from typing import Any
+
 import pytest
 from dirty_equals import HasLen, IsDatetime, IsInstance, IsPositiveInt
 from pydantic import Json, TypeAdapter
@@ -7,7 +9,7 @@ from app.scraper.models import SourceGraphRepoData
 
 
 @pytest.fixture()
-def source_graph_matched_repos_data() -> Json:
+def source_graph_matched_repos_data() -> Json[Any]:
     """Return the sample data of the matched repositories."""
     return [
         {
@@ -82,7 +84,7 @@ def source_graph_matched_repos_data() -> Json:
     ]
 
 
-def test_source_graph_repo_data(source_graph_matched_repos_data: Json) -> None:
+def test_source_graph_repo_data(source_graph_matched_repos_data: Json[Any]) -> None:
     """Test the SourceGraphRepoData deserialization."""
     assert source_graph_matched_repos_data == HasLen(4)
     _SourceGraphRepoDataListValidator = TypeAdapter(list[SourceGraphRepoData])
@@ -90,7 +92,10 @@ def test_source_graph_repo_data(source_graph_matched_repos_data: Json) -> None:
         source_graph_matched_repos_data
     )
     assert repos_parsed == HasLen(4)
-    assert all(repo == IsInstance[SourceGraphRepoData] for repo in repos_parsed)
+    assert all(
+        repo == IsInstance[SourceGraphRepoData]  # type: ignore[type-var]
+        for repo in repos_parsed
+    )
     assert all(
         repo.repo_id == repo_data["repositoryID"]
         for repo, repo_data in zip(

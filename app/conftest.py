@@ -1,6 +1,6 @@
 """The application-level conftest."""
 import asyncio
-from collections.abc import AsyncGenerator
+from collections.abc import AsyncGenerator, Generator
 from typing import Literal
 
 import pytest
@@ -29,7 +29,7 @@ def _test_db(mocker: MockerFixture) -> None:
 @pytest.fixture(scope="session")
 def event_loop(
     request: pytest.FixtureRequest,
-) -> AsyncGenerator[asyncio.AbstractEventLoop, None]:
+) -> Generator[asyncio.AbstractEventLoop, None, None]:
     """
     Create an instance of the default event loop for a session.
 

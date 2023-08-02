@@ -22,6 +22,7 @@ dependencies = [
 dev = [
     "black",
     "ipython",
+    "mypy",
     "pip-tools",
     "pre-commit",
     "pyproject-fmt",
@@ -108,3 +109,26 @@ extend-select = [
 
 [tool.ruff.pydocstyle]
 convention = "numpy"
+
+[tool.mypy]
+plugins = [
+  "pydantic.mypy"
+]
+strict = true
+warn_return_any = false
+show_error_codes = true
+
+follow_imports = "silent"
+warn_redundant_casts = true
+warn_unused_ignores = true
+disallow_any_generics = true
+check_untyped_defs = true
+no_implicit_reexport = true
+
+# for strict mypy: (this is the tricky one :-))
+disallow_untyped_defs = true
+
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
