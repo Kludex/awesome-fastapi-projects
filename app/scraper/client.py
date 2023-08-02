@@ -1,55 +1,25 @@
 """The client for the SourceGraph API."""
 import asyncio
-import datetime
 from collections.abc import AsyncGenerator, Mapping
 from contextlib import asynccontextmanager
 from datetime import timedelta
-from typing import Any, AnyStr, Final, Literal, NewType, Self
+from typing import Any, AnyStr, Final, Self
 from urllib.parse import quote
 
 import httpx
 import stamina
 from httpx_sse import EventSource, ServerSentEvent, aconnect_sse
 from pydantic import (
-    BaseModel,
-    Field,
     HttpUrl,
-    NonNegativeInt,
-    TypeAdapter,
-    computed_field,
 )
+
+from app.scraper.models import SourceGraphRepoDataListAdapter
 
 #: The URL of the SourceGraph SSE API.
 SOURCE_GRAPH_STREAM_API_URL: Final[
     HttpUrl
 ] = "https://sourcegraph.com/.api/search/stream"
 
-#: The ID of a repository from the SourceGraph API.
-SourceGraphRepoId = NewType("SourceGraphRepoId", int)
-
-
-class SourceGraphRepoData(BaseModel):
-    """The data of a repository."""
-
-    type: Literal["repo"]
-    repo_id: SourceGraphRepoId = Field(..., alias="repositoryID")
-    repo_handle: str = Field(..., alias="repository")
-    stars: NonNegativeInt = Field(..., alias="repoStars")
-    last_fetched_at: datetime.datetime = Field(..., alias="repoLastFetched")
-    description: str = Field(default="")
-
-    @computed_field
-    @property
-    def repo_url(self: Self) -> HttpUrl:
-        """The URL of the repository."""
-        return TypeAdapter(HttpUrl).validate_python(f"https://{self.repo_handle}")
-
-
-#: The type adapter for the SourceGraphRepoData.
-SourceGraphRepoDataAdapter = TypeAdapter(SourceGraphRepoData)
-
-#: The type adapter for the SourceGraphRepoData list.
-SourceGraphRepoDataListAdapter = TypeAdapter(list[SourceGraphRepoData])
 
 #: The query parameters for the SourceGraph SSE API.
 FASTAPI_REPOS_QUERY_PARAMS: Final[Mapping[str, str]] = {

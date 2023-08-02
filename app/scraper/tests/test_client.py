@@ -3,7 +3,7 @@ import pytest
 from dirty_equals import HasLen, IsDatetime, IsInstance, IsPositiveInt
 from pydantic import Json, TypeAdapter
 
-from app.scraper.client import SourceGraphRepoData
+from app.scraper.models import SourceGraphRepoData
 
 
 @pytest.fixture()

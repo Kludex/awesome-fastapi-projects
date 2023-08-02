@@ -1,15 +1,15 @@
-"""Add Repo, Dependency, and RepoDependency tables
+"""Create Repo, Dependency and RepoDependency tables
 
-Revision ID: d8fc955c639b
+Revision ID: 0232d84a5aea
 Revises:
-Create Date: 2023-07-28 23:41:00.169286
+Create Date: 2023-08-02 22:14:12.910175
 
 """
 import sqlalchemy as sa
 from alembic import op
 
 # revision identifiers, used by Alembic.
-revision = "d8fc955c639b"
+revision = "0232d84a5aea"
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -28,7 +28,11 @@ def upgrade() -> None:
         "repo",
         sa.Column("id", sa.Integer(), nullable=False),
         sa.Column("url", sa.String(), nullable=False),
+        sa.Column("description", sa.Text(), nullable=False),
+        sa.Column("stars", sa.BigInteger(), nullable=False),
+        sa.Column("source_graph_repo_id", sa.BigInteger(), nullable=True),
         sa.PrimaryKeyConstraint("id"),
+        sa.UniqueConstraint("source_graph_repo_id"),
         sa.UniqueConstraint("url"),
     )
     op.create_table(

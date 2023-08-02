@@ -19,7 +19,7 @@ from collections.abc import AsyncGenerator
 from pathlib import PurePath
 from typing import Final
 
-from sqlalchemy import ForeignKey, String
+from sqlalchemy import BigInteger, ForeignKey, String, Text
 from sqlalchemy.ext.asyncio import (
     AsyncAttrs,
     AsyncEngine,
@@ -58,6 +58,11 @@ class Repo(Base):
     __tablename__ = "repo"
     id: Mapped[int] = mapped_column(primary_key=True)
     url: Mapped[str] = mapped_column(nullable=False, unique=True)
+    description: Mapped[str] = mapped_column(Text, nullable=False)
+    stars: Mapped[int] = mapped_column(BigInteger, nullable=False)
+    source_graph_repo_id: Mapped[int | None] = mapped_column(
+        BigInteger, nullable=True, unique=True
+    )
     dependencies: Mapped[list["Dependency"]] = relationship(
         "Dependency", secondary="repo_dependency", back_populates="repos"
     )

@@ -9,7 +9,9 @@ from pytest_mock import MockerFixture
 from sqlalchemy.ext.asyncio import AsyncConnection, AsyncSession
 
 from app.database import Dependency, Repo, async_session_maker
-from app.factories import RepoCreateDataFactory
+from app.factories import DependencyCreateDataFactory
+from app.scraper.factories import SourceGraphRepoDataFactory
+from app.scraper.models import SourceGraphRepoData
 
 
 @pytest.fixture(autouse=True, scope="session")
@@ -73,19 +75,27 @@ async def test_db_session(
 
 @pytest.fixture()
 async def some_repos(
-    test_db_session: AsyncSession, repo_create_data_factory: RepoCreateDataFactory
+    test_db_session: AsyncSession,
+    source_graph_repo_data_factory: SourceGraphRepoDataFactory,
+    dependency_create_data_factory: DependencyCreateDataFactory,
 ) -> list[Repo]:
     """Create some repos."""
-    repo_create_data = repo_create_data_factory.batch(10)
-    assert repo_create_data == IsList(length=10)
+    source_graph_repos_data: list[
+        SourceGraphRepoData
+    ] = source_graph_repo_data_factory.batch(10)
+    assert source_graph_repos_data == IsList(length=10)
     repos = [
         Repo(
-            url=str(repo.url),
+            url=str(source_graph_repo_data.repo_url),
+            description=source_graph_repo_data.description,
+            stars=source_graph_repo_data.stars,
+            source_graph_repo_id=source_graph_repo_data.repo_id,
             dependencies=[
-                Dependency(name=dependency.name) for dependency in repo.dependencies
+                Dependency(**dependency_create_data.model_dump())
+                for dependency_create_data in dependency_create_data_factory.batch(5)
             ],
         )
-        for repo in repo_create_data
+        for source_graph_repo_data in source_graph_repos_data
     ]
     test_db_session.add_all(repos)
     await test_db_session.flush()
