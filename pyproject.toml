@@ -115,3 +115,8 @@ plugins = [
   "pydantic.mypy"
 ]
 strict = true
+exclude = [
+    "tests",
+    "migrations",
+    "conftest.py",
+]
