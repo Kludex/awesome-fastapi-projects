@@ -24,10 +24,12 @@ repos:
     hooks:
     - id: mypy
       name: mypy
-      entry: mypy
+      entry: |
+        python -m mypy .
       types: [ python ]
       language: system
       require_serial: true
+      pass_filenames: false
   - repo: https://github.com/ambv/black
     rev: 23.7.0
     hooks:

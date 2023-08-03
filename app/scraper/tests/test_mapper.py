@@ -23,7 +23,5 @@ async def test_create_repos_from_source_graph_repos_data(
         test_db_session, source_graph_repo_data
     )
     assert repos == IsList(length=5)
-    assert all(
-        repo == IsInstance[database.Repo] for repo in repos  # type: ignore[type-var]
-    )
+    assert all(repo == IsInstance[database.Repo] for repo in repos)
     assert all(repo.id is not None for repo in repos)

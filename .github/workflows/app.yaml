@@ -25,7 +25,7 @@ jobs:
           python -m ruff check --verbose --format=github .
       - name: Lint with mypy
         run: |
-          python -m mypy --show-error-codes --pretty --show-column-numbers --show-error-context $(git ls-files '*.py')
+          python -m mypy --show-error-codes --pretty --show-column-numbers --show-error-context .
       - name: Lint with black
         run: |
           python -m black --check --verbose .

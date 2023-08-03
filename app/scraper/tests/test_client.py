@@ -92,10 +92,7 @@ def test_source_graph_repo_data(source_graph_matched_repos_data: Json[Any]) -> N
         source_graph_matched_repos_data
     )
     assert repos_parsed == HasLen(4)
-    assert all(
-        repo == IsInstance[SourceGraphRepoData]  # type: ignore[type-var]
-        for repo in repos_parsed
-    )
+    assert all(repo == IsInstance[SourceGraphRepoData] for repo in repos_parsed)
     assert all(
         repo.repo_id == repo_data["repositoryID"]
         for repo, repo_data in zip(
