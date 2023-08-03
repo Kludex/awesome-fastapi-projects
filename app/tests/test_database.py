@@ -8,8 +8,8 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app import database
 from app.factories import DependencyCreateDataFactory
 from app.models import DependencyCreateData
-from app.scraper.factories import SourceGraphRepoDataFactory
-from app.scraper.models import SourceGraphRepoData
+from app.source_graph.factories import SourceGraphRepoDataFactory
+from app.source_graph.models import SourceGraphRepoData
 
 pytestmark = pytest.mark.anyio
 

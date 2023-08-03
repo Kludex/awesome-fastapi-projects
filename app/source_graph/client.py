@@ -3,6 +3,7 @@ import asyncio
 from collections.abc import AsyncGenerator, Mapping, MutableMapping
 from contextlib import asynccontextmanager
 from datetime import timedelta
+from types import TracebackType
 from typing import Any, Final, Self
 from urllib.parse import quote
 
@@ -10,7 +11,7 @@ import httpx
 import stamina
 from httpx_sse import EventSource, ServerSentEvent, aconnect_sse
 
-from app.scraper.models import SourceGraphRepoData, SourceGraphRepoDataListAdapter
+from app.source_graph.models import SourceGraphRepoData, SourceGraphRepoDataListAdapter
 
 #: The URL of the SourceGraph SSE API.
 SOURCE_GRAPH_STREAM_API_URL: Final[str] = "https://sourcegraph.com/.api/search/stream"
@@ -45,6 +46,20 @@ class AsyncSourceGraphSSEClient:
         self._last_event_id: str | None = None
         self._reconnection_delay: float = 0.0
         self._aclient: httpx.AsyncClient = httpx.AsyncClient()
+
+    async def __aenter__(self: Self) -> Self:
+        """Enter the async context manager."""
+        await self._aclient.__aenter__()
+        return self
+
+    async def __aexit__(
+        self: Self,
+        exc_type: type[BaseException] | None = None,
+        exc_val: BaseException | None = None,
+        exc_tb: TracebackType | None = None,
+    ) -> None:
+        """Exit the async context manager."""
+        return await self._aclient.__aexit__(exc_type, exc_val, exc_tb)
 
     @asynccontextmanager
     async def _aconnect_sse(

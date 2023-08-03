@@ -1,11 +1,11 @@
-"""Test the client module of the scraper app."""
+"""Test the client module for the source graph."""
 from typing import Any
 
 import pytest
 from dirty_equals import HasLen, IsDatetime, IsInstance, IsPositiveInt
 from pydantic import Json, TypeAdapter
 
-from app.scraper.models import SourceGraphRepoData
+from app.source_graph.models import SourceGraphRepoData
 
 
 @pytest.fixture()

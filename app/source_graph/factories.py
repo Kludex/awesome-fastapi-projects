@@ -2,7 +2,7 @@
 from polyfactory.factories.pydantic_factory import ModelFactory
 from polyfactory.pytest_plugin import register_fixture
 
-from app.scraper.models import SourceGraphRepoData
+from app.source_graph.models import SourceGraphRepoData
 
 
 @register_fixture

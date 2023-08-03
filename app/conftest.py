@@ -10,8 +10,8 @@ from sqlalchemy.ext.asyncio import AsyncConnection, AsyncSession
 
 from app.database import Dependency, Repo, async_session_maker
 from app.factories import DependencyCreateDataFactory
-from app.scraper.factories import SourceGraphRepoDataFactory
-from app.scraper.models import SourceGraphRepoData
+from app.source_graph.factories import SourceGraphRepoDataFactory
+from app.source_graph.models import SourceGraphRepoData
 
 
 @pytest.fixture(autouse=True, scope="session")
