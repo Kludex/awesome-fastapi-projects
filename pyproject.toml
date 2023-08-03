@@ -119,4 +119,5 @@ exclude = [
     "tests",
     "migrations",
     "conftest.py",
+    "factories.py",
 ]
