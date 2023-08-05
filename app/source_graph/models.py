@@ -1,4 +1,4 @@
-"""The models for the scraper."""
+"""The models for the Source Graph data."""
 import datetime
 from typing import Literal, NewType, Self
 

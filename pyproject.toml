@@ -11,12 +11,14 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
 ]
 dependencies = [
+    "aiofiles",
     "aiosqlite",
     "alembic",
     "fastapi[all]",
     "httpx-sse",
     "sqlalchemy[asyncio]",
     "stamina",
+    "third-party-imports",
 ]
 [project.optional-dependencies]
 dev = [
@@ -27,6 +29,7 @@ dev = [
     "pre-commit",
     "pyproject-fmt",
     "ruff",
+    "types-aiofiles",
 ]
 test = [
     "dirty-equals",
@@ -96,8 +99,6 @@ extend-select = [
     "TID", # flake8-tidy-imports
     "PTH", # flake8-use-pathlib
     "ERA", # eradicate
-    "PD", # pandas-vet
-    "NPY", # numpy-specific rules
     "Q", # flake8-quotes
 ]
 [tool.ruff.per-file-ignores]

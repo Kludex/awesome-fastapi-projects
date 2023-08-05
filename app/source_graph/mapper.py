@@ -9,7 +9,7 @@ from app.source_graph.models import SourceGraphRepoData
 
 
 async def create_or_update_repos_from_source_graph_repos_data(
-    session: AsyncSession, source_graph_repo_data: Sequence[SourceGraphRepoData]
+    session: AsyncSession, source_graph_repos_data: Sequence[SourceGraphRepoData]
 ) -> Sequence[database.Repo]:
     """
     Create repos from source graph repos data.
@@ -17,7 +17,7 @@ async def create_or_update_repos_from_source_graph_repos_data(
     If any repos already exist, update them.
 
     :param session: The database session.
-    :param source_graph_repo_data: The source graph repos data.
+    :param source_graph_repos_data: The source graph repos data.
     """
     insert_statement = sqlalchemy.dialects.sqlite.insert(database.Repo)
     update_statement = insert_statement.on_conflict_do_update(
@@ -40,7 +40,7 @@ async def create_or_update_repos_from_source_graph_repos_data(
                     "stars": repo_data.stars,
                     "source_graph_repo_id": repo_data.repo_id,
                 }
-                for repo_data in source_graph_repo_data
+                for repo_data in source_graph_repos_data
             ],
         )
     ).all()

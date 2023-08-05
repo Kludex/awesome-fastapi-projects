@@ -4,11 +4,12 @@ from collections.abc import AsyncGenerator, Generator
 from typing import Literal
 
 import pytest
+import stamina
 from dirty_equals import IsList
 from pytest_mock import MockerFixture
 from sqlalchemy.ext.asyncio import AsyncConnection, AsyncSession
 
-from app.database import Dependency, Repo, async_session_maker
+from app.database import Dependency, Repo
 from app.factories import DependencyCreateDataFactory
 from app.source_graph.factories import SourceGraphRepoDataFactory
 from app.source_graph.models import SourceGraphRepoData
@@ -18,6 +19,12 @@ from app.source_graph.models import SourceGraphRepoData
 def anyio_backend() -> Literal["asyncio"]:
     """Use asyncio as the async backend."""
     return "asyncio"
+
+
+@pytest.fixture(autouse=True, scope="session")
+def _deactivate_retries() -> None:
+    """Deactivate stamina retries."""
+    stamina.set_active(False)
 
 
 @pytest.fixture(autouse=True)
@@ -64,13 +71,10 @@ async def test_db_session(
     test_db_connection: AsyncConnection,
 ) -> AsyncGenerator[AsyncSession, None]:
     """Use the in-memory database for tests."""
-    async with async_session_maker() as session:
-        async with session.begin():
-            try:
-                yield session
-            finally:
-                await session.flush()
-                await session.rollback()
+    from app.uow import async_session_uow
+
+    async with async_session_uow() as session:
+        yield session
 
 
 @pytest.fixture()

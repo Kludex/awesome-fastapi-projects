@@ -4,6 +4,8 @@
 #
 #    pip-compile --output-file=requirements/base.txt pyproject.toml
 #
+aiofiles==23.1.0
+    # via awesome-fastapi-projects (pyproject.toml)
 aiosqlite==0.19.0
     # via awesome-fastapi-projects (pyproject.toml)
 alembic==1.11.1
@@ -94,6 +96,8 @@ starlette==0.27.0
     # via fastapi
 tenacity==8.2.2
     # via stamina
+third-party-imports==0.0.7
+    # via awesome-fastapi-projects (pyproject.toml)
 typing-extensions==4.7.1
     # via
     #   alembic
