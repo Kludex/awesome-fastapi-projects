@@ -90,7 +90,9 @@ class AsyncSourceGraphSSEClient:
         self: Self, **kwargs: MutableMapping[str, Any]
     ) -> AsyncGenerator[ServerSentEvent, None]:
         """Iterate over the SourceGraph SSE API with retries."""
-        async for attempt in stamina.retry_context(on=httpx.ReadError):
+        async for attempt in stamina.retry_context(
+            on=(httpx.ReadError, httpx.ReadTimeout)
+        ):
             with attempt:
                 await asyncio.sleep(self._reconnection_delay)
                 async for event in self._aiter_sse(**kwargs):
