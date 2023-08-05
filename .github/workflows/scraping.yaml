@@ -1,12 +1,12 @@
 name: Scraping the repositories from Source Graph
 
 on:
-  schedule:
+  - schedule:
     # Trigger every day at midnight
     # https://crontab.guru/#0_0_*_*_*
     - cron: '0 0 * * *'
   # Allow manual triggering
-  workflow_dispatch:
+  - workflow_dispatch:
 
 
 jobs:
