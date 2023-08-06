@@ -2,6 +2,7 @@
 import asyncio
 
 import sqlalchemy.dialects.sqlite
+import typer
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.database import Dependency, Repo, RepoDependency
@@ -21,7 +22,7 @@ async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> No
         dependencies_create_data = await acquire_dependencies_data_for_repository(repo)
     except RuntimeError:
         return
-    # Create dependencies - on conflict return the existing dependency
+    # Create dependencies - on conflict do nothing.
     insert_statement = sqlalchemy.dialects.sqlite.insert(
         Dependency
     ).on_conflict_do_nothing(index_elements=[Dependency.name])
@@ -80,6 +81,11 @@ async def scrape_source_graph_repos_data() -> None:
                 await session.commit()
 
 
+def main() -> None:
+    """Scrape the FastAPI-related repositories utilizing the source graph API."""
+    asyncio.run(scrape_source_graph_repos_data())
+
+
 if __name__ == "__main__":
     """Run the scraping."""
-    asyncio.run(scrape_source_graph_repos_data())
+    typer.run(main)

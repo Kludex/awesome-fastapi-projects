@@ -19,6 +19,7 @@ dependencies = [
     "sqlalchemy[asyncio]",
     "stamina",
     "third-party-imports",
+    "typer[all]",
 ]
 [project.optional-dependencies]
 dev = [

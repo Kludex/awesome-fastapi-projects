@@ -23,7 +23,11 @@ certifi==2023.7.22
     #   httpcore
     #   httpx
 click==8.1.6
-    # via uvicorn
+    # via
+    #   typer
+    #   uvicorn
+colorama==0.4.6
+    # via typer
 coverage[toml]==7.2.7
     # via pytest-cov
 dirty-equals==0.6.0
@@ -63,10 +67,14 @@ jinja2==3.1.2
     # via fastapi
 mako==1.2.4
     # via alembic
+markdown-it-py==3.0.0
+    # via rich
 markupsafe==2.1.3
     # via
     #   jinja2
     #   mako
+mdurl==0.1.2
+    # via markdown-it-py
 orjson==3.9.2
     # via fastapi
 packaging==23.1
@@ -86,6 +94,8 @@ pydantic-extra-types==2.0.0
     # via fastapi
 pydantic-settings==2.0.2
     # via fastapi
+pygments==2.15.1
+    # via rich
 pytest==7.4.0
     # via
     #   awesome-fastapi-projects (pyproject.toml)
@@ -112,6 +122,10 @@ pyyaml==6.0.1
     # via
     #   fastapi
     #   uvicorn
+rich==13.5.2
+    # via typer
+shellingham==1.5.0.post1
+    # via typer
 six==1.16.0
     # via python-dateutil
 sniffio==1.3.0
@@ -131,6 +145,8 @@ tenacity==8.2.2
     # via stamina
 third-party-imports==0.0.7
     # via awesome-fastapi-projects (pyproject.toml)
+typer[all]==0.9.0
+    # via awesome-fastapi-projects (pyproject.toml)
 typing-extensions==4.7.1
     # via
     #   alembic
@@ -139,6 +155,7 @@ typing-extensions==4.7.1
     #   pydantic
     #   pydantic-core
     #   sqlalchemy
+    #   typer
 ujson==5.8.0
     # via fastapi
 uvicorn[standard]==0.23.1
