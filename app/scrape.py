@@ -16,7 +16,12 @@ async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> No
     """
     Create dependencies for a repo.
 
-    For each dependency, create a dependency object and add it to the repo.
+    For each parsed dependency, creates a new record in the database, if such a
+    dependency does not exist.
+    Then, assigns the dependencies to the given repo.
+
+    :param session: An asynchronous session object
+    :param repo: A repo for which to create and assign the dependencies
     """
     try:
         dependencies_create_data = await acquire_dependencies_data_for_repository(repo)
@@ -87,5 +92,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    """Run the scraping."""
     typer.run(main)
