@@ -1,5 +1,6 @@
 """The logic for scraping the source graph data processing it."""
 import asyncio
+from typing import NewType
 
 import sqlalchemy.dialects.sqlite
 import typer
@@ -26,6 +27,10 @@ async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> No
     try:
         dependencies_create_data = await acquire_dependencies_data_for_repository(repo)
     except RuntimeError:
+        # If the parsing fails, just skip creating the dependencies
+        return
+    if not dependencies_create_data:
+        # If there are no dependencies, just skip creating the dependencies
         return
     # Create dependencies - on conflict do nothing.
     insert_statement = sqlalchemy.dialects.sqlite.insert(
@@ -69,26 +74,74 @@ async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> No
     )
 
 
-async def scrape_source_graph_repos_data() -> None:
-    """Scrape source graph repos data."""
-    async with AsyncSourceGraphSSEClient() as source_graph_client:
-        async for source_graph_repos_data in source_graph_client.aiter_fastapi_repos():
-            async with async_session_uow() as session:
-                repos = await create_or_update_repos_from_source_graph_repos_data(
-                    session=session,
-                    source_graph_repos_data=source_graph_repos_data,
-                )
-                async with asyncio.TaskGroup() as tg:
-                    for repo in repos:
-                        tg.create_task(
-                            _create_dependencies_for_repo(session=session, repo=repo)
+async def scrape_source_graph_repos() -> None:
+    """
+    Iterate over the source graph repos and create or update them in the database.
+
+    :return: None
+    """
+    async with AsyncSourceGraphSSEClient() as sg_client:
+        async with async_session_uow() as session:
+            async with asyncio.TaskGroup() as tg:
+                async for sg_repos_data in sg_client.aiter_fastapi_repos():
+                    tg.create_task(
+                        create_or_update_repos_from_source_graph_repos_data(
+                            session=session,
+                            source_graph_repos_data=sg_repos_data,
                         )
-                await session.commit()
+                    )
+            await session.commit()
+
+
+DatabaseRepoId = NewType("DatabaseRepoId", int)
+
+
+async def parse_dependencies_for_repo(
+    semaphore: asyncio.Semaphore, repo_id: DatabaseRepoId
+) -> None:
+    """
+    Parse the dependencies for a given repo and create them in the database.
+
+    :param semaphore: A semaphore to limit the number of concurrent requests
+    :param repo_id: The id of the repo for which to parse the dependencies
+    :return: None
+    """
+    async with async_session_uow() as session, semaphore:
+        repo = (
+            await session.scalars(sqlalchemy.select(Repo).where(Repo.id == repo_id))
+        ).one()
+        # Create the dependencies for the repo
+        await _create_dependencies_for_repo(session=session, repo=repo)
+        await session.commit()
+
+
+async def parse_dependencies_for_repos() -> None:
+    """
+    Parse the dependencies for all the repos in the database.
+
+    :return: None.
+    """
+    async with async_session_uow() as session:
+        repo_ids = (await session.scalars(sqlalchemy.select(Repo.id))).all()
+    semaphore = asyncio.Semaphore(10)
+    async with asyncio.TaskGroup() as tg:
+        for repo_id in repo_ids:
+            tg.create_task(
+                parse_dependencies_for_repo(
+                    semaphore=semaphore, repo_id=DatabaseRepoId(repo_id)
+                )
+            )
 
 
 def main() -> None:
-    """Scrape the FastAPI-related repositories utilizing the source graph API."""
-    asyncio.run(scrape_source_graph_repos_data())
+    """
+    Scrape the FastAPI-related repositories utilizing the source graph API.
+
+    For each scraped repository, parse the dependencies and create them in the database.
+    :return:
+    """
+    asyncio.run(scrape_source_graph_repos())
+    asyncio.run(parse_dependencies_for_repos())
 
 
 if __name__ == "__main__":
