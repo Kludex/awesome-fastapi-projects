@@ -19,7 +19,7 @@ from collections.abc import AsyncGenerator
 from pathlib import PurePath
 from typing import Final
 
-from sqlalchemy import BigInteger, ForeignKey, String, Text
+from sqlalchemy import BigInteger, ForeignKey, MetaData, String, Text, UniqueConstraint
 from sqlalchemy.ext.asyncio import (
     AsyncAttrs,
     AsyncEngine,
@@ -27,7 +27,12 @@ from sqlalchemy.ext.asyncio import (
     async_sessionmaker,
     create_async_engine,
 )
-from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
+from sqlalchemy.orm import (
+    Mapped,
+    declarative_base,
+    mapped_column,
+    relationship,
+)
 
 DB_PATH: Final[PurePath] = PurePath(__file__).parent.parent / "db.sqlite3"
 
@@ -39,6 +44,16 @@ async_session_maker: Final[async_sessionmaker[AsyncSession]] = async_sessionmake
     engine, expire_on_commit=False, autoflush=False, autocommit=False
 )
 
+metadata = MetaData(
+    naming_convention={
+        "ix": "ix_%(table_name)s_%(column_0_N_name)s ",
+        "uq": "uq_%(table_name)s_%(column_0_N_name)s ",
+        "ck": "ck_%(table_name)s_%(constraint_name)s ",
+        "fk": "fk_%(table_name)s_%(column_0_N_name)s_%(referred_table_name)s",
+        "pk": "pk_%(table_name)s",
+    }
+)
+
 
 async def get_async_session() -> AsyncGenerator[AsyncSession, None]:
     """Get an async session."""
@@ -46,10 +61,7 @@ async def get_async_session() -> AsyncGenerator[AsyncSession, None]:
         yield session
 
 
-class Base(AsyncAttrs, DeclarativeBase):
-    """Declarative base for database models."""
-
-    pass
+Base = declarative_base(metadata=metadata, cls=AsyncAttrs)
 
 
 class Repo(Base):
@@ -66,6 +78,7 @@ class Repo(Base):
     dependencies: Mapped[list["Dependency"]] = relationship(
         "Dependency", secondary="repo_dependency", back_populates="repos"
     )
+    __table_args__ = (UniqueConstraint("url", "source_graph_repo_id"),)
 
 
 class Dependency(Base):

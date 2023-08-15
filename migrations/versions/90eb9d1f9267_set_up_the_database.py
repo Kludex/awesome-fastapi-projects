@@ -1,15 +1,15 @@
-"""Create Repo, Dependency and RepoDependency tables
+"""Set up the database
 
-Revision ID: 0232d84a5aea
+Revision ID: 90eb9d1f9267
 Revises:
-Create Date: 2023-08-02 22:14:12.910175
+Create Date: 2023-08-15 14:13:30.562069
 
 """
 import sqlalchemy as sa
 from alembic import op
 
 # revision identifiers, used by Alembic.
-revision = "0232d84a5aea"
+revision = "90eb9d1f9267"
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -21,8 +21,8 @@ def upgrade() -> None:
         "dependency",
         sa.Column("id", sa.Integer(), nullable=False),
         sa.Column("name", sa.String(length=255), nullable=False),
-        sa.PrimaryKeyConstraint("id"),
-        sa.UniqueConstraint("name"),
+        sa.PrimaryKeyConstraint("id", name=op.f("pk_dependency")),
+        sa.UniqueConstraint("name", name=op.f("uq_dependency_name ")),
     )
     op.create_table(
         "repo",
@@ -31,19 +31,36 @@ def upgrade() -> None:
         sa.Column("description", sa.Text(), nullable=False),
         sa.Column("stars", sa.BigInteger(), nullable=False),
         sa.Column("source_graph_repo_id", sa.BigInteger(), nullable=True),
-        sa.PrimaryKeyConstraint("id"),
-        sa.UniqueConstraint("source_graph_repo_id"),
-        sa.UniqueConstraint("url"),
+        sa.PrimaryKeyConstraint("id", name=op.f("pk_repo")),
+        sa.UniqueConstraint(
+            "source_graph_repo_id", name=op.f("uq_repo_source_graph_repo_id ")
+        ),
+        sa.UniqueConstraint(
+            "url",
+            "source_graph_repo_id",
+            name=op.f("uq_repo_url_source_graph_repo_id "),
+        ),
+        sa.UniqueConstraint("url", name=op.f("uq_repo_url ")),
     )
     op.create_table(
         "repo_dependency",
         sa.Column("repo_id", sa.Integer(), nullable=False),
         sa.Column("dependency_id", sa.Integer(), nullable=False),
         sa.ForeignKeyConstraint(
-            ["dependency_id"], ["dependency.id"], ondelete="CASCADE"
+            ["dependency_id"],
+            ["dependency.id"],
+            name=op.f("fk_repo_dependency_dependency_id_dependency"),
+            ondelete="CASCADE",
         ),
-        sa.ForeignKeyConstraint(["repo_id"], ["repo.id"], ondelete="CASCADE"),
-        sa.PrimaryKeyConstraint("repo_id", "dependency_id"),
+        sa.ForeignKeyConstraint(
+            ["repo_id"],
+            ["repo.id"],
+            name=op.f("fk_repo_dependency_repo_id_repo"),
+            ondelete="CASCADE",
+        ),
+        sa.PrimaryKeyConstraint(
+            "repo_id", "dependency_id", name=op.f("pk_repo_dependency")
+        ),
     )
     # ### end Alembic commands ###
 

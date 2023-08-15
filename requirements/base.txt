@@ -66,6 +66,10 @@ markupsafe==2.1.3
     #   mako
 mdurl==0.1.2
     # via markdown-it-py
+mypy==1.4.1
+    # via sqlalchemy
+mypy-extensions==1.0.0
+    # via mypy
 orjson==3.9.2
     # via fastapi
 pydantic==2.1.1
@@ -100,7 +104,7 @@ sniffio==1.3.0
     #   anyio
     #   httpcore
     #   httpx
-sqlalchemy[asyncio]==2.0.19
+sqlalchemy[asyncio,mypy]==2.0.19
     # via
     #   alembic
     #   awesome-fastapi-projects (pyproject.toml)
@@ -118,6 +122,7 @@ typing-extensions==4.7.1
     # via
     #   alembic
     #   fastapi
+    #   mypy
     #   pydantic
     #   pydantic-core
     #   sqlalchemy

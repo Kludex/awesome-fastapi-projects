@@ -16,7 +16,7 @@ dependencies = [
     "alembic",
     "fastapi[all]",
     "httpx-sse",
-    "sqlalchemy[asyncio]",
+    "sqlalchemy[asyncio,mypy]",
     "stamina",
     "third-party-imports",
     "typer[all]",
@@ -114,7 +114,8 @@ convention = "numpy"
 
 [tool.mypy]
 plugins = [
-  "pydantic.mypy"
+  "pydantic.mypy",
+    "sqlalchemy.ext.mypy.plugin",
 ]
 strict = true
 exclude = [
