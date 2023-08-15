@@ -1,10 +1,12 @@
 name: Scraping the repositories from Source Graph
 
-on:
-  schedule:
-    # Trigger every day at midnight
-    # https://crontab.guru/#0_0_*_*_*
-    - cron: '0 0 * * *'
+#on:
+#  schedule:
+#    # Trigger every day at midnight
+#    # https://crontab.guru/#0_0_*_*_*
+#    - cron: '0 0 * * *'
+
+on: [push]
 
 
 jobs:
