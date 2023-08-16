@@ -78,6 +78,9 @@ class Repo(Base):
     dependencies: Mapped[list["Dependency"]] = relationship(
         "Dependency", secondary="repo_dependency", back_populates="repos"
     )
+    last_checked_revision: Mapped[str | None] = mapped_column(
+        String(255), nullable=True
+    )
     __table_args__ = (UniqueConstraint("url", "source_graph_repo_id"),)
 
 

@@ -2,6 +2,7 @@
 import asyncio
 import subprocess
 from collections.abc import Sequence
+from typing import NewType
 
 import aiofiles.tempfile
 import stamina
@@ -10,17 +11,19 @@ from app.database import Repo
 from app.models import DependencyCreateData
 
 
-async def run_command(*cmd: str) -> str:
+async def run_command(*cmd: str, cwd: str | None = None) -> str:
     """
     Run the given command in a subprocess and return the stdout as plain text.
 
     :param cmd: The command to run.
+    :param cwd: The working directory to run the command in.
     :return: The stdout result
     """
     process = await asyncio.create_subprocess_exec(
         *cmd,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
+        cwd=cwd,
     )
 
     stdout, stderr = await process.communicate()
@@ -35,9 +38,12 @@ async def run_command(*cmd: str) -> str:
     return stdout.decode()
 
 
+RevisionHash = NewType("RevisionHash", str)
+
+
 async def acquire_dependencies_data_for_repository(
     repo: Repo,
-) -> list[DependencyCreateData]:
+) -> tuple[RevisionHash, list[DependencyCreateData]]:
     """
     Acquire dependencies for the given repository.
 
@@ -61,6 +67,20 @@ async def acquire_dependencies_data_for_repository(
             directory,
         )
 
+        # Get the latest commit hash
+        revision: str = await run_command(
+            "git",
+            "rev-parse",
+            "HEAD",
+            cwd=directory,
+        )
+
+        if repo.last_checked_revision == revision:
+            # Assume there are no new dependencies to return
+            # since all the repo dependencies have already
+            # been parsed.
+            return RevisionHash(revision), []
+
         # Parse the dependencies
         async for attempt in stamina.retry_context(on=RuntimeError, attempts=3):
             with attempt:
@@ -75,10 +95,13 @@ async def acquire_dependencies_data_for_repository(
             dependencies_list = (
                 dependencies_list[2:] if len(dependencies_list) > 2 else []
             )
-        return [
-            DependencyCreateData(
-                name=dependency.strip(),
-            )
-            for dependency in dependencies_list
-            if dependency.strip()
-        ]
+        return (
+            RevisionHash(revision),
+            [
+                DependencyCreateData(
+                    name=dependency.strip(),
+                )
+                for dependency in dependencies_list
+                if dependency.strip()
+            ],
+        )
