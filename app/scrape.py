@@ -30,25 +30,30 @@ async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> No
             dependencies_create_data,
         ) = await acquire_dependencies_data_for_repository(repo)
     except RuntimeError:
-        # If the parsing fails, just skip creating the dependencies
+        # If the parsing fails,
+        # just skip creating the dependencies
+        return
+    if repo.last_checked_revision == revision:
+        # If the repo has already been updated,
+        # just skip creating the dependencies
         return
     if not dependencies_create_data:
-        # If there are no dependencies, just skip creating the dependencies
+        # If there are no dependencies,
+        # just skip creating the dependencies
         return
     # Update the repo with the revision hash
-    if repo.last_checked_revision != revision:
-        update_repo_statement = (
-            sqlalchemy.update(Repo)
-            .where(Repo.id == repo.id)
-            .values(last_checked_revision=revision)
-        )
-        await session.execute(update_repo_statement)
+    update_repo_statement = (
+        sqlalchemy.update(Repo)
+        .where(Repo.id == repo.id)
+        .values(last_checked_revision=revision)
+    )
+    await session.execute(update_repo_statement)
     # Create dependencies - on conflict do nothing.
-    insert_statement = sqlalchemy.dialects.sqlite.insert(
+    insert_dependencies_statement = sqlalchemy.dialects.sqlite.insert(
         Dependency
     ).on_conflict_do_nothing(index_elements=[Dependency.name])
     await session.execute(
-        insert_statement.returning(Dependency),
+        insert_dependencies_statement.returning(Dependency),
         [
             {
                 "name": dependency_data.name,
@@ -70,11 +75,11 @@ async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> No
         )
     ).all()
     # Add the dependencies to the repo
-    repo_dependencies_insert_statement = sqlalchemy.dialects.sqlite.insert(
+    insert_repo_dependencies_statement = sqlalchemy.dialects.sqlite.insert(
         RepoDependency
     ).on_conflict_do_nothing([RepoDependency.repo_id, RepoDependency.dependency_id])
     await session.execute(
-        repo_dependencies_insert_statement,
+        insert_repo_dependencies_statement,
         [
             {
                 "repo_id": repo.id,
