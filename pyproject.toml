@@ -114,7 +114,7 @@ convention = "numpy"
 
 [tool.mypy]
 plugins = [
-  "pydantic.mypy",
+    "pydantic.mypy",
     "sqlalchemy.ext.mypy.plugin",
 ]
 strict = true
