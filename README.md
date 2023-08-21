@@ -22,3 +22,4 @@ pyenv virtualenv 3.11.4 awesome-fastapi-projects
 ```shell
 pyenv local awesome-fastapi-projects
 ```
+#TODO: Add more documentation: migrations, front, tests

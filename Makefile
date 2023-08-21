@@ -68,3 +68,4 @@ init-test-dev: install-test-dev # Install the app locally with test and dev depe
 
 
 .DEFAULT_GOAL := init-test-dev # Set the default goal to init-dev-test
+#TODO: Add more commands: migrations, frontend, etc.
