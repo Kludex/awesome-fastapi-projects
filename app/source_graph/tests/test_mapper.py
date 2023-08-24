@@ -1,5 +1,4 @@
 """The tests for the source graph mapper to the database objects."""
-from urllib.parse import urlparse, urlunparse
 
 import pytest
 import sqlalchemy
@@ -48,7 +47,7 @@ async def test_create_or_update_repos_from_source_graph_repos_data_update(
         SourceGraphRepoData(
             **(
                 repo_data.model_dump(by_alias=True)
-                | {"repository": urlunparse(urlparse(repo.url)._replace(scheme=""))}
+                | {"repositoryID": repo.source_graph_repo_id}
             )
         )
         for repo, repo_data in zip(some_repos, source_graph_repos_data, strict=True)
