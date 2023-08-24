@@ -11,6 +11,7 @@ on: [push]
 
 jobs:
     scraping:
+        if: ${{ !github.event.act }} # skip during local actions testing
         runs-on: ubuntu-latest
         strategy:
           matrix:
