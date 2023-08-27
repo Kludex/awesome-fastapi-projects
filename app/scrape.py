@@ -13,6 +13,7 @@ from app.source_graph.mapper import create_or_update_repos_from_source_graph_rep
 from app.uow import async_session_uow
 
 
+# TODO: Add some logging to get the insights into what's happening
 async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> None:
     """
     Create dependencies for a repo.
@@ -138,6 +139,7 @@ async def parse_dependencies_for_repos() -> None:
     :return: None.
     """
     async with async_session_uow() as session:
+        # TODO: iterate over repos with now last checked revision first
         repo_ids = (await session.scalars(sqlalchemy.select(Repo.id))).all()
     semaphore = asyncio.Semaphore(10)
     async with asyncio.TaskGroup() as tg:
@@ -156,6 +158,7 @@ def main() -> None:
     For each scraped repository, parse the dependencies and create them in the database.
     :return:
     """
+    # TODO: splot into 2 separate commands
     asyncio.run(scrape_source_graph_repos())
     asyncio.run(parse_dependencies_for_repos())
 
