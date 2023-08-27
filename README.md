@@ -11,15 +11,21 @@ If you don't, use any other method to create a virtual environment
 and install Python 3.11.4.
 
 - Install Python 3.11.4
+
 ```shell
 pyenv install 3.11.4
 ```
+
 - Create a virtual environment
+
 ```shell
 pyenv virtualenv 3.11.4 awesome-fastapi-projects
 ```
+
 - Activate the virtual environment
+
 ```shell
 pyenv local awesome-fastapi-projects
 ```
+
 #TODO: Add more documentation: migrations, front, tests

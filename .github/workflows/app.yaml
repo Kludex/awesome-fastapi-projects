@@ -2,20 +2,22 @@ name: Web application CI
 
 on: [push]
 
+#TODO: quality job for frontend: eslint, prettier, build job for frontend
+
 jobs:
   quality:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [ 3.11 ]
+        python-version: [3.11]
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v4
         with: # https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#caching-packages
           python-version: ${{ matrix.python-version }}
-          cache: 'pip'
-          cache-dependency-path: 'requirements/dev.txt'
+          cache: "pip"
+          cache-dependency-path: "requirements/dev.txt"
       - name: Install dev dependencies
         run: |
           python -m pip install --upgrade pip
@@ -37,15 +39,15 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [ 3.11 ]
+        python-version: [3.11]
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v4
         with: # https://github.com/actions/setup-python/blob/main/docs/advanced-usage.md#caching-packages
           python-version: ${{ matrix.python-version }}
-          cache: 'pip'
-          cache-dependency-path: 'requirements/test.txt'
+          cache: "pip"
+          cache-dependency-path: "requirements/test.txt"
       - name: Install test dependencies
         run: |
           python -m pip install --upgrade pip
