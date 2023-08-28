@@ -11,6 +11,7 @@ from app.models import DependencyCreateData
 from app.source_graph.factories import SourceGraphRepoDataFactory
 from app.source_graph.models import SourceGraphRepoData
 
+# TODO: Use the `adopts` option to pytest to set the marker for all tests.
 pytestmark = pytest.mark.anyio
 
 

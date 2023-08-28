@@ -38,6 +38,7 @@ async def run_command(*cmd: str, cwd: str | None = None) -> str:
     return stdout.decode()
 
 
+# TODO: Organize the types
 RevisionHash = NewType("RevisionHash", str)
 
 
