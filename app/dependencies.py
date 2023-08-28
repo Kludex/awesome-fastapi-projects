@@ -2,13 +2,12 @@
 import asyncio
 import subprocess
 from collections.abc import Sequence
-from typing import NewType
 
 import aiofiles.tempfile
 import stamina
 
 from app.database import Repo
-from app.models import DependencyCreateData
+from app.models import DependencyCreateData, RevisionHash
 
 
 async def run_command(*cmd: str, cwd: str | None = None) -> str:
@@ -36,10 +35,6 @@ async def run_command(*cmd: str, cwd: str | None = None) -> str:
         )
 
     return stdout.decode()
-
-
-# TODO: Organize the types
-RevisionHash = NewType("RevisionHash", str)
 
 
 async def acquire_dependencies_data_for_repository(
