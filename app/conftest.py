@@ -1,5 +1,6 @@
 """The application-level conftest."""
 import asyncio
+import contextlib
 from collections.abc import AsyncGenerator, Generator
 from typing import Literal
 
@@ -43,11 +44,8 @@ def event_loop(
     An event loop is destroyed at the end of the test session.
     https://docs.pytest.org/en/6.2.x/fixture.html#fixture-scopes
     """
-    loop = asyncio.get_event_loop_policy().get_event_loop()
-    try:
+    with contextlib.closing(loop := asyncio.get_event_loop_policy().get_event_loop()):
         yield loop
-    finally:
-        loop.close()
 
 
 @pytest.fixture(scope="session")

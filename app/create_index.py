@@ -1,6 +1,7 @@
 """Create index.json file from database."""
 import json
 from pathlib import Path
+from typing import Final
 
 import aiofiles
 import sqlalchemy.orm
@@ -10,7 +11,8 @@ from app.database import Repo
 from app.models import RepoDetail
 from app.uow import async_session_uow
 
-INDEX_PATH = Path(__file__).parent.parent / "index.json"
+#: The path to the index.json file.
+INDEX_PATH: Final[Path] = Path(__file__).parent.parent / "index.json"
 
 
 async def create_index() -> None:
