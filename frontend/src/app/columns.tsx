@@ -19,7 +19,7 @@ export const columns: ColumnDef<Repo>[] = [
     },
     cell: function ({ row }) {
       return (
-        <Button variant="ghost">
+        <Button variant="link" className="text-accent-foreground">
           <svg
             width="15"
             height="15"
