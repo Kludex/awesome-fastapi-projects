@@ -5,6 +5,8 @@ import * as path from "path";
 import { indexSchema } from "./schemas";
 import { ZodError } from "zod";
 
+// TODO: docstrings
+
 export const INDEX_FILE_PATH = path.normalize(
   path.join(__dirname, "..", "..", "..", "..", "index.json"),
 );
@@ -12,6 +14,8 @@ export const INDEX_FILE_PATH = path.normalize(
 export const preload = () => {
   void loadIndexServerOnly();
 };
+
+// TODO: tests
 
 export const loadIndexServerOnly = cache(async () => {
   try {
