@@ -6,6 +6,8 @@ name: Scraping the repositories from Source Graph
 #    # https://crontab.guru/#0_0_*_*_*
 #    - cron: '0 0 * * *'
 
+# TODO: split the commands to crapr repos and parse the dependencies
+# TODO: a job for index generation
 on: [push]
 
 jobs:

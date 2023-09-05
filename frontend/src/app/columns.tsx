@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Repo } from "@/lib/schemas";
 import { ColumnDef } from "@tanstack/react-table";
+import { ArrowUpDown, MoreHorizontal } from "lucide-react";
 
 export const columns: ColumnDef<Repo>[] = [
   {
@@ -68,14 +69,18 @@ export const columns: ColumnDef<Repo>[] = [
   },
   {
     accessorKey: "stars",
-    header: function () {
+    header: function ({ column }) {
       return (
-        <div>
+        <Button
+          variant="ghost"
+          onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+        >
           Stars
           <span role="img" aria-label="star" className="ml-1">
             ⭐
           </span>
-        </div>
+          <ArrowUpDown className="ml-2 h-4 w-4" />
+        </Button>
       );
     },
     cell: function ({ row }) {

@@ -14,7 +14,7 @@ dependencies = [
     "aiofiles",
     "aiosqlite",
     "alembic",
-    "fastapi[all]",
+    "fastapi[all]", # TODO: remove unused dependencies
     "httpx-sse",
     "sqlalchemy[asyncio,mypy]",
     "stamina",
