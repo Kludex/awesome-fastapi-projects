@@ -21,6 +21,12 @@ export const loadIndexServerOnly = cache(async () => {
   try {
     const indexData = JSON.parse(
       await fs.promises.readFile(INDEX_FILE_PATH, "utf-8"),
+      (key, value) => {
+        if (key === "id" || key === "source_graph_repo_id") {
+          return String(value);
+        }
+        return value;
+      },
     );
     return await indexSchema.parseAsync(indexData);
   } catch (err) {

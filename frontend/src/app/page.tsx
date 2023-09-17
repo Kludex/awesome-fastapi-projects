@@ -1,12 +1,15 @@
-import { loadIndexServerOnly } from "@/lib/load-index-server-only";
-import { DataTable } from "./data-table";
-import { columns } from "./columns";
+import { loadIndexServerOnly } from "@/lib/repos-index";
+import { ReposTable } from "./repos-table";
+import { ReposSearchProvider } from "./repos-search-provider";
 
 export default async function Home() {
   const { repos } = await loadIndexServerOnly();
+
   return (
     <section className="py-10">
-      <DataTable columns={columns} data={repos} />
+      <ReposSearchProvider repos={repos}>
+        <ReposTable repos={repos} />
+      </ReposSearchProvider>
     </section>
   );
 }
