@@ -19,8 +19,10 @@ export function ReposTable({
 
   const onSearchSubmit = async ({
     search: description,
+    dependencies,
   }: {
     search: string;
+    dependencies: Dependency[];
   }) => {
     if (!reposOrama.isIndexed || !reposOrama.orama) {
       throw new Error("Repos Orama is not initialized");
@@ -30,7 +32,16 @@ export function ReposTable({
       properties: ["description"],
       limit: repos.length,
     });
-    setSearchedRepos(results.hits.map((hit) => hit.document as Repo));
+    const searchedRepos = results.hits.map((hit) => hit.document as Repo);
+    // Workaround because Orama doesn't support filtering by properties of objects in arrays
+    const filteredRepos = searchedRepos.filter((repo) => {
+      return dependencies.every((dependency) => {
+        return repo.dependencies.some(
+          (repoDependency) => repoDependency.id === dependency.id,
+        );
+      });
+    });
+    setSearchedRepos(filteredRepos);
   };
 
   return (

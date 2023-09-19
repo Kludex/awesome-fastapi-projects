@@ -10,11 +10,15 @@ import { useVirtual } from "@tanstack/react-virtual";
 import { useDependenciesOrama } from "@/lib/search";
 import { search } from "@orama/orama";
 import { Dependency } from "@/lib/schemas";
+import { set } from "zod";
+import { on } from "events";
 
 export function MultiSelect<DataType extends { id: string; name: string }>({
   data,
+  onChange,
 }: {
   data: DataType[];
+  onChange: (data: DataType[]) => void;
 }) {
   const inputRef = React.useRef<HTMLInputElement>(null);
   const scrollableContainerRef = React.useRef(null);
@@ -47,10 +51,18 @@ export function MultiSelect<DataType extends { id: string; name: string }>({
     overscan: 10,
   });
 
-  const handleUnselect = React.useCallback((dataPoint: DataType) => {
+  const handleUnselect = (dataPoint: DataType) => {
     setSelected((prev) => prev.filter((el) => el.id !== dataPoint.id));
     setSelectables((prev) => [dataPoint, ...prev]);
-  }, []);
+    onChange(selected.filter((el) => el.id !== dataPoint.id));
+  };
+
+  const handleSelect = (dataPoint: DataType) => {
+    setInputValue("");
+    setSelected((prev) => [...prev, dataPoint]);
+    setSelectables((prev) => prev.filter((el) => el.id !== dataPoint.id));
+    onChange([...selected, dataPoint]);
+  };
 
   const handleKeyDown = React.useCallback(
     (e: React.KeyboardEvent<HTMLDivElement>) => {
@@ -136,15 +148,8 @@ export function MultiSelect<DataType extends { id: string; name: string }>({
                       e.preventDefault();
                       e.stopPropagation();
                     }}
-                    onSelect={(value) => {
-                      setInputValue("");
-                      setSelected((prev) => [
-                        ...prev,
-                        selectables[virtualRow.index],
-                      ]);
-                      setSelectables((prev) =>
-                        prev.filter((_, index) => index !== virtualRow.index),
-                      );
+                    onSelect={() => {
+                      handleSelect(selectables[virtualRow.index]);
                     }}
                     className="cursor-pointer"
                     style={{

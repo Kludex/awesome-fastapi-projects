@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { MultiSelect } from "@/components/ui/multiselect";
-import { Dependency } from "@/lib/schemas";
+import { Dependency, dependencySchema } from "@/lib/schemas";
 
 const FormSchema = z.object({
   search: z
@@ -23,7 +23,7 @@ const FormSchema = z.object({
     .min(0)
     .max(256, { message: "Search must be less than 256 characters" })
     .default(""),
-  dependencies: z.array(z.string()).default(() => []),
+  dependencies: z.array(dependencySchema).default(() => []),
 });
 
 export interface SearchFormProps {
@@ -62,7 +62,7 @@ export function SearchForm({ onSubmit, dependencies }: SearchFormProps) {
             <FormItem>
               <FormLabel>Dependencies</FormLabel>
               <FormControl>
-                <MultiSelect data={dependencies} {...field} />
+                <MultiSelect data={dependencies} onChange={field.onChange} />
               </FormControl>
               <FormDescription>
                 Filter by dependencies used in the repository.
