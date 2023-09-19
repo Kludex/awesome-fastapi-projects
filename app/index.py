@@ -1,4 +1,15 @@
-"""Create index.json file from database."""
+"""
+Create repos and dependencies indexes.
+
+This script creates can create two indexes:
+
+- ``repos_index.json``: Contains all the repositories and their dependencies.
+- ``dependencies_index.json``: Contains all the dependencies and the
+    repositories that depend on them.
+
+The indexes are used by the frontend to display the data and perform searches.
+"""
+import asyncio
 import json
 from pathlib import Path
 from typing import Final
@@ -7,23 +18,28 @@ import aiofiles
 import sqlalchemy.orm
 import typer
 
-from app.database import Repo
-from app.models import RepoDetail
+from app.database import Dependency, Repo
+from app.models import DependencyDetail, RepoDetail
 from app.uow import async_session_uow
 
-#: The path to the index.json file.
-INDEX_PATH: Final[Path] = Path(__file__).parent.parent / "index.json"
+#: The path to the repos index file.
+REPOS_INDEX_PATH: Final[Path] = Path(__file__).parent.parent / "repos_index.json"
+#: The path to the dependencies index file.
+DEPENDENCIES_INDEX_PATH: Final[Path] = (
+    Path(__file__).parent.parent / "dependencies_index.json"
+)
+
+app = typer.Typer()
 
 
-async def create_index() -> None:
+async def create_repos_index() -> None:
     """
-    Create index.json file from database.
+    Create repos_index.json file from database.
 
-    Creates an index which is going to be used by the frontend.
     :return: None
     """
     async with async_session_uow() as session, aiofiles.open(
-        INDEX_PATH, "w"
+        REPOS_INDEX_PATH, "w"
     ) as index_file:
         await index_file.write(
             json.dumps(
@@ -44,12 +60,45 @@ async def create_index() -> None:
         )
 
 
-def main() -> None:
-    """Create index.json file from database."""
-    import asyncio
+async def create_dependencies_index() -> None:
+    """
+    Create dependencies_index.json file from database.
 
-    asyncio.run(create_index())
+    :return: None
+    """
+    async with async_session_uow() as session, aiofiles.open(
+        DEPENDENCIES_INDEX_PATH, "w"
+    ) as index_file:
+        dependencies = [
+            DependencyDetail.model_validate(dependency).model_dump()
+            async for dependency in (
+                await session.stream_scalars(
+                    sqlalchemy.select(Dependency).order_by(Dependency.id)
+                )
+            )
+            if dependency.name
+        ]
+        await index_file.write(
+            json.dumps(
+                {
+                    "dependencies": dependencies,
+                },
+                indent=4,
+            )
+        )
+
+
+@app.command()
+def repos() -> None:
+    """Create ``repos_index.json``."""
+    asyncio.run(create_repos_index())
+
+
+@app.command()
+def dependencies() -> None:
+    """Create ``dependencies_index.json``."""
+    asyncio.run(create_dependencies_index())
 
 
 if __name__ == "__main__":
-    typer.run(main)
+    app()

@@ -6,13 +6,13 @@ import {
 } from "@/lib/search";
 import { PropsWithChildren } from "react";
 import { SearchProvider } from "./search-provider";
-import { Index } from "@/lib/schemas";
+import { RepoIndex } from "@/lib/schemas";
 
 export function ReposSearchProvider({
   children,
   repos,
 }: PropsWithChildren<{
-  repos: Index["repos"];
+  repos: RepoIndex["repos"];
 }>) {
   const prepareOramaIndex = async () => {
     const orama = await createReposOrama();

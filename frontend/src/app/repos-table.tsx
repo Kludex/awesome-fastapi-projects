@@ -1,5 +1,5 @@
 "use client";
-import { Index, Repo } from "@/lib/schemas";
+import { Repo, Dependency } from "@/lib/schemas";
 import { search } from "@orama/orama";
 import { SearchForm } from "./search-form";
 import { columns } from "./columns";
@@ -7,7 +7,13 @@ import { DataTable } from "./data-table";
 import { useReposOrama } from "@/lib/search";
 import { useState } from "react";
 
-export function ReposTable({ repos }: Index) {
+export function ReposTable({
+  repos,
+  dependencies,
+}: {
+  repos: Repo[];
+  dependencies: Dependency[];
+}) {
   const reposOrama = useReposOrama();
   const [searchedRepos, setSearchedRepos] = useState<Repo[]>(repos);
 
@@ -17,7 +23,7 @@ export function ReposTable({ repos }: Index) {
     search: string;
   }) => {
     if (!reposOrama.isIndexed || !reposOrama.orama) {
-      throw new Error("Orama is not initialized");
+      throw new Error("Repos Orama is not initialized");
     }
     const results = await search<Repo>(reposOrama.orama, {
       term: description,
@@ -29,8 +35,8 @@ export function ReposTable({ repos }: Index) {
 
   return (
     <>
-      <div className="mb-4">
-        <SearchForm onSubmit={onSearchSubmit} />
+      <div className="container mb-4 max-w-xl">
+        <SearchForm onSubmit={onSearchSubmit} dependencies={dependencies} />
       </div>
       <DataTable columns={columns} data={searchedRepos} />
     </>

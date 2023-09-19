@@ -4,7 +4,7 @@ import {
   create,
   insertMultiple,
 } from "@orama/orama";
-import { Index } from "./schemas";
+import { DependenciesIndex, RepoIndex } from "./schemas";
 import { Context, createContext, useContext } from "react";
 
 export interface IOramaContext<
@@ -34,15 +34,15 @@ export async function createReposOrama(): Promise<ReposOrama> {
     schema: {
       description: "string",
     },
-    id: "index",
+    id: "repos-index",
   });
   return orama;
 }
 
 export async function prepareReposOramaIndex(
   orama: ReposOrama,
-  data: Index["repos"],
-): Promise<Orama<{ Index: { description: string } }>> {
+  data: RepoIndex["repos"],
+): Promise<ReposOrama> {
   await insertMultiple(orama, data, 100);
   return orama;
 }
@@ -52,4 +52,37 @@ ReposOramaContext.displayName = "ReposOramaContext";
 
 export const useReposOrama = () => {
   return useContext(ReposOramaContext);
+};
+
+export interface DependenciesOramaParameters
+  extends Partial<OramaProvidedTypes> {
+  Index: { name: string };
+}
+
+export type DependenciesOrama = Orama<DependenciesOramaParameters>;
+
+export async function createDependenciesOrama(): Promise<DependenciesOrama> {
+  const orama = await create({
+    schema: {
+      name: "string",
+    },
+    id: "dependencies-index",
+  });
+  return orama;
+}
+
+export async function prepareDependenciesOramaIndex(
+  orama: DependenciesOrama,
+  data: DependenciesIndex["dependencies"],
+): Promise<DependenciesOrama> {
+  await insertMultiple(orama, data, 100);
+  return orama;
+}
+
+export const DependenciesOramaContext =
+  createOramaContext<DependenciesOramaParameters>();
+DependenciesOramaContext.displayName = "DependenciesOramaContext";
+
+export const useDependenciesOrama = () => {
+  return useContext(DependenciesOramaContext);
 };

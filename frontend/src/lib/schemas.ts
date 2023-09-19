@@ -15,10 +15,15 @@ export const repoSchema = z.object({
   last_checked_revision: z.nullable(z.string()),
 });
 
-export const indexSchema = z.object({
+export const reposIndexSchema = z.object({
   repos: z.array(repoSchema),
+});
+
+export const dependenciesIndexSchema = z.object({
+  dependencies: z.array(dependencySchema),
 });
 
 export type Dependency = z.infer<typeof dependencySchema>;
 export type Repo = z.infer<typeof repoSchema>;
-export type Index = z.infer<typeof indexSchema>;
+export type RepoIndex = z.infer<typeof reposIndexSchema>;
+export type DependenciesIndex = z.infer<typeof dependenciesIndexSchema>;
