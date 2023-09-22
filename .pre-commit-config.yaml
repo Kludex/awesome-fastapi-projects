@@ -41,7 +41,6 @@ repos:
         args: ["--indent=4"]
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: "v3.0.3"
-    language_version: node18.18.0
     hooks:
       - id: prettier
   - repo: https://github.com/jorisroovers/gitlint
