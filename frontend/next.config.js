@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/awesome-fastapi-projects",
+  basePath:
+    process.env.NODE_ENV === "production" ? "/awesome-fastapi-projects" : "",
 };
 
 module.exports = nextConfig;
