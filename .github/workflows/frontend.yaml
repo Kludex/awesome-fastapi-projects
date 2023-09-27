@@ -25,6 +25,7 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# TODO: do not deploy until the scraping is done
 jobs:
   # Build job
   build:

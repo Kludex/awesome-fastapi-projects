@@ -43,6 +43,7 @@ repos:
     rev: "v3.0.3"
     hooks:
       - id: prettier
+        language_version: 18.18.0
   - repo: https://github.com/jorisroovers/gitlint
     rev: "v0.19.1"
     hooks:

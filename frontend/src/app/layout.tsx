@@ -56,3 +56,4 @@ export default function RootLayout({
     </html>
   );
 }
+// TODO: add a footer with tech stack
