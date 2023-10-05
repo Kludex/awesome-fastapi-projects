@@ -10,8 +10,6 @@ import { useVirtual } from "@tanstack/react-virtual";
 import { useDependenciesOrama } from "@/lib/search";
 import { search } from "@orama/orama";
 import { Dependency } from "@/lib/schemas";
-import { set } from "zod";
-import { on } from "events";
 
 export function MultiSelect<DataType extends { id: string; name: string }>({
   data,
@@ -64,27 +62,26 @@ export function MultiSelect<DataType extends { id: string; name: string }>({
     onChange([...selected, dataPoint]);
   };
 
-  const handleKeyDown = React.useCallback(
-    (e: React.KeyboardEvent<HTMLDivElement>) => {
-      const input = inputRef.current;
-      if (input) {
-        if (e.key === "Delete" || e.key === "Backspace") {
-          if (input.value === "") {
-            setSelected((prev) => {
-              const newSelected = [...prev];
-              newSelected.pop();
-              return newSelected;
-            });
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    const input = inputRef.current;
+    if (input) {
+      if (e.key === "Delete" || e.key === "Backspace") {
+        if (input.value === "") {
+          if (selected.length > 0) {
+            handleUnselect(selected[selected.length - 1]);
+            if (selected.length === 1) {
+              input.focus();
+              setSelectables(data);
+            }
           }
         }
-        // This is not a default behaviour of the <input /> field
-        if (e.key === "Escape") {
-          input.blur();
-        }
       }
-    },
-    [],
-  );
+      // This is not a default behaviour of the <input /> field
+      if (e.key === "Escape") {
+        input.blur();
+      }
+    }
+  };
 
   return (
     <Command
