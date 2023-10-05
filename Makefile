@@ -63,8 +63,11 @@ install-test-dev: # Install the app locally with test and dev dependencies
 
 init-test-dev: install-test-dev # Install the app locally with test and dev dependencies. Also install pre-commit hooks.
 	pre-commit install
-	pre-commit install --hook-type commit-msg
 .PHONY: init-test-dev
+
+reinit-test-dev: init-test-dev # Reinstall pre-commit hooks
+	pre-commit install --install-hooks --overwrite
+.PHONY: pre-commit-reinstall
 
 
 .DEFAULT_GOAL := init-test-dev # Set the default goal to init-dev-test
