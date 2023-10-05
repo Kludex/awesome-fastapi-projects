@@ -105,7 +105,7 @@ export default function RootLayout({
                       rel="noreferrer"
                     >
                       Tailwind CSS
-                    </a>{" "}
+                    </a>
                     ,{" "}
                     <a
                       href="https://react.dev/"
@@ -134,4 +134,6 @@ export default function RootLayout({
     </html>
   );
 }
-// TODO: add a footer with tech stack
+// TODO: make a lnk to the github repo configurable via env variable
+// TODO: sync form state with the URL
+// TODO: improve pagination - sync with the URL, add a "go to page" input
