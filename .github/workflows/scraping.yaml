@@ -1,15 +1,16 @@
 name: Scraping the repositories from Source Graph
 
+# TODO: bring back the cron job
 #on:
 #  schedule:
 #    # Trigger every day at midnight
 #    # https://crontab.guru/#0_0_*_*_*
 #    - cron: '0 0 * * *'
 
-# TODO: split the commands to scrap repos and parse the dependencies
-# TODO: a job for index generation
-# TODO: set proper concurrency settings
 on: [push]
+concurrency: # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#concurrency
+  group: "scraping"
+  cancel-in-progress: false
 
 jobs:
   scraping:
@@ -30,9 +31,19 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements/base.txt
-      - name: Start scraping
+      - name: Scrape the repositories
         run: |
-          python -m app.scrape
-      - uses: stefanzweifel/git-auto-commit-action@v4
+          python -m app.scrape scrape-repos
+      - name: Parse the dependencies
+        run: |
+          python -m app.scrape parse-dependencies
+      - name: Generate the repositories index
+        run: |
+          python -m app.index index-repos
+      - name: Generate the dependencies index
+        run: |
+          python -m app.index index-dependencies
+      - name: Commit the changes
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Scraped repositories from Source Graph"
+          commit_message: "Scraped repositories from Source Graph, parsed the dependencies, and generated the indexes"

@@ -139,7 +139,7 @@ async def parse_dependencies_for_repos() -> None:
     :return: None.
     """
     async with async_session_uow() as session:
-        # TODO: iterate over repos with now last checked revision first
+        # TODO: iterate over repos with null last checked revision first
         repo_ids = (await session.scalars(sqlalchemy.select(Repo.id))).all()
     semaphore = asyncio.Semaphore(10)
     async with asyncio.TaskGroup() as tg:
@@ -151,17 +151,28 @@ async def parse_dependencies_for_repos() -> None:
             )
 
 
-def main() -> None:
+app = typer.Typer()
+
+
+@app.command()
+def scrape_repos() -> None:
     """
     Scrape the FastAPI-related repositories utilizing the source graph API.
 
-    For each scraped repository, parse the dependencies and create them in the database.
-    :return:
+    :return: None
     """
-    # TODO: splot into 2 separate commands
     asyncio.run(scrape_source_graph_repos())
+
+
+@app.command()
+def parse_dependencies() -> None:
+    """
+    Parse the dependencies for all the repos in the database.
+
+    :return: None.
+    """
     asyncio.run(parse_dependencies_for_repos())
 
 
 if __name__ == "__main__":
-    typer.run(main)
+    app()

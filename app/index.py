@@ -89,13 +89,13 @@ async def create_dependencies_index() -> None:
 
 
 @app.command()
-def repos() -> None:
+def index_repos() -> None:
     """Create ``repos_index.json``."""
     asyncio.run(create_repos_index())
 
 
 @app.command()
-def dependencies() -> None:
+def index_dependencies() -> None:
     """Create ``dependencies_index.json``."""
     asyncio.run(create_dependencies_index())
 
