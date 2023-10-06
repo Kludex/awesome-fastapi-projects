@@ -54,10 +54,10 @@ export default function RootLayout({
           </h1>
           {children}
         </main>
-        <footer className="bg-white rounded-lg shadow dark:bg-gray-900">
-          <div className="border-t">
+        <div className="border-t">
+          <footer className="bg-white dark:bg-gray-900">
             <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-              <div className="sm:flex sm:items-center sm:justify-between">
+              <div className="sm:flex sm:items-center sm:justify-between gap-4">
                 <div className="grid gap-4 md:grid-cols-1 lg:grid-cols-2">
                   <Card>
                     <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
@@ -99,6 +99,15 @@ export default function RootLayout({
                     </a>
                     ,{" "}
                     <a
+                      href="https://ui.shadcn.com/"
+                      className="font-bold hover:underline"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Shadcn UI
+                    </a>
+                    ,{" "}
+                    <a
                       href="https://tailwindcss.com/"
                       className="font-bold hover:underline"
                       target="_blank"
@@ -128,8 +137,8 @@ export default function RootLayout({
                 </div>
               </div>
             </div>
-          </div>
-        </footer>
+          </footer>
+        </div>
       </body>
     </html>
   );
