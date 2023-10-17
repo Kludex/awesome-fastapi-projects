@@ -30,22 +30,27 @@ export function MultiSelect<DataType extends { id: string; name: string }>({
   const [inputValue, setInputValue] = React.useState("");
   const dependenciesOrama = useDependenciesOrama();
 
-  const onChangeInputValue = async (dependencyName: string) => {
-    if (!dependenciesOrama.isIndexed || !dependenciesOrama.orama) {
-      throw new Error("Dependencies Orama is not initialized");
-    }
-    const results = await search<Dependency>(dependenciesOrama.orama, {
-      term: dependencyName,
-      properties: ["name"],
-      limit: data.length,
-    });
-    setSelectables(
-      results.hits
-        .map((hit) => hit.document as DataType)
-        .filter((dataPoint) => !selected.includes(dataPoint)),
-    );
-    setInputValue(dependencyName);
-  };
+  const onChangeInputValue = React.useCallback(
+    async (dependencyName: string) => {
+      if (!dependenciesOrama.isIndexed || !dependenciesOrama.orama) {
+        throw new Error("Dependencies Orama is not initialized");
+      }
+      const results = await search<Dependency>(dependenciesOrama.orama, {
+        term: dependencyName,
+        properties: ["name"],
+        limit: data.length,
+      });
+      setSelectables(
+        results.hits
+          .map((hit) => hit.document as DataType)
+          .filter(
+            (dataPoint) => !selected.some((el) => el.id === dataPoint.id),
+          ),
+      );
+      setInputValue(dependencyName);
+    },
+    [data, dependenciesOrama.isIndexed, dependenciesOrama.orama, selected],
+  );
 
   const rowVirtualizer = useVirtual({
     size: selectables.length,
@@ -64,7 +69,9 @@ export function MultiSelect<DataType extends { id: string; name: string }>({
       } else {
         setSelected((prev) => prev.filter((el) => el.id !== dataPoint.id));
         setSelectables((prev) =>
-          !prev.includes(dataPoint) ? [dataPoint, ...prev] : prev,
+          !prev.some((el) => el.id === dataPoint.id)
+            ? [dataPoint, ...prev]
+            : prev,
         );
         onChange(selected.filter((el) => el.id !== dataPoint.id));
       }

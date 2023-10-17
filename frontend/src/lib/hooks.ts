@@ -1,59 +1,77 @@
-import { createContext, useContext, useEffect } from "react";
-import { QueryParamsManagerInterface } from "./query-params";
-import { useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams, useRouter } from "next/navigation";
 import React from "react";
+import { Dependency } from "./schemas";
 
-export const QueryParamsManagerContext =
-  createContext<QueryParamsManagerInterface>({
-    requestQueryUpdate: () => {},
-    requestQueryDelete: () => {},
-    requestQueryClear: () => {},
-    commit: () => {},
-  });
-QueryParamsManagerContext.displayName = "QueryParamsManagerContext";
-
-export const useQueryParamsManager = () => {
-  return useContext(QueryParamsManagerContext);
-};
-
-export const useQueryParamState = <T>({
-  initialValue,
-  paramName,
-  toQueryParam,
-  fromQueryParam,
-}: {
-  initialValue: T | null;
-  paramName: string;
-  toQueryParam: (value: T) => string;
-  fromQueryParam: (value: string | null) => T | null;
-}): [T | null, (value: T) => void] => {
-  const queryParamsManager = useQueryParamsManager();
+export const useQuerySearchFormData = (dependencies: Dependency[]) => {
+  const router = useRouter();
+  const pathname = usePathname();
   const searchParams = useSearchParams();
 
-  const [value, setValue] = React.useState<T | null>(initialValue);
-
-  const updateQueryParamState = React.useCallback(
-    (value: T) => {
-      queryParamsManager.requestQueryUpdate(paramName, toQueryParam(value));
-      setValue(value);
+  const searchQueryToQueryParam = React.useCallback(
+    (searchQueryValue: string) => {
+      if (!searchQueryValue) {
+        return "";
+      }
+      return encodeURIComponent(searchQueryValue);
     },
-    [queryParamsManager, paramName, toQueryParam, setValue],
+    [],
   );
 
-  useEffect(() => {
-    const params = new URLSearchParams(searchParams);
-    const valueFromQuery = fromQueryParam(params.get(paramName));
-    if (valueFromQuery === null && initialValue !== null) {
-      setValue(initialValue);
+  const searchQueryFromQueryParam = React.useCallback(() => {
+    if (!searchParams.has("search")) {
+      return "";
     }
-    return;
-  }, [
-    initialValue,
-    paramName,
-    fromQueryParam,
-    setValue,
-    searchParams,
-    queryParamsManager,
-  ]);
-  return [value, updateQueryParamState];
+    return decodeURIComponent(searchParams.get("search") ?? "");
+  }, [searchParams]);
+
+  const dependenciesQueryToQueryParam = React.useCallback(
+    (dependenciesQueryValue: Dependency[]) => {
+      if (!dependenciesQueryValue) {
+        return "";
+      }
+      // join dependencies names with `~`
+      let encodedArray = dependenciesQueryValue.map(
+        (dependency) => dependency.name,
+      );
+      // join the names with `~`
+      let encodedArrayValue = encodedArray.join("~");
+      // URL encode the string
+      return encodeURIComponent(encodedArrayValue);
+    },
+    [],
+  );
+
+  const dependenciesQueryFromQueryParam = React.useCallback(() => {
+    if (!searchParams.has("dependencies")) {
+      return [];
+    }
+    // URL decode the string
+    let decodedArray = decodeURIComponent(
+      searchParams.get("dependencies") ?? "",
+    );
+    // split dependencies names with `~`
+    const dependenciesNames = decodedArray.split("~");
+    // deduplicate dependencies names
+    const uniqueDependenciesNames = new Set(dependenciesNames).values();
+    // filter out empty strings
+    const filteredDependenciesNames = Array.from(
+      uniqueDependenciesNames,
+    ).filter((dependencyName) => dependencyName !== "");
+    // return dependencies objects
+    return (
+      filteredDependenciesNames
+        .map((dependencyName) =>
+          dependencies.find((dependency) => dependency.name === dependencyName),
+        )
+        // filter out undefined values
+        .filter(Boolean) as Dependency[]
+    );
+  }, [searchParams, dependencies]);
+
+  return {
+    searchQueryToQueryParam,
+    searchQueryFromQueryParam,
+    dependenciesQueryToQueryParam,
+    dependenciesQueryFromQueryParam,
+  };
 };

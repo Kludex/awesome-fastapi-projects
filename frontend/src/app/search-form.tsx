@@ -16,7 +16,9 @@ import {
 import { Input } from "@/components/ui/input";
 import { MultiSelect } from "@/components/ui/multiselect";
 import { Dependency, dependencySchema } from "@/lib/schemas";
-import { useQueryParamState, useQueryParamsManager } from "@/lib/hooks";
+import { useSearchParams, useRouter, usePathname } from "next/navigation";
+import React from "react";
+import { useQuerySearchFormData } from "@/lib/hooks";
 
 const FormSchema = z.object({
   search: z
@@ -33,76 +35,54 @@ export interface SearchFormProps {
 }
 
 export function SearchForm({ onSubmit, dependencies }: SearchFormProps) {
-  const queryParamsManager = useQueryParamsManager();
-  const [searchQuery, setSearchQuery] = useQueryParamState({
-    initialValue: "",
-    paramName: "search",
-    toQueryParam: (value) => encodeURIComponent(value),
-    fromQueryParam: (value) => {
-      if (!value) {
-        return "";
-      }
-      return decodeURIComponent(value);
-    },
-  });
-  const [dependenciesQuery, setDependenciesQuery] = useQueryParamState<
-    Dependency[]
-  >({
-    initialValue: [],
-    paramName: "dependencies",
-    toQueryParam: function encodeDependenciesArray(value) {
-      if (!value) {
-        return "";
-      }
-      // join dependencies names with `~`
-      let encodedArray = value.map((dependency) => dependency.name).join(",");
-      // double encode `~` to avoid conflicts with the separator
-      encodedArray = encodedArray.replaceAll(",", ",,");
-      // URL encode the string
-      return encodeURIComponent(encodedArray);
-    },
-    fromQueryParam: function decodeDependenciesArray(value) {
-      if (!value) {
-        return [];
-      }
-      // URL decode the string
-      let decodedArray = decodeURIComponent(value);
-      // double decode `~` to avoid conflicts with the separator
-      decodedArray = decodedArray.replaceAll(",,", ",");
-      // split dependencies names with `~`
-      const dependenciesNames = decodedArray.split(",");
-      // deduplicate dependencies names
-      const uniqueDependenciesNames = new Set(dependenciesNames).values();
-      // filter out empty strings
-      const filteredDependenciesNames = Array.from(
-        uniqueDependenciesNames,
-      ).filter((dependencyName) => dependencyName !== "");
-      // return dependencies objects
-      return (
-        filteredDependenciesNames
-          .map((dependencyName) =>
-            dependencies.find(
-              (dependency) => dependency.name === dependencyName,
-            ),
-          )
-          // filter out undefined values
-          .filter(Boolean) as Dependency[]
-      );
-    },
-  });
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const {
+    searchQueryFromQueryParam,
+    searchQueryToQueryParam,
+    dependenciesQueryFromQueryParam,
+    dependenciesQueryToQueryParam,
+  } = useQuerySearchFormData(dependencies);
+
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
-      search: searchQuery ?? "",
-      dependencies: dependenciesQuery ?? [],
+      search: searchQueryFromQueryParam(),
+      dependencies: dependenciesQueryFromQueryParam(),
     },
   });
 
+  const createQueryString = React.useCallback(
+    ({
+      searchQueryValue,
+      dependenciesQueryValue,
+    }: {
+      searchQueryValue: string;
+      dependenciesQueryValue: Dependency[];
+    }) => {
+      const params = new URLSearchParams(searchParams);
+      params.set("search", searchQueryToQueryParam(searchQueryValue));
+      params.set(
+        "dependencies",
+        dependenciesQueryToQueryParam(dependenciesQueryValue),
+      );
+
+      return params.toString();
+    },
+    [dependenciesQueryToQueryParam, searchParams, searchQueryToQueryParam],
+  );
+
   const onSubmitWrapper = (data: z.infer<typeof FormSchema>) => {
     onSubmit(data);
-    queryParamsManager.commit();
+    // update URL search params
+    const queryString = createQueryString({
+      searchQueryValue: data.search,
+      dependenciesQueryValue: data.dependencies,
+    });
+    router.replace(`${pathname}?${queryString}`);
   };
-
   return (
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmitWrapper)} className="space-y-6">
@@ -113,14 +93,7 @@ export function SearchForm({ onSubmit, dependencies }: SearchFormProps) {
             <FormItem>
               <FormLabel>Search for a repository</FormLabel>
               <FormControl>
-                <Input
-                  placeholder="Search..."
-                  {...field}
-                  onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
-                    setSearchQuery(e.target.value);
-                    field.onChange(e);
-                  }}
-                />
+                <Input placeholder="Search..." {...field} />
               </FormControl>
               <FormDescription>
                 The search is performed on the repository description.
@@ -136,14 +109,7 @@ export function SearchForm({ onSubmit, dependencies }: SearchFormProps) {
             <FormItem>
               <FormLabel>Dependencies</FormLabel>
               <FormControl>
-                <MultiSelect
-                  data={dependencies}
-                  onChange={(dependencies) => {
-                    setDependenciesQuery(dependencies);
-                    field.onChange(dependencies);
-                  }}
-                  value={field.value}
-                />
+                <MultiSelect data={dependencies} {...field} />
               </FormControl>
               <FormDescription>
                 Filter by dependencies used in the repository.

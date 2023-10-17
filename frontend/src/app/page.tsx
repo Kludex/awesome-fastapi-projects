@@ -5,7 +5,6 @@ import {
 import { ReposTable } from "./repos-table";
 import { ReposSearchProvider } from "./repos-search-provider";
 import { DependenciesSearchProvider } from "./dependencies-search-provider";
-import { QueryParamsManagerProvider } from "./query-params-manager-provider";
 
 export default async function Home() {
   const { repos } = await loadReposIndexServerOnly();
@@ -15,9 +14,7 @@ export default async function Home() {
     <section className="py-10">
       <ReposSearchProvider repos={repos}>
         <DependenciesSearchProvider dependencies={dependencies}>
-          <QueryParamsManagerProvider>
-            <ReposTable repos={repos} dependencies={dependencies} />
-          </QueryParamsManagerProvider>
+          <ReposTable repos={repos} dependencies={dependencies} />
         </DependenciesSearchProvider>
       </ReposSearchProvider>
     </section>
