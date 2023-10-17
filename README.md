@@ -48,7 +48,7 @@ It is being statically built and served on GitHub Pages: https://vladfedoriuk.gi
 
 To run the frontend locally, you need to install [Node.js](https://nodejs.org/en/) and [pnpm](https://pnpm.io/).
 The node version is specified in the `.node-version` file.
-TO easily manage the node version, you can use [fnm](https://github.com/Schniz/fnm).
+To easily manage the node version, you can use [fnm](https://github.com/Schniz/fnm).
 Then, run the following commands:
 
 ```shell
