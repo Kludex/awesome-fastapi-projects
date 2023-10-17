@@ -1,4 +1,6 @@
-# A web app to index and search awesome FastAPI projects
+# Awesome FastAPI Projects
+
+View the website: https://vladfedoriuk.github.io/awesome-fastapi-projects/
 
 ## Local Development
 
@@ -28,4 +30,30 @@ pyenv virtualenv 3.11.4 awesome-fastapi-projects
 pyenv local awesome-fastapi-projects
 ```
 
-#TODO: Add more documentation: migrations, front, tests
+##### Install dependencies and pre-commit hooks
+
+There is a `Makefile` with some useful commands to help you get started.
+For available commands, run `make help`.
+
+- To install dependencies and pre-commit hooks, run:
+
+```shell
+make
+```
+
+#### Frontend
+
+The frontend is built with [React](https://reactjs.org/) and [Next.js](https://nextjs.org/).
+It is being statically built and served on GitHub Pages: https://vladfedoriuk.github.io/awesome-fastapi-projects/
+
+To run the frontend locally, you need to install [Node.js](https://nodejs.org/en/) and [pnpm](https://pnpm.io/).
+The node version is specified in the `.node-version` file.
+TO easily manage the node version, you can use [fnm](https://github.com/Schniz/fnm).
+Then, run the following commands:
+
+```shell
+make front
+```
+
+This will install the dependencies and start the development server.
+The frontend will be available at http://localhost:3000.

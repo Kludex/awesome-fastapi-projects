@@ -13,6 +13,32 @@ MAKEFLAGS += --no-builtin-rules
 # A catalog of requirements files
 REQUIREMENTS?=requirements
 
+help: # Show this help
+	@echo "Usage: make [target]"
+	@echo ""
+	@echo "Targets:"
+	@echo "  help               Show this help"
+	@echo "  requirements-base  Compile base requirements"
+	@echo "  requirements-test  Compile test requirements"
+	@echo "  requirements-dev   Compile dev requirements"
+	@echo "  requirements       Compile all requirements"
+	@echo "  install            Install the app locally"
+	@echo "  install-front      Install frontend"
+	@echo "  install-test       Install the app locally with test dependencies"
+	@echo "  install-dev        Install the app locally with dev dependencies"
+	@echo "  install-test-dev   Install the app locally with test and dev dependencies"
+	@echo "  init-test-dev      Install the app locally with test and dev dependencies. Also install pre-commit hooks."
+	@echo "  reinit-test-dev    Reinstall pre-commit hooks"
+	@echo "  lint               Run linters"
+	@echo "  test               Run tests"
+	@echo "  migrate            Run migrations"
+	@echo "  revision           Create a new migration"
+	@echo "  front              Run frontend"
+	@echo "  scrape-repos       Scrape repos"
+	@echo "  parse-dependencies Scrape dependencies"
+	@echo "  index-repos        Index repos"
+	@echo "  index-dependencies Index dependencies"
+
 requirements-base: # Compile base requirements
 	python -m piptools compile \
 	--output-file=requirements/base.txt \
@@ -61,6 +87,10 @@ install-test-dev: # Install the app locally with test and dev dependencies
 		-r $(REQUIREMENTS)/dev.txt \
 		--editable .
 
+install-front: # Install frontend
+	cd frontend && pnpm install
+.PHONY: install-front
+
 init-test-dev: install-test-dev # Install the app locally with test and dev dependencies. Also install pre-commit hooks.
 	pre-commit install
 .PHONY: init-test-dev
@@ -85,7 +115,7 @@ revision: # Create a new migration
 	python -m alembic revision --autogenerate -m "$(message)"
 .PHONY: revision
 
-front: # Run frontend
+front: install-front # Run frontend
 	cd frontend && pnpm dev
 .PHONY: front
 
