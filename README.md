@@ -30,12 +30,10 @@ pyenv virtualenv 3.11.4 awesome-fastapi-projects
 pyenv local awesome-fastapi-projects
 ```
 
-##### Install dependencies and pre-commit hooks
+#### Install dependencies and pre-commit hooks
 
 There is a `Makefile` with some useful commands to help you get started.
-For available commands, run `make help`.
-
-- To install dependencies and pre-commit hooks, run:
+For available commands, run `make help`. To install dependencies and pre-commit hooks, run:
 
 ```shell
 make
