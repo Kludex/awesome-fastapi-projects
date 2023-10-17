@@ -11,6 +11,7 @@ const commitHash = require("child_process")
 const nextConfig = {
   output: "export",
   basePath:
+    // TODO: Change to load from env variable
     process.env.NODE_ENV === "production" ? "/awesome-fastapi-projects" : "",
   env: {
     commitHash,

@@ -14,15 +14,19 @@ import { Dependency } from "@/lib/schemas";
 export function MultiSelect<DataType extends { id: string; name: string }>({
   data,
   onChange,
+  value,
 }: {
   data: DataType[];
   onChange: (data: DataType[]) => void;
+  value: DataType[];
 }) {
   const inputRef = React.useRef<HTMLInputElement>(null);
   const scrollableContainerRef = React.useRef(null);
   const [open, setOpen] = React.useState(false);
-  const [selected, setSelected] = React.useState<DataType[]>([]);
-  const [selectables, setSelectables] = React.useState<DataType[]>(data);
+  const [selected, setSelected] = React.useState<DataType[]>(value);
+  const [selectables, setSelectables] = React.useState<DataType[]>(
+    data.filter((dataPoint) => !value.some((el) => el.id === dataPoint.id)),
+  );
   const [inputValue, setInputValue] = React.useState("");
   const dependenciesOrama = useDependenciesOrama();
 
@@ -49,18 +53,34 @@ export function MultiSelect<DataType extends { id: string; name: string }>({
     overscan: 10,
   });
 
-  const handleUnselect = (dataPoint: DataType) => {
-    setSelected((prev) => prev.filter((el) => el.id !== dataPoint.id));
-    setSelectables((prev) => [dataPoint, ...prev]);
-    onChange(selected.filter((el) => el.id !== dataPoint.id));
-  };
+  const handleUnselect = React.useCallback(
+    (dataPoint: DataType) => {
+      if (selected.length === 1) {
+        setSelected([]);
+        setSelectables(data);
+        onChange([]);
+        inputRef.current?.focus();
+        return;
+      } else {
+        setSelected((prev) => prev.filter((el) => el.id !== dataPoint.id));
+        setSelectables((prev) =>
+          !prev.includes(dataPoint) ? [dataPoint, ...prev] : prev,
+        );
+        onChange(selected.filter((el) => el.id !== dataPoint.id));
+      }
+    },
+    [selected, data, onChange],
+  );
 
-  const handleSelect = (dataPoint: DataType) => {
-    setInputValue("");
-    setSelected((prev) => [...prev, dataPoint]);
-    setSelectables((prev) => prev.filter((el) => el.id !== dataPoint.id));
-    onChange([...selected, dataPoint]);
-  };
+  const handleSelect = React.useCallback(
+    (dataPoint: DataType) => {
+      setInputValue("");
+      setSelected((prev) => [...prev, dataPoint]);
+      setSelectables((prev) => prev.filter((el) => el.id !== dataPoint.id));
+      onChange([...selected, dataPoint]);
+    },
+    [onChange, selected],
+  );
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
     const input = inputRef.current;
@@ -69,10 +89,6 @@ export function MultiSelect<DataType extends { id: string; name: string }>({
         if (input.value === "") {
           if (selected.length > 0) {
             handleUnselect(selected[selected.length - 1]);
-            if (selected.length === 1) {
-              input.focus();
-              setSelectables(data);
-            }
           }
         }
       }
