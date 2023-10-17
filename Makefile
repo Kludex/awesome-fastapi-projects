@@ -69,6 +69,25 @@ reinit-test-dev: init-test-dev # Reinstall pre-commit hooks
 	pre-commit install --install-hooks --overwrite
 .PHONY: pre-commit-reinstall
 
+lint: # Run linters
+	pre-commit run --all-files
+.PHONY: lint
+
+test: # Run tests
+	python -m pytest -vv -s --cov=app --cov-report=xml --cov-branch app
+.PHONY: test
+
+migrate: # Run migrations
+	python -m alembic upgrade heads
+.PHONY: migrate
+
+revision: # Create a new migration
+	python -m alembic revision --autogenerate -m "$(message)"
+.PHONY: revision
+
+front: # Run frontend
+	cd frontend && pnpm dev
+.PHONY: front
+
 
 .DEFAULT_GOAL := init-test-dev # Set the default goal to init-dev-test
-#TODO: Add more commands: migrations, frontend, etc.
