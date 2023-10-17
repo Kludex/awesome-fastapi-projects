@@ -46,9 +46,7 @@ export const useQueryParamState = <T>({
     if (valueFromQuery === null && initialValue !== null) {
       setValue(initialValue);
     }
-    return () => {
-      queryParamsManager.commit();
-    };
+    return;
   }, [
     initialValue,
     paramName,
