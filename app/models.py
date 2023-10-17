@@ -1,13 +1,8 @@
 """Module contains the models for the application."""
-from typing import NewType
 
 from pydantic import BaseModel, ConfigDict, NonNegativeInt
 
-# TODO: Organize the types
-
-RepoId = NewType("RepoId", int)
-DependencyId = NewType("DependencyId", int)
-RevisionHash = NewType("RevisionHash", str)
+from app.types import DependencyId, RepoId, RevisionHash
 
 
 class DependencyCreateData(BaseModel):

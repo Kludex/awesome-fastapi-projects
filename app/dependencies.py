@@ -5,9 +5,11 @@ from collections.abc import Sequence
 
 import aiofiles.tempfile
 import stamina
+from loguru import logger
 
 from app.database import Repo
-from app.models import DependencyCreateData, RevisionHash
+from app.models import DependencyCreateData
+from app.types import RevisionHash
 
 
 async def run_command(*cmd: str, cwd: str | None = None) -> str:
@@ -52,8 +54,19 @@ async def acquire_dependencies_data_for_repository(
     :param repo: A repository for which to return the dependencies.
     :return: The dependencies data required to create the dependencies in the DB.
     """
+    logger.info(
+        "Acquiring the dependencies data for the repo with id {repo_id}.",
+        repo_id=repo.id,
+        enqueue=True,
+    )
     async with aiofiles.tempfile.TemporaryDirectory() as directory:
         # Clone the repository
+        logger.info(
+            "Cloning the repo with id {repo_id} into the directory {directory}.",
+            repo_id=repo.id,
+            directory=directory,
+            enqueue=True,
+        )
         await run_command(
             "git",
             "clone",
@@ -64,6 +77,11 @@ async def acquire_dependencies_data_for_repository(
         )
 
         # Get the latest commit hash
+        logger.info(
+            "Getting the latest commit hash for the repo with id {repo_id}.",
+            repo_id=repo.id,
+            enqueue=True,
+        )
         revision: str = await run_command(
             "git",
             "rev-parse",
@@ -75,22 +93,50 @@ async def acquire_dependencies_data_for_repository(
             # Assume there are no new dependencies to return
             # since all the repo dependencies have already
             # been parsed.
+            logger.info(
+                "The repo with id {repo_id} has already been updated.",
+                repo_id=repo.id,
+                enqueue=True,
+            )
             return RevisionHash(revision), []
 
         # Parse the dependencies
         async for attempt in stamina.retry_context(on=RuntimeError, attempts=3):
             with attempt:
+                logger.info(
+                    "Parsing the dependencies for the repo with id {repo_id}.",
+                    repo_id=repo.id,
+                    enqueue=True,
+                )
                 dependencies: str = await run_command(
                     "third-party-imports",
                     directory,
                 )
         if dependencies:
+            logger.info(
+                "Successfully parsed the dependencies for the repo with id {repo_id}.",
+                repo_id=repo.id,
+                enqueue=True,
+            )
             # Split the dependencies by new line
             dependencies_list: Sequence[str] = dependencies.split("\n")
             # Drop the first two lines (the info lines)
             dependencies_list = (
                 dependencies_list[2:] if len(dependencies_list) > 2 else []
             )
+            logger.info(
+                "Found {count} dependencies for the repo with id {repo_id}.",
+                count=len(dependencies_list),
+                repo_id=repo.id,
+                enqueue=True,
+            )
+        else:
+            logger.info(
+                "No dependencies found for the repo with id {repo_id}.",
+                repo_id=repo.id,
+                enqueue=True,
+            )
+            dependencies_list = []
         return (
             RevisionHash(revision),
             [

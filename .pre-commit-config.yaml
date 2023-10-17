@@ -44,6 +44,8 @@ repos:
     rev: "v3.0.3"
     hooks:
       - id: prettier
+        entry: prettier --write --list-different --ignore-unknown --config frontend/.prettierrc --ignore-path frontend/.prettierignore
+        files: ^frontend/
         language_version: 18.18.0
   - repo: https://github.com/jorisroovers/gitlint
     rev: "v0.19.1"

@@ -1,19 +1,19 @@
 """The logic for scraping the source graph data processing it."""
 import asyncio
-from typing import NewType
 
 import sqlalchemy.dialects.sqlite
 import typer
+from loguru import logger
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.database import Dependency, Repo, RepoDependency
 from app.dependencies import acquire_dependencies_data_for_repository
 from app.source_graph.client import AsyncSourceGraphSSEClient
 from app.source_graph.mapper import create_or_update_repos_from_source_graph_repos_data
+from app.types import DatabaseRepoId
 from app.uow import async_session_uow
 
 
-# TODO: Add some logging to get the insights into what's happening
 async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> None:
     """
     Create dependencies for a repo.
@@ -25,6 +25,12 @@ async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> No
     :param session: An asynchronous session object
     :param repo: A repo for which to create and assign the dependencies
     """
+    # Acquire the dependencies data for the repo
+    logger.info(
+        "Acquiring the dependencies data for the repo with id {repo_id}.",
+        repo_id=repo.id,
+        enqueue=True,
+    )
     try:
         (
             revision,
@@ -33,16 +39,36 @@ async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> No
     except RuntimeError:
         # If the parsing fails,
         # just skip creating the dependencies
+        logger.error(
+            "Failed to acquire the dependencies data for the repo with id {repo_id}.",
+            enqueue=True,
+        )
         return
     if repo.last_checked_revision == revision:
         # If the repo has already been updated,
         # just skip creating the dependencies
+        logger.info(
+            "The repo with id {repo_id} has already been updated.",
+            repo_id=repo.id,
+            enqueue=True,
+        )
         return
     if not dependencies_create_data:
         # If there are no dependencies,
         # just skip creating the dependencies
+        logger.info(
+            "The repo with id {repo_id} has no dependencies.",
+            repo_id=repo.id,
+            enqueue=True,
+        )
         return
     # Update the repo with the revision hash
+    logger.info(
+        "Updating the repo with id {repo_id} with the revision hash {revision}.",
+        repo_id=repo.id,
+        revision=revision,
+        enqueue=True,
+    )
     update_repo_statement = (
         sqlalchemy.update(Repo)
         .where(Repo.id == repo.id)
@@ -50,6 +76,12 @@ async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> No
     )
     await session.execute(update_repo_statement)
     # Create dependencies - on conflict do nothing.
+    # This is to avoid creating duplicate dependencies.
+    logger.info(
+        "Creating the dependencies for the repo with id {repo_id}.",
+        repo_id=repo.id,
+        enqueue=True,
+    )
     insert_dependencies_statement = sqlalchemy.dialects.sqlite.insert(
         Dependency
     ).on_conflict_do_nothing(index_elements=[Dependency.name])
@@ -100,7 +132,16 @@ async def scrape_source_graph_repos() -> None:
     async with AsyncSourceGraphSSEClient() as sg_client:
         async with async_session_uow() as session:
             async with asyncio.TaskGroup() as tg:
+                logger.info(
+                    "Creating or updating repos from source graph repos data.",
+                    enqueue=True,
+                )
                 async for sg_repos_data in sg_client.aiter_fastapi_repos():
+                    logger.info(
+                        "Received {count} repos.",
+                        count=len(sg_repos_data),
+                        enqueue=True,
+                    )
                     tg.create_task(
                         create_or_update_repos_from_source_graph_repos_data(
                             session=session,
@@ -108,9 +149,6 @@ async def scrape_source_graph_repos() -> None:
                         )
                     )
             await session.commit()
-
-
-DatabaseRepoId = NewType("DatabaseRepoId", int)
 
 
 async def parse_dependencies_for_repo(
@@ -124,10 +162,19 @@ async def parse_dependencies_for_repo(
     :return: None
     """
     async with async_session_uow() as session, semaphore:
+        # Fetch the repo from the database
+        logger.info(
+            "Fetching the repo with id {repo_id}.", repo_id=repo_id, enqueue=True
+        )
         repo = (
             await session.scalars(sqlalchemy.select(Repo).where(Repo.id == repo_id))
         ).one()
         # Create the dependencies for the repo
+        logger.info(
+            "Creating the dependencies for the repo with id {repo_id}.",
+            repo_id=repo_id,
+            enqueue=True,
+        )
         await _create_dependencies_for_repo(session=session, repo=repo)
         await session.commit()
 
@@ -138,12 +185,25 @@ async def parse_dependencies_for_repos() -> None:
 
     :return: None.
     """
+    logger.info("Fetching the repos from the database.", enqueue=True)
     async with async_session_uow() as session:
-        # TODO: iterate over repos with null last checked revision first
-        repo_ids = (await session.scalars(sqlalchemy.select(Repo.id))).all()
+        repo_ids = (
+            await session.scalars(
+                sqlalchemy.select(Repo.id).order_by(
+                    Repo.last_checked_revision.is_(None).desc()
+                )
+            )
+        ).all()
+        logger.info("Fetched {count} repos.", count=len(repo_ids), enqueue=True)
+    logger.info("Parsing the dependencies for the repos.", enqueue=True)
     semaphore = asyncio.Semaphore(10)
     async with asyncio.TaskGroup() as tg:
         for repo_id in repo_ids:
+            logger.info(
+                "Parsing the dependencies for repo {repo_id}.",
+                repo_id=repo_id,
+                enqueue=True,
+            )
             tg.create_task(
                 parse_dependencies_for_repo(
                     semaphore=semaphore, repo_id=DatabaseRepoId(repo_id)
@@ -161,6 +221,7 @@ def scrape_repos() -> None:
 
     :return: None
     """
+    logger.info("Scraping the source graph repos.", enqueue=True)
     asyncio.run(scrape_source_graph_repos())
 
 
@@ -171,6 +232,9 @@ def parse_dependencies() -> None:
 
     :return: None.
     """
+    logger.info(
+        "Parsing the dependencies for all the repos in the database.", enqueue=True
+    )
     asyncio.run(parse_dependencies_for_repos())
 
 

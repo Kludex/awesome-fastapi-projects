@@ -1,13 +1,15 @@
 name: Scraping the repositories from Source Graph
 
-# TODO: bring back the cron job
-#on:
-#  schedule:
-#    # Trigger every day at midnight
-#    # https://crontab.guru/#0_0_*_*_*
-#    - cron: '0 0 * * *'
+on:
+  schedule:
+    # Trigger every day at midnight
+    # https://crontab.guru/#0_0_*_*_*
+    - cron: '0 0 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  # https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow
+  # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch
+  workflow_dispatch:
 
-on: [push]
 concurrency: # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#concurrency
   group: "scraping"
   cancel-in-progress: false

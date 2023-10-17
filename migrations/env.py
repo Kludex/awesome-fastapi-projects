@@ -6,21 +6,11 @@ from sqlalchemy import pool
 from sqlalchemy.engine import Connection
 from sqlalchemy.ext.asyncio import async_engine_from_config
 
-from app.database import SQLALCHEMY_DATABASE_URL, Base
+from app.database import Base
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
-
-# Overriding the sqlalchemy.url value from the alembic.ini file
-# with the value from the app's database.py file.
-# This is needed because the alembic.ini file is used by the
-# Alembic CLI to run migrations, but the app's database.py file
-# is used by the app itself to connect to the database.
-# The app's database.py file is the source of truth for the
-# database connection URL.
-
-config.set_main_option("sqlalchemy.url", SQLALCHEMY_DATABASE_URL)
 
 # Interpret the config file for Python logging.
 # This line sets up loggers basically.

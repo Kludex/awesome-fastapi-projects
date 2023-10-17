@@ -15,9 +15,8 @@ const nextConfig = {
     process.env.NODE_ENV === "production" ? "/awesome-fastapi-projects" : "",
   env: {
     commitHash,
-    frontentAppVersion: pkg.version,
+    frontendAppVersion: pkg.version,
   },
 };
-// TODO: Add loading some configs from .env file, revision, etc.
 
 module.exports = nextConfig;

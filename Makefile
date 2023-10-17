@@ -89,5 +89,18 @@ front: # Run frontend
 	cd frontend && pnpm dev
 .PHONY: front
 
+scrape-repos: # Scrape repos
+	python -m app.scrape scrape-repos
+
+parse-dependencies: # Scrape dependencies
+	python -m app.scrape parse-dependencies
+
+index-repos: # Index repos
+	python -m app.index index-repos
+.PHONY: index-repos
+
+index-dependencies: # Index dependencies
+	python -m app.index index-dependencies
+.PHONY: index-dependencies
 
 .DEFAULT_GOAL := init-test-dev # Set the default goal to init-dev-test

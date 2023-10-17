@@ -4,14 +4,19 @@
 #
 name: Build and Deploy Next.js to GitHub Pages
 
-#on:
-#  # Runs on pushes targeting the default branch
-#  push:
-#    branches: ["main"]
-#  # Allows you to run this workflow manually from the Actions tab
-#  workflow_dispatch:
-
-on: [push]
+on:
+  # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_run
+  workflow_run:
+    workflows:
+    - "Scraping the repositories from Source Graph"
+    - "Python App Quality and Testing"
+    branches: [main]
+    types:
+      - completed
+  # Allows you to run this workflow manually from the Actions tab
+  # https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow
+  # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch
+  workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -25,7 +30,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-# TODO: do not deploy until the scraping is done
 jobs:
   # Build job
   build:
@@ -70,6 +74,37 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./frontend/out
+
+  # Lint job
+  lint:
+    runs-on: ubuntu-latest
+    # Use ``frontend`` as the working directory
+    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_iddefaultsrun
+    defaults:
+      run:
+        working-directory: ./frontend
+    strategy:
+      matrix:
+        node-version: [ 18.17.1 ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "pnpm"
+          cache-dependency-path: "./frontend/pnpm-lock.yaml"
+      - name: Install dependencies
+        run: pnpm install
+      - name: Lint with ESLint
+        run: pnpm lint
+      - name: Lint with Prettier
+        run: pnpm prettier:lint
 
   # Deployment job
   deploy:

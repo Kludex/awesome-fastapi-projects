@@ -14,8 +14,9 @@ dependencies = [
     "aiofiles",
     "aiosqlite",
     "alembic",
-    "fastapi[all]", # TODO: remove unused dependencies
     "httpx-sse",
+    "loguru",
+    "pydantic",
     "sqlalchemy[asyncio,mypy]",
     "stamina",
     "third-party-imports",
@@ -111,6 +112,9 @@ extend-select = [
 
 [tool.ruff.pydocstyle]
 convention = "numpy"
+
+[tool.pytest.ini_options]
+testpaths = "tests"
 
 [tool.mypy]
 plugins = [

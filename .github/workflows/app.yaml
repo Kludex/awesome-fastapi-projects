@@ -2,7 +2,6 @@ name: Python App Quality and Testing
 
 on: [push]
 
-#TODO: quality job for frontend: eslint, prettier, build job for frontend
 
 jobs:
   quality:

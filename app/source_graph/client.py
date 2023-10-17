@@ -10,6 +10,7 @@ from urllib.parse import quote
 import httpx
 import stamina
 from httpx_sse import EventSource, ServerSentEvent, aconnect_sse
+from loguru import logger
 
 from app.source_graph.models import SourceGraphRepoData, SourceGraphRepoDataListAdapter
 
@@ -98,6 +99,12 @@ class AsyncSourceGraphSSEClient:
                 async for event in self._aiter_sse(**kwargs):
                     self._last_event_id = event.id
                     if event.retry is not None:
+                        logger.error(
+                            "Received a retry event from the SourceGraph SSE API. "
+                            "Schedule a reconnection in {retry} milliseconds.",
+                            retry=event.retry,
+                            enqueue=True,
+                        )
                         self._reconnection_delay = timedelta(
                             milliseconds=event.retry
                         ).total_seconds()

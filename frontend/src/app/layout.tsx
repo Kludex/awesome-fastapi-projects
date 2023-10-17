@@ -81,7 +81,7 @@ export default function RootLayout({
                     </CardHeader>
                     <CardContent>
                       <div className="text-xl font-bold">
-                        {process.env.frontentAppVersion}
+                        {process.env.frontendAppVersion}
                       </div>
                     </CardContent>
                   </Card>
@@ -144,6 +144,5 @@ export default function RootLayout({
   );
 }
 // TODO: make a lnk to the github repo configurable via env variable
-// TODO: sync form state with the URL
 // TODO: improve pagination - sync with the URL, add a "go to page" input
 // TODO: refactor the layout and the components
