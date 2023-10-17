@@ -14,6 +14,8 @@ dependencies = [
     "aiofiles",
     "aiosqlite",
     "alembic",
+    "anyio",
+    "httpx",
     "httpx-sse",
     "loguru",
     "pydantic",
