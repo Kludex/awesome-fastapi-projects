@@ -342,7 +342,7 @@
             "id": 4,
             "url": "https://github.com/tiangolo/fastapi",
             "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
-            "stars": 63528,
+            "stars": 63551,
             "source_graph_repo_id": 37328078,
             "dependencies": [
                 {
@@ -2302,7 +2302,7 @@
                     "name": "minimetrics"
                 }
             ],
-            "last_checked_revision": "3b1fc12cc66f50c42130ac4bf86fd5a9fbc1afd7\n"
+            "last_checked_revision": "c5f5c40bf4d9172ff6c99db4e5bd9df29874c06f\n"
         },
         {
             "id": 9,
@@ -2702,7 +2702,7 @@
             "id": 10,
             "url": "https://github.com/GokuMohandas/Made-With-ML",
             "description": "Learn how to design, develop, deploy and iterate on production-grade ML applications.",
-            "stars": 34334,
+            "stars": 34336,
             "source_graph_repo_id": 37246772,
             "dependencies": [
                 {
@@ -6017,7 +6017,7 @@
             "id": 22,
             "url": "https://github.com/gradio-app/gradio",
             "description": "Build and share delightful machine learning apps, all in Python. \ud83c\udf1f Star to support our work!",
-            "stars": 22673,
+            "stars": 22684,
             "source_graph_repo_id": 38815265,
             "dependencies": [
                 {
@@ -6435,7 +6435,7 @@
                     "name": "celery_task"
                 }
             ],
-            "last_checked_revision": "a9d2145fe6512b447eec7f23e5091dc4e05553ea\n"
+            "last_checked_revision": "82a92d52797442de448a6c4eda300b5f6e102087\n"
         },
         {
             "id": 24,
@@ -7057,7 +7057,7 @@
                     "name": "jurigged"
                 }
             ],
-            "last_checked_revision": "c69715636dcd6bbb425d01a1a63d3a84b40bb212\n"
+            "last_checked_revision": "b14699355317fdaf1eaff03b36a5ce85fedb2943\n"
         },
         {
             "id": 27,
@@ -7861,7 +7861,7 @@
                     "name": "custom"
                 }
             ],
-            "last_checked_revision": "21ea290d6aa6b3173530e645f9cd849ff0c95ed1\n"
+            "last_checked_revision": "dc6b4ad2b4b8d89757bb74968d1865b3e11c9b7a\n"
         },
         {
             "id": 29,
@@ -10173,7 +10173,7 @@
             "id": 38,
             "url": "https://github.com/jina-ai/clip-as-service",
             "description": "\ud83c\udfc4 Scalable embedding, reasoning, ranking for images and sentences with CLIP",
-            "stars": 11882,
+            "stars": 11885,
             "source_graph_repo_id": 37066110,
             "dependencies": [
                 {
@@ -11741,7 +11741,7 @@
                     "name": "numba"
                 }
             ],
-            "last_checked_revision": "2326f2f9fee0baa1870d6b484cfe8dbc1348bb5c\n"
+            "last_checked_revision": "ec9f898cd697d2d0b1d5d5a5ae7ee356b00e22af\n"
         },
         {
             "id": 51,
@@ -11849,6 +11849,10 @@
                 {
                     "id": 71,
                     "name": "cv2"
+                },
+                {
+                    "id": 73,
+                    "name": "jinja2"
                 },
                 {
                     "id": 76,
@@ -12679,7 +12683,7 @@
                     "name": "aistudio_sdk"
                 }
             ],
-            "last_checked_revision": "9d9e60dca645def4554119abf1148b30e70119dc\n"
+            "last_checked_revision": "671775be9d8a01d65cc6752de202e5f36640f351\n"
         },
         {
             "id": 52,
@@ -12895,7 +12899,7 @@
             "id": 53,
             "url": "https://github.com/ludwig-ai/ludwig",
             "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
-            "stars": 9940,
+            "stars": 9941,
             "source_graph_repo_id": 37625913,
             "dependencies": [
                 {
@@ -13535,7 +13539,7 @@
                     "name": "syftcli"
                 }
             ],
-            "last_checked_revision": "78a2eac6603c869ad06b9d58ce452a064dc77bad\n"
+            "last_checked_revision": "f6a94905fa6039f813678983e1d567f40a99d5fb\n"
         },
         {
             "id": 56,
@@ -17147,7 +17151,7 @@
             "id": 73,
             "url": "https://github.com/reactive-python/reactpy",
             "description": "It's React, but in Python",
-            "stars": 7081,
+            "stars": 7086,
             "source_graph_repo_id": 41045278,
             "dependencies": [
                 {
@@ -20137,7 +20141,7 @@
             "id": 88,
             "url": "https://github.com/jesse-ai/jesse",
             "description": "An advanced crypto trading bot written in Python",
-            "stars": 4884,
+            "stars": 4885,
             "source_graph_repo_id": 38751220,
             "dependencies": [
                 {
@@ -20511,7 +20515,7 @@
             "id": 91,
             "url": "https://github.com/feast-dev/feast",
             "description": "Feature Store for Machine Learning",
-            "stars": 4836,
+            "stars": 4838,
             "source_graph_repo_id": 37346145,
             "dependencies": [
                 {
@@ -24217,7 +24221,7 @@
             "id": 115,
             "url": "https://github.com/strawberry-graphql/strawberry",
             "description": "A GraphQL library for Python that leverages type annotations \ud83c\udf53",
-            "stars": 3486,
+            "stars": 3488,
             "source_graph_repo_id": 38023634,
             "dependencies": [
                 {
@@ -25328,7 +25332,7 @@
                     "name": "sat"
                 }
             ],
-            "last_checked_revision": "e3dfd54dd8edcc9953f59623fcb47ad5916f00d6\n"
+            "last_checked_revision": "f4429a009ee533b76e8757dce6917fbf0b0408f9\n"
         },
         {
             "id": 126,
@@ -27080,7 +27084,7 @@
                     "name": "ipykernel"
                 }
             ],
-            "last_checked_revision": "a66e06a1233bfff8b98745679692998c3a81d4ab\n"
+            "last_checked_revision": "a55707956947f6a9018ec9bc8d2ba7a476f2f19c\n"
         },
         {
             "id": 136,
@@ -28232,7 +28236,7 @@
                     "name": "lazify"
                 }
             ],
-            "last_checked_revision": "8747400b3df7cd7782c45672705dc7b2e8b523bc\n"
+            "last_checked_revision": "680d39fdce5d379d719310471aa713c4c9663658\n"
         },
         {
             "id": 142,
@@ -28888,7 +28892,7 @@
             "id": 147,
             "url": "https://github.com/hiyouga/LLaMA-Factory",
             "description": "Easy-to-use LLM fine-tuning framework (LLaMA-2, BLOOM, Falcon, Baichuan, Qwen, ChatGLM2)",
-            "stars": 5077,
+            "stars": 5081,
             "source_graph_repo_id": 61073968,
             "dependencies": [
                 {
@@ -29508,6 +29512,14 @@
                     "name": "papermill"
                 },
                 {
+                    "id": 791,
+                    "name": "shap"
+                },
+                {
+                    "id": 799,
+                    "name": "xgboost"
+                },
+                {
                     "id": 812,
                     "name": "faker"
                 },
@@ -29518,6 +29530,10 @@
                 {
                     "id": 826,
                     "name": "retrying"
+                },
+                {
+                    "id": 857,
+                    "name": "keras"
                 },
                 {
                     "id": 864,
@@ -30022,9 +30038,33 @@
                 {
                     "id": 4755,
                     "name": "includes"
+                },
+                {
+                    "id": 4789,
+                    "name": "google_cloud_pipeline_components"
+                },
+                {
+                    "id": 4790,
+                    "name": "tfx"
+                },
+                {
+                    "id": 4791,
+                    "name": "model_card_toolkit"
+                },
+                {
+                    "id": 4792,
+                    "name": "tensorflow_data_validation"
+                },
+                {
+                    "id": 4793,
+                    "name": "ml_metadata"
+                },
+                {
+                    "id": 4794,
+                    "name": "tensorflow_model_analysis"
                 }
             ],
-            "last_checked_revision": "609645ea710f4187bfc6ac399e1e8a31bad99631\n"
+            "last_checked_revision": "7cfca8b6d52550e3dbbc18dd1d78547160cdaca9\n"
         },
         {
             "id": 152,
@@ -32163,7 +32203,7 @@
                     "name": "flamingo"
                 }
             ],
-            "last_checked_revision": "283a74c268bc01d656ee4b37f11ff8db8160ea3e\n"
+            "last_checked_revision": "0d12192f665f5e9da1ecb2f23d6a360eb7753771\n"
         },
         {
             "id": 168,
@@ -32499,9 +32539,9 @@
         },
         {
             "id": 170,
-            "url": "https://github.com/emptycrown/llama-hub",
+            "url": "https://github.com/run-llama/llama-hub",
             "description": "A library of data loaders for LLMs made by the community -- to be used with GPT Index and/or LangChain",
-            "stars": 2429,
+            "stars": 2465,
             "source_graph_repo_id": 60244545,
             "dependencies": [
                 {
@@ -34906,7 +34946,7 @@
                     "name": "whisper_cpp"
                 }
             ],
-            "last_checked_revision": "811be0d1b44eee3e3dfc930ce40fb3ec45a26cb6\n"
+            "last_checked_revision": "a30cb511e078853227f16089bdf5ba92a35decba\n"
         },
         {
             "id": 188,
@@ -39214,6 +39254,10 @@
                     "name": "transformers"
                 },
                 {
+                    "id": 13,
+                    "name": "pytest"
+                },
+                {
                     "id": 14,
                     "name": "numpy"
                 },
@@ -39246,6 +39290,10 @@
                     "name": "streamlit_chat"
                 },
                 {
+                    "id": 910,
+                    "name": "ninja"
+                },
+                {
                     "id": 1666,
                     "name": "pybind11"
                 },
@@ -39262,7 +39310,7 @@
                     "name": "fastllm"
                 }
             ],
-            "last_checked_revision": "c98d01611c357126eba972fca5fb1123a22ccdf9\n"
+            "last_checked_revision": "c4df37d92c2fe2275855938c5ead473138adbb25\n"
         },
         {
             "id": 198,
@@ -39735,7 +39783,7 @@
                     "name": "pystray"
                 }
             ],
-            "last_checked_revision": "0fe911b6b432d25a394850ac1f1ad3267d3cb339\n"
+            "last_checked_revision": "be4df15d019e7ddb219e46c6ac885c891a7709b4\n"
         },
         {
             "id": 201,
@@ -40039,7 +40087,7 @@
                     "name": "arclet"
                 }
             ],
-            "last_checked_revision": "a7b611a96073df5a15c7804bb69e186545c3c25b\n"
+            "last_checked_revision": "5bb760e1bf59947d67259d94b66f83dd338d8c60\n"
         },
         {
             "id": 203,
@@ -49205,7 +49253,7 @@
                     "name": "werks"
                 }
             ],
-            "last_checked_revision": "a13bfd28b627951e5c7d57baa67fa1d3899ffe75\n"
+            "last_checked_revision": "8ccc491920f2cd9ff838c14362195c3c605b9001\n"
         },
         {
             "id": 262,
@@ -50224,7 +50272,7 @@
                     "name": "soxr"
                 }
             ],
-            "last_checked_revision": "758b670f4f4502c691e45473614289fc28bdaf2e\n"
+            "last_checked_revision": "43cba4c1fe96d0488cffded09c16c612acca39da\n"
         },
         {
             "id": 272,
@@ -53869,7 +53917,7 @@
                     "name": "bolt11"
                 }
             ],
-            "last_checked_revision": "e522a53340e546248c04bd7dc660d7e9d310afcc\n"
+            "last_checked_revision": "a411de1d11013f04465844488fcb719a7698b805\n"
         },
         {
             "id": 299,
@@ -54133,7 +54181,7 @@
                     "name": "aiobotocore"
                 }
             ],
-            "last_checked_revision": "d465e82c1cc16af343189f333ed7bc7f9df5cfe0\n"
+            "last_checked_revision": "c9d4d2afc9e8c6b44580bdb8b63d37d6a80be82f\n"
         },
         {
             "id": 303,
@@ -54515,7 +54563,7 @@
                     "name": "msrestazure"
                 }
             ],
-            "last_checked_revision": "86a3cddf9455b84da17a5e43e70a1e6a37a67a6b\n"
+            "last_checked_revision": "23e569912dd48334843cc6a83ab22a025ca9cb1a\n"
         },
         {
             "id": 306,
@@ -61996,7 +62044,7 @@
                     "name": "constructs"
                 }
             ],
-            "last_checked_revision": "d60bc24f9882bb191b984fee33223a7bf22d8674\n"
+            "last_checked_revision": "95a80e686714efaf7fda7b83b6ff740d57d3ee01\n"
         },
         {
             "id": 383,
@@ -62336,7 +62384,7 @@
                     "name": "githubkit"
                 }
             ],
-            "last_checked_revision": "a48d465739771bed8884ec1e3d911e14debdb0bf\n"
+            "last_checked_revision": "fdd58d2395f45c0cf5dd8380e5df93dfb26a9846\n"
         },
         {
             "id": 392,
@@ -65920,7 +65968,7 @@
                     "name": "fast_depends"
                 }
             ],
-            "last_checked_revision": "0c88bfa9a9791018800991b3d40a257e05d4480c\n"
+            "last_checked_revision": "f5834acb07bc408cb283be6c7d0980456a9c79e7\n"
         },
         {
             "id": 420,
@@ -66990,7 +67038,7 @@
                     "name": "openml"
                 }
             ],
-            "last_checked_revision": "7971fc262fd8c45548dcb0699333b16a719c047f\n"
+            "last_checked_revision": "650b264cd7a641c0f9c67866411e98b024d217e2\n"
         },
         {
             "id": 429,
@@ -69280,7 +69328,7 @@
                     "name": "cacheout"
                 }
             ],
-            "last_checked_revision": "17c08ed689d22359a9a3551714133b422fc98d23\n"
+            "last_checked_revision": "b39b234c2f241b0f68155544eb28472f11f7a0bd\n"
         },
         {
             "id": 442,
@@ -70234,7 +70282,7 @@
                     "name": "LeXmo"
                 }
             ],
-            "last_checked_revision": "e49272836a75a36ef1cb47bd8770e152e4b30923\n"
+            "last_checked_revision": "b596984926af7ea228436e1b737a3e14004fc32b\n"
         },
         {
             "id": 451,
@@ -71648,7 +71696,7 @@
                     "name": "smacv2"
                 }
             ],
-            "last_checked_revision": "3e437dfcda3401eb787831bea56a38a5ba5cc441\n"
+            "last_checked_revision": "e8f201165451894bf725463acde66c86ff508c78\n"
         },
         {
             "id": 464,
@@ -72233,7 +72281,7 @@
                     "name": "qh3"
                 }
             ],
-            "last_checked_revision": "2955f805cba07972ccd61526419f773ad7ba38a1\n"
+            "last_checked_revision": "80ba8fce0d84a2cf920365ef3b45d1aefce7ecd8\n"
         },
         {
             "id": 471,
@@ -76436,7 +76484,7 @@
                     "name": "optimum"
                 }
             ],
-            "last_checked_revision": "219f99e516abaa4f60a9e9c809b71743d47f30a8\n"
+            "last_checked_revision": "5a9acbc05b8291cb33d56e877c9f84c85cd98fee\n"
         },
         {
             "id": 507,
@@ -77451,7 +77499,7 @@
                     "name": "linear_fp16_esimd"
                 }
             ],
-            "last_checked_revision": "f77cba669516f95d456aae352f361afdea37398d\n"
+            "last_checked_revision": "b82733c2c3bf511602531c9ae6eee8a03ea7c99d\n"
         },
         {
             "id": 511,
@@ -78493,7 +78541,7 @@
                     "name": "hdbscan"
                 }
             ],
-            "last_checked_revision": "72a0600129fba948fc7eb4ddb187404a6e0a2db3\n"
+            "last_checked_revision": "0dd01a880b8a7ed1d4549ee9b3a3d224e6fa1409\n"
         },
         {
             "id": 518,
@@ -79011,6 +79059,10 @@
                     "name": "filetype"
                 },
                 {
+                    "id": 1131,
+                    "name": "minio"
+                },
+                {
                     "id": 1140,
                     "name": "gunicorn"
                 },
@@ -79031,7 +79083,7 @@
                     "name": "bisheng_langchain"
                 }
             ],
-            "last_checked_revision": "43a1e19e2dd267b19222549eed7c9e794c19f6dd\n"
+            "last_checked_revision": "44d19ea9c7d3d1c5b964e91ad973685a056e303a\n"
         },
         {
             "id": 521,
@@ -79933,7 +79985,7 @@
                     "name": "fastchat"
                 }
             ],
-            "last_checked_revision": "a132435204aac8506e41813f90d08ddf7eca43b2\n"
+            "last_checked_revision": "f8a1e39fae05ca610be8d5a78be9d40f5274e5fc\n"
         },
         {
             "id": 530,
@@ -80234,7 +80286,7 @@
                     "name": "nvitop"
                 }
             ],
-            "last_checked_revision": "9eeb5912e7e95ac04f827c2c18d05312e4651463\n"
+            "last_checked_revision": "d181fafd08cc9359fa28ab3694575cdc27dbe5a5\n"
         },
         {
             "id": 535,
