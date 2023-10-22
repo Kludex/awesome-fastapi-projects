@@ -86,6 +86,7 @@ install-test-dev: # Install the app locally with test and dev dependencies
 		-r $(REQUIREMENTS)/test.txt \
 		-r $(REQUIREMENTS)/dev.txt \
 		--editable .
+.PHONY: install-test-dev
 
 install-front: # Install frontend
 	cd frontend && pnpm install
@@ -97,7 +98,7 @@ init-test-dev: install-test-dev # Install the app locally with test and dev depe
 
 reinit-test-dev: init-test-dev # Reinstall pre-commit hooks
 	pre-commit install --install-hooks --overwrite
-.PHONY: pre-commit-reinstall
+.PHONY: reinit-test-dev
 
 lint: # Run linters
 	pre-commit run --all-files
@@ -121,9 +122,11 @@ front: install-front # Run frontend
 
 scrape-repos: # Scrape repos
 	python -m app.scrape scrape-repos
+.PHONY: scrape-repos
 
 parse-dependencies: # Scrape dependencies
 	python -m app.scrape parse-dependencies
+.PHONY: parse-dependencies
 
 index-repos: # Index repos
 	python -m app.index index-repos
