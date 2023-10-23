@@ -24,5 +24,4 @@ async def async_session_uow() -> AsyncGenerator[AsyncSession, None]:
             try:
                 yield session
             finally:
-                await session.flush()
                 await session.rollback()

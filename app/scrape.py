@@ -10,7 +10,7 @@ from app.database import Dependency, Repo, RepoDependency
 from app.dependencies import acquire_dependencies_data_for_repository
 from app.source_graph.client import AsyncSourceGraphSSEClient
 from app.source_graph.mapper import create_or_update_repos_from_source_graph_repos_data
-from app.types import DatabaseRepoId
+from app.types import RepoId
 from app.uow import async_session_uow
 
 
@@ -152,7 +152,7 @@ async def scrape_source_graph_repos() -> None:
 
 
 async def parse_dependencies_for_repo(
-    semaphore: asyncio.Semaphore, repo_id: DatabaseRepoId
+    semaphore: asyncio.Semaphore, repo_id: RepoId
 ) -> None:
     """
     Parse the dependencies for a given repo and create them in the database.
@@ -206,7 +206,7 @@ async def parse_dependencies_for_repos() -> None:
             )
             tg.create_task(
                 parse_dependencies_for_repo(
-                    semaphore=semaphore, repo_id=DatabaseRepoId(repo_id)
+                    semaphore=semaphore, repo_id=RepoId(repo_id)
                 )
             )
 
