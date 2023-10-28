@@ -1,0 +1,138 @@
+[project]
+name = "awesome-fastapi-projects"
+version = "0.1.0"
+description = "A web app built to index awesome projects built with FastAPI."
+authors = [
+    {name = "Vladyslav Fedoriuk", email="vlad.fedoriuk2000@gmail.com"}
+]
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "aiofiles",
+    "aiosqlite",
+    "alembic",
+    "anyio",
+    "httpx",
+    "httpx-sse",
+    "loguru",
+    "pydantic",
+    "sqlalchemy[asyncio,mypy]",
+    "stamina",
+    "third-party-imports",
+    "typer[all]",
+]
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ipython",
+    "mypy",
+    "pip-tools",
+    "pre-commit",
+    "pyproject-fmt",
+    "ruff",
+    "types-aiofiles",
+]
+test = [
+    "dirty-equals",
+    "polyfactory",
+    "pytest",
+    "pytest-anyio",
+    "pytest-cov",
+    "pytest-mock",
+]
+
+[tool.setuptools]
+py-modules = ["app"]
+
+[tool.black]
+line-length = 88
+target_version = ['py311']
+include = '\.pyi?$'
+force-exclude = '''
+(
+  /(
+     \.bzr
+    | \.direnv
+    | \.eggs
+    | \.git
+    | \.git-rewrite
+    | \.hg
+    | \.mypy_cache
+    | \.ruff_cache
+    | \.tox
+    | \.nox
+    | \.pants.d
+    | \.pytype
+    | \.venv
+    | \.svn
+    | \.ipynb_checkpoints
+    | \.egg-info
+    | __pypackages__
+    | _build
+    | buck-out
+    | build
+    | dist
+    | node_modules
+    | venv
+  )/
+)
+''' # To comply with ruff config
+
+[tool.ruff]
+line-length = 88
+target-version = 'py311'
+required-version = "0.0.280"
+extend-select = [
+    "D", # pydocstyle
+    "W", # pycodestyle
+    "C90", # mccabe
+    "I", # isort
+    "UP", # pyupgrade
+    "ASYNC", # flake8-async
+    "S", # flake8-bandit
+    "B", # flake8-bugbear
+    "ANN", # flake8-annotations
+    "S", # flake8-bandit
+    "C4", # flake8-comprehensions
+    "T10", # flake8-debugger
+    "INP", # flake8-no-pep420
+    "PT", # flake8-pytest-style
+    "TID", # flake8-tidy-imports
+    "PTH", # flake8-use-pathlib
+    "ERA", # eradicate
+    "Q", # flake8-quotes
+]
+[tool.ruff.per-file-ignores]
+# Ignore missing docstrings in migrations and alembic files
+"**/migrations/*.py" = ["D"]
+"**/migrations/env.py" = ["ERA001"]
+"**/tests/*.py" = ["S101"]
+"**/conftest.py" = ["S101"]
+
+[tool.ruff.pydocstyle]
+convention = "numpy"
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+
+[tool.coverage.run]
+branch = true
+omit = [
+    "tests/*",
+]
+
+[tool.mypy]
+plugins = [
+    "pydantic.mypy",
+    "sqlalchemy.ext.mypy.plugin",
+]
+strict = true
+exclude = [
+    "tests",
+    "migrations",
+    "conftest.py",
+    "factories.py",
+]

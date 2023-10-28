@@ -1,0 +1,53 @@
+---
+default_language_version:
+  python: python3.11
+default_install_hook_types: [pre-commit, commit-msg]
+default_stages: [commit]
+fail_fast: false
+minimum_pre_commit_version: 3.3.3
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: ["--fix=lf"]
+      - id: check-added-large-files
+      - id: check-toml
+      - id: check-yaml
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.0.280
+    hooks:
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
+  - repo: local
+    hooks:
+      - id: mypy
+        name: mypy
+        entry: |
+          python -m mypy .
+        types: [python]
+        language: system
+        require_serial: true
+        pass_filenames: false
+  - repo: https://github.com/ambv/black
+    rev: 23.7.0
+    hooks:
+      - id: black
+  - repo: https://github.com/tox-dev/pyproject-fmt
+    rev: "0.13.0"
+    hooks:
+      - id: pyproject-fmt
+        args: ["--indent=4"]
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: "v3.0.3"
+    hooks:
+      - id: prettier
+        entry: prettier --write --list-different --ignore-unknown --config frontend/.prettierrc --ignore-path frontend/.prettierignore
+        files: ^frontend/
+        language_version: 18.18.0
+  - repo: https://github.com/jorisroovers/gitlint
+    rev: "v0.19.1"
+    hooks:
+      - id: gitlint

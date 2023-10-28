@@ -1,0 +1,51 @@
+name: Scraping the repositories from Source Graph
+
+on:
+  schedule:
+    # Trigger every day at midnight
+    # https://crontab.guru/#0_0_*_*_*
+    - cron: '0 0 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  # https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow
+  # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch
+  workflow_dispatch:
+
+concurrency: # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#concurrency
+  group: "scraping"
+  cancel-in-progress: false
+
+jobs:
+  scraping:
+    if: ${{ !github.event.act }} # skip during local actions testing
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.11]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "pip"
+          cache-dependency-path: "requirements/base.txt"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements/base.txt
+      - name: Scrape the repositories
+        run: |
+          python -m app.scrape scrape-repos
+      - name: Parse the dependencies
+        run: |
+          python -m app.scrape parse-dependencies
+      - name: Generate the repositories index
+        run: |
+          python -m app.index index-repos
+      - name: Generate the dependencies index
+        run: |
+          python -m app.index index-dependencies
+      - name: Commit the changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Scraped repositories from Source Graph, parsed the dependencies, and generated the indexes"
