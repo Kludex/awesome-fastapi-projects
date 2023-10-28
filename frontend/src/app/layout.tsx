@@ -33,7 +33,7 @@ export default function RootLayout({
                 <Link
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/vladfedoriuk/awesome-fastapi-projects/tree/vladfedoriuk_web_app"
+                  href={process.env.NEXT_PUBLIC_PROJECT_REPO_URL ?? ""}
                   className={cn(
                     buttonVariants({ variant: "ghost" }),
                     "h-6 w-6 flex items-center justify-center p-0 rounded-full",
@@ -143,6 +143,5 @@ export default function RootLayout({
     </html>
   );
 }
-// TODO: make a lnk to the github repo configurable via env variable
 // TODO: improve pagination - sync with the URL, add a "go to page" input
 // TODO: refactor the layout and the components
