@@ -41,6 +41,7 @@ async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> No
         # just skip creating the dependencies
         logger.error(
             "Failed to acquire the dependencies data for the repo with id {repo_id}.",
+            repo_id=repo.id,
             enqueue=True,
         )
         return
