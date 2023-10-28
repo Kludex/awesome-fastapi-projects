@@ -65,4 +65,4 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           file: coverage.xml
-          name: ${{ matrix.os }}, python ${{ matrix.python-version }}
+          name: python ${{ matrix.python-version }}

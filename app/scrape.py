@@ -48,7 +48,7 @@ async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> No
         # If the repo has already been updated,
         # just skip creating the dependencies
         logger.info(
-            "The repo with id {repo_id} has already been updated.",
+            "The repo with id {repo_id} has fresh dependencies.",
             repo_id=repo.id,
             enqueue=True,
         )
