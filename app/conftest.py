@@ -43,7 +43,7 @@ def db_path() -> str:
 def db_connection_string(
     db_path: str,
 ) -> str:
-    """Use the in-memory database for tests."""
+    """Provide the connection string for the in-memory database."""
     return f"sqlite+aiosqlite:///{db_path}"
 
 
@@ -52,7 +52,7 @@ async def db_engine(
     db_connection_string: str,
     request: pytest.FixtureRequest,
 ) -> AsyncGenerator[AsyncEngine, None, None]:
-    """Use the in-memory database for tests."""
+    """Create the database engine."""
     # echo=True enables logging of all SQL statements
     # https://docs.sqlalchemy.org/en/20/core/engines.html#sqlalchemy.create_engine.params.echo
     engine = create_async_engine(
@@ -85,11 +85,9 @@ def event_loop(
 async def _database_objects(
     db_engine: AsyncEngine,
 ) -> AsyncGenerator[None, None]:
+    """Create the database objects (tables, etc.)."""
     from app.database import Base
 
-    """
-    Create the database objects.
-    """
     # Enters a transaction
     # https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html#sqlalchemy.ext.asyncio.AsyncConnection.begin
     try:
@@ -107,7 +105,7 @@ async def _database_objects(
 async def db_connection(
     db_engine: AsyncEngine,
 ) -> AsyncGenerator[AsyncConnection, None]:
-    """Use the in-memory database for tests."""
+    """Create a database connection."""
     # Return connection with no transaction
     # https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html#sqlalchemy.ext.asyncio.AsyncEngine.connect
     async with db_engine.connect() as conn:
@@ -119,7 +117,7 @@ async def db_session(
     db_engine: AsyncEngine,
     _database_objects: None,
 ) -> AsyncGenerator[AsyncSession, None]:
-    """Use the in-memory database for tests."""
+    """Create a database session."""
     # The `async_sessionmaker` function is used to create a Session factory
     # https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html#sqlalchemy.ext.asyncio.async_sessionmaker
     async_session_factory = async_sessionmaker(
@@ -133,7 +131,7 @@ async def db_session(
 async def db_uow(
     db_session: AsyncSession,
 ) -> AsyncGenerator[AsyncSession, None]:
-    """Use the in-memory database for tests."""
+    """Provide a transactional scope around a series of operations."""
     # This context manager will start a transaction, and roll it back at the end
     # https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html#sqlalchemy.ext.asyncio.AsyncSessionTransaction
     async with db_session.begin() as transaction:
