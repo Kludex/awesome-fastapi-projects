@@ -27,7 +27,7 @@ def _assert_repo_properties(
 
 
 async def test_create_repo_no_dependencies(
-    test_db_session: AsyncSession,
+    db_session: AsyncSession,
     source_graph_repo_data_factory: SourceGraphRepoDataFactory,
 ) -> None:
     """Test creating a repo."""
@@ -38,15 +38,15 @@ async def test_create_repo_no_dependencies(
         stars=source_graph_repo_data.stars,
         source_graph_repo_id=source_graph_repo_data.repo_id,
     )
-    test_db_session.add(repo)
-    await test_db_session.flush()
-    await test_db_session.refresh(repo)
+    db_session.add(repo)
+    await db_session.flush()
+    await db_session.refresh(repo)
     _assert_repo_properties(repo, source_graph_repo_data)
     assert (await repo.awaitable_attrs.dependencies) == IsList(length=0)
 
 
 async def test_create_repo_with_dependencies(
-    test_db_session: AsyncSession,
+    db_session: AsyncSession,
     source_graph_repo_data_factory: SourceGraphRepoDataFactory,
     dependency_create_data_factory: DependencyCreateDataFactory,
 ) -> None:
@@ -65,9 +65,8 @@ async def test_create_repo_with_dependencies(
             for dependency_create_data in dependencies_create_data
         ],
     )
-    test_db_session.add(repo)
-    await test_db_session.flush()
-    await test_db_session.refresh(repo)
+    db_session.add(repo)
+    await db_session.flush()
     _assert_repo_properties(repo, source_graph_repo_data)
     repo_dependencies = await repo.awaitable_attrs.dependencies
     assert repo_dependencies == IsList(length=5)
@@ -80,11 +79,11 @@ async def test_create_repo_with_dependencies(
 
 
 async def test_list_repositories(
-    test_db_session: AsyncSession,
+    db_session: AsyncSession,
     some_repos: list[database.Repo],
 ) -> None:
     """Test listing repositories."""
-    repos_from_db_result = await test_db_session.execute(
+    repos_from_db_result = await db_session.execute(
         sa.select(database.Repo).options(
             sqlalchemy.orm.joinedload(database.Repo.dependencies)
         )

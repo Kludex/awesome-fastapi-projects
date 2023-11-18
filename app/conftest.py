@@ -7,8 +7,13 @@ from typing import Literal
 import pytest
 import stamina
 from dirty_equals import IsList
-from pytest_mock import MockerFixture
-from sqlalchemy.ext.asyncio import AsyncConnection, AsyncSession
+from sqlalchemy.ext.asyncio import (
+    AsyncConnection,
+    AsyncEngine,
+    AsyncSession,
+    async_sessionmaker,
+    create_async_engine,
+)
 
 from app.database import Dependency, Repo
 from app.factories import DependencyCreateDataFactory
@@ -28,10 +33,38 @@ def _deactivate_retries() -> None:
     stamina.set_active(False)
 
 
-@pytest.fixture(autouse=True)
-def _test_db(mocker: MockerFixture) -> None:
+@pytest.fixture(scope="session")
+def db_path() -> str:
     """Use the in-memory database for tests."""
-    mocker.patch("app.database.DB_PATH", "")
+    return ""  # ":memory:"
+
+
+@pytest.fixture(scope="session")
+def db_connection_string(
+    db_path: str,
+) -> str:
+    """Provide the connection string for the in-memory database."""
+    return f"sqlite+aiosqlite:///{db_path}"
+
+
+@pytest.fixture(scope="session", params=[{"echo": False}], ids=["echo=False"])
+async def db_engine(
+    db_connection_string: str,
+    request: pytest.FixtureRequest,
+) -> AsyncGenerator[AsyncEngine, None, None]:
+    """Create the database engine."""
+    # echo=True enables logging of all SQL statements
+    # https://docs.sqlalchemy.org/en/20/core/engines.html#sqlalchemy.create_engine.params.echo
+    engine = create_async_engine(
+        db_connection_string,
+        **request.param,  # type: ignore
+    )
+    try:
+        yield engine
+    finally:
+        # for AsyncEngine created in function scope, close and
+        # clean-up pooled connections
+        await engine.dispose()
 
 
 @pytest.fixture(scope="session")
@@ -49,35 +82,68 @@ def event_loop(
 
 
 @pytest.fixture(scope="session")
-async def test_db_connection() -> AsyncGenerator[AsyncConnection, None]:
-    """Use the in-memory database for tests."""
-    from app.database import Base, engine
+async def _database_objects(
+    db_engine: AsyncEngine,
+) -> AsyncGenerator[None, None]:
+    """Create the database objects (tables, etc.)."""
+    from app.database import Base
 
+    # Enters a transaction
+    # https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html#sqlalchemy.ext.asyncio.AsyncConnection.begin
     try:
-        async with engine.begin() as conn:
+        async with db_engine.begin() as conn:
             await conn.run_sync(Base.metadata.drop_all)
             await conn.run_sync(Base.metadata.create_all)
-            yield conn
+        yield
     finally:
-        # for AsyncEngine created in function scope, close and
-        # clean-up pooled connections
-        await engine.dispose()
+        # Clean up after the testing session is over
+        async with db_engine.begin() as conn:
+            await conn.run_sync(Base.metadata.drop_all)
+
+
+@pytest.fixture(scope="session")
+async def db_connection(
+    db_engine: AsyncEngine,
+) -> AsyncGenerator[AsyncConnection, None]:
+    """Create a database connection."""
+    # Return connection with no transaction
+    # https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html#sqlalchemy.ext.asyncio.AsyncEngine.connect
+    async with db_engine.connect() as conn:
+        yield conn
 
 
 @pytest.fixture()
-async def test_db_session(
-    test_db_connection: AsyncConnection,
+async def db_session(
+    db_engine: AsyncEngine,
+    _database_objects: None,
 ) -> AsyncGenerator[AsyncSession, None]:
-    """Use the in-memory database for tests."""
-    from app.uow import async_session_uow
-
-    async with async_session_uow() as session:
+    """Create a database session."""
+    # The `async_sessionmaker` function is used to create a Session factory
+    # https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html#sqlalchemy.ext.asyncio.async_sessionmaker
+    async_session_factory = async_sessionmaker(
+        db_engine, expire_on_commit=False, autoflush=False, autocommit=False
+    )
+    async with async_session_factory() as session:
         yield session
 
 
 @pytest.fixture()
+async def db_uow(
+    db_session: AsyncSession,
+) -> AsyncGenerator[AsyncSession, None]:
+    """Provide a transactional scope around a series of operations."""
+    # This context manager will start a transaction, and roll it back at the end
+    # https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html#sqlalchemy.ext.asyncio.AsyncSessionTransaction
+    async with db_session.begin() as transaction:
+        try:
+            yield db_session
+        finally:
+            await transaction.rollback()
+
+
+@pytest.fixture()
 async def some_repos(
-    test_db_session: AsyncSession,
+    db_session: AsyncSession,
     source_graph_repo_data_factory: SourceGraphRepoDataFactory,
     dependency_create_data_factory: DependencyCreateDataFactory,
 ) -> list[Repo]:
@@ -99,7 +165,6 @@ async def some_repos(
         )
         for source_graph_repo_data in source_graph_repos_data
     ]
-    test_db_session.add_all(repos)
-    await test_db_session.flush()
-    await asyncio.gather(*[test_db_session.refresh(repo) for repo in repos])
+    db_session.add_all(repos)
+    await db_session.flush()
     return repos

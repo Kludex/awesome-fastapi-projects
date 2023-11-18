@@ -1,6 +1,6 @@
 """The models for the Source Graph data."""
 import datetime
-from typing import Literal, NewType, Self
+from typing import Literal, Self
 
 from pydantic import (
     BaseModel,
@@ -11,8 +11,7 @@ from pydantic import (
     computed_field,
 )
 
-#: The ID of a repository from the SourceGraph API.
-SourceGraphRepoId = NewType("SourceGraphRepoId", int)
+from app.types import SourceGraphRepoId
 
 
 class SourceGraphRepoData(BaseModel):

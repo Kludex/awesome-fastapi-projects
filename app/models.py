@@ -2,7 +2,7 @@
 
 from pydantic import BaseModel, ConfigDict, NonNegativeInt
 
-from app.types import DependencyId, RepoId, RevisionHash
+from app.types import DependencyId, RepoId, RevisionHash, SourceGraphRepoId
 
 
 class DependencyCreateData(BaseModel):
@@ -33,6 +33,6 @@ class RepoDetail(BaseModel):
     url: str
     description: str
     stars: NonNegativeInt
-    source_graph_repo_id: int
+    source_graph_repo_id: SourceGraphRepoId | None
     dependencies: list[DependencyDetail]
     last_checked_revision: RevisionHash | None

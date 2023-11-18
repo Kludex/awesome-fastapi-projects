@@ -72,7 +72,7 @@ class AsyncSourceGraphSSEClient:
             headers["Last-Event-ID"] = self._last_event_id
         async with aconnect_sse(
             client=self._aclient,
-            url=str(SOURCE_GRAPH_STREAM_API_URL),
+            url=SOURCE_GRAPH_STREAM_API_URL,
             method="GET",
             headers=headers,
             **kwargs,

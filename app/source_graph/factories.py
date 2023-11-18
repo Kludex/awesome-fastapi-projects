@@ -7,6 +7,6 @@ from app.source_graph.models import SourceGraphRepoData
 
 @register_fixture
 class SourceGraphRepoDataFactory(ModelFactory[SourceGraphRepoData]):
-    """Factory for creating RepoCreateData."""
+    """Factory for creating SourceGraphRepoData."""
 
     __model__ = SourceGraphRepoData
