@@ -20,8 +20,8 @@ async def async_session_uow() -> AsyncGenerator[AsyncSession, None]:
     :return: a UoW instance
     """
     async with async_session_maker() as session:
-        async with session.begin():
+        async with session.begin() as transaction:
             try:
                 yield session
             finally:
-                await session.rollback()
+                await transaction.rollback()

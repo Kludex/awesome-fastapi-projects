@@ -14,7 +14,7 @@ pytestmark = pytest.mark.anyio
 
 
 async def test_create_or_update_repos_from_source_graph_repos_data(
-    test_db_session: AsyncSession,
+    db_session: AsyncSession,
     source_graph_repo_data_factory: SourceGraphRepoDataFactory,
 ) -> None:
     """Test creating repos from source graph repos data."""
@@ -22,7 +22,7 @@ async def test_create_or_update_repos_from_source_graph_repos_data(
         SourceGraphRepoData
     ] = source_graph_repo_data_factory.batch(5)
     repos = await create_or_update_repos_from_source_graph_repos_data(
-        test_db_session, source_graph_repo_data
+        db_session, source_graph_repo_data
     )
     assert repos == IsList(length=5)
     assert all(repo == IsInstance[database.Repo] for repo in repos)
@@ -31,12 +31,12 @@ async def test_create_or_update_repos_from_source_graph_repos_data(
 
 async def test_create_or_update_repos_from_source_graph_repos_data_update(
     some_repos: list[database.Repo],
-    test_db_session: AsyncSession,
+    db_session: AsyncSession,
     source_graph_repo_data_factory: SourceGraphRepoDataFactory,
 ) -> None:
     """Test updating repos from source graph repos data."""
     assert (
-        await test_db_session.execute(
+        await db_session.execute(
             sqlalchemy.select(sqlalchemy.func.count(database.Repo.id))
         )
     ).scalar() == len(some_repos)
@@ -53,13 +53,13 @@ async def test_create_or_update_repos_from_source_graph_repos_data_update(
         for repo, repo_data in zip(some_repos, source_graph_repos_data, strict=True)
     ]
     repos = await create_or_update_repos_from_source_graph_repos_data(
-        test_db_session, source_graph_repos_data
+        db_session, source_graph_repos_data
     )
     assert repos == IsList(length=len(some_repos))
     assert all(repo == IsInstance[database.Repo] for repo in repos)
     assert all(repo.id is not None for repo in repos)
     assert (
-        await test_db_session.execute(
+        await db_session.execute(
             sqlalchemy.select(sqlalchemy.func.count(database.Repo.id))
         )
     ).scalar() == len(some_repos)

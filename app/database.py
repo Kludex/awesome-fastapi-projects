@@ -15,7 +15,6 @@ The module defines the following models:
 
 The database is accessed asynchronously using SQLAlchemy's async API.
 """
-from collections.abc import AsyncGenerator
 from pathlib import PurePath
 from typing import Final
 
@@ -34,11 +33,13 @@ from sqlalchemy.orm import (
     relationship,
 )
 
-DB_PATH: Final[PurePath] = PurePath(__file__).parent.parent / "db.sqlite3"
+from app.types import RevisionHash, SourceGraphRepoId
 
-SQLALCHEMY_DATABASE_URL: Final[str] = f"sqlite+aiosqlite:///{DB_PATH}"
+_DB_PATH: Final[PurePath] = PurePath(__file__).parent.parent / "db.sqlite3"
 
-engine: Final[AsyncEngine] = create_async_engine(SQLALCHEMY_DATABASE_URL)
+_SQLALCHEMY_DATABASE_URL: Final[str] = f"sqlite+aiosqlite:///{_DB_PATH}"
+
+engine: Final[AsyncEngine] = create_async_engine(_SQLALCHEMY_DATABASE_URL)
 
 async_session_maker: Final[async_sessionmaker[AsyncSession]] = async_sessionmaker(
     engine, expire_on_commit=False, autoflush=False, autocommit=False
@@ -55,12 +56,6 @@ metadata = MetaData(
 )
 
 
-async def get_async_session() -> AsyncGenerator[AsyncSession, None]:
-    """Get an async session."""
-    async with async_session_maker() as session:
-        yield session
-
-
 Base = declarative_base(metadata=metadata, cls=AsyncAttrs)
 
 
@@ -72,13 +67,13 @@ class Repo(Base):
     url: Mapped[str] = mapped_column(nullable=False, unique=True)
     description: Mapped[str] = mapped_column(Text, nullable=False)
     stars: Mapped[int] = mapped_column(BigInteger, nullable=False)
-    source_graph_repo_id: Mapped[int | None] = mapped_column(
+    source_graph_repo_id: Mapped[SourceGraphRepoId | None] = mapped_column(
         BigInteger, nullable=True, unique=True
     )
     dependencies: Mapped[list["Dependency"]] = relationship(
         "Dependency", secondary="repo_dependency", back_populates="repos"
     )
-    last_checked_revision: Mapped[str | None] = mapped_column(
+    last_checked_revision: Mapped[RevisionHash | None] = mapped_column(
         String(255), nullable=True
     )
     __table_args__ = (UniqueConstraint("url", "source_graph_repo_id"),)
