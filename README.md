@@ -1,6 +1,6 @@
 # Awesome FastAPI Projects
 
-View the website: https://Kludex.github.io/awesome-fastapi-projects/
+View the website: https://kludex.github.io/awesome-fastapi-projects/
 
 ## Local Development
 
@@ -42,7 +42,7 @@ make
 #### Frontend
 
 The frontend is built with [React](https://reactjs.org/) and [Next.js](https://nextjs.org/).
-It is being statically built and served on GitHub Pages: https://Kludex.github.io/awesome-fastapi-projects/
+It is being statically built and served on GitHub Pages: https://kludex.github.io/awesome-fastapi-projects/
 
 To run the frontend locally, you need to install [Node.js](https://nodejs.org/en/) and [pnpm](https://pnpm.io/).
 The node version is specified in the `.node-version` file.

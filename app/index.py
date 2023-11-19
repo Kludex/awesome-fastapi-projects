@@ -18,7 +18,7 @@ import aiofiles
 import sqlalchemy.orm
 import typer
 
-from app.database import Dependency, Repo
+from app.database import Dependency, Repo, async_session_maker
 from app.models import DependencyDetail, RepoDetail
 from app.uow import async_session_uow
 
@@ -38,9 +38,9 @@ async def create_repos_index() -> None:
 
     :return: None
     """
-    async with async_session_uow() as session, aiofiles.open(
-        REPOS_INDEX_PATH, "w"
-    ) as index_file:
+    async with async_session_maker() as session, async_session_uow(
+        session
+    ), aiofiles.open(REPOS_INDEX_PATH, "w") as index_file:
         await index_file.write(
             json.dumps(
                 {
@@ -66,9 +66,9 @@ async def create_dependencies_index() -> None:
 
     :return: None
     """
-    async with async_session_uow() as session, aiofiles.open(
-        DEPENDENCIES_INDEX_PATH, "w"
-    ) as index_file:
+    async with async_session_maker() as session, async_session_uow(
+        session
+    ) as session, aiofiles.open(DEPENDENCIES_INDEX_PATH, "w") as index_file:
         dependencies = [
             DependencyDetail.model_validate(dependency).model_dump()
             async for dependency in (

@@ -9,19 +9,25 @@ from contextlib import asynccontextmanager
 
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.database import async_session_maker
-
 
 @asynccontextmanager
-async def async_session_uow() -> AsyncGenerator[AsyncSession, None]:
+async def async_session_uow(
+    session: AsyncSession,
+) -> AsyncGenerator[AsyncSession, None]:
     """
     Provide a transactional scope around a series of operations.
 
+    :param session: The database session.
     :return: a UoW instance
     """
-    async with async_session_maker() as session:
-        async with session.begin() as transaction:
-            try:
-                yield session
-            finally:
-                await transaction.rollback()
+    async with session.begin():
+        try:
+            yield session
+        finally:
+            if session.in_transaction() and session.is_active:
+                # session.is_active is True if this Session not in “partial rollback”
+                # state. If this Session is within a transaction, and that transaction
+                # has not been rolled back internally, the Session.is_active will also
+                # be True.
+                # https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html#sqlalchemy.ext.asyncio.AsyncSession.is_active
+                await session.rollback()

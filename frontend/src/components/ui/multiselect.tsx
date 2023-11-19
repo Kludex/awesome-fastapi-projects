@@ -10,6 +10,7 @@ import { useVirtual } from "@tanstack/react-virtual";
 import { useDependenciesOrama } from "@/lib/search";
 import { search } from "@orama/orama";
 import { Dependency } from "@/lib/schemas";
+import { cn } from "@/lib/utils";
 
 export function MultiSelect<DataType extends { id: string; name: string }>({
   data,
@@ -147,7 +148,7 @@ export function MultiSelect<DataType extends { id: string; name: string }>({
           />
         </div>
       </div>
-      <div className="relative mt-2">
+      <div className={cn("relative", open && "mt-2")}>
         {open && selectables.length > 0 ? (
           <div className="absolute w-full z-10 top-0 rounded-md border bg-popover text-popover-foreground shadow-md outline-none animate-in">
             <CommandGroup

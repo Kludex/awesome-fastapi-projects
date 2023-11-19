@@ -132,13 +132,12 @@ async def db_uow(
     db_session: AsyncSession,
 ) -> AsyncGenerator[AsyncSession, None]:
     """Provide a transactional scope around a series of operations."""
+    from app.uow import async_session_uow
+
     # This context manager will start a transaction, and roll it back at the end
     # https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html#sqlalchemy.ext.asyncio.AsyncSessionTransaction
-    async with db_session.begin() as transaction:
-        try:
-            yield db_session
-        finally:
-            await transaction.rollback()
+    async with async_session_uow(db_session) as session:
+        yield session
 
 
 @pytest.fixture()
