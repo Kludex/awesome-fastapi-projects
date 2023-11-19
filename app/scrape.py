@@ -6,11 +6,11 @@ import typer
 from loguru import logger
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.database import Dependency, Repo, RepoDependency
+from app.database import Dependency, Repo, RepoDependency, async_session_maker
 from app.dependencies import acquire_dependencies_data_for_repository
 from app.source_graph.client import AsyncSourceGraphSSEClient
 from app.source_graph.mapper import create_or_update_repos_from_source_graph_repos_data
-from app.types import RepoId
+from app.source_graph.models import SourceGraphRepoData
 from app.uow import async_session_uow
 
 
@@ -124,56 +124,93 @@ async def _create_dependencies_for_repo(session: AsyncSession, repo: Repo) -> No
     )
 
 
+async def _save_scraped_repos_from_source_graph_repos_data(
+    source_graph_repos_data: list[SourceGraphRepoData],
+) -> None:
+    """
+    Save the scraped repos from the source graph repos data.
+
+    .. note::
+        This function is meant to be used in a task group.
+        From the SQLAlchemy documentation:
+        ::
+            https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html#using-asyncsession-with-concurrent-tasks
+
+            The AsyncSession object is a mutable, stateful object
+            which represents a single, stateful database
+            transaction in progress. Using concurrent tasks with asyncio,
+            with APIs such as asyncio.gather() for example, should use
+            a separate AsyncSession per individual task.
+
+
+    :param source_graph_repos_data: The source graph repos data.
+    :return: None
+    """  # noqa: E501
+    async with async_session_maker() as session, async_session_uow(session):
+        saved_repos = await create_or_update_repos_from_source_graph_repos_data(
+            session=session,
+            source_graph_repos_data=source_graph_repos_data,
+        )
+        logger.info(
+            "Saving {count} repos.",
+            count=len(saved_repos),
+            enqueue=True,
+        )
+        await session.commit()
+
+
 async def scrape_source_graph_repos() -> None:
     """
     Iterate over the source graph repos and create or update them in the database.
 
     :return: None
     """
-    async with AsyncSourceGraphSSEClient() as sg_client:
-        async with async_session_uow() as session:
-            async with asyncio.TaskGroup() as tg:
-                logger.info(
-                    "Creating or updating repos from source graph repos data.",
-                    enqueue=True,
+    async with AsyncSourceGraphSSEClient() as sg_client, asyncio.TaskGroup() as tg:
+        logger.info(
+            "Creating or updating repos from source graph repos data.",
+            enqueue=True,
+        )
+        async for sg_repos_data in sg_client.aiter_fastapi_repos():
+            logger.info(
+                "Received {count} repos.",
+                count=len(sg_repos_data),
+                enqueue=True,
+            )
+            tg.create_task(
+                _save_scraped_repos_from_source_graph_repos_data(
+                    source_graph_repos_data=sg_repos_data
                 )
-                async for sg_repos_data in sg_client.aiter_fastapi_repos():
-                    logger.info(
-                        "Received {count} repos.",
-                        count=len(sg_repos_data),
-                        enqueue=True,
-                    )
-                    tg.create_task(
-                        create_or_update_repos_from_source_graph_repos_data(
-                            session=session,
-                            source_graph_repos_data=sg_repos_data,
-                        )
-                    )
-            await session.commit()
+            )
 
 
-async def parse_dependencies_for_repo(
-    semaphore: asyncio.Semaphore, repo_id: RepoId
-) -> None:
+async def parse_dependencies_for_repo(semaphore: asyncio.Semaphore, repo: Repo) -> None:
     """
     Parse the dependencies for a given repo and create them in the database.
 
+    .. note::
+        This function is meant to be used in a task group.
+        From the SQLAlchemy documentation:
+        ::
+            https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html#using-asyncsession-with-concurrent-tasks
+
+            The AsyncSession object is a mutable, stateful object
+            which represents a single, stateful database
+            transaction in progress. Using concurrent tasks with asyncio,
+            with APIs such as asyncio.gather() for example, should use
+            a separate AsyncSession per individual task.
+
+
     :param semaphore: A semaphore to limit the number of concurrent requests
-    :param repo_id: The id of the repo for which to parse the dependencies
+    :param repo: A repo for which to create and assign the dependencies
     :return: None
-    """
-    async with async_session_uow() as session, semaphore:
-        # Fetch the repo from the database
-        logger.info(
-            "Fetching the repo with id {repo_id}.", repo_id=repo_id, enqueue=True
-        )
-        repo = (
-            await session.scalars(sqlalchemy.select(Repo).where(Repo.id == repo_id))
-        ).one()
+    """  # noqa: E501
+    async with semaphore, async_session_maker() as session, async_session_uow(session):
+        # Associate the repo object with a fresh session instance
+        repo = await session.merge(repo)
         # Create the dependencies for the repo
         logger.info(
             "Creating the dependencies for the repo with id {repo_id}.",
-            repo_id=repo_id,
+            repo_id=repo.id,
             enqueue=True,
         )
         await _create_dependencies_for_repo(session=session, repo=repo)
@@ -187,29 +224,25 @@ async def parse_dependencies_for_repos() -> None:
     :return: None.
     """
     logger.info("Fetching the repos from the database.", enqueue=True)
-    async with async_session_uow() as session:
-        repo_ids = (
+    async with async_session_maker() as session:
+        repos = (
             await session.scalars(
-                sqlalchemy.select(Repo.id).order_by(
+                sqlalchemy.select(Repo).order_by(
                     Repo.last_checked_revision.is_(None).desc()
                 )
             )
         ).all()
-        logger.info("Fetched {count} repos.", count=len(repo_ids), enqueue=True)
+    logger.info("Fetched {count} repos.", count=len(repos), enqueue=True)
     logger.info("Parsing the dependencies for the repos.", enqueue=True)
     semaphore = asyncio.Semaphore(10)
     async with asyncio.TaskGroup() as tg:
-        for repo_id in repo_ids:
+        for repo in repos:
             logger.info(
                 "Parsing the dependencies for repo {repo_id}.",
-                repo_id=repo_id,
+                repo_id=repo.id,
                 enqueue=True,
             )
-            tg.create_task(
-                parse_dependencies_for_repo(
-                    semaphore=semaphore, repo_id=RepoId(repo_id)
-                )
-            )
+            tg.create_task(parse_dependencies_for_repo(semaphore=semaphore, repo=repo))
 
 
 app = typer.Typer()
