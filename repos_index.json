@@ -342,7 +342,7 @@
             "id": 4,
             "url": "https://github.com/tiangolo/fastapi",
             "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
-            "stars": 64740,
+            "stars": 64759,
             "source_graph_repo_id": 37328078,
             "dependencies": [
                 {
@@ -3022,7 +3022,7 @@
             "id": 10,
             "url": "https://github.com/GokuMohandas/Made-With-ML",
             "description": "Learn how to design, develop, deploy and iterate on production-grade ML applications.",
-            "stars": 34512,
+            "stars": 34520,
             "source_graph_repo_id": 37246772,
             "dependencies": [
                 {
@@ -5293,7 +5293,7 @@
                     "name": "habana_frameworks"
                 }
             ],
-            "last_checked_revision": "1a986dea2110e80da9e6ca8a75c7dae7d0e29f3e\n"
+            "last_checked_revision": "5a7071e5b021b62d6ec8e2e300d4ab89cc0dfdef\n"
         },
         {
             "id": 17,
@@ -6397,7 +6397,7 @@
             "id": 22,
             "url": "https://github.com/gradio-app/gradio",
             "description": "Build and share delightful machine learning apps, all in Python. \ud83c\udf1f Star to support our work!",
-            "stars": 23535,
+            "stars": 23557,
             "source_graph_repo_id": 38815265,
             "dependencies": [
                 {
@@ -8329,7 +8329,7 @@
                     "name": "ruff_ecosystem"
                 }
             ],
-            "last_checked_revision": "95e2f632e6c5fbed713b085ea96412d94f6578d5\n"
+            "last_checked_revision": "71573fd35cf04c2390c542128326b547095e4fcd\n"
         },
         {
             "id": 29,
@@ -9959,7 +9959,7 @@
             "id": 35,
             "url": "https://github.com/tiangolo/full-stack-fastapi-postgresql",
             "description": "Full stack, modern web application generator. Using FastAPI, PostgreSQL as database, Docker, automatic HTTPS and more.",
-            "stars": 13502,
+            "stars": 13514,
             "source_graph_repo_id": 37723565,
             "dependencies": [
                 {
@@ -10643,7 +10643,7 @@
                     "name": "mmseg"
                 }
             ],
-            "last_checked_revision": "eac4f4b28ee81c9569ca9fce9bc981f133d82f8e\n"
+            "last_checked_revision": "45eb903538a06aada0b1dc0aa9184b193ab92809\n"
         },
         {
             "id": 38,
@@ -11099,7 +11099,7 @@
                     "name": "mlc_chat"
                 }
             ],
-            "last_checked_revision": "d3b7aad9b152cb6853bdb8fba00307385be27e33\n"
+            "last_checked_revision": "5fac856f7f8561938205d868dc16d9c941b8c14b\n"
         },
         {
             "id": 42,
@@ -11599,7 +11599,7 @@
             "id": 45,
             "url": "https://github.com/vercel/vercel",
             "description": "Develop. Preview. Ship.",
-            "stars": 11485,
+            "stars": 11490,
             "source_graph_repo_id": 566489,
             "dependencies": [
                 {
@@ -13425,13 +13425,13 @@
                     "name": "torchcrepe"
                 }
             ],
-            "last_checked_revision": "b6e743f032ec99e9a2a2df106ef61f75892ad995\n"
+            "last_checked_revision": "3186e4322bea3f95ac210d4050ec5466e9d9acdf\n"
         },
         {
             "id": 53,
             "url": "https://github.com/ludwig-ai/ludwig",
             "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
-            "stars": 10129,
+            "stars": 10131,
             "source_graph_repo_id": 37625913,
             "dependencies": [
                 {
@@ -17727,7 +17727,7 @@
             "id": 73,
             "url": "https://github.com/reactive-python/reactpy",
             "description": "It's React, but in Python",
-            "stars": 7250,
+            "stars": 7251,
             "source_graph_repo_id": 41045278,
             "dependencies": [
                 {
@@ -20825,7 +20825,7 @@
             "id": 88,
             "url": "https://github.com/jesse-ai/jesse",
             "description": "An advanced crypto trading bot written in Python",
-            "stars": 4929,
+            "stars": 4932,
             "source_graph_repo_id": 38751220,
             "dependencies": [
                 {
@@ -21207,7 +21207,7 @@
             "id": 91,
             "url": "https://github.com/feast-dev/feast",
             "description": "Feature Store for Machine Learning",
-            "stars": 4911,
+            "stars": 4912,
             "source_graph_repo_id": 37346145,
             "dependencies": [
                 {
@@ -24701,7 +24701,7 @@
                     "name": "extruct"
                 }
             ],
-            "last_checked_revision": "74ea7d5e401537639e8fa04533d2ed381adf7b8b\n"
+            "last_checked_revision": "b7cc5c066658bf4473af83d0a5af80c4aaab4ba8\n"
         },
         {
             "id": 114,
@@ -24957,7 +24957,7 @@
             "id": 115,
             "url": "https://github.com/strawberry-graphql/strawberry",
             "description": "A GraphQL library for Python that leverages type annotations \ud83c\udf53",
-            "stars": 3525,
+            "stars": 3528,
             "source_graph_repo_id": 38023634,
             "dependencies": [
                 {
@@ -26476,7 +26476,7 @@
                     "name": "rt"
                 }
             ],
-            "last_checked_revision": "f72825cd467fee07f0e0ef41707dbc5fa45830fc\n"
+            "last_checked_revision": "df373871460cfe5927c0a6f65a6024a0789e978f\n"
         },
         {
             "id": 128,
@@ -32961,7 +32961,7 @@
             "id": 166,
             "url": "https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker",
             "description": "Docker image with Uvicorn managed by Gunicorn for high-performance FastAPI web applications in Python with performance auto-tuning. Optionally with Alpine Linux.",
-            "stars": 2392,
+            "stars": 2395,
             "source_graph_repo_id": 39960131,
             "dependencies": [
                 {
@@ -42487,7 +42487,7 @@
             "id": 208,
             "url": "https://github.com/labmlai/labml",
             "description": "\ud83d\udd0e Monitor deep learning model training and hardware usage from your mobile phone \ud83d\udcf1",
-            "stars": 1691,
+            "stars": 1692,
             "source_graph_repo_id": 40116032,
             "dependencies": [
                 {
@@ -50037,7 +50037,7 @@
             "id": 261,
             "url": "https://github.com/Checkmk/checkmk",
             "description": "Checkmk - Best-in-class infrastructure & application monitoring",
-            "stars": 1173,
+            "stars": 1175,
             "source_graph_repo_id": 38112972,
             "dependencies": [
                 {
@@ -50731,7 +50731,7 @@
             "id": 264,
             "url": "https://github.com/justpy-org/justpy",
             "description": "An object oriented high-level Python Web Framework that requires no frontend programming",
-            "stars": 1104,
+            "stars": 1105,
             "source_graph_repo_id": 39906166,
             "dependencies": [
                 {
@@ -56528,7 +56528,7 @@
                     "name": "erdantic"
                 }
             ],
-            "last_checked_revision": "c3330a76e48235bcd429521c5ee561e0ef7877e4\n"
+            "last_checked_revision": "b2b5a22c775d661b103bb03a15c170d9bd8c3e84\n"
         },
         {
             "id": 315,
@@ -60834,7 +60834,7 @@
             "id": 355,
             "url": "https://github.com/pgorecki/python-ddd",
             "description": "Python DDD example ",
-            "stars": 722,
+            "stars": 723,
             "source_graph_repo_id": 38915345,
             "dependencies": [
                 {
@@ -63617,7 +63617,7 @@
                     "name": "pyinstrument"
                 }
             ],
-            "last_checked_revision": "90dd7781a2b372d11cdbe1f2478ff7d95c5ca8d6\n"
+            "last_checked_revision": "18784a62ec7d8eb40749ddcf71c605c234a78921\n"
         },
         {
             "id": 388,
@@ -78176,7 +78176,7 @@
                     "name": "multilingual_clip"
                 }
             ],
-            "last_checked_revision": "7e38e7c949aee4ec68dc8fca6bd087955996e568\n"
+            "last_checked_revision": "c1239a7337b0f88c49f7bab231ca3ddbf339d3c7\n"
         },
         {
             "id": 507,
@@ -78639,7 +78639,7 @@
             "id": 510,
             "url": "https://github.com/intel-analytics/BigDL",
             "description": "Accelerate LLM with low-bit (FP4 / INT4 / FP8 / INT8) optimizations using bigdl-llm",
-            "stars": 4533,
+            "stars": 4534,
             "source_graph_repo_id": 627541,
             "dependencies": [
                 {
@@ -86340,7 +86340,7 @@
                     "name": "stamina"
                 }
             ],
-            "last_checked_revision": "d4c00793b81815defbae0ca806a844800059d593\n"
+            "last_checked_revision": "c2c42e5b133a41267ef0df27bd423371f7fa16db\n"
         },
         {
             "id": 572,
