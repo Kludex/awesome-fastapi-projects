@@ -22359,6 +22359,38 @@
         {
             "id": 5591,
             "name": "eval_config"
+        },
+        {
+            "id": 5592,
+            "name": "rag_gemini_multi_modal"
+        },
+        {
+            "id": 5593,
+            "name": "rag_chroma_multi_modal_multi_vector"
+        },
+        {
+            "id": 5594,
+            "name": "langchain_nvidia_aiplay"
+        },
+        {
+            "id": 5595,
+            "name": "rag_chroma_dense_retrieval"
+        },
+        {
+            "id": 5596,
+            "name": "sqlmodelx"
+        },
+        {
+            "id": 5597,
+            "name": "asgiproxy"
+        },
+        {
+            "id": 5598,
+            "name": "yorgassistant"
+        },
+        {
+            "id": 5599,
+            "name": "web_rwkv_py"
         }
     ]
 }
