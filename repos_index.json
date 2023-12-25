@@ -4,7 +4,7 @@
             "id": 1,
             "url": "https://github.com/jackfrued/Python-100-Days",
             "description": "Python - 100\u5929\u4ece\u65b0\u624b\u5230\u5927\u5e08",
-            "stars": 144608,
+            "stars": 144622,
             "source_graph_repo_id": 36242529,
             "dependencies": [
                 {
@@ -332,7 +332,7 @@
             "id": 3,
             "url": "https://github.com/521xueweihan/HelloGitHub",
             "description": ":octocat: \u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub.",
-            "stars": 80034,
+            "stars": 80061,
             "source_graph_repo_id": 195830,
             "dependencies": [
                 {
@@ -350,7 +350,7 @@
             "id": 4,
             "url": "https://github.com/tiangolo/fastapi",
             "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
-            "stars": 66159,
+            "stars": 66199,
             "source_graph_repo_id": 37328078,
             "dependencies": [
                 {
@@ -2436,13 +2436,13 @@
                     "name": "autogen"
                 }
             ],
-            "last_checked_revision": "0f250305b4c98c80a2b347c6deb18f723defbb13\n"
+            "last_checked_revision": "ca85573ec1ca0441566680463f6f6b2efb67784d\n"
         },
         {
             "id": 8,
             "url": "https://github.com/getsentry/sentry",
             "description": "Developer-first error tracking and performance monitoring",
-            "stars": 35859,
+            "stars": 35866,
             "source_graph_repo_id": 49872,
             "dependencies": [
                 {
@@ -3222,7 +3222,7 @@
             "id": 10,
             "url": "https://github.com/GokuMohandas/Made-With-ML",
             "description": "Learn how to design, develop, deploy and iterate on production-grade ML applications.",
-            "stars": 34764,
+            "stars": 34767,
             "source_graph_repo_id": 37246772,
             "dependencies": [
                 {
@@ -3439,7 +3439,7 @@
             "id": 13,
             "url": "https://github.com/hpcaitech/ColossalAI",
             "description": "Making large AI models cheaper, faster and more accessible",
-            "stars": 35701,
+            "stars": 35706,
             "source_graph_repo_id": 56318829,
             "dependencies": [
                 {
@@ -3889,7 +3889,7 @@
             "id": 14,
             "url": "https://github.com/babysor/MockingBird",
             "description": "\ud83d\ude80AI\u62df\u58f0: 5\u79d2\u5185\u514b\u9686\u60a8\u7684\u58f0\u97f3\u5e76\u751f\u6210\u4efb\u610f\u8bed\u97f3\u5185\u5bb9 Clone a voice in 5 seconds to generate arbitrary speech in real-time",
-            "stars": 32539,
+            "stars": 32547,
             "source_graph_repo_id": 55549330,
             "dependencies": [
                 {
@@ -4063,7 +4063,7 @@
             "id": 15,
             "url": "https://github.com/geekcomputers/Python",
             "description": "My Python Examples",
-            "stars": 28828,
+            "stars": 28829,
             "source_graph_repo_id": 51240,
             "dependencies": [
                 {
@@ -4469,7 +4469,7 @@
             "id": 16,
             "url": "https://github.com/ray-project/ray",
             "description": "Ray is a unified framework for scaling AI and Python applications. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
-            "stars": 29157,
+            "stars": 29165,
             "source_graph_repo_id": 397548,
             "dependencies": [
                 {
@@ -5537,7 +5537,7 @@
                     "name": "pydata_sphinx_theme"
                 }
             ],
-            "last_checked_revision": "f3ef6fbf0568429ea712404ed58d5c12c545fea9\n"
+            "last_checked_revision": "3d32f98f7e01d82b8b7346d88d7eb2591ff89de4\n"
         },
         {
             "id": 17,
@@ -5739,6 +5739,10 @@
                     "name": "opencc"
                 },
                 {
+                    "id": 3399,
+                    "name": "modelscope"
+                },
+                {
                     "id": 4588,
                     "name": "hdbscan"
                 },
@@ -5755,7 +5759,7 @@
                     "name": "exllamav2"
                 }
             ],
-            "last_checked_revision": "979314b59acfc543c29d134d2b1c6f383b399d4c\n"
+            "last_checked_revision": "e67b21dcbde91a5ad9740b081c59c433093f54da\n"
         },
         {
             "id": 18,
@@ -5899,7 +5903,7 @@
             "id": 19,
             "url": "https://github.com/docker/awesome-compose",
             "description": "Awesome Docker Compose samples",
-            "stars": 27678,
+            "stars": 27694,
             "source_graph_repo_id": 40427234,
             "dependencies": [
                 {
@@ -5933,7 +5937,7 @@
             "id": 20,
             "url": "https://github.com/Lightning-AI/pytorch-lightning",
             "description": "Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes.",
-            "stars": 25473,
+            "stars": 25481,
             "source_graph_repo_id": 37965543,
             "dependencies": [
                 {
@@ -6417,13 +6421,13 @@
                     "name": "lightning_launcher"
                 }
             ],
-            "last_checked_revision": "858803236e02653fadd25f2fe3c01ad1eadb5311\n"
+            "last_checked_revision": "3518f9e09284099ddf623fe5ba9025a78b32397f\n"
         },
         {
             "id": 21,
             "url": "https://github.com/freqtrade/freqtrade",
             "description": "Free, open source crypto trading bot",
-            "stars": 23809,
+            "stars": 23818,
             "source_graph_repo_id": 36290188,
             "dependencies": [
                 {
@@ -6649,7 +6653,7 @@
             "id": 22,
             "url": "https://github.com/gradio-app/gradio",
             "description": "Build and share delightful machine learning apps, all in Python. \ud83c\udf1f Star to support our work!",
-            "stars": 25015,
+            "stars": 25035,
             "source_graph_repo_id": 38815265,
             "dependencies": [
                 {
@@ -7131,7 +7135,7 @@
                     "name": "langchain_core"
                 }
             ],
-            "last_checked_revision": "e55de98440d48490769ff1329d34845bf4ce61dd\n"
+            "last_checked_revision": "33eec50a093a41eaf84eb00d506af9535818f6ac\n"
         },
         {
             "id": 24,
@@ -7275,7 +7279,7 @@
             "id": 25,
             "url": "https://github.com/jina-ai/jina",
             "description": "\u2601\ufe0f Build multimodal AI applications with cloud-native stack",
-            "stars": 19478,
+            "stars": 19486,
             "source_graph_repo_id": 40799193,
             "dependencies": [
                 {
@@ -7779,7 +7783,7 @@
             "id": 27,
             "url": "https://github.com/OpenAPITools/openapi-generator",
             "description": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)",
-            "stars": 18536,
+            "stars": 18542,
             "source_graph_repo_id": 36211356,
             "dependencies": [
                 {
@@ -8689,13 +8693,13 @@
                     "name": "n"
                 }
             ],
-            "last_checked_revision": "9d6444138b2351801e52a53ecc23cecb53905d2a\n"
+            "last_checked_revision": "6e65601055c7829c1b0cbd805f06d0cec6d4e3b3\n"
         },
         {
             "id": 29,
             "url": "https://github.com/mlflow/mlflow",
             "description": "Open source platform for the machine learning lifecycle",
-            "stars": 16110,
+            "stars": 16115,
             "source_graph_repo_id": 36559358,
             "dependencies": [
                 {
@@ -9183,13 +9187,13 @@
                     "name": "keras_core"
                 }
             ],
-            "last_checked_revision": "b929a3e727dc48a1eb19b7e954b7897ac09ad3ec\n"
+            "last_checked_revision": "e2de75878cd2a057a9a6ca59388ba41fbc1289d7\n"
         },
         {
             "id": 30,
             "url": "https://github.com/microsoft/unilm",
             "description": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities",
-            "stars": 16640,
+            "stars": 16662,
             "source_graph_repo_id": 39294590,
             "dependencies": [
                 {
@@ -10081,7 +10085,7 @@
                     "name": "controlnet"
                 }
             ],
-            "last_checked_revision": "16da2f193b9c1dab0a692c6e4380bd43e70a40cd\n"
+            "last_checked_revision": "b59a60ff4a239762618a71a2bdbcef376111f1ff\n"
         },
         {
             "id": 31,
@@ -10141,7 +10145,7 @@
             "id": 32,
             "url": "https://github.com/baidu/amis",
             "description": "\u524d\u7aef\u4f4e\u4ee3\u7801\u6846\u67b6\uff0c\u901a\u8fc7 JSON \u914d\u7f6e\u5c31\u80fd\u751f\u6210\u5404\u79cd\u9875\u9762\u3002",
-            "stars": 15427,
+            "stars": 15429,
             "source_graph_repo_id": 38150821,
             "dependencies": [
                 {
@@ -10327,7 +10331,7 @@
             "id": 35,
             "url": "https://github.com/tiangolo/full-stack-fastapi-postgresql",
             "description": "Full stack, modern web application generator. Using FastAPI, PostgreSQL as database, Docker, automatic HTTPS and more.",
-            "stars": 13927,
+            "stars": 13933,
             "source_graph_repo_id": 37723565,
             "dependencies": [
                 {
@@ -10673,7 +10677,7 @@
                     "name": "py2exe"
                 }
             ],
-            "last_checked_revision": "c3aece29b042b4ad9097fa9e430bde75294b2044\n"
+            "last_checked_revision": "b513b1b3d4935f5dc95d5c515fa15833f11810be\n"
         },
         {
             "id": 37,
@@ -11033,7 +11037,7 @@
             "id": 38,
             "url": "https://github.com/jina-ai/clip-as-service",
             "description": "\ud83c\udfc4 Scalable embedding, reasoning, ranking for images and sentences with CLIP",
-            "stars": 12017,
+            "stars": 12018,
             "source_graph_repo_id": 37066110,
             "dependencies": [
                 {
@@ -11483,7 +11487,7 @@
                     "name": "mlc_chat"
                 }
             ],
-            "last_checked_revision": "f79189b81ff05cbb3b8c3408af618920996b4e74\n"
+            "last_checked_revision": "66b04732f0f638f9d7fe06609f4a7131bbab1059\n"
         },
         {
             "id": 42,
@@ -11705,13 +11709,13 @@
                     "name": "langchain_google_genai"
                 }
             ],
-            "last_checked_revision": "04fde52a2161185ed0efa79dd31ee202c667b465\n"
+            "last_checked_revision": "a27c7221bbf6ce7385e7a17d3088e9c2b64095e6\n"
         },
         {
             "id": 43,
             "url": "https://github.com/jaakkopasanen/AutoEq",
             "description": "Automatic headphone equalization from frequency responses",
-            "stars": 12039,
+            "stars": 12042,
             "source_graph_repo_id": 36549503,
             "dependencies": [
                 {
@@ -12007,7 +12011,7 @@
             "id": 45,
             "url": "https://github.com/vercel/vercel",
             "description": "Develop. Preview. Ship.",
-            "stars": 11641,
+            "stars": 11646,
             "source_graph_repo_id": 566489,
             "dependencies": [
                 {
@@ -12301,7 +12305,7 @@
             "id": 48,
             "url": "https://github.com/blackmatrix7/ios_rule_script",
             "description": "\u5206\u6d41\u89c4\u5219\u3001\u91cd\u5199\u5199\u89c4\u5219\u53ca\u811a\u672c\u3002",
-            "stars": 13210,
+            "stars": 13224,
             "source_graph_repo_id": 41447777,
             "dependencies": [
                 {
@@ -12313,13 +12317,13 @@
                     "name": "aiohttp"
                 }
             ],
-            "last_checked_revision": "0e5bafc0fcec986117316f6e2ce292cf1eb2718e\n"
+            "last_checked_revision": "ae67c964a7fe5940573ff19309f7e1b012498d6f\n"
         },
         {
             "id": 49,
             "url": "https://github.com/tiangolo/sqlmodel",
             "description": "SQL databases in Python, designed for simplicity, compatibility, and robustness.",
-            "stars": 11814,
+            "stars": 11823,
             "source_graph_repo_id": 55636527,
             "dependencies": [
                 {
@@ -12731,7 +12735,7 @@
             "id": 51,
             "url": "https://github.com/PaddlePaddle/PaddleNLP",
             "description": "\ud83d\udc51 Easy-to-use and powerful NLP and LLM library with \ud83e\udd17 Awesome model zoo, supporting wide-range of NLP tasks from research to industrial applications, including \ud83d\uddc2Text Classification,  \ud83d\udd0d Neural Search, \u2753 Question Answering, \u2139\ufe0f Information Extraction, \ud83d\udcc4 Document Intelligence, \ud83d\udc8c Sentiment Analysis etc.",
-            "stars": 10721,
+            "stars": 10724,
             "source_graph_repo_id": 42982149,
             "dependencies": [
                 {
@@ -13903,7 +13907,7 @@
             "id": 53,
             "url": "https://github.com/ludwig-ai/ludwig",
             "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
-            "stars": 10276,
+            "stars": 10291,
             "source_graph_repo_id": 37625913,
             "dependencies": [
                 {
@@ -14201,7 +14205,7 @@
             "id": 54,
             "url": "https://github.com/laramies/theHarvester",
             "description": "E-mails, subdomains and names Harvester - OSINT ",
-            "stars": 9657,
+            "stars": 9662,
             "source_graph_repo_id": 13615,
             "dependencies": [
                 {
@@ -14303,7 +14307,7 @@
             "id": 55,
             "url": "https://github.com/OpenMined/PySyft",
             "description": "Perform data science on data that remains in someone else's server",
-            "stars": 9046,
+            "stars": 9047,
             "source_graph_repo_id": 1357839,
             "dependencies": [
                 {
@@ -14563,7 +14567,7 @@
                     "name": "syftcli"
                 }
             ],
-            "last_checked_revision": "c3a50ec4ca28534460440ad99a705e632238df2d\n"
+            "last_checked_revision": "bf3a6d16c4df8fef2bb4fbd3cf1b3e1897750a91\n"
         },
         {
             "id": 56,
@@ -15323,7 +15327,7 @@
             "id": 57,
             "url": "https://github.com/messense/aliyundrive-webdav",
             "description": "\u963f\u91cc\u4e91\u76d8 WebDAV \u670d\u52a1",
-            "stars": 9069,
+            "stars": 9073,
             "source_graph_repo_id": 55611101,
             "dependencies": [
                 {
@@ -15361,7 +15365,7 @@
             "id": 58,
             "url": "https://github.com/grafana/pyroscope",
             "description": "Continuous Profiling Platform. Debug performance issues down to a single line of code",
-            "stars": 8933,
+            "stars": 8935,
             "source_graph_repo_id": 42843573,
             "dependencies": [
                 {
@@ -15837,7 +15841,7 @@
             "id": 60,
             "url": "https://github.com/vaexio/vaex",
             "description": "Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a billion rows per second \ud83d\ude80",
-            "stars": 8091,
+            "stars": 8092,
             "source_graph_repo_id": 37307171,
             "dependencies": [
                 {
@@ -16427,7 +16431,7 @@
             "id": 63,
             "url": "https://github.com/openreplay/openreplay",
             "description": "OpenReplay is developer-friendly, self-hosted session replay.",
-            "stars": 8301,
+            "stars": 8303,
             "source_graph_repo_id": 48024106,
             "dependencies": [
                 {
@@ -16625,7 +16629,7 @@
             "id": 64,
             "url": "https://github.com/pycaret/pycaret",
             "description": "An open-source, low-code machine learning library in Python",
-            "stars": 8032,
+            "stars": 8037,
             "source_graph_repo_id": 40239205,
             "dependencies": [
                 {
@@ -17259,7 +17263,7 @@
             "id": 67,
             "url": "https://github.com/jupyterhub/jupyterhub",
             "description": "Multi-user server for Jupyter notebooks",
-            "stars": 7442,
+            "stars": 7445,
             "source_graph_repo_id": 48747,
             "dependencies": [
                 {
@@ -17993,7 +17997,7 @@
             "id": 70,
             "url": "https://github.com/mailcow/mailcow-dockerized",
             "description": "mailcow: dockerized - \ud83d\udc2e + \ud83d\udc0b = \ud83d\udc95",
-            "stars": 7380,
+            "stars": 7384,
             "source_graph_repo_id": 1221227,
             "dependencies": [
                 {
@@ -18191,7 +18195,7 @@
                     "name": "happyx"
                 }
             ],
-            "last_checked_revision": "8bfa04d8b11aed150839af6616d7d8189af63361\n"
+            "last_checked_revision": "d195607e5a3fc1b1adc35c3ca2280d788b376124\n"
         },
         {
             "id": 72,
@@ -18283,7 +18287,7 @@
             "id": 73,
             "url": "https://github.com/reactive-python/reactpy",
             "description": "It's React, but in Python",
-            "stars": 7334,
+            "stars": 7351,
             "source_graph_repo_id": 41045278,
             "dependencies": [
                 {
@@ -18487,7 +18491,7 @@
             "id": 75,
             "url": "https://github.com/github/codeql",
             "description": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security",
-            "stars": 6649,
+            "stars": 6658,
             "source_graph_repo_id": 36573299,
             "dependencies": [
                 {
@@ -19315,7 +19319,7 @@
                     "name": "buildless_test_utils"
                 }
             ],
-            "last_checked_revision": "bbe3269b8cc582b322dac1cc70072273d830bd8c\n"
+            "last_checked_revision": "19c5d1fd1dfffe2fec9332dbc3405561fc515636\n"
         },
         {
             "id": 76,
@@ -19789,7 +19793,7 @@
             "id": 78,
             "url": "https://github.com/highlight/highlight",
             "description": "highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging and more.",
-            "stars": 6092,
+            "stars": 6097,
             "source_graph_repo_id": 60145743,
             "dependencies": [
                 {
@@ -19871,7 +19875,7 @@
             "id": 79,
             "url": "https://github.com/bentoml/BentoML",
             "description": "Build Production-Grade AI Applications",
-            "stars": 6008,
+            "stars": 6012,
             "source_graph_repo_id": 37975061,
             "dependencies": [
                 {
@@ -20289,7 +20293,7 @@
             "id": 80,
             "url": "https://github.com/agronholm/apscheduler",
             "description": "Task scheduling library for Python",
-            "stars": 5427,
+            "stars": 5428,
             "source_graph_repo_id": 79002,
             "dependencies": [
                 {
@@ -20669,7 +20673,7 @@
             "id": 82,
             "url": "https://github.com/szad670401/HyperLPR",
             "description": "\u57fa\u4e8e\u6df1\u5ea6\u5b66\u4e60\u9ad8\u6027\u80fd\u4e2d\u6587\u8f66\u724c\u8bc6\u522b High Performance Chinese License Plate Recognition Framework.",
-            "stars": 5307,
+            "stars": 5308,
             "source_graph_repo_id": 1512330,
             "dependencies": [
                 {
@@ -21355,7 +21359,7 @@
             "id": 87,
             "url": "https://github.com/nonebot/nonebot2",
             "description": "\u8de8\u5e73\u53f0 Python \u5f02\u6b65\u804a\u5929\u673a\u5668\u4eba\u6846\u67b6 / Asynchronous multi-platform chatbot framework written in Python",
-            "stars": 5175,
+            "stars": 5180,
             "source_graph_repo_id": 42311036,
             "dependencies": [
                 {
@@ -21421,7 +21425,7 @@
             "id": 88,
             "url": "https://github.com/jesse-ai/jesse",
             "description": "An advanced crypto trading bot written in Python",
-            "stars": 4971,
+            "stars": 4972,
             "source_graph_repo_id": 38751220,
             "dependencies": [
                 {
@@ -21621,7 +21625,7 @@
             "id": 90,
             "url": "https://github.com/zauberzeug/nicegui",
             "description": "Create web-based user interfaces with Python. The nice way.",
-            "stars": 6149,
+            "stars": 6162,
             "source_graph_repo_id": 55096589,
             "dependencies": [
                 {
@@ -21805,13 +21809,13 @@
                     "name": "nicegui_highcharts"
                 }
             ],
-            "last_checked_revision": "2b1cac9d67de41a122fcdf9570cd41c5da76b99b\n"
+            "last_checked_revision": "65460efc2ffda6757851cb53ee2b2a7e79b5df09\n"
         },
         {
             "id": 91,
             "url": "https://github.com/feast-dev/feast",
             "description": "Feature Store for Machine Learning",
-            "stars": 4997,
+            "stars": 4999,
             "source_graph_repo_id": 37346145,
             "dependencies": [
                 {
@@ -22085,7 +22089,7 @@
             "id": 92,
             "url": "https://github.com/refinedev/refine",
             "description": "A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.",
-            "stars": 17390,
+            "stars": 17412,
             "source_graph_repo_id": 56090578,
             "dependencies": [],
             "last_checked_revision": null
@@ -22104,6 +22108,10 @@
                 {
                     "id": 3,
                     "name": "fastapi"
+                },
+                {
+                    "id": 14,
+                    "name": "numpy"
                 },
                 {
                     "id": 15,
@@ -22128,6 +22136,10 @@
                 {
                     "id": 38,
                     "name": "pydantic"
+                },
+                {
+                    "id": 55,
+                    "name": "pgvector"
                 },
                 {
                     "id": 57,
@@ -22158,6 +22170,10 @@
                     "name": "google"
                 },
                 {
+                    "id": 439,
+                    "name": "torchaudio"
+                },
+                {
                     "id": 574,
                     "name": "websockets"
                 },
@@ -22174,6 +22190,10 @@
                     "name": "aioconsole"
                 },
                 {
+                    "id": 1436,
+                    "name": "emoji"
+                },
+                {
                     "id": 1500,
                     "name": "readerwriterlock"
                 },
@@ -22186,8 +22206,16 @@
                     "name": "firebase_admin"
                 },
                 {
+                    "id": 1740,
+                    "name": "twilio"
+                },
+                {
                     "id": 1748,
                     "name": "speech_recognition"
+                },
+                {
+                    "id": 1842,
+                    "name": "opencc"
                 },
                 {
                     "id": 3755,
@@ -22196,15 +22224,23 @@
                 {
                     "id": 4037,
                     "name": "multion"
+                },
+                {
+                    "id": 5698,
+                    "name": "whisperx"
+                },
+                {
+                    "id": 5699,
+                    "name": "rebyte_langchain"
                 }
             ],
-            "last_checked_revision": "57b6ce863090902b468eca2e095b8abcfc563a4a\n"
+            "last_checked_revision": "fbefc459f5330866ba4c739c62d86bd90cc72277\n"
         },
         {
             "id": 94,
             "url": "https://github.com/lukas-blecher/LaTeX-OCR",
             "description": "pix2tex: Using a ViT to convert images of equations into LaTeX code.",
-            "stars": 9081,
+            "stars": 9117,
             "source_graph_repo_id": 43242207,
             "dependencies": [
                 {
@@ -22441,7 +22477,7 @@
             "id": 97,
             "url": "https://github.com/realpython/materials",
             "description": "Bonus materials, exercises, and example projects for our Python tutorials",
-            "stars": 4525,
+            "stars": 4524,
             "source_graph_repo_id": 36246068,
             "dependencies": [
                 {
@@ -23051,7 +23087,7 @@
             "id": 98,
             "url": "https://github.com/Atri-Labs/atrilabs-engine",
             "description": "\ud83e\uddd8\u200d\u2642\ufe0f Open-source no-code & code web app builder",
-            "stars": 4166,
+            "stars": 4165,
             "source_graph_repo_id": 58598443,
             "dependencies": [
                 {
@@ -23125,7 +23161,7 @@
             "id": 99,
             "url": "https://github.com/aimhubio/aim",
             "description": "Aim \ud83d\udcab \u2014 An easy-to-use & supercharged open-source experiment tracker.",
-            "stars": 4415,
+            "stars": 4416,
             "source_graph_repo_id": 40483889,
             "dependencies": [
                 {
@@ -23487,7 +23523,7 @@
             "id": 100,
             "url": "https://github.com/Netflix/dispatch",
             "description": "All of the ad-hoc things you're doing to manage incidents today, done for you, and much more!",
-            "stars": 4371,
+            "stars": 4373,
             "source_graph_repo_id": 40017202,
             "dependencies": [
                 {
@@ -23713,7 +23749,7 @@
             "id": 101,
             "url": "https://github.com/pywebio/PyWebIO",
             "description": "Write interactive web app in script way.",
-            "stars": 4175,
+            "stars": 4177,
             "source_graph_repo_id": 40587119,
             "dependencies": [
                 {
@@ -23815,7 +23851,7 @@
             "id": 102,
             "url": "https://github.com/elastic/elasticsearch-py",
             "description": "Official Python client for Elasticsearch",
-            "stars": 4060,
+            "stars": 4062,
             "source_graph_repo_id": 48877,
             "dependencies": [
                 {
@@ -23913,7 +23949,7 @@
             "id": 103,
             "url": "https://github.com/EstrellaXD/Auto_Bangumi",
             "description": "AutoBangumi - \u5168\u81ea\u52a8\u8ffd\u756a\u5de5\u5177",
-            "stars": 5148,
+            "stars": 5153,
             "source_graph_repo_id": 57925692,
             "dependencies": [
                 {
@@ -24459,7 +24495,7 @@
             "id": 106,
             "url": "https://github.com/evidentlyai/evidently",
             "description": "Evaluate and monitor ML models from validation to production. Join our Discord: https://discord.com/invite/xZjKRaNp8b",
-            "stars": 4246,
+            "stars": 4251,
             "source_graph_repo_id": 42626510,
             "dependencies": [
                 {
@@ -24637,7 +24673,7 @@
             "id": 107,
             "url": "https://github.com/graviraja/MLOps-Basics",
             "description": "",
-            "stars": 3852,
+            "stars": 3851,
             "source_graph_repo_id": 53541648,
             "dependencies": [
                 {
@@ -24845,7 +24881,7 @@
             "id": 109,
             "url": "https://github.com/h2oai/wave",
             "description": "Realtime Web Apps and Dashboards for Python and R",
-            "stars": 3766,
+            "stars": 3768,
             "source_graph_repo_id": 42653894,
             "dependencies": [
                 {
@@ -25141,7 +25177,7 @@
             "id": 111,
             "url": "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
             "description": "\ud83d\ude80\u300cDouyin_TikTok_Download_API\u300d\u662f\u4e00\u4e2a\u5f00\u7bb1\u5373\u7528\u7684\u9ad8\u6027\u80fd\u5f02\u6b65\u6296\u97f3\u3001\u5feb\u624b\u3001TikTok\u3001Bilibili\u6570\u636e\u722c\u53d6\u5de5\u5177\uff0c\u652f\u6301API\u8c03\u7528\uff0c\u5728\u7ebf\u6279\u91cf\u89e3\u6790\u53ca\u4e0b\u8f7d\u3002",
-            "stars": 5004,
+            "stars": 5013,
             "source_graph_repo_id": 56483258,
             "dependencies": [
                 {
@@ -25191,7 +25227,7 @@
             "id": 112,
             "url": "https://github.com/prometheus/client_python",
             "description": "Prometheus instrumentation library for Python applications",
-            "stars": 3653,
+            "stars": 3655,
             "source_graph_repo_id": 81026,
             "dependencies": [
                 {
@@ -25217,7 +25253,7 @@
             "id": 113,
             "url": "https://github.com/mealie-recipes/mealie",
             "description": "Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor",
-            "stars": 4130,
+            "stars": 4136,
             "source_graph_repo_id": 42813296,
             "dependencies": [
                 {
@@ -25345,7 +25381,7 @@
                     "name": "extruct"
                 }
             ],
-            "last_checked_revision": "342fa6128e0cbd18b1b6b3a44e14514c564e3a1e\n"
+            "last_checked_revision": "408718558be949960b7978dcf2a283703d66377d\n"
         },
         {
             "id": 114,
@@ -25776,7 +25812,7 @@
             "id": 117,
             "url": "https://github.com/Kanaries/Rath",
             "description": "Next generation of automated data exploratory analysis and visualization platform.",
-            "stars": 3683,
+            "stars": 3685,
             "source_graph_repo_id": 39231075,
             "dependencies": [
                 {
@@ -25878,7 +25914,7 @@
             "id": 118,
             "url": "https://github.com/confluentinc/confluent-kafka-python",
             "description": "Confluent's Kafka Python Client",
-            "stars": 3498,
+            "stars": 3500,
             "source_graph_repo_id": 114074,
             "dependencies": [
                 {
@@ -26582,7 +26618,7 @@
             "id": 124,
             "url": "https://github.com/khoj-ai/khoj",
             "description": "An AI copilot for your second brain. Search and chat with your personal knowledge base, online or offline",
-            "stars": 4125,
+            "stars": 4135,
             "source_graph_repo_id": 56829796,
             "dependencies": [
                 {
@@ -26814,7 +26850,7 @@
             "id": 126,
             "url": "https://github.com/fastapi-users/fastapi-users",
             "description": "Ready-to-use and customizable users management for FastAPI",
-            "stars": 3703,
+            "stars": 3707,
             "source_graph_repo_id": 39472515,
             "dependencies": [
                 {
@@ -26934,6 +26970,10 @@
                 {
                     "id": 34,
                     "name": "uvicorn"
+                },
+                {
+                    "id": 37,
+                    "name": "httpx"
                 },
                 {
                     "id": 38,
@@ -27140,13 +27180,13 @@
                     "name": "timeago"
                 }
             ],
-            "last_checked_revision": "535dc265c548c2ca7c36cbbe80dff3cb57397dd7\n"
+            "last_checked_revision": "0370b9b38dca50088b2af478fc34da62ed2ac7ed\n"
         },
         {
             "id": 128,
             "url": "https://github.com/dynaconf/dynaconf",
             "description": "Configuration Management for Python \u2699",
-            "stars": 3364,
+            "stars": 3365,
             "source_graph_repo_id": 310692,
             "dependencies": [
                 {
@@ -27456,7 +27496,7 @@
             "id": 131,
             "url": "https://github.com/FedML-AI/FedML",
             "description": "FEDML - The unified and scalable ML library for large-scale distributed training, model serving, and federated learning. FEDML Launch, a cross-cloud scheduler, further enables running any AI jobs on any GPU cloud or on-premise cluster. Built on this library, FEDML Nexus AI (https://nexus.fedml.ai) is the dedicated cloud service for generative AI",
-            "stars": 3765,
+            "stars": 3786,
             "source_graph_repo_id": 41603647,
             "dependencies": [
                 {
@@ -27958,7 +27998,7 @@
             "id": 132,
             "url": "https://github.com/ets-labs/python-dependency-injector",
             "description": "Dependency injection framework for Python",
-            "stars": 3376,
+            "stars": 3378,
             "source_graph_repo_id": 259611,
             "dependencies": [
                 {
@@ -28214,7 +28254,7 @@
             "id": 134,
             "url": "https://github.com/bunkerity/bunkerweb",
             "description": "\ud83d\udee1\ufe0f Make your web services secure by default !",
-            "stars": 3220,
+            "stars": 3222,
             "source_graph_repo_id": 42007742,
             "dependencies": [
                 {
@@ -28706,7 +28746,7 @@
             "id": 136,
             "url": "https://github.com/zenml-io/zenml",
             "description": "ZenML \ud83d\ude4f: Build portable, production-ready MLOps pipelines. https://zenml.io.",
-            "stars": 3356,
+            "stars": 3362,
             "source_graph_repo_id": 42704593,
             "dependencies": [
                 {
@@ -29242,7 +29282,7 @@
             "id": 138,
             "url": "https://github.com/fossasia/open-event-server",
             "description": "The Open Event Organizer Server to Manage Events https://test-api.eventyay.com",
-            "stars": 2928,
+            "stars": 2929,
             "source_graph_repo_id": 35726450,
             "dependencies": [
                 {
@@ -29536,7 +29576,7 @@
             "id": 139,
             "url": "https://github.com/ml-tooling/opyrator",
             "description": "\ud83e\ude84 Turns your machine learning code into microservices with web API, interactive GUI, and more.",
-            "stars": 2969,
+            "stars": 2970,
             "source_graph_repo_id": 44040986,
             "dependencies": [
                 {
@@ -29714,7 +29754,7 @@
                     "name": "gpt_researcher_old"
                 }
             ],
-            "last_checked_revision": "474f997a5a2f9a3908764c154e95c86ac994a8e2\n"
+            "last_checked_revision": "b70f8f7fd58e3499cc5f8d8b62910c271ccab237\n"
         },
         {
             "id": 141,
@@ -29894,7 +29934,7 @@
             "id": 142,
             "url": "https://github.com/shibing624/text2vec",
             "description": "text2vec, text to vector. \u6587\u672c\u5411\u91cf\u8868\u5f81\u5de5\u5177\uff0c\u628a\u6587\u672c\u8f6c\u5316\u4e3a\u5411\u91cf\u77e9\u9635\uff0c\u5b9e\u73b0\u4e86Word2Vec\u3001RankBM25\u3001Sentence-BERT\u3001CoSENT\u7b49\u6587\u672c\u8868\u5f81\u3001\u6587\u672c\u76f8\u4f3c\u5ea6\u8ba1\u7b97\u6a21\u578b\uff0c\u5f00\u7bb1\u5373\u7528\u3002",
-            "stars": 3562,
+            "stars": 3566,
             "source_graph_repo_id": 39503047,
             "dependencies": [
                 {
@@ -30012,7 +30052,7 @@
             "id": 143,
             "url": "https://github.com/pantsbuild/pants",
             "description": "The Pants Build System",
-            "stars": 2933,
+            "stars": 2935,
             "source_graph_repo_id": 76555,
             "dependencies": [
                 {
@@ -30188,7 +30228,7 @@
                     "name": "pants_explorer"
                 }
             ],
-            "last_checked_revision": "9d95c1d0a56fd2b53665898096b6cb45e228afa3\n"
+            "last_checked_revision": "54ec52a2ee2c62c4169970b8b930ca3a6dcdd9c6\n"
         },
         {
             "id": 144,
@@ -30376,7 +30416,7 @@
             "id": 145,
             "url": "https://github.com/metalbear-co/mirrord",
             "description": "Connect your local process and your cloud environment, and run local code in cloud conditions.",
-            "stars": 3128,
+            "stars": 3131,
             "source_graph_repo_id": 57445002,
             "dependencies": [
                 {
@@ -30388,13 +30428,13 @@
                     "name": "flask"
                 }
             ],
-            "last_checked_revision": "afc274e3fdc506ff678e68032f08c8fdcc47eac7\n"
+            "last_checked_revision": "59106cfa8eb1f917e0ceddca804ac4f846929f82\n"
         },
         {
             "id": 146,
             "url": "https://github.com/alpa-projects/alpa",
             "description": "Training and serving large-scale neural networks with auto parallelization.",
-            "stars": 2898,
+            "stars": 2901,
             "source_graph_repo_id": 57483783,
             "dependencies": [
                 {
@@ -30592,7 +30632,7 @@
             "id": 147,
             "url": "https://github.com/hiyouga/LLaMA-Factory",
             "description": "Easy-to-use LLM fine-tuning framework (LLaMA, BLOOM, Mistral, Baichuan, Qwen, ChatGLM)",
-            "stars": 8358,
+            "stars": 8378,
             "source_graph_repo_id": 61073968,
             "dependencies": [
                 {
@@ -30728,7 +30768,7 @@
                     "name": "unsloth"
                 }
             ],
-            "last_checked_revision": "e44b82ee245a7ee99057c7b58b1edef5c222dc1f\n"
+            "last_checked_revision": "e4bb846c43c087bfdd99d0c9eb0318e95b943977\n"
         },
         {
             "id": 148,
@@ -30866,7 +30906,7 @@
             "id": 150,
             "url": "https://github.com/ethen8181/machine-learning",
             "description": ":earth_americas: machine learning tutorials (mainly in Python3) ",
-            "stars": 2603,
+            "stars": 2604,
             "source_graph_repo_id": 39983245,
             "dependencies": [
                 {
@@ -31860,7 +31900,7 @@
             "id": 153,
             "url": "https://github.com/rom1504/img2dataset",
             "description": "Easily turn large sets of image urls to an image dataset. Can download, resize and package 100M urls in 20h on one machine.",
-            "stars": 2886,
+            "stars": 2887,
             "source_graph_repo_id": 55642313,
             "dependencies": [
                 {
@@ -32092,7 +32132,7 @@
             "id": 155,
             "url": "https://github.com/litestar-org/litestar",
             "description": "Production-ready, Light, Flexible and Extensible ASGI API framework | Effortlessly Build Performant APIs",
-            "stars": 3689,
+            "stars": 3702,
             "source_graph_repo_id": 56760430,
             "dependencies": [
                 {
@@ -32328,7 +32368,7 @@
                     "name": "advanced_alchemy"
                 }
             ],
-            "last_checked_revision": "02ca07dd93142d0806654d18964167e87cdefb03\n"
+            "last_checked_revision": "8c7f48eb3095dd24ec5c2fce813743638c9c9da6\n"
         },
         {
             "id": 156,
@@ -32736,7 +32776,7 @@
             "id": 159,
             "url": "https://github.com/argilla-io/argilla",
             "description": "\u2728Argilla: the open-source feedback platform for LLMs",
-            "stars": 2726,
+            "stars": 2727,
             "source_graph_repo_id": 54591980,
             "dependencies": [
                 {
@@ -33100,7 +33140,7 @@
             "id": 161,
             "url": "https://github.com/christianversloot/machine-learning-articles",
             "description": "\ud83e\udde0\ud83d\udcac Articles I wrote about machine learning, archived from MachineCurve.com.",
-            "stars": 2749,
+            "stars": 2752,
             "source_graph_repo_id": 57371026,
             "dependencies": [],
             "last_checked_revision": null
@@ -33109,7 +33149,7 @@
             "id": 162,
             "url": "https://github.com/kserve/kserve",
             "description": "Standardized Serverless ML Inference Platform on Kubernetes",
-            "stars": 2657,
+            "stars": 2658,
             "source_graph_repo_id": 37936068,
             "dependencies": [
                 {
@@ -33441,7 +33481,7 @@
                     "name": "management_pb2"
                 }
             ],
-            "last_checked_revision": "145c4e1c6f9e3fec0ad206041a6cd134e1f60fbd\n"
+            "last_checked_revision": "85eca89d3cc4c14a6a5cba7bed5e9e11513944bd\n"
         },
         {
             "id": 163,
@@ -34987,7 +35027,7 @@
             "id": 171,
             "url": "https://github.com/fluentpython/example-code-2e",
             "description": "Example code for Fluent Python, 2nd edition (O'Reilly 2022) ",
-            "stars": 2605,
+            "stars": 2608,
             "source_graph_repo_id": 39981329,
             "dependencies": [
                 {
@@ -35259,7 +35299,7 @@
             "id": 173,
             "url": "https://github.com/avgupta456/github-trends",
             "description": "\ud83d\ude80 Level up your GitHub profile readme with customizable cards including LOC statistics!",
-            "stars": 8924,
+            "stars": 9005,
             "source_graph_repo_id": 56330329,
             "dependencies": [
                 {
@@ -35505,7 +35545,7 @@
             "id": 176,
             "url": "https://github.com/LCTT/TranslateProject",
             "description": "Linux\u4e2d\u56fd\u7ffb\u8bd1\u9879\u76ee",
-            "stars": 2146,
+            "stars": 2147,
             "source_graph_repo_id": 80734,
             "dependencies": [],
             "last_checked_revision": null
@@ -35658,7 +35698,7 @@
                     "name": "langfuse"
                 }
             ],
-            "last_checked_revision": "9bcc7f1764161f84320549f0dd30dfb8c3c2f9bd\n"
+            "last_checked_revision": "f02cf9c95c7a24084299e1bde8aa9eea2f713f36\n"
         },
         {
             "id": 178,
@@ -35956,7 +35996,7 @@
             "id": 182,
             "url": "https://github.com/mindee/doctr",
             "description": "docTR (Document Text Recognition) - a seamless, high-performing & accessible library for OCR-related tasks powered by Deep Learning.",
-            "stars": 2442,
+            "stars": 2444,
             "source_graph_repo_id": 44461063,
             "dependencies": [
                 {
@@ -36934,7 +36974,7 @@
                     "name": "fb"
                 }
             ],
-            "last_checked_revision": "49aac27bf077e7757f028c9d5ecd19ba3253518e\n"
+            "last_checked_revision": "0c9ee9f07aa3da194496b655ebc0f4f131070aab\n"
         },
         {
             "id": 188,
@@ -36964,7 +37004,7 @@
                     "name": "modules"
                 }
             ],
-            "last_checked_revision": "0a4c17cadaa1a38f561e7a2aa4262abc20b0a4ad\n"
+            "last_checked_revision": "c659ed21550e3ae3c3bd2d8f0f4e566aeae7ecfd\n"
         },
         {
             "id": 189,
@@ -40450,7 +40490,7 @@
             "id": 191,
             "url": "https://github.com/feathr-ai/feathr",
             "description": "Feathr \u2013 A scalable, unified data and AI engineering platform for enterprise",
-            "stars": 1879,
+            "stars": 1880,
             "source_graph_repo_id": 57511369,
             "dependencies": [
                 {
@@ -40992,7 +41032,7 @@
             "id": 194,
             "url": "https://github.com/permitio/opal",
             "description": "Policy and data administration, distribution, and real-time updates on top of Policy Agents (OPA, Cedar, ...)",
-            "stars": 1940,
+            "stars": 1939,
             "source_graph_repo_id": 43391455,
             "dependencies": [
                 {
@@ -41192,7 +41232,7 @@
             "id": 196,
             "url": "https://github.com/Buuntu/fastapi-react",
             "description": "\ud83d\ude80   Cookiecutter Template for FastAPI + React Projects.  Using PostgreSQL, SQLAlchemy, and Docker",
-            "stars": 1925,
+            "stars": 1927,
             "source_graph_repo_id": 41086672,
             "dependencies": [
                 {
@@ -41797,7 +41837,7 @@
             "id": 201,
             "url": "https://github.com/kingyiusuen/image-to-latex",
             "description": "Convert images of LaTex math equations into LaTex code.",
-            "stars": 1852,
+            "stars": 1853,
             "source_graph_repo_id": 55017053,
             "dependencies": [
                 {
@@ -43245,7 +43285,7 @@
             "id": 207,
             "url": "https://github.com/neuralmagic/deepsparse",
             "description": "Sparsity-aware deep learning inference runtime for CPUs",
-            "stars": 2674,
+            "stars": 2676,
             "source_graph_repo_id": 43021068,
             "dependencies": [
                 {
@@ -43447,7 +43487,7 @@
             "id": 208,
             "url": "https://github.com/labmlai/labml",
             "description": "\ud83d\udd0e Monitor deep learning model training and hardware usage from your mobile phone \ud83d\udcf1",
-            "stars": 1724,
+            "stars": 1725,
             "source_graph_repo_id": 40116032,
             "dependencies": [
                 {
@@ -43639,7 +43679,7 @@
                     "name": "labml_fast_merge"
                 }
             ],
-            "last_checked_revision": "a398f595eaae1c35d7f42007cd2d4fcf7d2fc9d2\n"
+            "last_checked_revision": "8ca39db92decde12d2f2af5dce8f0fdf7417fc44\n"
         },
         {
             "id": 209,
@@ -44225,7 +44265,7 @@
             "id": 213,
             "url": "https://github.com/https-deeplearning-ai/machine-learning-engineering-for-production-public",
             "description": "Public repo for DeepLearning.AI MLEP Specialization",
-            "stars": 1662,
+            "stars": 1663,
             "source_graph_repo_id": 46515386,
             "dependencies": [
                 {
@@ -44395,7 +44435,7 @@
                     "name": "pinecone_datasets"
                 }
             ],
-            "last_checked_revision": "664b1c9d171952664580c1308ae674f6eb04f0f0\n"
+            "last_checked_revision": "08e9a91021edd519218f255daedb27c9b0221554\n"
         },
         {
             "id": 215,
@@ -44541,7 +44581,7 @@
                     "name": "fastembed"
                 }
             ],
-            "last_checked_revision": "5280ce5f72983f8b2cef467a16d3e3a448c25522\n"
+            "last_checked_revision": "6b9ec9472bc0454502dc5f86f7c07d898b5593f3\n"
         },
         {
             "id": 216,
@@ -44577,7 +44617,7 @@
             "id": 217,
             "url": "https://github.com/dmontagu/fastapi-utils",
             "description": "Reusable utilities for FastAPI",
-            "stars": 1630,
+            "stars": 1631,
             "source_graph_repo_id": 39830713,
             "dependencies": [
                 {
@@ -46251,7 +46291,7 @@
             "id": 224,
             "url": "https://github.com/jordaneremieff/mangum",
             "description": "AWS Lambda support for ASGI applications",
-            "stars": 1505,
+            "stars": 1506,
             "source_graph_repo_id": 40057464,
             "dependencies": [
                 {
@@ -46431,7 +46471,7 @@
                     "name": "aliyunsdkalimt"
                 }
             ],
-            "last_checked_revision": "4462467aede58b492335b021f87c29108cecc2e8\n"
+            "last_checked_revision": "658ae82218a3bb1e15df12fd6a372c7bdf0f4fe3\n"
         },
         {
             "id": 227,
@@ -46519,7 +46559,7 @@
             "id": 228,
             "url": "https://github.com/collerek/ormar",
             "description": "python async orm with fastapi in mind and pydantic validation",
-            "stars": 1492,
+            "stars": 1493,
             "source_graph_repo_id": 42162718,
             "dependencies": [
                 {
@@ -46801,7 +46841,7 @@
                     "name": "lazy_model"
                 }
             ],
-            "last_checked_revision": "5f03c6f6312fd0232505cc9bebf8ac1b22ca95ac\n"
+            "last_checked_revision": "f2e143925219ebac2c5f665dd4368b4708e6ae96\n"
         },
         {
             "id": 232,
@@ -47759,7 +47799,7 @@
                     "name": "celpy"
                 }
             ],
-            "last_checked_revision": "ae9663c6b3e4cc122f3c453d26176ec05339bb2f\n"
+            "last_checked_revision": "9ece2446ec7868b9b0a2506cb8491ec38a982096\n"
         },
         {
             "id": 237,
@@ -47815,7 +47855,7 @@
             "id": 238,
             "url": "https://github.com/graphql-python/gql",
             "description": "A GraphQL client in Python",
-            "stars": 1382,
+            "stars": 1383,
             "source_graph_repo_id": 40007281,
             "dependencies": [
                 {
@@ -47929,7 +47969,7 @@
             "id": 239,
             "url": "https://github.com/googlecreativelab/teachablemachine-community",
             "description": "Example code snippets and machine learning code for Teachable Machine",
-            "stars": 1363,
+            "stars": 1364,
             "source_graph_repo_id": 38878542,
             "dependencies": [
                 {
@@ -47971,7 +48011,7 @@
             "id": 240,
             "url": "https://github.com/huggingface/autotrain-advanced",
             "description": "\ud83e\udd17 AutoTrain Advanced",
-            "stars": 2543,
+            "stars": 2547,
             "source_graph_repo_id": 43158391,
             "dependencies": [
                 {
@@ -48285,7 +48325,7 @@
             "id": 243,
             "url": "https://github.com/HFrost0/bilix",
             "description": "\u26a1\ufe0fLightning-fast async download tool for bilibili and more | \u5feb\u5982\u95ea\u7535\u7684\u5f02\u6b65\u4e0b\u8f7d\u5de5\u5177\uff0c\u652f\u6301bilibili\u53ca\u66f4\u591a",
-            "stars": 1360,
+            "stars": 1362,
             "source_graph_repo_id": 57696679,
             "dependencies": [
                 {
@@ -48365,7 +48405,7 @@
                     "name": "m3u8"
                 }
             ],
-            "last_checked_revision": "336a65e7bec6f3c16dd509c01e4325950c4f5829\n"
+            "last_checked_revision": "2efb88701b6ac98bace8fe6bf638e3deb546e596\n"
         },
         {
             "id": 244,
@@ -48517,7 +48557,7 @@
             "id": 245,
             "url": "https://github.com/intel/neural-compressor",
             "description": "Provide unified APIs for SOTA model compression techniques, such as low precision (INT8/INT4/FP4/NF4) quantization, sparsity, pruning, and knowledge distillation on mainstream AI frameworks such as TensorFlow, PyTorch, and ONNX Runtime.",
-            "stars": 1701,
+            "stars": 1702,
             "source_graph_repo_id": 41870078,
             "dependencies": [
                 {
@@ -49071,7 +49111,7 @@
             "id": 246,
             "url": "https://github.com/overmind1980/oeasy-python-tutorial",
             "description": "\u826f\u5fc3\u7684 Python \u6559\u7a0b\uff0c\u9762\u5411\u96f6\u57fa\u7840\u521d\u5b66\u8005\u7b80\u660e\u6613\u61c2\u7684 Python3 \u5165\u95e8\u57fa\u7840\u8bfe\u7a0b\u3002\u5728linux+vim\u751f\u4ea7\u529b\u73af\u5883\u4e0b\uff0c\u4ece\u6d45\u5165\u6df1\uff0c\u4ece\u7b80\u5355\u7a0b\u5e8f\u5b66\u5230\u7f51\u7edc\u722c\u866b\u3002\u53ef\u4ee5\u914d\u5408\u84dd\u6865\u4e91\u4e0a\u5b9e\u9a8c\u73af\u5883\u64cd\u4f5c\u3002",
-            "stars": 1509,
+            "stars": 1510,
             "source_graph_repo_id": 56170389,
             "dependencies": [
                 {
@@ -49755,7 +49795,7 @@
             "id": 252,
             "url": "https://github.com/RapidAI/RapidOCR",
             "description": "A cross platform OCR Library based on PaddleOCR & OnnxRuntime & OpenVINO.",
-            "stars": 1529,
+            "stars": 1532,
             "source_graph_repo_id": 42788376,
             "dependencies": [
                 {
@@ -50549,7 +50589,7 @@
             "id": 255,
             "url": "https://github.com/aminalaee/sqladmin",
             "description": "SQLAlchemy Admin for FastAPI and Starlette",
-            "stars": 1352,
+            "stars": 1353,
             "source_graph_repo_id": 56792475,
             "dependencies": [
                 {
@@ -50861,7 +50901,7 @@
             "id": 259,
             "url": "https://github.com/Nemo2011/bilibili-api",
             "description": "\u54d4\u54e9\u54d4\u54e9\u5e38\u7528API\u8c03\u7528\u3002\u652f\u6301\u89c6\u9891\u3001\u756a\u5267\u3001\u7528\u6237\u3001\u9891\u9053\u3001\u97f3\u9891\u7b49\u529f\u80fd\u3002\u539f\u4ed3\u5e93\u5730\u5740\uff1ahttps://github.com/MoyuScript/bilibili-api",
-            "stars": 1489,
+            "stars": 1490,
             "source_graph_repo_id": 57880892,
             "dependencies": [
                 {
@@ -50951,7 +50991,7 @@
             "id": 260,
             "url": "https://github.com/huggingface/huggingface_hub",
             "description": "The official Python client for the Huggingface Hub.",
-            "stars": 1404,
+            "stars": 1405,
             "source_graph_repo_id": 42746165,
             "dependencies": [
                 {
@@ -51721,7 +51761,7 @@
             "id": 263,
             "url": "https://github.com/piccolo-orm/piccolo",
             "description": "A fast, user friendly ORM and query builder which supports asyncio.",
-            "stars": 1190,
+            "stars": 1192,
             "source_graph_repo_id": 41254928,
             "dependencies": [
                 {
@@ -52039,7 +52079,7 @@
             "id": 266,
             "url": "https://github.com/CMHopeSunshine/LittlePaimon",
             "description": "\u5c0f\u6d3e\u8499\uff01\u57fa\u4e8eNonebot2\u7684\u539f\u795e\u673a\u5668\u4eba\uff0c\u5305\u62ec\u4f46\u4e0d\u9650\u4e8eUID\u9762\u677f\u67e5\u8be2\u3001\u62bd\u5361\u8bb0\u5f55\u5206\u6790\u3001\u6e38\u620f\u653b\u7565\u56fe\u9274\u3001\u5b9e\u65f6\u4fbf\u7b7e\u3001\u539f\u77f3\u672d\u8bb0\u3001\u7fa4\u804a\u5b66\u4e60\u3001\u7fa4\u7ba1\u7b49\u529f\u80fd\u3002/ LittlePamon! Genshin Impact multifunctional bot based on Nonebot2.",
-            "stars": 1091,
+            "stars": 1092,
             "source_graph_repo_id": 57611742,
             "dependencies": [
                 {
@@ -52462,7 +52502,7 @@
             "id": 270,
             "url": "https://github.com/s3rius/FastAPI-template",
             "description": "Feature rich robust FastAPI template.",
-            "stars": 1365,
+            "stars": 1370,
             "source_graph_repo_id": 42381402,
             "dependencies": [
                 {
@@ -52552,7 +52592,7 @@
             "id": 271,
             "url": "https://github.com/VOICEVOX/voicevox_engine",
             "description": "\u7121\u6599\u3067\u4f7f\u3048\u308b\u4e2d\u54c1\u8cea\u306a\u30c6\u30ad\u30b9\u30c8\u8aad\u307f\u4e0a\u3052\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u3001VOICEVOX\u306e\u97f3\u58f0\u5408\u6210\u30a8\u30f3\u30b8\u30f3",
-            "stars": 1099,
+            "stars": 1100,
             "source_graph_repo_id": 55506082,
             "dependencies": [
                 {
@@ -52635,7 +52675,7 @@
             "id": 273,
             "url": "https://github.com/widgetti/solara",
             "description": "A Pure Python, React-style Framework for Scaling Your Jupyter and Web Apps",
-            "stars": 1345,
+            "stars": 1347,
             "source_graph_repo_id": 58576077,
             "dependencies": [
                 {
@@ -52943,7 +52983,7 @@
             "id": 275,
             "url": "https://github.com/dunossauro/live-de-python",
             "description": "Reposit\u00f3rio das lives de python semanais",
-            "stars": 1035,
+            "stars": 1036,
             "source_graph_repo_id": 41865499,
             "dependencies": [
                 {
@@ -54241,7 +54281,7 @@
             "id": 284,
             "url": "https://github.com/nod-ai/SHARK",
             "description": "SHARK - High Performance Machine Learning Distribution",
-            "stars": 1264,
+            "stars": 1266,
             "source_graph_repo_id": 57614712,
             "dependencies": [
                 {
@@ -55017,7 +55057,7 @@
             "id": 288,
             "url": "https://github.com/Tongjilibo/bert4torch",
             "description": "An elegent pytorch implement of transformers",
-            "stars": 989,
+            "stars": 990,
             "source_graph_repo_id": 57556742,
             "dependencies": [
                 {
@@ -55269,7 +55309,7 @@
                     "name": "cchess"
                 }
             ],
-            "last_checked_revision": "2aa1af60e42bfcd44a863646b38af0ff45f40a81\n"
+            "last_checked_revision": "59ee6267697aaaff8770b6a227bf8ebecef09338\n"
         },
         {
             "id": 289,
@@ -55357,7 +55397,7 @@
             "id": 290,
             "url": "https://github.com/slackapi/bolt-python",
             "description": "A framework to build Slack apps using Python",
-            "stars": 915,
+            "stars": 916,
             "source_graph_repo_id": 41753129,
             "dependencies": [
                 {
@@ -55517,7 +55557,7 @@
             "id": 292,
             "url": "https://github.com/Eventual-Inc/Daft",
             "description": "Distributed DataFrames for Python designed for the cloud, powered by Rust",
-            "stars": 979,
+            "stars": 980,
             "source_graph_repo_id": 59097768,
             "dependencies": [
                 {
@@ -55943,7 +55983,7 @@
             "id": 295,
             "url": "https://github.com/art049/odmantic",
             "description": "Sync and Async ODM (Object Document Mapper) for MongoDB based on python type hints",
-            "stars": 912,
+            "stars": 914,
             "source_graph_repo_id": 42193196,
             "dependencies": [
                 {
@@ -56245,7 +56285,7 @@
             "id": 298,
             "url": "https://github.com/lnbits/lnbits",
             "description": "LNbits, free and open-source Lightning wallet and accounts system.",
-            "stars": 905,
+            "stars": 906,
             "source_graph_repo_id": 39944140,
             "dependencies": [
                 {
@@ -56625,7 +56665,7 @@
             "id": 302,
             "url": "https://github.com/long2ice/fastapi-cache",
             "description": "fastapi-cache is a tool to cache fastapi response and function result, with backends support redis and memcached.",
-            "stars": 950,
+            "stars": 951,
             "source_graph_repo_id": 41832440,
             "dependencies": [
                 {
@@ -56741,7 +56781,7 @@
             "id": 304,
             "url": "https://github.com/uriyyo/fastapi-pagination",
             "description": "FastAPI pagination \ud83d\udcd6 ",
-            "stars": 915,
+            "stars": 916,
             "source_graph_repo_id": 42421315,
             "dependencies": [
                 {
@@ -57101,7 +57141,7 @@
             "id": 306,
             "url": "https://github.com/liaogx/fastapi-tutorial",
             "description": "\u6574\u4f53\u7684\u4ecb\u7ecd FastAPI\uff0c\u5feb\u901f\u4e0a\u624b\u5f00\u53d1\uff0c\u7ed3\u5408 API \u4ea4\u4e92\u6587\u6863\u9010\u4e2a\u8bb2\u89e3\u6838\u5fc3\u6a21\u5757\u7684\u4f7f\u7528\u3002\u89c6\u9891\u5b66\u4e60\u5730\u5740\uff1a",
-            "stars": 888,
+            "stars": 887,
             "source_graph_repo_id": 42750384,
             "dependencies": [
                 {
@@ -57139,7 +57179,7 @@
             "id": 307,
             "url": "https://github.com/koxudaxi/fastapi-code-generator",
             "description": "This code generator creates FastAPI app from an openapi file.",
-            "stars": 852,
+            "stars": 853,
             "source_graph_repo_id": 41257491,
             "dependencies": [
                 {
@@ -57582,7 +57622,7 @@
             "id": 313,
             "url": "https://github.com/laurentS/slowapi",
             "description": "A rate limiter for Starlette and FastAPI",
-            "stars": 843,
+            "stars": 842,
             "source_graph_repo_id": 40532206,
             "dependencies": [
                 {
@@ -57756,7 +57796,7 @@
             "id": 316,
             "url": "https://github.com/mlco2/codecarbon",
             "description": "Track emissions from Compute and recommend ways to reduce their impact on the environment.",
-            "stars": 837,
+            "stars": 838,
             "source_graph_repo_id": 42303844,
             "dependencies": [
                 {
@@ -57938,7 +57978,7 @@
             "id": 317,
             "url": "https://github.com/miguelgrinberg/microdot",
             "description": "The impossibly small web framework for Python and MicroPython.",
-            "stars": 954,
+            "stars": 955,
             "source_graph_repo_id": 41366354,
             "dependencies": [
                 {
@@ -59084,7 +59124,7 @@
             "id": 326,
             "url": "https://github.com/ShiftLeftSecurity/sast-scan",
             "description": "Scan is a free & Open Source DevSecOps tool for performing static analysis based security testing of your applications and its dependencies. CI and Git friendly.",
-            "stars": 746,
+            "stars": 747,
             "source_graph_repo_id": 40672694,
             "dependencies": [
                 {
@@ -59346,9 +59386,13 @@
                 {
                     "id": 5568,
                     "name": "langchain_community"
+                },
+                {
+                    "id": 5700,
+                    "name": "jsonschema_pydantic"
                 }
             ],
-            "last_checked_revision": "a537405a52415425e96974f5762bc19a95540591\n"
+            "last_checked_revision": "6833377e2fd44c135977a7af7da3f15196481533\n"
         },
         {
             "id": 329,
@@ -61634,7 +61678,7 @@
             "id": 347,
             "url": "https://github.com/xingag/app_spider",
             "description": "a spider on the apps",
-            "stars": 658,
+            "stars": 659,
             "source_graph_repo_id": 37516259,
             "dependencies": [
                 {
@@ -61844,7 +61888,7 @@
             "id": 350,
             "url": "https://github.com/Sanjeev-Thiyagarajan/fastapi-course",
             "description": "",
-            "stars": 734,
+            "stars": 735,
             "source_graph_repo_id": 56255099,
             "dependencies": [
                 {
@@ -61882,7 +61926,7 @@
             "id": 351,
             "url": "https://github.com/awslabs/aws-lambda-web-adapter",
             "description": "Run web applications on AWS Lambda",
-            "stars": 844,
+            "stars": 845,
             "source_graph_repo_id": 56035754,
             "dependencies": [
                 {
@@ -61918,7 +61962,7 @@
                     "name": "hello_world"
                 }
             ],
-            "last_checked_revision": "c5f55e7a02b94b6af3200754dad7c238275131bd\n"
+            "last_checked_revision": "ff2dc8bddd968e74d7dc2ec56a249c56e5a3c5a7\n"
         },
         {
             "id": 352,
@@ -62232,7 +62276,7 @@
                     "name": "cnstd"
                 }
             ],
-            "last_checked_revision": "2a733bf0192ea85ee649705661bef1f5f4758bc0\n"
+            "last_checked_revision": "a5670642e1fefc987ac73ff4857cbbafa0683291\n"
         },
         {
             "id": 357,
@@ -62284,7 +62328,7 @@
             "id": 358,
             "url": "https://github.com/dcs-liberation/dcs_liberation",
             "description": "DCS World dynamic campaign.",
-            "stars": 655,
+            "stars": 656,
             "source_graph_repo_id": 41820306,
             "dependencies": [
                 {
@@ -63528,7 +63572,7 @@
             "id": 368,
             "url": "https://github.com/amisadmin/fastapi-amis-admin",
             "description": "FastAPI-Amis-Admin is a high-performance, efficient and easily extensible FastAPI admin framework. Inspired by django-admin, and has as many powerful functions as django-admin.",
-            "stars": 755,
+            "stars": 756,
             "source_graph_repo_id": 57329582,
             "dependencies": [
                 {
@@ -63598,7 +63642,7 @@
             "id": 369,
             "url": "https://github.com/nnsvs/nnsvs",
             "description": "Neural network-based singing voice synthesis library for research",
-            "stars": 630,
+            "stars": 631,
             "source_graph_repo_id": 40701599,
             "dependencies": [
                 {
@@ -64022,7 +64066,7 @@
             "id": 375,
             "url": "https://github.com/yk/gpt-4chan-public",
             "description": "Code for GPT-4chan",
-            "stars": 593,
+            "stars": 594,
             "source_graph_repo_id": 58075464,
             "dependencies": [
                 {
@@ -64154,7 +64198,7 @@
             "id": 377,
             "url": "https://github.com/abhishekkrthakur/autoxgb",
             "description": "XGBoost + Optuna",
-            "stars": 607,
+            "stars": 608,
             "source_graph_repo_id": 56315302,
             "dependencies": [
                 {
@@ -64212,7 +64256,7 @@
             "id": 378,
             "url": "https://github.com/patrickloeber/python-fun",
             "description": "Some fun and useful projects with Python",
-            "stars": 640,
+            "stars": 641,
             "source_graph_repo_id": 41546572,
             "dependencies": [
                 {
@@ -64558,7 +64602,7 @@
             "id": 381,
             "url": "https://github.com/ClimenteA/flaskwebgui",
             "description": "Create desktop applications with Flask/Django/FastAPI!",
-            "stars": 610,
+            "stars": 611,
             "source_graph_repo_id": 39347967,
             "dependencies": [
                 {
@@ -64749,7 +64793,7 @@
             "id": 385,
             "url": "https://github.com/hackingthemarkets/tradekit",
             "description": "a collection of open source server components and Python libraries for financial data projects and automated trading",
-            "stars": 592,
+            "stars": 593,
             "source_graph_repo_id": 42755499,
             "dependencies": [
                 {
@@ -65094,7 +65138,7 @@
             "id": 392,
             "url": "https://github.com/janvarev/Irene-Voice-Assistant",
             "description": "\u0418\u0440\u0438\u043d\u0430 - \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u043e\u0439 \u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043d\u0442 \u0434\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0444\u0444\u043b\u0430\u0439\u043d. \u041f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u0441\u043a\u0438\u043b\u043b\u044b \u0447\u0435\u0440\u0435\u0437 \u043f\u043b\u0430\u0433\u0438\u043d\u044b.",
-            "stars": 635,
+            "stars": 636,
             "source_graph_repo_id": 57309817,
             "dependencies": [
                 {
@@ -67314,7 +67358,7 @@
             "id": 410,
             "url": "https://github.com/AgnostiqHQ/covalent",
             "description": "Pythonic tool for running machine-learning/high performance/quantum-computing workflows in heterogeneous environments.",
-            "stars": 592,
+            "stars": 594,
             "source_graph_repo_id": 57235333,
             "dependencies": [
                 {
@@ -67944,7 +67988,7 @@
             "id": 415,
             "url": "https://github.com/wondertrader/wtpy",
             "description": "wtpy\u662f\u57fa\u4e8ewondertrader\u4e3a\u5e95\u5c42\u7684\u9488\u5bf9python\u7684\u5b50\u6846\u67b6",
-            "stars": 606,
+            "stars": 607,
             "source_graph_repo_id": 41883122,
             "dependencies": [
                 {
@@ -69604,7 +69648,7 @@
                     "name": "rq_scheduler"
                 }
             ],
-            "last_checked_revision": "47dd924daa66cc1b4019e8afb0fe8839789f00ec\n"
+            "last_checked_revision": "74f70c67e9f41cba15edd08762a9cefaacf06843\n"
         },
         {
             "id": 426,
@@ -75097,7 +75141,7 @@
             "id": 470,
             "url": "https://github.com/doronz88/pymobiledevice3",
             "description": "Pure python3 implementation for working with iDevices (iPhone, etc...).",
-            "stars": 690,
+            "stars": 692,
             "source_graph_repo_id": 43985770,
             "dependencies": [
                 {
@@ -75289,7 +75333,7 @@
                     "name": "sslpsk_pmd3"
                 }
             ],
-            "last_checked_revision": "1d63ee11807d3da303a30621dcf024ca83854c01\n"
+            "last_checked_revision": "5b3c56d8eb3fcb0c321cc80999683cb1a0c57cbb\n"
         },
         {
             "id": 471,
@@ -77810,7 +77854,7 @@
                     "name": "importmagic"
                 }
             ],
-            "last_checked_revision": "c61b427485684e73d743fa182df1808c1a9d279a\n"
+            "last_checked_revision": "8688e721043848501ce26fe406435d9961d719d0\n"
         },
         {
             "id": 492,
@@ -77916,7 +77960,7 @@
             "id": 494,
             "url": "https://github.com/dickreuter/Poker",
             "description": "Fully functional Pokerbot that works on PartyPoker, PokerStars and GGPoker, scraping tables with Open-CV (adaptable via gui) or neural network and making decisions based on a genetic algorithm and montecarlo simulation for poker equity calculation. Binaries can be downloaded with this link:",
-            "stars": 1749,
+            "stars": 1751,
             "source_graph_repo_id": 39972389,
             "dependencies": [
                 {
@@ -78946,7 +78990,7 @@
             "id": 497,
             "url": "https://github.com/flet-dev/flet",
             "description": "Flet enables developers to easily build realtime web, mobile and desktop apps in Python. No frontend experience required.",
-            "stars": 7630,
+            "stars": 7641,
             "source_graph_repo_id": 58078411,
             "dependencies": [
                 {
@@ -79146,7 +79190,7 @@
             "id": 499,
             "url": "https://github.com/flyteorg/flyte",
             "description": "Scalable and flexible workflow orchestration platform that seamlessly unifies data, ML and analytics stacks.",
-            "stars": 4271,
+            "stars": 4272,
             "source_graph_repo_id": 39408457,
             "dependencies": [
                 {
@@ -79568,7 +79612,7 @@
                     "name": "gluon_meson_components"
                 }
             ],
-            "last_checked_revision": "c9de3223fc48fb8d2c6e4a9d49117d0ebb81ac5c\n"
+            "last_checked_revision": "ec89161d896c5bc8b68a64d4b2e6ec656ea925d4\n"
         },
         {
             "id": 505,
@@ -79816,7 +79860,7 @@
                     "name": "multilingual_clip"
                 }
             ],
-            "last_checked_revision": "83da1c74fce2776d3902a38dc80a11c733682245\n"
+            "last_checked_revision": "dea1063b17ef24e3a9616953d5279e6f2a19425f\n"
         },
         {
             "id": 507,
@@ -80307,7 +80351,7 @@
             "id": 510,
             "url": "https://github.com/intel-analytics/BigDL",
             "description": "Accelerate LLM with low-bit (FP4 / INT4 / FP8 / INT8) optimizations using bigdl-llm",
-            "stars": 4653,
+            "stars": 4660,
             "source_graph_repo_id": 627541,
             "dependencies": [
                 {
@@ -80987,7 +81031,7 @@
             "id": 512,
             "url": "https://github.com/srbhr/Resume-Matcher",
             "description": "Resume Matcher is an open source, free tool to improve your resume. It works by using language models to compare and rank resumes with job descriptions. ",
-            "stars": 4112,
+            "stars": 4118,
             "source_graph_repo_id": 55565111,
             "dependencies": [
                 {
@@ -81261,7 +81305,7 @@
             "id": 515,
             "url": "https://github.com/run-llama/sec-insights",
             "description": "A real world full-stack application using LlamaIndex",
-            "stars": 1688,
+            "stars": 1705,
             "source_graph_repo_id": 61618058,
             "dependencies": [
                 {
@@ -82395,7 +82439,7 @@
             "id": 520,
             "url": "https://github.com/dataelement/bisheng",
             "description": "Bisheng is an open LLM devops platform for next generation AI applications.",
-            "stars": 2996,
+            "stars": 3136,
             "source_graph_repo_id": 61638771,
             "dependencies": [
                 {
@@ -83599,7 +83643,7 @@
             "id": 530,
             "url": "https://github.com/hyperdxio/hyperdx",
             "description": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors.",
-            "stars": 5341,
+            "stars": 5371,
             "source_graph_repo_id": 61672308,
             "dependencies": [
                 {
@@ -83663,7 +83707,7 @@
             "id": 532,
             "url": "https://github.com/pyscript/pyscript",
             "description": "Try PyScript: https://pyscript.com  Examples: https://tinyurl.com/pyscript-examples  Community: https://discord.gg/HxvBtukrg2",
-            "stars": 17216,
+            "stars": 17219,
             "source_graph_repo_id": 57851460,
             "dependencies": [
                 {
@@ -83781,7 +83825,7 @@
             "id": 533,
             "url": "https://github.com/teamhanko/hanko",
             "description": "Auth and user management for the passkey era",
-            "stars": 4896,
+            "stars": 4902,
             "source_graph_repo_id": 57592745,
             "dependencies": [],
             "last_checked_revision": null
@@ -83790,7 +83834,7 @@
             "id": 534,
             "url": "https://github.com/aigc-apps/sd-webui-EasyPhoto",
             "description": "\ud83d\udcf7 EasyPhoto | Your Smart AI Photo Generator.",
-            "stars": 3705,
+            "stars": 3791,
             "source_graph_repo_id": 61602018,
             "dependencies": [
                 {
@@ -84268,7 +84312,7 @@
             "id": 537,
             "url": "https://github.com/pinecone-io/examples",
             "description": "Jupyter Notebooks to help you get hands-on with Pinecone vector databases",
-            "stars": 2091,
+            "stars": 2094,
             "source_graph_repo_id": 54629859,
             "dependencies": [
                 {
@@ -84611,7 +84655,7 @@
                     "name": "traceloop"
                 }
             ],
-            "last_checked_revision": "eaaad7982343e8d6dbc547cedc9dae88999d8b86\n"
+            "last_checked_revision": "1262d89ab385d16220d1578a4908f53b9bc5a075\n"
         },
         {
             "id": 540,
@@ -84739,7 +84783,7 @@
             "id": 541,
             "url": "https://github.com/daveshap/ACE_Framework",
             "description": "ACE (Autonomous Cognitive Entities) - 100% local and open source autonomous agents",
-            "stars": 1193,
+            "stars": 1204,
             "source_graph_repo_id": 61682095,
             "dependencies": [
                 {
@@ -84919,7 +84963,7 @@
                     "name": "halo"
                 }
             ],
-            "last_checked_revision": "2e21374c738a76229a89266044d81e9ebabaaed0\n"
+            "last_checked_revision": "c933604ae53055e1f4dd4f399207e9cdd35868d7\n"
         },
         {
             "id": 542,
@@ -85087,7 +85131,7 @@
             "id": 543,
             "url": "https://github.com/rapid7/metasploit-framework",
             "description": "Metasploit Framework",
-            "stars": 31919,
+            "stars": 31920,
             "source_graph_repo_id": 69744,
             "dependencies": [
                 {
@@ -85281,7 +85325,7 @@
                     "name": "languagetools"
                 }
             ],
-            "last_checked_revision": "69b5fb2ecd5068706342740531be4ef0ad68469e\n"
+            "last_checked_revision": "5a1953c25d912c8353e9894429e01854b8d80db7\n"
         },
         {
             "id": 545,
@@ -85796,7 +85840,7 @@
             "id": 550,
             "url": "https://github.com/OpenBMB/XAgent",
             "description": "An Autonomous LLM Agent for Complex Task Solving",
-            "stars": 6235,
+            "stars": 6344,
             "source_graph_repo_id": 61842276,
             "dependencies": [
                 {
@@ -86076,7 +86120,7 @@
             "id": 552,
             "url": "https://github.com/joernio/joern",
             "description": "Open-source code analysis platform for C/C++/Java/Binary/Javascript/Python/Kotlin based on code property graphs. Discord https://discord.gg/vv4MH284Hc",
-            "stars": 1636,
+            "stars": 1637,
             "source_graph_repo_id": 39978736,
             "dependencies": [],
             "last_checked_revision": null
@@ -86085,7 +86129,7 @@
             "id": 553,
             "url": "https://github.com/OneUptime/oneuptime",
             "description": "OneUptime is the complete open-source observability platform.",
-            "stars": 1559,
+            "stars": 1560,
             "source_graph_repo_id": 57981345,
             "dependencies": [
                 {
@@ -86105,7 +86149,7 @@
                     "name": "pydantic"
                 }
             ],
-            "last_checked_revision": "c5f1621ac05a37012a2f77f037d89aae91e69705\n"
+            "last_checked_revision": "184ad1b2b8de58ab41544a34b7c90c8570b5fa3b\n"
         },
         {
             "id": 554,
@@ -86213,7 +86257,7 @@
             "id": 555,
             "url": "https://github.com/QIN2DIM/hcaptcha-challenger",
             "description": "\ud83e\udd42 Gracefully face hCaptcha challenge with MoE(ONNX) embedded solution.",
-            "stars": 1293,
+            "stars": 1294,
             "source_graph_repo_id": 57367794,
             "dependencies": [
                 {
@@ -86331,7 +86375,7 @@
             "id": 556,
             "url": "https://github.com/docker/genai-stack",
             "description": "Langchain + Docker + Neo4j + Ollama",
-            "stars": 1802,
+            "stars": 1856,
             "source_graph_repo_id": 61771784,
             "dependencies": [
                 {
@@ -86377,7 +86421,7 @@
             "id": 557,
             "url": "https://github.com/WisdomShell/codeshell",
             "description": "A series of code large language models developed by PKU-KCL",
-            "stars": 1378,
+            "stars": 1390,
             "source_graph_repo_id": 61864533,
             "dependencies": [
                 {
@@ -86455,7 +86499,7 @@
             "id": 558,
             "url": "https://github.com/MetaGLM/FinGLM",
             "description": "FinGLM: \u81f4\u529b\u4e8e\u6784\u5efa\u4e00\u4e2a\u5f00\u653e\u7684\u3001\u516c\u76ca\u7684\u3001\u6301\u4e45\u7684\u91d1\u878d\u5927\u6a21\u578b\u9879\u76ee\uff0c\u5229\u7528\u5f00\u6e90\u5f00\u653e\u6765\u4fc3\u8fdb\u300cAI+\u91d1\u878d\u300d\u3002",
-            "stars": 1076,
+            "stars": 1103,
             "source_graph_repo_id": 61738392,
             "dependencies": [
                 {
@@ -86971,7 +87015,7 @@
             "id": 560,
             "url": "https://github.com/Mrinank-Bhowmick/python-beginner-projects",
             "description": "Explore a collection of beginner-friendly Python projects that can be completed with minimal code. Perfect for learning the basics and improving your coding skills.",
-            "stars": 670,
+            "stars": 671,
             "source_graph_repo_id": 58575281,
             "dependencies": [
                 {
@@ -87573,7 +87617,7 @@
             "id": 563,
             "url": "https://github.com/leptonai/leptonai",
             "description": "A Pythonic framework to simplify AI service building",
-            "stars": 651,
+            "stars": 658,
             "source_graph_repo_id": 61666705,
             "dependencies": [
                 {
@@ -87769,7 +87813,7 @@
             "id": 565,
             "url": "https://github.com/langchain-ai/langserve",
             "description": "LangServe \ud83e\udd9c\ufe0f\ud83c\udfd3",
-            "stars": 1045,
+            "stars": 1072,
             "source_graph_repo_id": 61769023,
             "dependencies": [
                 {
@@ -87837,13 +87881,13 @@
                     "name": "langchain_core"
                 }
             ],
-            "last_checked_revision": "cf180b81da381ced26c5938090f4e10dff50dc22\n"
+            "last_checked_revision": "76669c2437e07367ab307462d2cb379d8d7912ac\n"
         },
         {
             "id": 566,
             "url": "https://github.com/Tencent/LightDiffusionFlow",
             "description": "This extension is developed for AUTOMATIC1111's Stable Diffusion web UI that provides import/export options for parameters.",
-            "stars": 596,
+            "stars": 610,
             "source_graph_repo_id": 61689280,
             "dependencies": [
                 {
@@ -88215,13 +88259,13 @@
                     "name": "fastapi_poe"
                 }
             ],
-            "last_checked_revision": "68737da7a2fd10d77279d3ffc334810d4f22291b\n"
+            "last_checked_revision": "6be29f5bed5627a72dbedc9a88c5c81345d0eebb\n"
         },
         {
             "id": 569,
             "url": "https://github.com/microsoft/vscode-docs",
             "description": "Public documentation for Visual Studio Code",
-            "stars": 5338,
+            "stars": 5340,
             "source_graph_repo_id": 61924,
             "dependencies": [],
             "last_checked_revision": null
@@ -88230,7 +88274,7 @@
             "id": 570,
             "url": "https://github.com/THUDM/ChatGLM3",
             "description": "ChatGLM3 series: Open Bilingual Chat LLMs | \u5f00\u6e90\u53cc\u8bed\u5bf9\u8bdd\u8bed\u8a00\u6a21\u578b",
-            "stars": 7219,
+            "stars": 7500,
             "source_graph_repo_id": 61926223,
             "dependencies": [
                 {
@@ -88320,7 +88364,7 @@
             "id": 571,
             "url": "https://github.com/Kludex/awesome-fastapi-projects",
             "description": "List of FastAPI projects! :sunglasses: :rocket: ",
-            "stars": 1148,
+            "stars": 1149,
             "source_graph_repo_id": 41730692,
             "dependencies": [
                 {
@@ -88376,13 +88420,13 @@
                     "name": "stamina"
                 }
             ],
-            "last_checked_revision": "088de5ebb2448b61403a0c8b016a8bcd22e8e401\n"
+            "last_checked_revision": "11a4bdebae87288f2576edfa3dd341121c475549\n"
         },
         {
             "id": 572,
             "url": "https://github.com/larymak/Python-project-Scripts",
             "description": "This repositories contains a list of python scripts projects from beginner level advancing slowly. More code snippets to be added soon. feel free to clone this repo",
-            "stars": 948,
+            "stars": 949,
             "source_graph_repo_id": 43182421,
             "dependencies": [
                 {
@@ -89530,7 +89574,7 @@
                     "name": "tyro"
                 }
             ],
-            "last_checked_revision": "37d4007c56d78757f50e0a6cf7f9ab5355a29c8f\n"
+            "last_checked_revision": "31cff20d993cad2aed273291a4bc8d0cdbd2358f\n"
         },
         {
             "id": 575,
@@ -89658,7 +89702,7 @@
             "id": 576,
             "url": "https://github.com/safevideo/autollm",
             "description": "Ship RAG based LLM web apps in seconds.",
-            "stars": 702,
+            "stars": 721,
             "source_graph_repo_id": 61941238,
             "dependencies": [
                 {
@@ -89724,7 +89768,7 @@
             "id": 577,
             "url": "https://github.com/Planetary-Computers/autotab-starter",
             "description": "Build browser agents for real world tasks",
-            "stars": 907,
+            "stars": 913,
             "source_graph_repo_id": 61868141,
             "dependencies": [
                 {
@@ -90098,7 +90142,7 @@
                     "name": "autofaiss"
                 }
             ],
-            "last_checked_revision": "226b634666c08cd490d04506d6586a7b1da1ebb3\n"
+            "last_checked_revision": "eb8e113c155d6ed597e298f5ae44bcc8fdd57261\n"
         },
         {
             "id": 581,
@@ -90684,7 +90728,7 @@
                     "name": "tronpy"
                 }
             ],
-            "last_checked_revision": "288d86a2f74ce7252cf509fb9ba7f8ec33326c30\n"
+            "last_checked_revision": "d97ef784700efe402674150c1527b05e5ac4fd86\n"
         },
         {
             "id": 588,
@@ -91984,7 +92028,7 @@
             "id": 599,
             "url": "https://github.com/langchain-ai/opengpts",
             "description": "",
-            "stars": 4915,
+            "stars": 4956,
             "source_graph_repo_id": 61982225,
             "dependencies": [
                 {
@@ -92228,7 +92272,7 @@
             "id": 601,
             "url": "https://github.com/YORG-AI/Open-Assistant",
             "description": "YORG Open Source Version",
-            "stars": 1424,
+            "stars": 1425,
             "source_graph_repo_id": 61936893,
             "dependencies": [
                 {
@@ -92826,7 +92870,7 @@
             "id": 604,
             "url": "https://github.com/OpenBB-finance/OpenBBTerminal",
             "description": "Investment Research for Everyone, Everywhere.",
-            "stars": 25122,
+            "stars": 25132,
             "source_graph_repo_id": 43087537,
             "dependencies": [
                 {
@@ -93479,8 +93523,8 @@
         {
             "id": 605,
             "url": "https://github.com/abi/screenshot-to-code",
-            "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-            "stars": 30802,
+            "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React)",
+            "stars": 31768,
             "source_graph_repo_id": 62027956,
             "dependencies": [
                 {
@@ -93550,7 +93594,7 @@
             "id": 606,
             "url": "https://github.com/skypilot-org/skypilot",
             "description": "SkyPilot: Run LLMs, AI, and Batch jobs on any cloud. Get maximum savings, highest GPU availability, and managed execution\u2014all with a simple interface.",
-            "stars": 4680,
+            "stars": 4695,
             "source_graph_repo_id": 58631608,
             "dependencies": [
                 {
@@ -93806,7 +93850,7 @@
                     "name": "ibm_boto3"
                 }
             ],
-            "last_checked_revision": "7609e229a448a8f7d27642a8d34d33b6e0534702\n"
+            "last_checked_revision": "7c514baabe1f2452d19354bfa804923e45755afd\n"
         },
         {
             "id": 607,
@@ -93870,7 +93914,7 @@
             "id": 608,
             "url": "https://github.com/yeti-platform/yeti",
             "description": "Your Everyday Threat Intelligence",
-            "stars": 1515,
+            "stars": 1516,
             "source_graph_repo_id": 943663,
             "dependencies": [
                 {
@@ -94016,7 +94060,7 @@
             "id": 609,
             "url": "https://github.com/all-in-aigc/gpts-works",
             "description": "A Third-party GPTs store",
-            "stars": 981,
+            "stars": 1019,
             "source_graph_repo_id": 62021016,
             "dependencies": [
                 {
@@ -94260,13 +94304,13 @@
                     "name": "testbed_utils"
                 }
             ],
-            "last_checked_revision": "e5710993a1d6b7c1f58bce6829c1b8643a634b30\n"
+            "last_checked_revision": "b1adac515931bf236ac59224269eeec683a162ba\n"
         },
         {
             "id": 612,
             "url": "https://github.com/PKU-YuanGroup/Video-LLaVA",
             "description": "Video-LLaVA: Learning United Visual Representation by Alignment Before Projection",
-            "stars": 1579,
+            "stars": 1619,
             "source_graph_repo_id": 62050262,
             "dependencies": [
                 {
@@ -94388,7 +94432,7 @@
             "id": 613,
             "url": "https://github.com/ollama-webui/ollama-webui",
             "description": "ChatGPT-Style Web UI Client for Ollama \ud83e\udd99",
-            "stars": 1779,
+            "stars": 2389,
             "source_graph_repo_id": 61799813,
             "dependencies": [
                 {
@@ -94402,6 +94446,10 @@
                 {
                     "id": 19,
                     "name": "requests"
+                },
+                {
+                    "id": 29,
+                    "name": "aiohttp"
                 },
                 {
                     "id": 38,
@@ -94448,7 +94496,7 @@
                     "name": "apps"
                 }
             ],
-            "last_checked_revision": "6ea9f6e198daf60964f8f5a19199ac56441d91dd\n"
+            "last_checked_revision": "295ebb4f257702db9f0f822b147bc4228ddffeb2\n"
         },
         {
             "id": 614,
@@ -94620,7 +94668,7 @@
             "id": 615,
             "url": "https://github.com/friuns2/BlackFriday-GPTs-Prompts",
             "description": "List of free GPTs that doesn't require plus subscription ",
-            "stars": 1509,
+            "stars": 1544,
             "source_graph_repo_id": 62077530,
             "dependencies": [],
             "last_checked_revision": null
@@ -94629,7 +94677,7 @@
             "id": 616,
             "url": "https://github.com/radames/Real-Time-Latent-Consistency-Model",
             "description": "Demo showcasing ~real-time Latent Consistency Model pipeline with Diffusers and a MJPEG stream server",
-            "stars": 690,
+            "stars": 698,
             "source_graph_repo_id": 61950757,
             "dependencies": [
                 {
@@ -94691,7 +94739,7 @@
             "id": 617,
             "url": "https://github.com/krishnaik06/The-Grand-Complete-Data-Science-Materials",
             "description": "",
-            "stars": 4316,
+            "stars": 4624,
             "source_graph_repo_id": 61709163,
             "dependencies": [
                 {
@@ -96965,7 +97013,7 @@
                     "name": "_winapi"
                 }
             ],
-            "last_checked_revision": "bf8e100f8b5b069f98207b98c67e447417a63646\n"
+            "last_checked_revision": "d4c5ea83d271cc75c136d84106af614933ae9c4c\n"
         },
         {
             "id": 619,
@@ -97097,7 +97145,7 @@
             "id": 620,
             "url": "https://github.com/THUDM/CogVLM",
             "description": "a state-of-the-art-level open visual language model | \u591a\u6a21\u6001\u9884\u8bad\u7ec3\u6a21\u578b",
-            "stars": 2882,
+            "stars": 3113,
             "source_graph_repo_id": 61803777,
             "dependencies": [
                 {
@@ -97203,7 +97251,7 @@
             "id": 621,
             "url": "https://github.com/faust-streaming/faust",
             "description": "Python Stream Processing. A Faust fork",
-            "stars": 1315,
+            "stars": 1316,
             "source_graph_repo_id": 42312025,
             "dependencies": [
                 {
@@ -97405,7 +97453,7 @@
             "id": 622,
             "url": "https://github.com/netease-youdao/EmotiVoice",
             "description": "EmotiVoice \ud83d\ude0a: a Multi-Voice and Prompt-Controlled TTS Engine",
-            "stars": 5314,
+            "stars": 5393,
             "source_graph_repo_id": 61999432,
             "dependencies": [
                 {
@@ -97519,7 +97567,7 @@
             "id": 623,
             "url": "https://github.com/pydantic/FastUI",
             "description": "Build better UIs faster.",
-            "stars": 2718,
+            "stars": 2886,
             "source_graph_repo_id": 62122628,
             "dependencies": [
                 {
@@ -97577,7 +97625,7 @@
             "id": 624,
             "url": "https://github.com/mattwparas/steel",
             "description": "An embedded scheme interpreter in Rust",
-            "stars": 670,
+            "stars": 673,
             "source_graph_repo_id": 43041568,
             "dependencies": [
                 {
@@ -97585,13 +97633,13 @@
                     "name": "fastapi"
                 }
             ],
-            "last_checked_revision": "bfc5a8d61d35b01e8ad09e05ed3b14b97aeac833\n"
+            "last_checked_revision": "5721aea028c7cef36064e9b3d43b088119d3e477\n"
         },
         {
             "id": 625,
             "url": "https://github.com/plasmicapp/plasmic",
             "description": "Visual builder for React. Build apps, websites, and content. Integrate with your codebase.",
-            "stars": 3483,
+            "stars": 3494,
             "source_graph_repo_id": 43064273,
             "dependencies": [
                 {
@@ -97921,7 +97969,7 @@
             "id": 628,
             "url": "https://github.com/cpacker/MemGPT",
             "description": "Teaching LLMs memory management for unbounded context \ud83d\udcda\ud83e\udd99",
-            "stars": 6830,
+            "stars": 6926,
             "source_graph_repo_id": 61824705,
             "dependencies": [
                 {
@@ -98041,7 +98089,7 @@
                     "name": "demjson3"
                 }
             ],
-            "last_checked_revision": "8fbfc5bb08e7a97d920b9e1cc8b25bfb4d2510e5\n"
+            "last_checked_revision": "ccf7bf6383a08cd5c9e38c9644ff530b3740522f\n"
         },
         {
             "id": 629,
@@ -98345,7 +98393,7 @@
             "id": 630,
             "url": "https://github.com/Coframe/coffee",
             "description": "Build and iterate on your UI 10x faster with AI - right from your own IDE \u2615\ufe0f",
-            "stars": 771,
+            "stars": 1084,
             "source_graph_repo_id": 62181048,
             "dependencies": [
                 {
@@ -99307,7 +99355,7 @@
                     "name": "carvekit"
                 }
             ],
-            "last_checked_revision": "2ef12d1e8809dfe06b9b6d6e4493f2d69669309d\n"
+            "last_checked_revision": "3695e4491f426550c56720de88be35eadf794634\n"
         },
         {
             "id": 632,
@@ -99374,6 +99422,202 @@
                 }
             ],
             "last_checked_revision": "ecbffe0b9e45bdd3ead76299af6d980a1132b32a\n"
+        },
+        {
+            "id": 633,
+            "url": "https://github.com/apple/ml-ferret",
+            "description": "",
+            "stars": 1346,
+            "source_graph_repo_id": 61794564,
+            "dependencies": [
+                {
+                    "id": 3,
+                    "name": "fastapi"
+                },
+                {
+                    "id": 11,
+                    "name": "transformers"
+                },
+                {
+                    "id": 14,
+                    "name": "numpy"
+                },
+                {
+                    "id": 15,
+                    "name": "torch"
+                },
+                {
+                    "id": 19,
+                    "name": "requests"
+                },
+                {
+                    "id": 34,
+                    "name": "uvicorn"
+                },
+                {
+                    "id": 82,
+                    "name": "PIL"
+                },
+                {
+                    "id": 84,
+                    "name": "torchvision"
+                },
+                {
+                    "id": 111,
+                    "name": "einops"
+                },
+                {
+                    "id": 118,
+                    "name": "gradio"
+                },
+                {
+                    "id": 127,
+                    "name": "tqdm"
+                },
+                {
+                    "id": 140,
+                    "name": "scipy"
+                },
+                {
+                    "id": 161,
+                    "name": "matplotlib"
+                },
+                {
+                    "id": 178,
+                    "name": "peft"
+                },
+                {
+                    "id": 185,
+                    "name": "huggingface_hub"
+                },
+                {
+                    "id": 188,
+                    "name": "flash_attn"
+                },
+                {
+                    "id": 455,
+                    "name": "prettytable"
+                },
+                {
+                    "id": 551,
+                    "name": "deepspeed"
+                },
+                {
+                    "id": 657,
+                    "name": "pycocotools"
+                },
+                {
+                    "id": 5695,
+                    "name": "misc"
+                }
+            ],
+            "last_checked_revision": "262a943e1f856c52d6491de10f443d804b8132ee\n"
+        },
+        {
+            "id": 634,
+            "url": "https://github.com/cumulo-autumn/StreamDiffusion",
+            "description": "StreamDiffusion: A Pipeline-Level Solution for Real-Time Interactive Generation",
+            "stars": 1298,
+            "source_graph_repo_id": 62216513,
+            "dependencies": [
+                {
+                    "id": 3,
+                    "name": "fastapi"
+                },
+                {
+                    "id": 11,
+                    "name": "transformers"
+                },
+                {
+                    "id": 14,
+                    "name": "numpy"
+                },
+                {
+                    "id": 15,
+                    "name": "torch"
+                },
+                {
+                    "id": 18,
+                    "name": "setuptools"
+                },
+                {
+                    "id": 19,
+                    "name": "requests"
+                },
+                {
+                    "id": 34,
+                    "name": "uvicorn"
+                },
+                {
+                    "id": 38,
+                    "name": "pydantic"
+                },
+                {
+                    "id": 82,
+                    "name": "PIL"
+                },
+                {
+                    "id": 84,
+                    "name": "torchvision"
+                },
+                {
+                    "id": 114,
+                    "name": "xformers"
+                },
+                {
+                    "id": 115,
+                    "name": "packaging"
+                },
+                {
+                    "id": 127,
+                    "name": "tqdm"
+                },
+                {
+                    "id": 145,
+                    "name": "fire"
+                },
+                {
+                    "id": 157,
+                    "name": "triton"
+                },
+                {
+                    "id": 158,
+                    "name": "diffusers"
+                },
+                {
+                    "id": 468,
+                    "name": "onnx"
+                },
+                {
+                    "id": 524,
+                    "name": "tensorrt"
+                },
+                {
+                    "id": 3720,
+                    "name": "cuda"
+                },
+                {
+                    "id": 4052,
+                    "name": "polygraphy"
+                },
+                {
+                    "id": 4053,
+                    "name": "onnx_graphsurgeon"
+                },
+                {
+                    "id": 5629,
+                    "name": "sfast"
+                },
+                {
+                    "id": 5696,
+                    "name": "mss"
+                },
+                {
+                    "id": 5697,
+                    "name": "streamdiffusion"
+                }
+            ],
+            "last_checked_revision": "62596fd39b86a3088e28b2f2c58caa36bc069c50\n"
         }
     ]
 }
