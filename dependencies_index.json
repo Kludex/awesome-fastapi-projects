@@ -27867,6 +27867,326 @@
         {
             "id": 6968,
             "name": "stdlib_list"
+        },
+        {
+            "id": 6969,
+            "name": "defog"
+        },
+        {
+            "id": 6970,
+            "name": "pulumi_aws_apigateway"
+        },
+        {
+            "id": 6971,
+            "name": "pulumi_azure"
+        },
+        {
+            "id": 6972,
+            "name": "pulumi_digitalocean"
+        },
+        {
+            "id": 6973,
+            "name": "pulumi_azuread"
+        },
+        {
+            "id": 6974,
+            "name": "pulumi_azure_native"
+        },
+        {
+            "id": 6975,
+            "name": "pulumi_mysql"
+        },
+        {
+            "id": 6976,
+            "name": "pulumi_random"
+        },
+        {
+            "id": 6977,
+            "name": "pulumi_openstack"
+        },
+        {
+            "id": 6978,
+            "name": "pulumi_libvirt"
+        },
+        {
+            "id": 6979,
+            "name": "pulumi_awsx"
+        },
+        {
+            "id": 6980,
+            "name": "pulumi_policy"
+        },
+        {
+            "id": 6981,
+            "name": "pulumi_command"
+        },
+        {
+            "id": 6982,
+            "name": "pulumi_tls"
+        },
+        {
+            "id": 6983,
+            "name": "pulumi_equinix"
+        },
+        {
+            "id": 6984,
+            "name": "vxi11"
+        },
+        {
+            "id": 6985,
+            "name": "xmodem"
+        },
+        {
+            "id": 6986,
+            "name": "myimport"
+        },
+        {
+            "id": 6987,
+            "name": "kasa"
+        },
+        {
+            "id": 6988,
+            "name": "microsearch"
+        },
+        {
+            "id": 6989,
+            "name": "lib_controllllite"
+        },
+        {
+            "id": 6990,
+            "name": "lib_multidiffusion"
+        },
+        {
+            "id": 6991,
+            "name": "lib_controlnet"
+        },
+        {
+            "id": 6992,
+            "name": "lib_dynamic_thresholding"
+        },
+        {
+            "id": 6993,
+            "name": "spandrel"
+        },
+        {
+            "id": 6994,
+            "name": "lib_latent_modifier"
+        },
+        {
+            "id": 6995,
+            "name": "lib_ipadapter"
+        },
+        {
+            "id": 6996,
+            "name": "marigold"
+        },
+        {
+            "id": 6997,
+            "name": "legacy_preprocessors"
+        },
+        {
+            "id": 6998,
+            "name": "ifcfm"
+        },
+        {
+            "id": 6999,
+            "name": "bl_ui"
+        },
+        {
+            "id": 7000,
+            "name": "ui_translate"
+        },
+        {
+            "id": 7001,
+            "name": "blf"
+        },
+        {
+            "id": 7002,
+            "name": "bimtester"
+        },
+        {
+            "id": 7003,
+            "name": "pywavefront"
+        },
+        {
+            "id": 7004,
+            "name": "pytest_blender"
+        },
+        {
+            "id": 7005,
+            "name": "ifcdiff"
+        },
+        {
+            "id": 7006,
+            "name": "pymeshlab"
+        },
+        {
+            "id": 7007,
+            "name": "bsdd"
+        },
+        {
+            "id": 7008,
+            "name": "ifc5d"
+        },
+        {
+            "id": 7009,
+            "name": "meshio"
+        },
+        {
+            "id": 7010,
+            "name": "OCC"
+        },
+        {
+            "id": 7011,
+            "name": "ifcsverchok"
+        },
+        {
+            "id": 7012,
+            "name": "salome_version"
+        },
+        {
+            "id": 7013,
+            "name": "SALOMEDS"
+        },
+        {
+            "id": 7014,
+            "name": "bspy"
+        },
+        {
+            "id": 7015,
+            "name": "ifccityjson"
+        },
+        {
+            "id": 7016,
+            "name": "MeasureIt_ARCH"
+        },
+        {
+            "id": 7017,
+            "name": "gpu"
+        },
+        {
+            "id": 7018,
+            "name": "pyqode"
+        },
+        {
+            "id": 7019,
+            "name": "gpu_extras"
+        },
+        {
+            "id": 7020,
+            "name": "brickschema"
+        },
+        {
+            "id": 7021,
+            "name": "io_import_scene_ifc"
+        },
+        {
+            "id": 7022,
+            "name": "salome"
+        },
+        {
+            "id": 7023,
+            "name": "ifcopenshell"
+        },
+        {
+            "id": 7024,
+            "name": "aud"
+        },
+        {
+            "id": 7025,
+            "name": "bmesh"
+        },
+        {
+            "id": 7026,
+            "name": "hppfcl"
+        },
+        {
+            "id": 7027,
+            "name": "mathutils"
+        },
+        {
+            "id": 7028,
+            "name": "bcf"
+        },
+        {
+            "id": 7029,
+            "name": "ifcpatch"
+        },
+        {
+            "id": 7030,
+            "name": "bpy_extras"
+        },
+        {
+            "id": 7031,
+            "name": "SMESH"
+        },
+        {
+            "id": 7032,
+            "name": "ifcgraph"
+        },
+        {
+            "id": 7033,
+            "name": "xerparser"
+        },
+        {
+            "id": 7034,
+            "name": "sverchok"
+        },
+        {
+            "id": 7035,
+            "name": "blenderbim"
+        },
+        {
+            "id": 7036,
+            "name": "cjio"
+        },
+        {
+            "id": 7037,
+            "name": "ifcclash"
+        },
+        {
+            "id": 7038,
+            "name": "bl_i18n_utils"
+        },
+        {
+            "id": 7039,
+            "name": "boltspy"
+        },
+        {
+            "id": 7040,
+            "name": "salome_notebook"
+        },
+        {
+            "id": 7041,
+            "name": "ifc4d"
+        },
+        {
+            "id": 7042,
+            "name": "ifccsv"
+        },
+        {
+            "id": 7043,
+            "name": "ifctester"
+        },
+        {
+            "id": 7044,
+            "name": "bpypolyskel"
+        },
+        {
+            "id": 7045,
+            "name": "ifcjson"
+        },
+        {
+            "id": 7046,
+            "name": "py2neo"
+        },
+        {
+            "id": 7047,
+            "name": "GEOM"
+        },
+        {
+            "id": 7048,
+            "name": "processors"
         }
     ]
 }
