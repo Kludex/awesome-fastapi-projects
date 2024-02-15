@@ -28407,6 +28407,1042 @@
         {
             "id": 7103,
             "name": "argostranslate"
+        },
+        {
+            "id": 7104,
+            "name": "fastui_chat"
+        },
+        {
+            "id": 7105,
+            "name": "funcchain"
+        },
+        {
+            "id": 7106,
+            "name": "flexgen"
+        },
+        {
+            "id": 7107,
+            "name": "modelutils"
+        },
+        {
+            "id": 7108,
+            "name": "quant"
+        },
+        {
+            "id": 7109,
+            "name": "autograd_4bit"
+        },
+        {
+            "id": 7110,
+            "name": "elevenlabslib"
+        },
+        {
+            "id": 7111,
+            "name": "amp_wrapper"
+        },
+        {
+            "id": 7112,
+            "name": "llama_inference_offload"
+        },
+        {
+            "id": 7113,
+            "name": "monkeypatch"
+        },
+        {
+            "id": 7114,
+            "name": "flask_cloudflared"
+        },
+        {
+            "id": 7115,
+            "name": "create_config"
+        },
+        {
+            "id": 7116,
+            "name": "metadata_copyer"
+        },
+        {
+            "id": 7117,
+            "name": "MultiScaleDeformableAttention"
+        },
+        {
+            "id": 7118,
+            "name": "consolepi"
+        },
+        {
+            "id": 7119,
+            "name": "dlipower"
+        },
+        {
+            "id": 7120,
+            "name": "in_place"
+        },
+        {
+            "id": 7121,
+            "name": "log_symbols"
+        },
+        {
+            "id": 7122,
+            "name": "better_exceptions"
+        },
+        {
+            "id": 7123,
+            "name": "aiconsole"
+        },
+        {
+            "id": 7124,
+            "name": "aiconsole_toolkit"
+        },
+        {
+            "id": 7125,
+            "name": "mmpretrain"
+        },
+        {
+            "id": 7126,
+            "name": "lagent"
+        },
+        {
+            "id": 7127,
+            "name": "worker"
+        },
+        {
+            "id": 7128,
+            "name": "ytdl_opts"
+        },
+        {
+            "id": 7129,
+            "name": "classy"
+        },
+        {
+            "id": 7130,
+            "name": "typings"
+        },
+        {
+            "id": 7131,
+            "name": "voices"
+        },
+        {
+            "id": 7132,
+            "name": "postgres"
+        },
+        {
+            "id": 7133,
+            "name": "datasources"
+        },
+        {
+            "id": 7134,
+            "name": "pysmilesutils"
+        },
+        {
+            "id": 7135,
+            "name": "rdkit"
+        },
+        {
+            "id": 7136,
+            "name": "orders"
+        },
+        {
+            "id": 7137,
+            "name": "flask_smorest"
+        },
+        {
+            "id": 7138,
+            "name": "framework_graphql"
+        },
+        {
+            "id": 7139,
+            "name": "sample_application_pb2_grpc"
+        },
+        {
+            "id": 7140,
+            "name": "framework_graphene"
+        },
+        {
+            "id": 7141,
+            "name": "pysolr"
+        },
+        {
+            "id": 7142,
+            "name": "daphne"
+        },
+        {
+            "id": 7143,
+            "name": "postgresql"
+        },
+        {
+            "id": 7144,
+            "name": "testing_support"
+        },
+        {
+            "id": 7145,
+            "name": "cheroot"
+        },
+        {
+            "id": 7146,
+            "name": "framework_ariadne"
+        },
+        {
+            "id": 7147,
+            "name": "lock_file"
+        },
+        {
+            "id": 7148,
+            "name": "gearman"
+        },
+        {
+            "id": 7149,
+            "name": "framework_strawberry"
+        },
+        {
+            "id": 7150,
+            "name": "mod_wsgi"
+        },
+        {
+            "id": 7151,
+            "name": "tastypie"
+        },
+        {
+            "id": 7152,
+            "name": "solr"
+        },
+        {
+            "id": 7153,
+            "name": "bmemcached"
+        },
+        {
+            "id": 7154,
+            "name": "metadata_loader"
+        },
+        {
+            "id": 7155,
+            "name": "pmtiles"
+        },
+        {
+            "id": 7156,
+            "name": "sigmf"
+        },
+        {
+            "id": 7157,
+            "name": "pymongo_inmemory"
+        },
+        {
+            "id": 7158,
+            "name": "converters"
+        },
+        {
+            "id": 7159,
+            "name": "litelama"
+        },
+        {
+            "id": 7160,
+            "name": "quantile"
+        },
+        {
+            "id": 7161,
+            "name": "webapps"
+        },
+        {
+            "id": 7162,
+            "name": "apis"
+        },
+        {
+            "id": 7163,
+            "name": "invoiceservice"
+        },
+        {
+            "id": 7164,
+            "name": "schwifty"
+        },
+        {
+            "id": 7165,
+            "name": "uiapp"
+        },
+        {
+            "id": 7166,
+            "name": "price_parser"
+        },
+        {
+            "id": 7167,
+            "name": "multimodal_concat"
+        },
+        {
+            "id": 7168,
+            "name": "ahocorapy"
+        },
+        {
+            "id": 7169,
+            "name": "simpletransformers"
+        },
+        {
+            "id": 7170,
+            "name": "fromage"
+        },
+        {
+            "id": 7171,
+            "name": "aux_files"
+        },
+        {
+            "id": 7172,
+            "name": "hdt"
+        },
+        {
+            "id": 7173,
+            "name": "meta_script_skill"
+        },
+        {
+            "id": 7174,
+            "name": "templatey"
+        },
+        {
+            "id": 7175,
+            "name": "vocoder"
+        },
+        {
+            "id": 7176,
+            "name": "RAKE"
+        },
+        {
+            "id": 7177,
+            "name": "scenario"
+        },
+        {
+            "id": 7178,
+            "name": "rusenttokenize"
+        },
+        {
+            "id": 7179,
+            "name": "opensmile"
+        },
+        {
+            "id": 7180,
+            "name": "deeppavlov"
+        },
+        {
+            "id": 7181,
+            "name": "dff"
+        },
+        {
+            "id": 7182,
+            "name": "gigachat"
+        },
+        {
+            "id": 7183,
+            "name": "neuralcoref"
+        },
+        {
+            "id": 7184,
+            "name": "deeppavlov_kg"
+        },
+        {
+            "id": 7185,
+            "name": "whapi"
+        },
+        {
+            "id": 7186,
+            "name": "df_engine"
+        },
+        {
+            "id": 7187,
+            "name": "pymorphy2"
+        },
+        {
+            "id": 7188,
+            "name": "dialogflows"
+        },
+        {
+            "id": 7189,
+            "name": "parlai"
+        },
+        {
+            "id": 7190,
+            "name": "bert_dp"
+        },
+        {
+            "id": 7191,
+            "name": "programy"
+        },
+        {
+            "id": 7192,
+            "name": "xeger"
+        },
+        {
+            "id": 7193,
+            "name": "_clipboard"
+        },
+        {
+            "id": 7194,
+            "name": "PyMusic"
+        },
+        {
+            "id": 7195,
+            "name": "pillow_heif"
+        },
+        {
+            "id": 7196,
+            "name": "python_avatars"
+        },
+        {
+            "id": 7197,
+            "name": "py_avataaars"
+        },
+        {
+            "id": 7198,
+            "name": "dtale"
+        },
+        {
+            "id": 7199,
+            "name": "pandas_profiling"
+        },
+        {
+            "id": 7200,
+            "name": "solders"
+        },
+        {
+            "id": 7201,
+            "name": "sha3"
+        },
+        {
+            "id": 7202,
+            "name": "bip_utils"
+        },
+        {
+            "id": 7203,
+            "name": "thor_requests"
+        },
+        {
+            "id": 7204,
+            "name": "linedraw"
+        },
+        {
+            "id": 7205,
+            "name": "cairosvg"
+        },
+        {
+            "id": 7206,
+            "name": "near_api"
+        },
+        {
+            "id": 7207,
+            "name": "stellar_sdk"
+        },
+        {
+            "id": 7208,
+            "name": "cosmospy"
+        },
+        {
+            "id": 7209,
+            "name": "pyzil"
+        },
+        {
+            "id": 7210,
+            "name": "pytezos"
+        },
+        {
+            "id": 7211,
+            "name": "ethtoken"
+        },
+        {
+            "id": 7212,
+            "name": "spl"
+        },
+        {
+            "id": 7213,
+            "name": "xrpl"
+        },
+        {
+            "id": 7214,
+            "name": "eth_utils"
+        },
+        {
+            "id": 7215,
+            "name": "pywallet"
+        },
+        {
+            "id": 7216,
+            "name": "wallet"
+        },
+        {
+            "id": 7217,
+            "name": "disnake"
+        },
+        {
+            "id": 7218,
+            "name": "solana"
+        },
+        {
+            "id": 7219,
+            "name": "Bot"
+        },
+        {
+            "id": 7220,
+            "name": "cn_addressvalidation"
+        },
+        {
+            "id": 7221,
+            "name": "cogs"
+        },
+        {
+            "id": 7222,
+            "name": "applicationinsights"
+        },
+        {
+            "id": 7223,
+            "name": "inference_schema"
+        },
+        {
+            "id": 7224,
+            "name": "sphinx_book_theme"
+        },
+        {
+            "id": 7225,
+            "name": "google_play_scraper"
+        },
+        {
+            "id": 7226,
+            "name": "nio"
+        },
+        {
+            "id": 7227,
+            "name": "langconv"
+        },
+        {
+            "id": 7228,
+            "name": "injson"
+        },
+        {
+            "id": 7229,
+            "name": "sweet"
+        },
+        {
+            "id": 7230,
+            "name": "make"
+        },
+        {
+            "id": 7231,
+            "name": "ext"
+        },
+        {
+            "id": 7232,
+            "name": "autotest"
+        },
+        {
+            "id": 7233,
+            "name": "loader"
+        },
+        {
+            "id": 7234,
+            "name": "zerorunner"
+        },
+        {
+            "id": 7235,
+            "name": "sweetest"
+        },
+        {
+            "id": 7236,
+            "name": "ETRI_tok"
+        },
+        {
+            "id": 7237,
+            "name": "StatusChangedQueueTrigger"
+        },
+        {
+            "id": 7238,
+            "name": "tests_ma"
+        },
+        {
+            "id": 7239,
+            "name": "airlock"
+        },
+        {
+            "id": 7240,
+            "name": "shared_code"
+        },
+        {
+            "id": 7241,
+            "name": "service_bus"
+        },
+        {
+            "id": 7242,
+            "name": "DataDeletionTrigger"
+        },
+        {
+            "id": 7243,
+            "name": "_version"
+        },
+        {
+            "id": 7244,
+            "name": "event_grid"
+        },
+        {
+            "id": 7245,
+            "name": "tre"
+        },
+        {
+            "id": 7246,
+            "name": "kneed"
+        },
+        {
+            "id": 7247,
+            "name": "behaviors"
+        },
+        {
+            "id": 7248,
+            "name": "ask"
+        },
+        {
+            "id": 7249,
+            "name": "ml_tools"
+        },
+        {
+            "id": 7250,
+            "name": "summarize"
+        },
+        {
+            "id": 7251,
+            "name": "closedai"
+        },
+        {
+            "id": 7252,
+            "name": "approaches"
+        },
+        {
+            "id": 7253,
+            "name": "pool"
+        },
+        {
+            "id": 7254,
+            "name": "shell"
+        },
+        {
+            "id": 7255,
+            "name": "todos"
+        },
+        {
+            "id": 7256,
+            "name": "gurobipy"
+        },
+        {
+            "id": 7257,
+            "name": "getchinamap"
+        },
+        {
+            "id": 7258,
+            "name": "cartopy"
+        },
+        {
+            "id": 7259,
+            "name": "st_pages"
+        },
+        {
+            "id": 7260,
+            "name": "flask_restplus"
+        },
+        {
+            "id": 7261,
+            "name": "routingpy"
+        },
+        {
+            "id": 7262,
+            "name": "quick_api"
+        },
+        {
+            "id": 7263,
+            "name": "qgsmaplayercombobox"
+        },
+        {
+            "id": 7264,
+            "name": "qgsfilewidget"
+        },
+        {
+            "id": 7265,
+            "name": "spopt"
+        },
+        {
+            "id": 7266,
+            "name": "osgeo"
+        },
+        {
+            "id": 7267,
+            "name": "text2text"
+        },
+        {
+            "id": 7268,
+            "name": "sense2vec"
+        },
+        {
+            "id": 7269,
+            "name": "motmetrics"
+        },
+        {
+            "id": 7270,
+            "name": "infrastructure"
+        },
+        {
+            "id": 7271,
+            "name": "caraml_auth"
+        },
+        {
+            "id": 7272,
+            "name": "merlinpyspark"
+        },
+        {
+            "id": 7273,
+            "name": "urllib3_mock"
+        },
+        {
+            "id": 7274,
+            "name": "merlin"
+        },
+        {
+            "id": 7275,
+            "name": "recursive_diff"
+        },
+        {
+            "id": 7276,
+            "name": "pyfuncserver"
+        },
+        {
+            "id": 7277,
+            "name": "caraml"
+        },
+        {
+            "id": 7278,
+            "name": "pyprind"
+        },
+        {
+            "id": 7279,
+            "name": "publisher"
+        },
+        {
+            "id": 7280,
+            "name": "ipypublish"
+        },
+        {
+            "id": 7281,
+            "name": "cachey"
+        },
+        {
+            "id": 7282,
+            "name": "netCDF4"
+        },
+        {
+            "id": 7283,
+            "name": "numcodecs"
+        },
+        {
+            "id": 7284,
+            "name": "conllu"
+        },
+        {
+            "id": 7285,
+            "name": "sphinx_markdown_parser"
+        },
+        {
+            "id": 7286,
+            "name": "wait4it"
+        },
+        {
+            "id": 7287,
+            "name": "knox"
+        },
+        {
+            "id": 7288,
+            "name": "allauth"
+        },
+        {
+            "id": 7289,
+            "name": "libcloud"
+        },
+        {
+            "id": 7290,
+            "name": "jac_nlp"
+        },
+        {
+            "id": 7291,
+            "name": "jac_misc"
+        },
+        {
+            "id": 7292,
+            "name": "jaseci"
+        },
+        {
+            "id": 7293,
+            "name": "django_rest_passwordreset"
+        },
+        {
+            "id": 7294,
+            "name": "cloudify_agent"
+        },
+        {
+            "id": 7295,
+            "name": "cloudify"
+        },
+        {
+            "id": 7296,
+            "name": "cloudify_api"
+        },
+        {
+            "id": 7297,
+            "name": "wagon"
+        },
+        {
+            "id": 7298,
+            "name": "cloudify_premium"
+        },
+        {
+            "id": 7299,
+            "name": "manager_rest"
+        },
+        {
+            "id": 7300,
+            "name": "integration_tests_plugins"
+        },
+        {
+            "id": 7301,
+            "name": "cloudify_rest_client"
+        },
+        {
+            "id": 7302,
+            "name": "cloudify_types"
+        },
+        {
+            "id": 7303,
+            "name": "amqp_postgres"
+        },
+        {
+            "id": 7304,
+            "name": "dsl_parser"
+        },
+        {
+            "id": 7305,
+            "name": "execution_scheduler"
+        },
+        {
+            "id": 7306,
+            "name": "cloudify_system_workflows"
+        },
+        {
+            "id": 7307,
+            "name": "vila"
+        },
+        {
+            "id": 7308,
+            "name": "simcse"
+        },
+        {
+            "id": 7309,
+            "name": "oai_assistant"
+        },
+        {
+            "id": 7310,
+            "name": "tool_use_package"
+        },
+        {
+            "id": 7311,
+            "name": "anthropic_iterative_search"
+        },
+        {
+            "id": 7312,
+            "name": "langchain_docs_retriever"
+        },
+        {
+            "id": 7313,
+            "name": "chat_langchain"
+        },
+        {
+            "id": 7314,
+            "name": "unzip_requirements"
+        },
+        {
+            "id": 7315,
+            "name": "pyvisa"
+        },
+        {
+            "id": 7316,
+            "name": "mecademicpy"
+        },
+        {
+            "id": 7317,
+            "name": "flojoy_cloud"
+        },
+        {
+            "id": 7318,
+            "name": "portalocker"
+        },
+        {
+            "id": 7319,
+            "name": "SAVGOL"
+        },
+        {
+            "id": 7320,
+            "name": "u3"
+        },
+        {
+            "id": 7321,
+            "name": "nidaqmx"
+        },
+        {
+            "id": 7322,
+            "name": "picosdk"
+        },
+        {
+            "id": 7323,
+            "name": "flojoy"
+        },
+        {
+            "id": 7324,
+            "name": "qcodes"
+        },
+        {
+            "id": 7325,
+            "name": "nidmm"
+        },
+        {
+            "id": 7326,
+            "name": "keyrings"
+        },
+        {
+            "id": 7327,
+            "name": "cantools"
+        },
+        {
+            "id": 7328,
+            "name": "ticlib"
+        },
+        {
+            "id": 7329,
+            "name": "tinymovr"
+        },
+        {
+            "id": 7330,
+            "name": "huggingsound"
+        },
+        {
+            "id": 7331,
+            "name": "notify"
+        },
+        {
+            "id": 7332,
+            "name": "sites"
+        },
+        {
+            "id": 7333,
+            "name": "ed25519ll"
+        },
+        {
+            "id": 7334,
+            "name": "easyprocess"
+        },
+        {
+            "id": 7335,
+            "name": "_markerlib"
+        },
+        {
+            "id": 7336,
+            "name": "ndg"
+        },
+        {
+            "id": 7337,
+            "name": "xdg"
+        },
+        {
+            "id": 7338,
+            "name": "setuptools_svn"
+        },
+        {
+            "id": 7339,
+            "name": "charade"
+        },
+        {
+            "id": 7340,
+            "name": "usercustomize"
+        },
+        {
+            "id": 7341,
+            "name": "rstr"
+        },
+        {
+            "id": 7342,
+            "name": "pangu"
+        },
+        {
+            "id": 7343,
+            "name": "fastapi_mako"
+        },
+        {
+            "id": 7344,
+            "name": "local_settings"
+        },
+        {
+            "id": 7345,
+            "name": "stream2sentence"
+        },
+        {
+            "id": 7346,
+            "name": "RealtimeTTS"
+        },
+        {
+            "id": 7347,
+            "name": "jinja2_fragments"
+        },
+        {
+            "id": 7348,
+            "name": "pyopencl"
+        },
+        {
+            "id": 7349,
+            "name": "pymatting"
+        },
+        {
+            "id": 7350,
+            "name": "FSEvents"
+        },
+        {
+            "id": 7351,
+            "name": "_watchdog_fsevents"
+        },
+        {
+            "id": 7352,
+            "name": "resc_helm_wizard"
+        },
+        {
+            "id": 7353,
+            "name": "vcs_scanner"
+        },
+        {
+            "id": 7354,
+            "name": "vcs_scraper"
+        },
+        {
+            "id": 7355,
+            "name": "resc_backend"
+        },
+        {
+            "id": 7356,
+            "name": "volview_server"
+        },
+        {
+            "id": 7357,
+            "name": "langchain_ibm"
+        },
+        {
+            "id": 7358,
+            "name": "modules_forge"
+        },
+        {
+            "id": 7359,
+            "name": "depth_anything"
+        },
+        {
+            "id": 7360,
+            "name": "tld"
+        },
+        {
+            "id": 7361,
+            "name": "sqlite_zstd"
+        },
+        {
+            "id": 7362,
+            "name": "medium_parser"
         }
     ]
 }
