@@ -32199,6 +32199,62 @@
         {
             "id": 8051,
             "name": "atb_llm"
+        },
+        {
+            "id": 8052,
+            "name": "prefect_slack"
+        },
+        {
+            "id": 8053,
+            "name": "prefect_shell"
+        },
+        {
+            "id": 8054,
+            "name": "prefect_email"
+        },
+        {
+            "id": 8055,
+            "name": "prefect_bitbucket"
+        },
+        {
+            "id": 8056,
+            "name": "mail_environment"
+        },
+        {
+            "id": 8057,
+            "name": "component"
+        },
+        {
+            "id": 8058,
+            "name": "aios"
+        },
+        {
+            "id": 8059,
+            "name": "generic_escape"
+        },
+        {
+            "id": 8060,
+            "name": "compute_node_config"
+        },
+        {
+            "id": 8061,
+            "name": "webvtt"
+        },
+        {
+            "id": 8062,
+            "name": "llama_node"
+        },
+        {
+            "id": 8063,
+            "name": "coagent"
+        },
+        {
+            "id": 8064,
+            "name": "muagent"
+        },
+        {
+            "id": 8065,
+            "name": "parler_tts"
         }
     ]
 }
