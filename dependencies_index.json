@@ -34575,6 +34575,562 @@
         {
             "id": 8645,
             "name": "llama_agents"
+        },
+        {
+            "id": 8646,
+            "name": "jxlpy"
+        },
+        {
+            "id": 8647,
+            "name": "torch_musa"
+        },
+        {
+            "id": 8648,
+            "name": "pillow_jxl"
+        },
+        {
+            "id": 8649,
+            "name": "index_kits"
+        },
+        {
+            "id": 8650,
+            "name": "composio_camel"
+        },
+        {
+            "id": 8651,
+            "name": "pysher"
+        },
+        {
+            "id": 8652,
+            "name": "composio_praisonai"
+        },
+        {
+            "id": 8653,
+            "name": "composio_llamaindex"
+        },
+        {
+            "id": 8654,
+            "name": "composio_openai"
+        },
+        {
+            "id": 8655,
+            "name": "swebench_docker"
+        },
+        {
+            "id": 8656,
+            "name": "beaupy"
+        },
+        {
+            "id": 8657,
+            "name": "composio_lyzr"
+        },
+        {
+            "id": 8658,
+            "name": "praisonai"
+        },
+        {
+            "id": 8659,
+            "name": "lyzr_automata"
+        },
+        {
+            "id": 8660,
+            "name": "composio_claude"
+        },
+        {
+            "id": 8661,
+            "name": "composio"
+        },
+        {
+            "id": 8662,
+            "name": "swekit"
+        },
+        {
+            "id": 8663,
+            "name": "composio_autogen"
+        },
+        {
+            "id": 8664,
+            "name": "composio_julep"
+        },
+        {
+            "id": 8665,
+            "name": "griptape"
+        },
+        {
+            "id": 8666,
+            "name": "composio_griptape"
+        },
+        {
+            "id": 8667,
+            "name": "composio_langchain"
+        },
+        {
+            "id": 8668,
+            "name": "composio_crewai"
+        },
+        {
+            "id": 8669,
+            "name": "composio_langgraph"
+        },
+        {
+            "id": 8670,
+            "name": "cosyvoice_pb2"
+        },
+        {
+            "id": 8671,
+            "name": "matcha"
+        },
+        {
+            "id": 8672,
+            "name": "cosyvoice_pb2_grpc"
+        },
+        {
+            "id": 8673,
+            "name": "prettyprinter"
+        },
+        {
+            "id": 8674,
+            "name": "gemma"
+        },
+        {
+            "id": 8675,
+            "name": "lddl"
+        },
+        {
+            "id": 8676,
+            "name": "nemo_sdk"
+        },
+        {
+            "id": 8677,
+            "name": "speech_to_text_eval"
+        },
+        {
+            "id": 8678,
+            "name": "_raymarching"
+        },
+        {
+            "id": 8679,
+            "name": "fiddle"
+        },
+        {
+            "id": 8680,
+            "name": "infer_data_path"
+        },
+        {
+            "id": 8681,
+            "name": "augly"
+        },
+        {
+            "id": 8682,
+            "name": "fused_adan"
+        },
+        {
+            "id": 8683,
+            "name": "pytriton"
+        },
+        {
+            "id": 8684,
+            "name": "eff"
+        },
+        {
+            "id": 8685,
+            "name": "arpa"
+        },
+        {
+            "id": 8686,
+            "name": "flashfftconv"
+        },
+        {
+            "id": 8687,
+            "name": "riva_api"
+        },
+        {
+            "id": 8688,
+            "name": "package_info"
+        },
+        {
+            "id": 8689,
+            "name": "freesound_private_apikey"
+        },
+        {
+            "id": 8690,
+            "name": "transcribe_speech"
+        },
+        {
+            "id": 8691,
+            "name": "accelerated_scan"
+        },
+        {
+            "id": 8692,
+            "name": "sentencepiece_model_pb2"
+        },
+        {
+            "id": 8693,
+            "name": "fftconv"
+        },
+        {
+            "id": 8694,
+            "name": "freesound"
+        },
+        {
+            "id": 8695,
+            "name": "tensorstore"
+        },
+        {
+            "id": 8696,
+            "name": "ctc_segmentation"
+        },
+        {
+            "id": 8697,
+            "name": "wds2idx"
+        },
+        {
+            "id": 8698,
+            "name": "gpuRIR"
+        },
+        {
+            "id": 8699,
+            "name": "ptl_resiliency"
+        },
+        {
+            "id": 8700,
+            "name": "texterrors"
+        },
+        {
+            "id": 8701,
+            "name": "nn_wfst"
+        },
+        {
+            "id": 8702,
+            "name": "warprnnt_pytorch"
+        },
+        {
+            "id": 8703,
+            "name": "documents"
+        },
+        {
+            "id": 8704,
+            "name": "crawlers"
+        },
+        {
+            "id": 8705,
+            "name": "qwak"
+        },
+        {
+            "id": 8706,
+            "name": "qwak_inference"
+        },
+        {
+            "id": 8707,
+            "name": "data_logic"
+        },
+        {
+            "id": 8708,
+            "name": "llm_components"
+        },
+        {
+            "id": 8709,
+            "name": "errors"
+        },
+        {
+            "id": 8710,
+            "name": "mq"
+        },
+        {
+            "id": 8711,
+            "name": "train_thuglm"
+        },
+        {
+            "id": 8712,
+            "name": "ezcolorlog"
+        },
+        {
+            "id": 8713,
+            "name": "BCEmbedding"
+        },
+        {
+            "id": 8714,
+            "name": "audiorecorder"
+        },
+        {
+            "id": 8715,
+            "name": "jionlp"
+        },
+        {
+            "id": 8716,
+            "name": "human_in_the_loop"
+        },
+        {
+            "id": 8717,
+            "name": "multi_agent_app"
+        },
+        {
+            "id": 8718,
+            "name": "pig_latin_translation"
+        },
+        {
+            "id": 8719,
+            "name": "multi_agent_app_rabbitmq"
+        },
+        {
+            "id": 8720,
+            "name": "gne"
+        },
+        {
+            "id": 8721,
+            "name": "pb_api"
+        },
+        {
+            "id": 8722,
+            "name": "finnlp"
+        },
+        {
+            "id": 8723,
+            "name": "langchain_ollama"
+        },
+        {
+            "id": 8724,
+            "name": "gliner"
+        },
+        {
+            "id": 8725,
+            "name": "rizaio"
+        },
+        {
+            "id": 8726,
+            "name": "delta_sharing"
+        },
+        {
+            "id": 8727,
+            "name": "langchain_google_community"
+        },
+        {
+            "id": 8728,
+            "name": "astra_assistants"
+        },
+        {
+            "id": 8729,
+            "name": "happyxpy"
+        },
+        {
+            "id": 8730,
+            "name": "fmeval"
+        },
+        {
+            "id": 8731,
+            "name": "gmssl"
+        },
+        {
+            "id": 8732,
+            "name": "langchain_weaviate"
+        },
+        {
+            "id": 8733,
+            "name": "usp"
+        },
+        {
+            "id": 8734,
+            "name": "hypothesis_openapi"
+        },
+        {
+            "id": 8735,
+            "name": "ftllm"
+        },
+        {
+            "id": 8736,
+            "name": "advocate"
+        },
+        {
+            "id": 8737,
+            "name": "streamlit_cropper"
+        },
+        {
+            "id": 8738,
+            "name": "scenic"
+        },
+        {
+            "id": 8739,
+            "name": "rados"
+        },
+        {
+            "id": 8740,
+            "name": "pydistinct"
+        },
+        {
+            "id": 8741,
+            "name": "sigint_patch"
+        },
+        {
+            "id": 8742,
+            "name": "open_chatcaht"
+        },
+        {
+            "id": 8743,
+            "name": "memoization"
+        },
+        {
+            "id": 8744,
+            "name": "streamlit_paste_button"
+        },
+        {
+            "id": 8745,
+            "name": "funasr_torch"
+        },
+        {
+            "id": 8746,
+            "name": "funasr_onnx"
+        },
+        {
+            "id": 8747,
+            "name": "timewreport"
+        },
+        {
+            "id": 8748,
+            "name": "idstools"
+        },
+        {
+            "id": 8749,
+            "name": "p_pip"
+        },
+        {
+            "id": 8750,
+            "name": "p_package"
+        },
+        {
+            "id": 8751,
+            "name": "p_import"
+        },
+        {
+            "id": 8752,
+            "name": "p_directory"
+        },
+        {
+            "id": 8753,
+            "name": "p_module"
+        },
+        {
+            "id": 8754,
+            "name": "q_galore_torch"
+        },
+        {
+            "id": 8755,
+            "name": "model_spec"
+        },
+        {
+            "id": 8756,
+            "name": "delay_fifo_queue_test"
+        },
+        {
+            "id": 8757,
+            "name": "swarms_memory"
+        },
+        {
+            "id": 8758,
+            "name": "pymacaroons"
+        },
+        {
+            "id": 8759,
+            "name": "bg_aug"
+        },
+        {
+            "id": 8760,
+            "name": "crew"
+        },
+        {
+            "id": 8761,
+            "name": "infinity_client"
+        },
+        {
+            "id": 8762,
+            "name": "embed"
+        },
+        {
+            "id": 8763,
+            "name": "test_fake_package_copy"
+        },
+        {
+            "id": 8764,
+            "name": "freedom_search"
+        },
+        {
+            "id": 8765,
+            "name": "scrapemaster"
+        },
+        {
+            "id": 8766,
+            "name": "pytsmod"
+        },
+        {
+            "id": 8767,
+            "name": "tree_sitter_java"
+        },
+        {
+            "id": 8768,
+            "name": "fitz_old"
+        },
+        {
+            "id": 8769,
+            "name": "pyradiance"
+        },
+        {
+            "id": 8770,
+            "name": "box_sdk_gen"
+        },
+        {
+            "id": 8771,
+            "name": "burp"
+        },
+        {
+            "id": 8772,
+            "name": "nmap3"
+        },
+        {
+            "id": 8773,
+            "name": "grep_ast"
+        },
+        {
+            "id": 8774,
+            "name": "transparent_background"
+        },
+        {
+            "id": 8775,
+            "name": "vision"
+        },
+        {
+            "id": 8776,
+            "name": "enums"
+        },
+        {
+            "id": 8777,
+            "name": "llama_flash_attn_monkey_patch"
+        },
+        {
+            "id": 8778,
+            "name": "gen"
+        },
+        {
+            "id": 8779,
+            "name": "evaluate_params"
+        },
+        {
+            "id": 8780,
+            "name": "mosaic_widget"
+        },
+        {
+            "id": 8781,
+            "name": "httpx_auth_awssigv4"
+        },
+        {
+            "id": 8782,
+            "name": "kui"
+        },
+        {
+            "id": 8783,
+            "name": "fish_speech"
+        },
+        {
+            "id": 8784,
+            "name": "pywrapfst"
         }
     ]
 }
