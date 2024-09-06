@@ -36147,6 +36147,334 @@
         {
             "id": 9038,
             "name": "fastapi_utilities"
+        },
+        {
+            "id": 9039,
+            "name": "hivisionai"
+        },
+        {
+            "id": 9040,
+            "name": "mtcnnruntime"
+        },
+        {
+            "id": 9041,
+            "name": "litserve"
+        },
+        {
+            "id": 9042,
+            "name": "pywsd"
+        },
+        {
+            "id": 9043,
+            "name": "nonebot_plugin_session"
+        },
+        {
+            "id": 9044,
+            "name": "nonebot_plugin_apscheduler"
+        },
+        {
+            "id": 9045,
+            "name": "nonebot_plugin_alconna"
+        },
+        {
+            "id": 9046,
+            "name": "nonebot_plugin_userinfo"
+        },
+        {
+            "id": 9047,
+            "name": "nonebot_plugin_htmlrender"
+        },
+        {
+            "id": 9048,
+            "name": "colossal_llama"
+        },
+        {
+            "id": 9049,
+            "name": "quivr_worker"
+        },
+        {
+            "id": 9050,
+            "name": "experimental"
+        },
+        {
+            "id": 9051,
+            "name": "unsync"
+        },
+        {
+            "id": 9052,
+            "name": "aiosmtpd"
+        },
+        {
+            "id": 9053,
+            "name": "dbgpt_tugraph_plugins"
+        },
+        {
+            "id": 9054,
+            "name": "export_meta"
+        },
+        {
+            "id": 9055,
+            "name": "bokeh_fastapi"
+        },
+        {
+            "id": 9056,
+            "name": "fastdeploy_client"
+        },
+        {
+            "id": 9057,
+            "name": "gmtrade"
+        },
+        {
+            "id": 9058,
+            "name": "easyutils"
+        },
+        {
+            "id": 9059,
+            "name": "sleekxmpp"
+        },
+        {
+            "id": 9060,
+            "name": "trader"
+        },
+        {
+            "id": 9061,
+            "name": "backtrader_binance"
+        },
+        {
+            "id": 9062,
+            "name": "arbitrage"
+        },
+        {
+            "id": 9063,
+            "name": "djchoices"
+        },
+        {
+            "id": 9064,
+            "name": "rqopen_client"
+        },
+        {
+            "id": 9065,
+            "name": "RSI"
+        },
+        {
+            "id": 9066,
+            "name": "quickchart"
+        },
+        {
+            "id": 9067,
+            "name": "zipfile_deflate64"
+        },
+        {
+            "id": 9068,
+            "name": "streaming_form_data"
+        },
+        {
+            "id": 9069,
+            "name": "cellprofiler_core"
+        },
+        {
+            "id": 9070,
+            "name": "PrettyPrint"
+        },
+        {
+            "id": 9071,
+            "name": "liger_kernel"
+        },
+        {
+            "id": 9072,
+            "name": "mirascope"
+        },
+        {
+            "id": 9073,
+            "name": "depyf"
+        },
+        {
+            "id": 9074,
+            "name": "partial_json_parser"
+        },
+        {
+            "id": 9075,
+            "name": "dlinfer"
+        },
+        {
+            "id": 9076,
+            "name": "ledoc_ui"
+        },
+        {
+            "id": 9077,
+            "name": "open_webui"
+        },
+        {
+            "id": 9078,
+            "name": "voluptuous"
+        },
+        {
+            "id": 9079,
+            "name": "anime_face_detector"
+        },
+        {
+            "id": 9080,
+            "name": "openbb_cftc"
+        },
+        {
+            "id": 9081,
+            "name": "qwen_vl_utils"
+        },
+        {
+            "id": 9082,
+            "name": "nemo_retriever_client"
+        },
+        {
+            "id": 9083,
+            "name": "carb"
+        },
+        {
+            "id": 9084,
+            "name": "dfp"
+        },
+        {
+            "id": 9085,
+            "name": "cerebras"
+        },
+        {
+            "id": 9086,
+            "name": "search_engine"
+        },
+        {
+            "id": 9087,
+            "name": "data_science"
+        },
+        {
+            "id": 9088,
+            "name": "log"
+        },
+        {
+            "id": 9089,
+            "name": "backend_request_func"
+        },
+        {
+            "id": 9090,
+            "name": "aphrodite_flash_attn"
+        },
+        {
+            "id": 9091,
+            "name": "vectorstores"
+        },
+        {
+            "id": 9092,
+            "name": "cads_api_client"
+        },
+        {
+            "id": 9093,
+            "name": "torch_example_for_airflow"
+        },
+        {
+            "id": 9094,
+            "name": "TorchBasicExample"
+        },
+        {
+            "id": 9095,
+            "name": "rootutils"
+        },
+        {
+            "id": 9096,
+            "name": "conformer"
+        },
+        {
+            "id": 9097,
+            "name": "deepdoc"
+        },
+        {
+            "id": 9098,
+            "name": "datrie"
+        },
+        {
+            "id": 9099,
+            "name": "format"
+        },
+        {
+            "id": 9100,
+            "name": "bfcl"
+        },
+        {
+            "id": 9101,
+            "name": "freeu_presets"
+        },
+        {
+            "id": 9102,
+            "name": "orderly_set"
+        },
+        {
+            "id": 9103,
+            "name": "tablestore"
+        },
+        {
+            "id": 9104,
+            "name": "notdiamond"
+        },
+        {
+            "id": 9105,
+            "name": "pydbml"
+        },
+        {
+            "id": 9106,
+            "name": "BiRefNet_legacy"
+        },
+        {
+            "id": 9107,
+            "name": "h2ogpte_core"
+        },
+        {
+            "id": 9108,
+            "name": "pyexiv2"
+        },
+        {
+            "id": 9109,
+            "name": "external_pacs"
+        },
+        {
+            "id": 9110,
+            "name": "leapfrogai_evals"
+        },
+        {
+            "id": 9111,
+            "name": "realtime"
+        },
+        {
+            "id": 9112,
+            "name": "pai"
+        },
+        {
+            "id": 9113,
+            "name": "magic_pdf"
+        },
+        {
+            "id": 9114,
+            "name": "rapid_table"
+        },
+        {
+            "id": 9115,
+            "name": "python_ms"
+        },
+        {
+            "id": 9116,
+            "name": "getch"
+        },
+        {
+            "id": 9117,
+            "name": "pyfzf"
+        },
+        {
+            "id": 9118,
+            "name": "multi_workflows_app"
+        },
+        {
+            "id": 9119,
+            "name": "msdl"
+        },
+        {
+            "id": 9120,
+            "name": "pyogg"
         }
     ]
 }
