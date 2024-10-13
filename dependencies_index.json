@@ -37619,6 +37619,470 @@
         {
             "id": 9406,
             "name": "keepercommander"
+        },
+        {
+            "id": 9407,
+            "name": "paddlets"
+        },
+        {
+            "id": 9408,
+            "name": "lazy_paddle"
+        },
+        {
+            "id": 9409,
+            "name": "chinese_calendar"
+        },
+        {
+            "id": 9410,
+            "name": "paddlex_hpi"
+        },
+        {
+            "id": 9411,
+            "name": "paddleclas"
+        },
+        {
+            "id": 9412,
+            "name": "Dbias"
+        },
+        {
+            "id": 9413,
+            "name": "torch_tensorrt"
+        },
+        {
+            "id": 9414,
+            "name": "test_util"
+        },
+        {
+            "id": 9415,
+            "name": "py_runtime"
+        },
+        {
+            "id": 9416,
+            "name": "shm_util"
+        },
+        {
+            "id": 9417,
+            "name": "geventhttpclient"
+        },
+        {
+            "id": 9418,
+            "name": "python_addsub"
+        },
+        {
+            "id": 9419,
+            "name": "infer_util"
+        },
+        {
+            "id": 9420,
+            "name": "nightly_email_helper"
+        },
+        {
+            "id": 9421,
+            "name": "tritonfrontend"
+        },
+        {
+            "id": 9422,
+            "name": "triton_shm_monitor"
+        },
+        {
+            "id": 9423,
+            "name": "boofuzz"
+        },
+        {
+            "id": 9424,
+            "name": "c_python_backend_utils"
+        },
+        {
+            "id": 9425,
+            "name": "mlflow_triton"
+        },
+        {
+            "id": 9426,
+            "name": "python_subadd"
+        },
+        {
+            "id": 9427,
+            "name": "sequence_util"
+        },
+        {
+            "id": 9428,
+            "name": "pyarrow_sender"
+        },
+        {
+            "id": 9429,
+            "name": "pylcs"
+        },
+        {
+            "id": 9430,
+            "name": "dora"
+        },
+        {
+            "id": 9431,
+            "name": "opencv_video_capture"
+        },
+        {
+            "id": 9432,
+            "name": "pyarrow_assert"
+        },
+        {
+            "id": 9433,
+            "name": "dora_parler"
+        },
+        {
+            "id": 9434,
+            "name": "dora_keyboard"
+        },
+        {
+            "id": 9435,
+            "name": "dora_internvl"
+        },
+        {
+            "id": 9436,
+            "name": "dora_distil_whisper"
+        },
+        {
+            "id": 9437,
+            "name": "llama_factory_recorder"
+        },
+        {
+            "id": 9438,
+            "name": "dora_yolo"
+        },
+        {
+            "id": 9439,
+            "name": "dora_qwenvl"
+        },
+        {
+            "id": 9440,
+            "name": "dora_echo"
+        },
+        {
+            "id": 9441,
+            "name": "terminal_input"
+        },
+        {
+            "id": 9442,
+            "name": "dora_microphone"
+        },
+        {
+            "id": 9443,
+            "name": "opencv_plot"
+        },
+        {
+            "id": 9444,
+            "name": "prototypes"
+        },
+        {
+            "id": 9445,
+            "name": "quant_api"
+        },
+        {
+            "id": 9446,
+            "name": "torchao_mps_ops"
+        },
+        {
+            "id": 9447,
+            "name": "lpmm"
+        },
+        {
+            "id": 9448,
+            "name": "segment_anything_fast"
+        },
+        {
+            "id": 9449,
+            "name": "vgt"
+        },
+        {
+            "id": 9450,
+            "name": "pdf_layout_analysis"
+        },
+        {
+            "id": 9451,
+            "name": "pdf_tokens_type_trainer"
+        },
+        {
+            "id": 9452,
+            "name": "autocorrect"
+        },
+        {
+            "id": 9453,
+            "name": "pdf_features"
+        },
+        {
+            "id": 9454,
+            "name": "bros"
+        },
+        {
+            "id": 9455,
+            "name": "data_model"
+        },
+        {
+            "id": 9456,
+            "name": "toc"
+        },
+        {
+            "id": 9457,
+            "name": "pdf_token_type_labels"
+        },
+        {
+            "id": 9458,
+            "name": "ditod"
+        },
+        {
+            "id": 9459,
+            "name": "fast_trainer"
+        },
+        {
+            "id": 9460,
+            "name": "text_extraction"
+        },
+        {
+            "id": 9461,
+            "name": "omagent_core"
+        },
+        {
+            "id": 9462,
+            "name": "llamaindex_module"
+        },
+        {
+            "id": 9463,
+            "name": "ragbuilder"
+        },
+        {
+            "id": 9464,
+            "name": "langchain_module"
+        },
+        {
+            "id": 9465,
+            "name": "rerankers"
+        },
+        {
+            "id": 9466,
+            "name": "reka"
+        },
+        {
+            "id": 9467,
+            "name": "use_case_3"
+        },
+        {
+            "id": 9468,
+            "name": "quivr_diff_assistant"
+        },
+        {
+            "id": 9469,
+            "name": "gradio_webrtc"
+        },
+        {
+            "id": 9470,
+            "name": "file_module"
+        },
+        {
+            "id": 9471,
+            "name": "xai_sdk"
+        },
+        {
+            "id": 9472,
+            "name": "lighteval"
+        },
+        {
+            "id": 9473,
+            "name": "openmind"
+        },
+        {
+            "id": 9474,
+            "name": "finic"
+        },
+        {
+            "id": 9475,
+            "name": "worker_client"
+        },
+        {
+            "id": 9476,
+            "name": "vertex_vision_model_garden_peft"
+        },
+        {
+            "id": 9477,
+            "name": "sphn"
+        },
+        {
+            "id": 9478,
+            "name": "ipinfo_db"
+        },
+        {
+            "id": 9479,
+            "name": "stdnum"
+        },
+        {
+            "id": 9480,
+            "name": "flet_cli"
+        },
+        {
+            "id": 9481,
+            "name": "flet_web"
+        },
+        {
+            "id": 9482,
+            "name": "flet_desktop"
+        },
+        {
+            "id": 9483,
+            "name": "openmind_hub"
+        },
+        {
+            "id": 9484,
+            "name": "langtrace_python_sdk"
+        },
+        {
+            "id": 9485,
+            "name": "autogen_magentic_one"
+        },
+        {
+            "id": 9486,
+            "name": "poethepoet"
+        },
+        {
+            "id": 9487,
+            "name": "autogen_agentchat"
+        },
+        {
+            "id": 9488,
+            "name": "autogen_core"
+        },
+        {
+            "id": 9489,
+            "name": "autogen_ext"
+        },
+        {
+            "id": 9490,
+            "name": "outlines_core"
+        },
+        {
+            "id": 9491,
+            "name": "openbb_commodity"
+        },
+        {
+            "id": 9492,
+            "name": "calibration_utils"
+        },
+        {
+            "id": 9493,
+            "name": "clusterops"
+        },
+        {
+            "id": 9494,
+            "name": "fix_corrupted_json"
+        },
+        {
+            "id": 9495,
+            "name": "hf_utils"
+        },
+        {
+            "id": 9496,
+            "name": "docling"
+        },
+        {
+            "id": 9497,
+            "name": "objectbox"
+        },
+        {
+            "id": 9498,
+            "name": "docling_core"
+        },
+        {
+            "id": 9499,
+            "name": "florence2_large"
+        },
+        {
+            "id": 9500,
+            "name": "florence2_base_ft"
+        },
+        {
+            "id": 9501,
+            "name": "video_search_client"
+        },
+        {
+            "id": 9502,
+            "name": "news_search_client"
+        },
+        {
+            "id": 9503,
+            "name": "image_search_client"
+        },
+        {
+            "id": 9504,
+            "name": "Bot_01"
+        },
+        {
+            "id": 9505,
+            "name": "python_gcode"
+        },
+        {
+            "id": 9506,
+            "name": "skbio"
+        },
+        {
+            "id": 9507,
+            "name": "autocoder_pro"
+        },
+        {
+            "id": 9508,
+            "name": "research_canvas"
+        },
+        {
+            "id": 9509,
+            "name": "fast_hdbscan"
+        },
+        {
+            "id": 9510,
+            "name": "swarm"
+        },
+        {
+            "id": 9511,
+            "name": "mypy_boto3_bedrock_runtime"
+        },
+        {
+            "id": 9512,
+            "name": "types_aiobotocore_bedrock_runtime"
+        },
+        {
+            "id": 9513,
+            "name": "onnxruntime_genai"
+        },
+        {
+            "id": 9514,
+            "name": "openf1"
+        },
+        {
+            "id": 9515,
+            "name": "lingua"
+        },
+        {
+            "id": 9516,
+            "name": "fireredtts"
+        },
+        {
+            "id": 9517,
+            "name": "anti_alias_activation_cuda"
+        },
+        {
+            "id": 9518,
+            "name": "token2wav"
+        },
+        {
+            "id": 9519,
+            "name": "openai_realtime"
+        },
+        {
+            "id": 9520,
+            "name": "page_objects"
+        },
+        {
+            "id": 9521,
+            "name": "flash_attn_interface"
+        },
+        {
+            "id": 9522,
+            "name": "sigma"
         }
     ]
 }
