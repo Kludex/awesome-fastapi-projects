@@ -40315,6 +40315,494 @@
         {
             "id": 10080,
             "name": "pyopenagi"
+        },
+        {
+            "id": 10081,
+            "name": "pytest_mypy_plugins"
+        },
+        {
+            "id": 10082,
+            "name": "keras_tuner"
+        },
+        {
+            "id": 10083,
+            "name": "allegroai"
+        },
+        {
+            "id": 10084,
+            "name": "megengine"
+        },
+        {
+            "id": 10085,
+            "name": "vincent"
+        },
+        {
+            "id": 10086,
+            "name": "rtclient"
+        },
+        {
+            "id": 10087,
+            "name": "microsoft_video_translation_client"
+        },
+        {
+            "id": 10088,
+            "name": "swagger_client"
+        },
+        {
+            "id": 10089,
+            "name": "pywhispercpp"
+        },
+        {
+            "id": 10090,
+            "name": "playsound3"
+        },
+        {
+            "id": 10091,
+            "name": "logictools"
+        },
+        {
+            "id": 10092,
+            "name": "vlmeval"
+        },
+        {
+            "id": 10093,
+            "name": "fp16"
+        },
+        {
+            "id": 10094,
+            "name": "palettable"
+        },
+        {
+            "id": 10095,
+            "name": "criterions"
+        },
+        {
+            "id": 10096,
+            "name": "learn_bpe"
+        },
+        {
+            "id": 10097,
+            "name": "dst"
+        },
+        {
+            "id": 10098,
+            "name": "nsql"
+        },
+        {
+            "id": 10099,
+            "name": "wrapper_bert"
+        },
+        {
+            "id": 10100,
+            "name": "downstreamdeca"
+        },
+        {
+            "id": 10101,
+            "name": "downstream"
+        },
+        {
+            "id": 10102,
+            "name": "mo_future"
+        },
+        {
+            "id": 10103,
+            "name": "bella"
+        },
+        {
+            "id": 10104,
+            "name": "generator"
+        },
+        {
+            "id": 10105,
+            "name": "apply_bpe"
+        },
+        {
+            "id": 10106,
+            "name": "sql_formatter"
+        },
+        {
+            "id": 10107,
+            "name": "unifymodel"
+        },
+        {
+            "id": 10108,
+            "name": "moz_sql_parser"
+        },
+        {
+            "id": 10109,
+            "name": "stanfordnlp"
+        },
+        {
+            "id": 10110,
+            "name": "universal_ie"
+        },
+        {
+            "id": 10111,
+            "name": "sty"
+        },
+        {
+            "id": 10112,
+            "name": "gloc"
+        },
+        {
+            "id": 10113,
+            "name": "geoopt"
+        },
+        {
+            "id": 10114,
+            "name": "config_bert"
+        },
+        {
+            "id": 10115,
+            "name": "pytext"
+        },
+        {
+            "id": 10116,
+            "name": "modeling_spectra"
+        },
+        {
+            "id": 10117,
+            "name": "QAInput"
+        },
+        {
+            "id": 10118,
+            "name": "eda"
+        },
+        {
+            "id": 10119,
+            "name": "zss"
+        },
+        {
+            "id": 10120,
+            "name": "dpr"
+        },
+        {
+            "id": 10121,
+            "name": "picard"
+        },
+        {
+            "id": 10122,
+            "name": "sqlova"
+        },
+        {
+            "id": 10123,
+            "name": "space"
+        },
+        {
+            "id": 10124,
+            "name": "postprocess_eval"
+        },
+        {
+            "id": 10125,
+            "name": "anchor"
+        },
+        {
+            "id": 10126,
+            "name": "evaluator"
+        },
+        {
+            "id": 10127,
+            "name": "recognizers_suite"
+        },
+        {
+            "id": 10128,
+            "name": "seq2seq"
+        },
+        {
+            "id": 10129,
+            "name": "bert_serving"
+        },
+        {
+            "id": 10130,
+            "name": "eval_scripts"
+        },
+        {
+            "id": 10131,
+            "name": "segeval"
+        },
+        {
+            "id": 10132,
+            "name": "supar"
+        },
+        {
+            "id": 10133,
+            "name": "records"
+        },
+        {
+            "id": 10134,
+            "name": "xopen"
+        },
+        {
+            "id": 10135,
+            "name": "fraction"
+        },
+        {
+            "id": 10136,
+            "name": "mycvae"
+        },
+        {
+            "id": 10137,
+            "name": "freeaskinternet"
+        },
+        {
+            "id": 10138,
+            "name": "api_analytics"
+        },
+        {
+            "id": 10139,
+            "name": "process_query"
+        },
+        {
+            "id": 10140,
+            "name": "shadowsocks"
+        },
+        {
+            "id": 10141,
+            "name": "Config"
+        },
+        {
+            "id": 10142,
+            "name": "cymysql"
+        },
+        {
+            "id": 10143,
+            "name": "smbus"
+        },
+        {
+            "id": 10144,
+            "name": "needle"
+        },
+        {
+            "id": 10145,
+            "name": "_curses_panel"
+        },
+        {
+            "id": 10146,
+            "name": "_json"
+        },
+        {
+            "id": 10147,
+            "name": "torch_fidelity"
+        },
+        {
+            "id": 10148,
+            "name": "st_img_pastebutton"
+        },
+        {
+            "id": 10149,
+            "name": "jsonata"
+        },
+        {
+            "id": 10150,
+            "name": "unfold"
+        },
+        {
+            "id": 10151,
+            "name": "onyx"
+        },
+        {
+            "id": 10152,
+            "name": "modal_proto"
+        },
+        {
+            "id": 10153,
+            "name": "tox"
+        },
+        {
+            "id": 10154,
+            "name": "mkdocs_pycafe"
+        },
+        {
+            "id": 10155,
+            "name": "redfish"
+        },
+        {
+            "id": 10156,
+            "name": "NomeroffNet"
+        },
+        {
+            "id": 10157,
+            "name": "upscaler"
+        },
+        {
+            "id": 10158,
+            "name": "bittensor_commit_reveal"
+        },
+        {
+            "id": 10159,
+            "name": "chai_lab"
+        },
+        {
+            "id": 10160,
+            "name": "smoke_tests"
+        },
+        {
+            "id": 10161,
+            "name": "markitdown"
+        },
+        {
+            "id": 10162,
+            "name": "autogen_test_utils"
+        },
+        {
+            "id": 10163,
+            "name": "processing_emu3"
+        },
+        {
+            "id": 10164,
+            "name": "swanlab"
+        },
+        {
+            "id": 10165,
+            "name": "model_management"
+        },
+        {
+            "id": 10166,
+            "name": "hasami"
+        },
+        {
+            "id": 10167,
+            "name": "custom_ar"
+        },
+        {
+            "id": 10168,
+            "name": "cached_path"
+        },
+        {
+            "id": 10169,
+            "name": "dynamicbatch_ttspipeline"
+        },
+        {
+            "id": 10170,
+            "name": "ev_agent"
+        },
+        {
+            "id": 10171,
+            "name": "formatron"
+        },
+        {
+            "id": 10172,
+            "name": "scrapegraph_py"
+        },
+        {
+            "id": 10173,
+            "name": "graphiti_core"
+        },
+        {
+            "id": 10174,
+            "name": "ollama_service"
+        },
+        {
+            "id": 10175,
+            "name": "text_utils"
+        },
+        {
+            "id": 10176,
+            "name": "rich_toolkit"
+        },
+        {
+            "id": 10177,
+            "name": "mani_skill"
+        },
+        {
+            "id": 10178,
+            "name": "mcp"
+        },
+        {
+            "id": 10179,
+            "name": "simli"
+        },
+        {
+            "id": 10180,
+            "name": "weaviate_image_search"
+        },
+        {
+            "id": 10181,
+            "name": "pydantic_ai"
+        },
+        {
+            "id": 10182,
+            "name": "weaviate_search"
+        },
+        {
+            "id": 10183,
+            "name": "qwen2_vl"
+        },
+        {
+            "id": 10184,
+            "name": "qwen_vl"
+        },
+        {
+            "id": 10185,
+            "name": "plugin_utils"
+        },
+        {
+            "id": 10186,
+            "name": "crawlee"
+        },
+        {
+            "id": 10187,
+            "name": "thunder"
+        },
+        {
+            "id": 10188,
+            "name": "COAT"
+        },
+        {
+            "id": 10189,
+            "name": "qoptim_cuda"
+        },
+        {
+            "id": 10190,
+            "name": "lmms_eval"
+        },
+        {
+            "id": 10191,
+            "name": "coat"
+        },
+        {
+            "id": 10192,
+            "name": "olmo"
+        },
+        {
+            "id": 10193,
+            "name": "olmo_core"
+        },
+        {
+            "id": 10194,
+            "name": "Datasets"
+        },
+        {
+            "id": 10195,
+            "name": "Traces"
+        },
+        {
+            "id": 10196,
+            "name": "pyrealsense2"
+        },
+        {
+            "id": 10197,
+            "name": "dora_pyrealsense"
+        },
+        {
+            "id": 10198,
+            "name": "dora_rdt_1b"
+        },
+        {
+            "id": 10199,
+            "name": "chonkie"
+        },
+        {
+            "id": 10200,
+            "name": "lumaai"
+        },
+        {
+            "id": 10201,
+            "name": "inference_adapters"
+        },
+        {
+            "id": 10202,
+            "name": "inference_models"
         }
     ]
 }
