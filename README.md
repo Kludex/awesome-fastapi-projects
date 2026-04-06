@@ -2,6 +2,7 @@
 
 View the website: https://kludex.github.io/awesome-fastapi-projects/
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for FastAPI project orchestration, automated Python API management, and multi-agent coordination. MIT licensed.
 ## Local Development
 
 ### Setup
