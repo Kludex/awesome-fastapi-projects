@@ -10,7 +10,7 @@ export const repoSchema = z.object({
   url: z.string(),
   description: z.string(),
   stars: z.number().min(0),
-  source_graph_repo_id: z.string(),
+  source_graph_repo_id: z.nullable(z.string()),
   dependencies: z.array(dependencySchema),
   last_checked_revision: z.nullable(z.string()),
 });

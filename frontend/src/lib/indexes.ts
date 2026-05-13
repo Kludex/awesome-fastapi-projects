@@ -28,6 +28,9 @@ export const loadReposIndexServerOnly = cache(async () => {
       await fs.promises.readFile(REPOS_INDEX_FILE_PATH, "utf-8"),
       (key, value) => {
         if (key === "id" || key === "source_graph_repo_id") {
+          if (value === null) {
+            return value;
+          }
           return String(value);
         }
         return value;

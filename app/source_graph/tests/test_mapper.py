@@ -63,3 +63,32 @@ async def test_create_or_update_repos_from_source_graph_repos_data_update(
             sqlalchemy.select(sqlalchemy.func.count(database.Repo.id))
         )
     ).scalar() == len(some_repos)
+
+
+async def test_create_or_update_repos_from_source_graph_repos_data_update_by_url(
+    db_session: AsyncSession,
+    source_graph_repo_data_factory: SourceGraphRepoDataFactory,
+) -> None:
+    """Test updating a manually seeded repo once SourceGraph knows its id."""
+    source_graph_repo_data = source_graph_repo_data_factory.build()
+    manual_repo = database.Repo(
+        url=str(source_graph_repo_data.repo_url),
+        description="Manually seeded repo",
+        stars=0,
+        source_graph_repo_id=None,
+    )
+    db_session.add(manual_repo)
+    await db_session.flush()
+
+    repos = await create_or_update_repos_from_source_graph_repos_data(
+        db_session, [source_graph_repo_data]
+    )
+
+    assert repos == IsList(length=1)
+    assert repos[0].id == manual_repo.id
+    assert repos[0].source_graph_repo_id == source_graph_repo_data.repo_id
+    assert (
+        await db_session.execute(
+            sqlalchemy.select(sqlalchemy.func.count(database.Repo.id))
+        )
+    ).scalar() == 1
