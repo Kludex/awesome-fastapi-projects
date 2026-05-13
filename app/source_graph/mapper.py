@@ -21,7 +21,6 @@ async def create_or_update_repos_from_source_graph_repos_data(
     """
     insert_statement = sqlalchemy.dialects.sqlite.insert(database.Repo)
     update_statement = insert_statement.on_conflict_do_update(
-        index_elements=[database.Repo.source_graph_repo_id],
         set_={
             "url": insert_statement.excluded.url,
             "description": insert_statement.excluded.description,
@@ -42,5 +41,6 @@ async def create_or_update_repos_from_source_graph_repos_data(
                 }
                 for repo_data in source_graph_repos_data
             ],
+            execution_options={"populate_existing": True},
         )
     ).all()
