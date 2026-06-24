@@ -74571,6 +74571,290 @@
         {
             "id": 18644,
             "name": "publish_agents_to_hub"
+        },
+        {
+            "id": 18645,
+            "name": "cryptoconditions"
+        },
+        {
+            "id": 18646,
+            "name": "cabarchive"
+        },
+        {
+            "id": 18647,
+            "name": "pmd_net_addr"
+        },
+        {
+            "id": 18648,
+            "name": "pmd_pytcp"
+        },
+        {
+            "id": 18649,
+            "name": "litellm_python_bridge"
+        },
+        {
+            "id": 18650,
+            "name": "fmha_sm100"
+        },
+        {
+            "id": 18651,
+            "name": "bl_operators"
+        },
+        {
+            "id": 18652,
+            "name": "_jac_finder"
+        },
+        {
+            "id": 18653,
+            "name": "pint_pandas"
+        },
+        {
+            "id": 18654,
+            "name": "awkward_pandas"
+        },
+        {
+            "id": 18655,
+            "name": "awkward"
+        },
+        {
+            "id": 18656,
+            "name": "sie_mcp"
+        },
+        {
+            "id": 18657,
+            "name": "websocket_url"
+        },
+        {
+            "id": 18658,
+            "name": "torch_audiomentations"
+        },
+        {
+            "id": 18659,
+            "name": "llm_constants"
+        },
+        {
+            "id": 18660,
+            "name": "ogx_open_client"
+        },
+        {
+            "id": 18661,
+            "name": "reverse_text_v1"
+        },
+        {
+            "id": 18662,
+            "name": "math_env_v1"
+        },
+        {
+            "id": 18663,
+            "name": "general_agent_v1"
+        },
+        {
+            "id": 18664,
+            "name": "swelego_v1"
+        },
+        {
+            "id": 18665,
+            "name": "deepwiki_v1"
+        },
+        {
+            "id": 18666,
+            "name": "swebench_verified_v1"
+        },
+        {
+            "id": 18667,
+            "name": "tau2_bench_v1"
+        },
+        {
+            "id": 18668,
+            "name": "r2e_gym_v1"
+        },
+        {
+            "id": 18669,
+            "name": "color_codeword_v1"
+        },
+        {
+            "id": 18670,
+            "name": "wikispeedia_v1"
+        },
+        {
+            "id": 18671,
+            "name": "wiki_search_v1"
+        },
+        {
+            "id": 18672,
+            "name": "wordle_v1"
+        },
+        {
+            "id": 18673,
+            "name": "aime24_v1"
+        },
+        {
+            "id": 18674,
+            "name": "terminal_bench_2_v1"
+        },
+        {
+            "id": 18675,
+            "name": "scaleswe_v1"
+        },
+        {
+            "id": 18676,
+            "name": "compact"
+        },
+        {
+            "id": 18677,
+            "name": "glossary_v1"
+        },
+        {
+            "id": 18678,
+            "name": "scratchpad_v1"
+        },
+        {
+            "id": 18679,
+            "name": "code_golf_v1"
+        },
+        {
+            "id": 18680,
+            "name": "gsm8k_v1"
+        },
+        {
+            "id": 18681,
+            "name": "alphabet_sort_v1"
+        },
+        {
+            "id": 18682,
+            "name": "fastgen_data"
+        },
+        {
+            "id": 18683,
+            "name": "fastgen_checkpoint"
+        },
+        {
+            "id": 18684,
+            "name": "agent_framework_hosting"
+        },
+        {
+            "id": 18685,
+            "name": "agent_framework_hosting_responses"
+        },
+        {
+            "id": 18686,
+            "name": "wreq"
+        },
+        {
+            "id": 18687,
+            "name": "taehv"
+        },
+        {
+            "id": 18688,
+            "name": "openviking_openwebui"
+        },
+        {
+            "id": 18689,
+            "name": "openviking_sdk"
+        },
+        {
+            "id": 18690,
+            "name": "hindsight_copilot"
+        },
+        {
+            "id": 18691,
+            "name": "parse_deploy_output"
+        },
+        {
+            "id": 18692,
+            "name": "pyrit"
+        },
+        {
+            "id": 18693,
+            "name": "sliver"
+        },
+        {
+            "id": 18694,
+            "name": "bsdiff4"
+        },
+        {
+            "id": 18695,
+            "name": "run_prompt_generator"
+        },
+        {
+            "id": 18696,
+            "name": "run_decompiler"
+        },
+        {
+            "id": 18697,
+            "name": "run_inference"
+        },
+        {
+            "id": 18698,
+            "name": "run_compiler"
+        },
+        {
+            "id": 18699,
+            "name": "check_ioctl_overlap"
+        },
+        {
+            "id": 18700,
+            "name": "espeakng_loader"
+        },
+        {
+            "id": 18701,
+            "name": "dump_api_routes"
+        },
+        {
+            "id": 18702,
+            "name": "agent_evals"
+        },
+        {
+            "id": 18703,
+            "name": "ray_adapter"
+        },
+        {
+            "id": 18704,
+            "name": "sophistry_bench_sprint"
+        },
+        {
+            "id": 18705,
+            "name": "sophistry_bench_sprint_env"
+        },
+        {
+            "id": 18706,
+            "name": "target_loader"
+        },
+        {
+            "id": 18707,
+            "name": "giskard"
+        },
+        {
+            "id": 18708,
+            "name": "local_llm_manager"
+        },
+        {
+            "id": 18709,
+            "name": "container_manager"
+        },
+        {
+            "id": 18710,
+            "name": "normalizer"
+        },
+        {
+            "id": 18711,
+            "name": "cookie_paths"
+        },
+        {
+            "id": 18712,
+            "name": "cookie_crypto"
+        },
+        {
+            "id": 18713,
+            "name": "extract_cookies"
+        },
+        {
+            "id": 18714,
+            "name": "rdrobust"
+        },
+        {
+            "id": 18715,
+            "name": "oc_bulk_import"
         }
     ]
 }
