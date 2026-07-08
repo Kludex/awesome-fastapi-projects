@@ -75691,6 +75691,454 @@
         {
             "id": 18924,
             "name": "algo"
+        },
+        {
+            "id": 18925,
+            "name": "openwa"
+        },
+        {
+            "id": 18926,
+            "name": "wav2lip"
+        },
+        {
+            "id": 18927,
+            "name": "sadtalker"
+        },
+        {
+            "id": 18928,
+            "name": "replace"
+        },
+        {
+            "id": 18929,
+            "name": "rearrange"
+        },
+        {
+            "id": 18930,
+            "name": "thumbnail"
+        },
+        {
+            "id": 18931,
+            "name": "niid_bench"
+        },
+        {
+            "id": 18932,
+            "name": "fedvaeexample"
+        },
+        {
+            "id": 18933,
+            "name": "quickstart_catboost"
+        },
+        {
+            "id": 18934,
+            "name": "mlxexample"
+        },
+        {
+            "id": 18935,
+            "name": "flowertune_code"
+        },
+        {
+            "id": 18936,
+            "name": "my_awesome_app"
+        },
+        {
+            "id": 18937,
+            "name": "flwr_datasets"
+        },
+        {
+            "id": 18938,
+            "name": "fl_dp_sa"
+        },
+        {
+            "id": 18939,
+            "name": "flowertune_llm"
+        },
+        {
+            "id": 18940,
+            "name": "lerobot_example"
+        },
+        {
+            "id": 18941,
+            "name": "vertical_fl"
+        },
+        {
+            "id": 18942,
+            "name": "tamuna"
+        },
+        {
+            "id": 18943,
+            "name": "hfedxgboost"
+        },
+        {
+            "id": 18944,
+            "name": "vitexample"
+        },
+        {
+            "id": 18945,
+            "name": "fedvssl"
+        },
+        {
+            "id": 18946,
+            "name": "feddebug"
+        },
+        {
+            "id": 18947,
+            "name": "quickstart_pennylane"
+        },
+        {
+            "id": 18948,
+            "name": "monaiexample"
+        },
+        {
+            "id": 18949,
+            "name": "opacus_fl"
+        },
+        {
+            "id": 18950,
+            "name": "fltabular"
+        },
+        {
+            "id": 18951,
+            "name": "federated_analytics"
+        },
+        {
+            "id": 18952,
+            "name": "gym_pusht"
+        },
+        {
+            "id": 18953,
+            "name": "iterators"
+        },
+        {
+            "id": 18954,
+            "name": "e2e_jax"
+        },
+        {
+            "id": 18955,
+            "name": "xgboost_comprehensive"
+        },
+        {
+            "id": 18956,
+            "name": "fedpft"
+        },
+        {
+            "id": 18957,
+            "name": "e2e_scikit_learn"
+        },
+        {
+            "id": 18958,
+            "name": "flowertune_medical"
+        },
+        {
+            "id": 18959,
+            "name": "heterofl"
+        },
+        {
+            "id": 18960,
+            "name": "pytorchlightning_example"
+        },
+        {
+            "id": 18961,
+            "name": "fastai_example"
+        },
+        {
+            "id": 18962,
+            "name": "pytorch_example"
+        },
+        {
+            "id": 18963,
+            "name": "e2e_pytorch_lightning"
+        },
+        {
+            "id": 18964,
+            "name": "custom_mods"
+        },
+        {
+            "id": 18965,
+            "name": "secaggexample"
+        },
+        {
+            "id": 18966,
+            "name": "devtool"
+        },
+        {
+            "id": 18967,
+            "name": "fedstar"
+        },
+        {
+            "id": 18968,
+            "name": "fedwav2vec2"
+        },
+        {
+            "id": 18969,
+            "name": "tfexample"
+        },
+        {
+            "id": 18970,
+            "name": "depthfl"
+        },
+        {
+            "id": 18971,
+            "name": "quickstart_xgboost"
+        },
+        {
+            "id": 18972,
+            "name": "whisper_example"
+        },
+        {
+            "id": 18973,
+            "name": "authexample"
+        },
+        {
+            "id": 18974,
+            "name": "sklearnexample"
+        },
+        {
+            "id": 18975,
+            "name": "e2e_pandas"
+        },
+        {
+            "id": 18976,
+            "name": "huggingface_example"
+        },
+        {
+            "id": 18977,
+            "name": "fedmlb"
+        },
+        {
+            "id": 18978,
+            "name": "fedrag"
+        },
+        {
+            "id": 18979,
+            "name": "examplefkm"
+        },
+        {
+            "id": 18980,
+            "name": "flowertune_finance"
+        },
+        {
+            "id": 18981,
+            "name": "dasha"
+        },
+        {
+            "id": 18982,
+            "name": "moon"
+        },
+        {
+            "id": 18983,
+            "name": "flwr_baselines"
+        },
+        {
+            "id": 18984,
+            "name": "pytorchexample"
+        },
+        {
+            "id": 18985,
+            "name": "statavg"
+        },
+        {
+            "id": 18986,
+            "name": "fedavgm"
+        },
+        {
+            "id": 18987,
+            "name": "fedbn"
+        },
+        {
+            "id": 18988,
+            "name": "embeddedexample"
+        },
+        {
+            "id": 18989,
+            "name": "flowertune_generalnlp"
+        },
+        {
+            "id": 18990,
+            "name": "fedmeta"
+        },
+        {
+            "id": 18991,
+            "name": "opacus"
+        },
+        {
+            "id": 18992,
+            "name": "jaxexample"
+        },
+        {
+            "id": 18993,
+            "name": "basic_app"
+        },
+        {
+            "id": 18994,
+            "name": "quickstart_numpy"
+        },
+        {
+            "id": 18995,
+            "name": "tfltransfer"
+        },
+        {
+            "id": 18996,
+            "name": "fedper"
+        },
+        {
+            "id": 18997,
+            "name": "fedpara"
+        },
+        {
+            "id": 18998,
+            "name": "fednova"
+        },
+        {
+            "id": 18999,
+            "name": "cli_env"
+        },
+        {
+            "id": 19000,
+            "name": "webshop_minimal"
+        },
+        {
+            "id": 19001,
+            "name": "alibabacloud_alb20200616"
+        },
+        {
+            "id": 19002,
+            "name": "cuda_mem"
+        },
+        {
+            "id": 19003,
+            "name": "rock"
+        },
+        {
+            "id": 19004,
+            "name": "xrl"
+        },
+        {
+            "id": 19005,
+            "name": "tasks_clip"
+        },
+        {
+            "id": 19006,
+            "name": "CoTrain"
+        },
+        {
+            "id": 19007,
+            "name": "nms_1d_cpu"
+        },
+        {
+            "id": 19008,
+            "name": "tslearn"
+        },
+        {
+            "id": 19009,
+            "name": "libmr"
+        },
+        {
+            "id": 19010,
+            "name": "torchnet"
+        },
+        {
+            "id": 19011,
+            "name": "mmaction"
+        },
+        {
+            "id": 19012,
+            "name": "alphaction"
+        },
+        {
+            "id": 19013,
+            "name": "vlnce_baselines"
+        },
+        {
+            "id": 19014,
+            "name": "slowfast"
+        },
+        {
+            "id": 19015,
+            "name": "zsvision"
+        },
+        {
+            "id": 19016,
+            "name": "habitat_extensions"
+        },
+        {
+            "id": 19017,
+            "name": "boot_overlay"
+        },
+        {
+            "id": 19018,
+            "name": "coverage_registry"
+        },
+        {
+            "id": 19019,
+            "name": "autoregistry"
+        },
+        {
+            "id": 19020,
+            "name": "schedium"
+        },
+        {
+            "id": 19021,
+            "name": "baml_bridge"
+        },
+        {
+            "id": 19022,
+            "name": "nvvfx"
+        },
+        {
+            "id": 19023,
+            "name": "mmdit"
+        },
+        {
+            "id": 19024,
+            "name": "agnoctl"
+        },
+        {
+            "id": 19025,
+            "name": "captchatools"
+        },
+        {
+            "id": 19026,
+            "name": "faicons"
+        },
+        {
+            "id": 19027,
+            "name": "ridgeplot"
+        },
+        {
+            "id": 19028,
+            "name": "chatlas"
+        },
+        {
+            "id": 19029,
+            "name": "ipydatagrid"
+        },
+        {
+            "id": 19030,
+            "name": "run_full_swebench_benchmark"
+        },
+        {
+            "id": 19031,
+            "name": "supabase_functions"
+        },
+        {
+            "id": 19032,
+            "name": "kg_fixtures"
+        },
+        {
+            "id": 19033,
+            "name": "js_recon"
+        },
+        {
+            "id": 19034,
+            "name": "ws_ticket"
+        },
+        {
+            "id": 19035,
+            "name": "cascade_backpressure"
+        },
+        {
+            "id": 19036,
+            "name": "langchain_e2b"
         }
     ]
 }
