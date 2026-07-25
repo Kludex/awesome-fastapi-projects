@@ -78111,6 +78111,814 @@
         {
             "id": 19529,
             "name": "latitude_telemetry_prime_intellect"
+        },
+        {
+            "id": 19530,
+            "name": "hudi_agent_gateway"
+        },
+        {
+            "id": 19531,
+            "name": "annotate_flaky_tests"
+        },
+        {
+            "id": 19532,
+            "name": "detect_flaky_tests"
+        },
+        {
+            "id": 19533,
+            "name": "classify_flaky_tests"
+        },
+        {
+            "id": 19534,
+            "name": "lfx_anthropic"
+        },
+        {
+            "id": 19535,
+            "name": "lfx_datastax"
+        },
+        {
+            "id": 19536,
+            "name": "lfx_openai_compatible"
+        },
+        {
+            "id": 19537,
+            "name": "langchain_plaid"
+        },
+        {
+            "id": 19538,
+            "name": "lfx_nextplaid"
+        },
+        {
+            "id": 19539,
+            "name": "lfx_cohere"
+        },
+        {
+            "id": 19540,
+            "name": "_static_pauser"
+        },
+        {
+            "id": 19541,
+            "name": "lfx_paddle"
+        },
+        {
+            "id": 19542,
+            "name": "lfx_bundles"
+        },
+        {
+            "id": 19543,
+            "name": "lfx_empiriolabs"
+        },
+        {
+            "id": 19544,
+            "name": "lfx_amazon"
+        },
+        {
+            "id": 19545,
+            "name": "lfx_vllm"
+        },
+        {
+            "id": 19546,
+            "name": "lfx_valkey"
+        },
+        {
+            "id": 19547,
+            "name": "lfx_exa"
+        },
+        {
+            "id": 19548,
+            "name": "lfx_openai"
+        },
+        {
+            "id": 19549,
+            "name": "lfx_oracle"
+        },
+        {
+            "id": 19550,
+            "name": "lfx_firecrawl"
+        },
+        {
+            "id": 19551,
+            "name": "costs"
+        },
+        {
+            "id": 19552,
+            "name": "wagtail"
+        },
+        {
+            "id": 19553,
+            "name": "pymss_core"
+        },
+        {
+            "id": 19554,
+            "name": "document_to_markdown"
+        },
+        {
+            "id": 19555,
+            "name": "insurance_claims"
+        },
+        {
+            "id": 19556,
+            "name": "scikit_build_core"
+        },
+        {
+            "id": 19557,
+            "name": "nllb_translation"
+        },
+        {
+            "id": 19558,
+            "name": "validate_operators_init"
+        },
+        {
+            "id": 19559,
+            "name": "grms"
+        },
+        {
+            "id": 19560,
+            "name": "ghosts_rpg"
+        },
+        {
+            "id": 19561,
+            "name": "kv_tier_connector"
+        },
+        {
+            "id": 19562,
+            "name": "translator"
+        },
+        {
+            "id": 19563,
+            "name": "automationbench"
+        },
+        {
+            "id": 19564,
+            "name": "export_distilled_megatron_to_hf"
+        },
+        {
+            "id": 19565,
+            "name": "steady_state_spectrum_planner"
+        },
+        {
+            "id": 19566,
+            "name": "evaluate_survival_metrics"
+        },
+        {
+            "id": 19567,
+            "name": "image_inspector"
+        },
+        {
+            "id": 19568,
+            "name": "lint_manuscript"
+        },
+        {
+            "id": 19569,
+            "name": "audit_claims"
+        },
+        {
+            "id": 19570,
+            "name": "validate_authorship"
+        },
+        {
+            "id": 19571,
+            "name": "generate_report_scaffold"
+        },
+        {
+            "id": 19572,
+            "name": "forecast_sensitivity"
+        },
+        {
+            "id": 19573,
+            "name": "solver_config_planner"
+        },
+        {
+            "id": 19574,
+            "name": "audit_citations"
+        },
+        {
+            "id": 19575,
+            "name": "validate_trial_report"
+        },
+        {
+            "id": 19576,
+            "name": "survival_plan_validator"
+        },
+        {
+            "id": 19577,
+            "name": "audit_evidence_ledger"
+        },
+        {
+            "id": 19578,
+            "name": "detect_resources"
+        },
+        {
+            "id": 19579,
+            "name": "eda_pipeline"
+        },
+        {
+            "id": 19580,
+            "name": "benchmark_evaluation"
+        },
+        {
+            "id": 19581,
+            "name": "validate_register"
+        },
+        {
+            "id": 19582,
+            "name": "timeline_generator"
+        },
+        {
+            "id": 19583,
+            "name": "validate_hypothesis_schema"
+        },
+        {
+            "id": 19584,
+            "name": "color_palettes"
+        },
+        {
+            "id": 19585,
+            "name": "validate_plan"
+        },
+        {
+            "id": 19586,
+            "name": "flowio"
+        },
+        {
+            "id": 19587,
+            "name": "simulation_dry_run"
+        },
+        {
+            "id": 19588,
+            "name": "plan_transfer"
+        },
+        {
+            "id": 19589,
+            "name": "check_operationalization"
+        },
+        {
+            "id": 19590,
+            "name": "generate_poster"
+        },
+        {
+            "id": 19591,
+            "name": "ecg_hrv_pipeline"
+        },
+        {
+            "id": 19592,
+            "name": "artifact_inspector"
+        },
+        {
+            "id": 19593,
+            "name": "validate_rubric"
+        },
+        {
+            "id": 19594,
+            "name": "summarize_agreement"
+        },
+        {
+            "id": 19595,
+            "name": "check_consistency"
+        },
+        {
+            "id": 19596,
+            "name": "validate_multimodal"
+        },
+        {
+            "id": 19597,
+            "name": "discover_metadata"
+        },
+        {
+            "id": 19598,
+            "name": "evaluate_matrix"
+        },
+        {
+            "id": 19599,
+            "name": "output_inventory"
+        },
+        {
+            "id": 19600,
+            "name": "lint_review"
+        },
+        {
+            "id": 19601,
+            "name": "result_audit"
+        },
+        {
+            "id": 19602,
+            "name": "bed_validator"
+        },
+        {
+            "id": 19603,
+            "name": "ete4"
+        },
+        {
+            "id": 19604,
+            "name": "style_presets"
+        },
+        {
+            "id": 19605,
+            "name": "figure_export"
+        },
+        {
+            "id": 19606,
+            "name": "omero"
+        },
+        {
+            "id": 19607,
+            "name": "_schema"
+        },
+        {
+            "id": 19608,
+            "name": "check_references"
+        },
+        {
+            "id": 19609,
+            "name": "check_falsification_controls"
+        },
+        {
+            "id": 19610,
+            "name": "composition_structure_validator"
+        },
+        {
+            "id": 19611,
+            "name": "lint_causal_claims"
+        },
+        {
+            "id": 19612,
+            "name": "provenance_validator"
+        },
+        {
+            "id": 19613,
+            "name": "terminology_validator"
+        },
+        {
+            "id": 19614,
+            "name": "load_and_split_data"
+        },
+        {
+            "id": 19615,
+            "name": "omero_common"
+        },
+        {
+            "id": 19616,
+            "name": "check_deidentification"
+        },
+        {
+            "id": 19617,
+            "name": "evidence_profile_check"
+        },
+        {
+            "id": 19618,
+            "name": "slide_manifest"
+        },
+        {
+            "id": 19619,
+            "name": "pylabrobot"
+        },
+        {
+            "id": 19620,
+            "name": "resource_monitor"
+        },
+        {
+            "id": 19621,
+            "name": "check_palette"
+        },
+        {
+            "id": 19622,
+            "name": "snapshot_tools"
+        },
+        {
+            "id": 19623,
+            "name": "_tabular"
+        },
+        {
+            "id": 19624,
+            "name": "molecular_generation"
+        },
+        {
+            "id": 19625,
+            "name": "_capabilities"
+        },
+        {
+            "id": 19626,
+            "name": "weight_sensitivity"
+        },
+        {
+            "id": 19627,
+            "name": "basic_simulation_template"
+        },
+        {
+            "id": 19628,
+            "name": "model_report"
+        },
+        {
+            "id": 19629,
+            "name": "check_completeness"
+        },
+        {
+            "id": 19630,
+            "name": "pyogrio"
+        },
+        {
+            "id": 19631,
+            "name": "generate_review_scaffold"
+        },
+        {
+            "id": 19632,
+            "name": "consistency_checker"
+        },
+        {
+            "id": 19633,
+            "name": "model_biomarker_evaluation"
+        },
+        {
+            "id": 19634,
+            "name": "image_metadata"
+        },
+        {
+            "id": 19635,
+            "name": "tokenizer_manifest"
+        },
+        {
+            "id": 19636,
+            "name": "train_survival_model"
+        },
+        {
+            "id": 19637,
+            "name": "image_qc"
+        },
+        {
+            "id": 19638,
+            "name": "calculate_market_sizing"
+        },
+        {
+            "id": 19639,
+            "name": "check_process"
+        },
+        {
+            "id": 19640,
+            "name": "validate_cds_artifact"
+        },
+        {
+            "id": 19641,
+            "name": "validate_case_report"
+        },
+        {
+            "id": 19642,
+            "name": "scaffold_manuscript"
+        },
+        {
+            "id": 19643,
+            "name": "two_level_simulation"
+        },
+        {
+            "id": 19644,
+            "name": "sequence_inspector"
+        },
+        {
+            "id": 19645,
+            "name": "structure_converter"
+        },
+        {
+            "id": 19646,
+            "name": "inspect_signal"
+        },
+        {
+            "id": 19647,
+            "name": "coverage_preflight"
+        },
+        {
+            "id": 19648,
+            "name": "audit_claim_citations"
+        },
+        {
+            "id": 19649,
+            "name": "capability_manifest"
+        },
+        {
+            "id": 19650,
+            "name": "bounded_queue_scenario"
+        },
+        {
+            "id": 19651,
+            "name": "plan_pipeline"
+        },
+        {
+            "id": 19652,
+            "name": "report_scaffold"
+        },
+        {
+            "id": 19653,
+            "name": "execution_plan"
+        },
+        {
+            "id": 19654,
+            "name": "replication_runner"
+        },
+        {
+            "id": 19655,
+            "name": "palette_audit"
+        },
+        {
+            "id": 19656,
+            "name": "qobj_model_validator"
+        },
+        {
+            "id": 19657,
+            "name": "validate_prediction_matrix"
+        },
+        {
+            "id": 19658,
+            "name": "competing_risk_cif"
+        },
+        {
+            "id": 19659,
+            "name": "structure_analyzer"
+        },
+        {
+            "id": 19660,
+            "name": "eda_analyzer"
+        },
+        {
+            "id": 19661,
+            "name": "select_reporting_guidelines"
+        },
+        {
+            "id": 19662,
+            "name": "convergence_sweep"
+        },
+        {
+            "id": 19663,
+            "name": "session_scaffold"
+        },
+        {
+            "id": 19664,
+            "name": "generate_template"
+        },
+        {
+            "id": 19665,
+            "name": "plan_epochs"
+        },
+        {
+            "id": 19666,
+            "name": "inventory_images"
+        },
+        {
+            "id": 19667,
+            "name": "export_plan"
+        },
+        {
+            "id": 19668,
+            "name": "_manifest"
+        },
+        {
+            "id": 19669,
+            "name": "plan_export"
+        },
+        {
+            "id": 19670,
+            "name": "validate_review_intake"
+        },
+        {
+            "id": 19671,
+            "name": "restart_compatibility"
+        },
+        {
+            "id": 19672,
+            "name": "mp_query"
+        },
+        {
+            "id": 19673,
+            "name": "_pptx"
+        },
+        {
+            "id": 19674,
+            "name": "io_conversion_plan"
+        },
+        {
+            "id": 19675,
+            "name": "validate_claim_evidence"
+        },
+        {
+            "id": 19676,
+            "name": "cache_audit"
+        },
+        {
+            "id": 19677,
+            "name": "format_adverse_events"
+        },
+        {
+            "id": 19678,
+            "name": "plan_workload"
+        },
+        {
+            "id": 19679,
+            "name": "event_trace_summary"
+        },
+        {
+            "id": 19680,
+            "name": "refget_digest_plan"
+        },
+        {
+            "id": 19681,
+            "name": "artifact_manifest"
+        },
+        {
+            "id": 19682,
+            "name": "cohort_table_generator"
+        },
+        {
+            "id": 19683,
+            "name": "_structured"
+        },
+        {
+            "id": 19684,
+            "name": "matchms"
+        },
+        {
+            "id": 19685,
+            "name": "generate_synthetic"
+        },
+        {
+            "id": 19686,
+            "name": "validate_evidence_ledger"
+        },
+        {
+            "id": 19687,
+            "name": "generate_preregistration_scaffold"
+        },
+        {
+            "id": 19688,
+            "name": "phase_diagram_generator"
+        },
+        {
+            "id": 19689,
+            "name": "grid_resource_estimator"
+        },
+        {
+            "id": 19690,
+            "name": "validate_spatial_schema"
+        },
+        {
+            "id": 19691,
+            "name": "sksurv"
+        },
+        {
+            "id": 19692,
+            "name": "privacy_process_check"
+        },
+        {
+            "id": 19693,
+            "name": "generate_report_template"
+        },
+        {
+            "id": 19694,
+            "name": "accelerator_diagnostics"
+        },
+        {
+            "id": 19695,
+            "name": "calculate_scores"
+        },
+        {
+            "id": 19696,
+            "name": "symmetry_sensitivity_report"
+        },
+        {
+            "id": 19697,
+            "name": "export_image_metadata"
+        },
+        {
+            "id": 19698,
+            "name": "validate_survival_csv"
+        },
+        {
+            "id": 19699,
+            "name": "budget_summary"
+        },
+        {
+            "id": 19700,
+            "name": "env_template"
+        },
+        {
+            "id": 19701,
+            "name": "check_layout"
+        },
+        {
+            "id": 19702,
+            "name": "audit_statistics_reproducibility"
+        },
+        {
+            "id": 19703,
+            "name": "validate_traceability"
+        },
+        {
+            "id": 19704,
+            "name": "validate_simulation_config"
+        },
+        {
+            "id": 19705,
+            "name": "plan_inference"
+        },
+        {
+            "id": 19706,
+            "name": "check_unit_consistency"
+        },
+        {
+            "id": 19707,
+            "name": "validate_competitor_matrix"
+        },
+        {
+            "id": 19708,
+            "name": "decision_logic_traceability"
+        },
+        {
+            "id": 19709,
+            "name": "check_traceability"
+        },
+        {
+            "id": 19710,
+            "name": "validate_treatment_plan"
+        },
+        {
+            "id": 19711,
+            "name": "deidentification_checklist"
+        },
+        {
+            "id": 19712,
+            "name": "class_action"
+        },
+        {
+            "id": 19713,
+            "name": "plotnine"
+        },
+        {
+            "id": 19714,
+            "name": "omni_mcp"
+        },
+        {
+            "id": 19715,
+            "name": "upload_pipeline"
+        },
+        {
+            "id": 19716,
+            "name": "processing_minicpmo"
+        },
+        {
+            "id": 19717,
+            "name": "skip_ci"
+        },
+        {
+            "id": 19718,
+            "name": "torch_xmlir"
+        },
+        {
+            "id": 19719,
+            "name": "colab"
+        },
+        {
+            "id": 19720,
+            "name": "prebuilt_core"
+        },
+        {
+            "id": 19721,
+            "name": "video_stabilization"
+        },
+        {
+            "id": 19722,
+            "name": "object_tracking"
+        },
+        {
+            "id": 19723,
+            "name": "frame_rate"
+        },
+        {
+            "id": 19724,
+            "name": "build_file_ext"
+        },
+        {
+            "id": 19725,
+            "name": "codebase_memory_mcp"
+        },
+        {
+            "id": 19726,
+            "name": "mps_sdpa"
+        },
+        {
+            "id": 19727,
+            "name": "ic_lora_preprocessing"
+        },
+        {
+            "id": 19728,
+            "name": "perf_config"
+        },
+        {
+            "id": 19729,
+            "name": "mps_prebuilt_ext"
+        },
+        {
+            "id": 19730,
+            "name": "openenv_daytona_agent_function"
+        },
+        {
+            "id": 19731,
+            "name": "openenv_agent_function"
         }
     ]
 }
