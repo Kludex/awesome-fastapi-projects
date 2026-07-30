@@ -79119,6 +79119,650 @@
         {
             "id": 19781,
             "name": "vnpy_ctastrategy"
+        },
+        {
+            "id": 19782,
+            "name": "syft_rds"
+        },
+        {
+            "id": 19783,
+            "name": "sqlgpt_parser"
+        },
+        {
+            "id": 19784,
+            "name": "run_precheck"
+        },
+        {
+            "id": 19785,
+            "name": "precheck_config"
+        },
+        {
+            "id": 19786,
+            "name": "mypytest"
+        },
+        {
+            "id": 19787,
+            "name": "polli_agent"
+        },
+        {
+            "id": 19788,
+            "name": "harvest"
+        },
+        {
+            "id": 19789,
+            "name": "reo_census"
+        },
+        {
+            "id": 19790,
+            "name": "check_source_boundary"
+        },
+        {
+            "id": 19791,
+            "name": "agent_kc_context"
+        },
+        {
+            "id": 19792,
+            "name": "agent_kc_search"
+        },
+        {
+            "id": 19793,
+            "name": "agent_skills_tooling"
+        },
+        {
+            "id": 19794,
+            "name": "check_go_example_mod_tidy"
+        },
+        {
+            "id": 19795,
+            "name": "potpie_context_engine"
+        },
+        {
+            "id": 19796,
+            "name": "potpie_context_core"
+        },
+        {
+            "id": 19797,
+            "name": "github_utils"
+        },
+        {
+            "id": 19798,
+            "name": "ag_ui_claude_managed_agents"
+        },
+        {
+            "id": 19799,
+            "name": "shared_bridge_runtime"
+        },
+        {
+            "id": 19800,
+            "name": "ext_components"
+        },
+        {
+            "id": 19801,
+            "name": "module_plugin"
+        },
+        {
+            "id": 19802,
+            "name": "check_frozen_paths"
+        },
+        {
+            "id": 19803,
+            "name": "validate_placement"
+        },
+        {
+            "id": 19804,
+            "name": "deltalite_planner"
+        },
+        {
+            "id": 19805,
+            "name": "deltalite"
+        },
+        {
+            "id": 19806,
+            "name": "nca"
+        },
+        {
+            "id": 19807,
+            "name": "query_primekg"
+        },
+        {
+            "id": 19808,
+            "name": "query_template"
+        },
+        {
+            "id": 19809,
+            "name": "alignment_qc"
+        },
+        {
+            "id": 19810,
+            "name": "predict_solubility"
+        },
+        {
+            "id": 19811,
+            "name": "skill_contract"
+        },
+        {
+            "id": 19812,
+            "name": "template_lightning_module"
+        },
+        {
+            "id": 19813,
+            "name": "tabular_report"
+        },
+        {
+            "id": 19814,
+            "name": "generate_slide_image_ai"
+        },
+        {
+            "id": 19815,
+            "name": "clustering_analysis"
+        },
+        {
+            "id": 19816,
+            "name": "quick_visualize"
+        },
+        {
+            "id": 19817,
+            "name": "forecast_csv"
+        },
+        {
+            "id": 19818,
+            "name": "simulate_power"
+        },
+        {
+            "id": 19819,
+            "name": "batch_id_converter"
+        },
+        {
+            "id": 19820,
+            "name": "allometry_and_fih"
+        },
+        {
+            "id": 19821,
+            "name": "customize_template"
+        },
+        {
+            "id": 19822,
+            "name": "validate_samplesheet"
+        },
+        {
+            "id": 19823,
+            "name": "rna_velocity_workflow"
+        },
+        {
+            "id": 19824,
+            "name": "check_bounding_boxes"
+        },
+        {
+            "id": 19825,
+            "name": "recalc"
+        },
+        {
+            "id": 19826,
+            "name": "search_databases"
+        },
+        {
+            "id": 19827,
+            "name": "compute_metrics"
+        },
+        {
+            "id": 19828,
+            "name": "slides_to_pdf"
+        },
+        {
+            "id": 19829,
+            "name": "check_system"
+        },
+        {
+            "id": 19830,
+            "name": "convert_literature"
+        },
+        {
+            "id": 19831,
+            "name": "workflow_generator"
+        },
+        {
+            "id": 19832,
+            "name": "notebook_operations"
+        },
+        {
+            "id": 19833,
+            "name": "pathway_analysis"
+        },
+        {
+            "id": 19834,
+            "name": "paginate"
+        },
+        {
+            "id": 19835,
+            "name": "many_objective_example"
+        },
+        {
+            "id": 19836,
+            "name": "multi_objective_example"
+        },
+        {
+            "id": 19837,
+            "name": "check_environment"
+        },
+        {
+            "id": 19838,
+            "name": "latch"
+        },
+        {
+            "id": 19839,
+            "name": "generate_slide_image"
+        },
+        {
+            "id": 19840,
+            "name": "inspect_dxpy"
+        },
+        {
+            "id": 19841,
+            "name": "randomization"
+        },
+        {
+            "id": 19842,
+            "name": "custom_env_template"
+        },
+        {
+            "id": 19843,
+            "name": "validate_format"
+        },
+        {
+            "id": 19844,
+            "name": "assumption_checks"
+        },
+        {
+            "id": 19845,
+            "name": "substructure_filter"
+        },
+        {
+            "id": 19846,
+            "name": "graph_neural_network"
+        },
+        {
+            "id": 19847,
+            "name": "onekgpd_api"
+        },
+        {
+            "id": 19848,
+            "name": "detect_adducts"
+        },
+        {
+            "id": 19849,
+            "name": "fetch_catalog"
+        },
+        {
+            "id": 19850,
+            "name": "update_schema"
+        },
+        {
+            "id": 19851,
+            "name": "jats_to_text"
+        },
+        {
+            "id": 19852,
+            "name": "batch_sequence_analysis"
+        },
+        {
+            "id": 19853,
+            "name": "filter_molecules"
+        },
+        {
+            "id": 19854,
+            "name": "transfer_learning"
+        },
+        {
+            "id": 19855,
+            "name": "inspect_installation"
+        },
+        {
+            "id": 19856,
+            "name": "run_sorting"
+        },
+        {
+            "id": 19857,
+            "name": "convert_format"
+        },
+        {
+            "id": 19858,
+            "name": "add_slide"
+        },
+        {
+            "id": 19859,
+            "name": "analyze_results"
+        },
+        {
+            "id": 19860,
+            "name": "validate_presentation"
+        },
+        {
+            "id": 19861,
+            "name": "run_local_primitives"
+        },
+        {
+            "id": 19862,
+            "name": "setup_config"
+        },
+        {
+            "id": 19863,
+            "name": "validate_dxapp"
+        },
+        {
+            "id": 19864,
+            "name": "model_comparison"
+        },
+        {
+            "id": 19865,
+            "name": "validate_files"
+        },
+        {
+            "id": 19866,
+            "name": "extract_form_field_info"
+        },
+        {
+            "id": 19867,
+            "name": "power"
+        },
+        {
+            "id": 19868,
+            "name": "merge_runs"
+        },
+        {
+            "id": 19869,
+            "name": "inspect_fcs"
+        },
+        {
+            "id": 19870,
+            "name": "basic_grn_inference"
+        },
+        {
+            "id": 19871,
+            "name": "style_configurator"
+        },
+        {
+            "id": 19872,
+            "name": "run_example"
+        },
+        {
+            "id": 19873,
+            "name": "build_counts_matrix"
+        },
+        {
+            "id": 19874,
+            "name": "model_diagnostics"
+        },
+        {
+            "id": 19875,
+            "name": "inspect_ms_data"
+        },
+        {
+            "id": 19876,
+            "name": "gene_analysis"
+        },
+        {
+            "id": 19877,
+            "name": "single_objective_example"
+        },
+        {
+            "id": 19878,
+            "name": "align_link_quantify"
+        },
+        {
+            "id": 19879,
+            "name": "prepare_batch_csv"
+        },
+        {
+            "id": 19880,
+            "name": "enrichment_pipeline"
+        },
+        {
+            "id": 19881,
+            "name": "ddi_static"
+        },
+        {
+            "id": 19882,
+            "name": "quick_trainer_setup"
+        },
+        {
+            "id": 19883,
+            "name": "clean"
+        },
+        {
+            "id": 19884,
+            "name": "batch_convert"
+        },
+        {
+            "id": 19885,
+            "name": "mass_calculator"
+        },
+        {
+            "id": 19886,
+            "name": "detect_features_metabo"
+        },
+        {
+            "id": 19887,
+            "name": "bioequivalence"
+        },
+        {
+            "id": 19888,
+            "name": "openalex_abstract"
+        },
+        {
+            "id": 19889,
+            "name": "fill_pdf_form_with_annotations"
+        },
+        {
+            "id": 19890,
+            "name": "molecular_properties"
+        },
+        {
+            "id": 19891,
+            "name": "generate_infographic"
+        },
+        {
+            "id": 19892,
+            "name": "fill_fillable_fields"
+        },
+        {
+            "id": 19893,
+            "name": "run_deseq2_analysis"
+        },
+        {
+            "id": 19894,
+            "name": "validate_citations"
+        },
+        {
+            "id": 19895,
+            "name": "digest_protein"
+        },
+        {
+            "id": 19896,
+            "name": "plot_template"
+        },
+        {
+            "id": 19897,
+            "name": "setup_check"
+        },
+        {
+            "id": 19898,
+            "name": "run_enrichment"
+        },
+        {
+            "id": 19899,
+            "name": "onekgpd_meta"
+        },
+        {
+            "id": 19900,
+            "name": "plot_ms_data"
+        },
+        {
+            "id": 19901,
+            "name": "extract_chromatograms"
+        },
+        {
+            "id": 19902,
+            "name": "explore_recording"
+        },
+        {
+            "id": 19903,
+            "name": "classification_pipeline"
+        },
+        {
+            "id": 19904,
+            "name": "train_rl_agent"
+        },
+        {
+            "id": 19905,
+            "name": "inspect_latch_sdk"
+        },
+        {
+            "id": 19906,
+            "name": "tree_operations"
+        },
+        {
+            "id": 19907,
+            "name": "protein_analysis_workflow"
+        },
+        {
+            "id": 19908,
+            "name": "batch_parse_dir"
+        },
+        {
+            "id": 19909,
+            "name": "library_search"
+        },
+        {
+            "id": 19910,
+            "name": "phylogenetic_analysis"
+        },
+        {
+            "id": 19911,
+            "name": "decision_making_example"
+        },
+        {
+            "id": 19912,
+            "name": "entry_operations"
+        },
+        {
+            "id": 19913,
+            "name": "custom_problem_example"
+        },
+        {
+            "id": 19914,
+            "name": "filter_alignments"
+        },
+        {
+            "id": 19915,
+            "name": "generate_pdf"
+        },
+        {
+            "id": 19916,
+            "name": "similarity_search"
+        },
+        {
+            "id": 19917,
+            "name": "compound_cross_reference"
+        },
+        {
+            "id": 19918,
+            "name": "template_datamodule"
+        },
+        {
+            "id": 19919,
+            "name": "format_bibtex"
+        },
+        {
+            "id": 19920,
+            "name": "arxiv_atom"
+        },
+        {
+            "id": 19921,
+            "name": "neuropixels_pipeline"
+        },
+        {
+            "id": 19922,
+            "name": "exposure_response"
+        },
+        {
+            "id": 19923,
+            "name": "pdf_to_images"
+        },
+        {
+            "id": 19924,
+            "name": "inspect_runtime"
+        },
+        {
+            "id": 19925,
+            "name": "doe_designs"
+        },
+        {
+            "id": 19926,
+            "name": "inspect_hts"
+        },
+        {
+            "id": 19927,
+            "name": "qoder_agent_sdk"
+        },
+        {
+            "id": 19928,
+            "name": "hindsight_copilot_cli"
+        },
+        {
+            "id": 19929,
+            "name": "mlx_video"
+        },
+        {
+            "id": 19930,
+            "name": "deepagents_k8s_agent_sandbox"
+        },
+        {
+            "id": 19931,
+            "name": "k8s_agent_sandbox_mcp_server"
+        },
+        {
+            "id": 19932,
+            "name": "capture_addon"
+        },
+        {
+            "id": 19933,
+            "name": "ocr_simple"
+        },
+        {
+            "id": 19934,
+            "name": "hog"
+        },
+        {
+            "id": 19935,
+            "name": "videoWrite"
+        },
+        {
+            "id": 19936,
+            "name": "imfill"
+        },
+        {
+            "id": 19937,
+            "name": "videoRead"
+        },
+        {
+            "id": 19938,
+            "name": "model_memory"
+        },
+        {
+            "id": 19939,
+            "name": "download_and_process_data"
+        },
+        {
+            "id": 19940,
+            "name": "nemogym_agent_function"
+        },
+        {
+            "id": 19941,
+            "name": "crewai_core"
+        },
+        {
+            "id": 19942,
+            "name": "agent_kb"
         }
     ]
 }
