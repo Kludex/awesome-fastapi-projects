@@ -2796,7 +2796,7 @@
                     "name": "langchain_protocol"
                 }
             ],
-            "last_checked_revision": "725489f135458c37c668919b0d08652ebd04f131\n"
+            "last_checked_revision": "4cc62317852bd9ba548b9cc8932ef638529d0e6f\n"
         },
         {
             "id": 6,
@@ -3818,7 +3818,7 @@
                     "name": "apigw"
                 }
             ],
-            "last_checked_revision": "8bc90eb21aaffeae87225f74588c6c5cb188e205\n"
+            "last_checked_revision": "f5465b21f3b2d263f8809223171185c1763901d5\n"
         },
         {
             "id": 9,
@@ -7393,7 +7393,7 @@
                     "name": "api_mock_imports"
                 }
             ],
-            "last_checked_revision": "a53b83c223bb0240c4cbd2eee28214bd73ac62ab\n"
+            "last_checked_revision": "b6ed33c75587f395b355efcad82f119d148ac45a\n"
         },
         {
             "id": 17,
@@ -8651,7 +8651,7 @@
                     "name": "freqtrade_client"
                 }
             ],
-            "last_checked_revision": "b084fb206cf4bbe2d6e4eae49f79f2fa09e658ae\n"
+            "last_checked_revision": "0a9b55dd83934d7d5086fcba150c1c36ab406661\n"
         },
         {
             "id": 22,
@@ -9105,7 +9105,7 @@
                     "name": "hf_gradio"
                 }
             ],
-            "last_checked_revision": "fd79d0999e66a3331a59d2ac80a7b61ec3e90f46\n"
+            "last_checked_revision": "45c11d52e518a59ffaf1d688e13ceaafd7f1477c\n"
         },
         {
             "id": 23,
@@ -10305,7 +10305,7 @@
                     "name": "spandrel"
                 }
             ],
-            "last_checked_revision": "09baa8d3e0a19321c00b26de3d627fa3384237b1\n"
+            "last_checked_revision": "ae5694db9e32263b523d7ae019240f5c19e6bf6d\n"
         },
         {
             "id": 27,
@@ -10435,7 +10435,7 @@
                     "name": "legacy_model_dict_client"
                 }
             ],
-            "last_checked_revision": "3e150eaf1f5ab99bc4631286c3c991b9ccd286df\n"
+            "last_checked_revision": "92936fddbdffc2d4047105c97da5513756eeb545\n"
         },
         {
             "id": 28,
@@ -11855,9 +11855,13 @@
                 {
                     "id": 19086,
                     "name": "last"
+                },
+                {
+                    "id": 19994,
+                    "name": "ty_extensions"
                 }
             ],
-            "last_checked_revision": "4a437b093417a22abecc168cc186ef58ca48c0fc\n"
+            "last_checked_revision": "2742f956d87314cf1522c69c9a95a71d972bd76c\n"
         },
         {
             "id": 29,
@@ -12735,7 +12739,7 @@
                     "name": "classify_flaky_tests"
                 }
             ],
-            "last_checked_revision": "ab16e5cfeb1bfe4b04be30bc4a726f65666a54b7\n"
+            "last_checked_revision": "0489fb31d8a144ec3c80d15eb44dbe24b790465e\n"
         },
         {
             "id": 30,
@@ -14773,7 +14777,7 @@
                     "name": "types_aiobotocore_logs"
                 }
             ],
-            "last_checked_revision": "b9378c32e42df203e7040a6df7f881a5b3aca174\n"
+            "last_checked_revision": "ef4286181588e579f72854d9344f4a2f6d66a090\n"
         },
         {
             "id": 37,
@@ -15719,7 +15723,7 @@
                     "name": "tvm_ffi"
                 }
             ],
-            "last_checked_revision": "79d603f085f50500e9509fa01785ffa7ecfaaa93\n"
+            "last_checked_revision": "2f78caa4db0f90730a11ee3bb5cbd5f23bf67f9f\n"
         },
         {
             "id": 42,
@@ -17287,7 +17291,7 @@
                     "name": "worker_result"
                 }
             ],
-            "last_checked_revision": "ce2eba4581773849164cf286bec13b56af3dfa82\n"
+            "last_checked_revision": "830e0912920fbdad94745598182612837a5f49d0\n"
         },
         {
             "id": 46,
@@ -17681,7 +17685,7 @@
                     "name": "reflex_components_moment"
                 }
             ],
-            "last_checked_revision": "fa3e67a7011988ef488ac2147acdddded5a3ad5f\n"
+            "last_checked_revision": "a08a0611c609ff060a27ae227be0dea880c00a2b\n"
         },
         {
             "id": 47,
@@ -17777,7 +17781,7 @@
                     "name": "aiohttp"
                 }
             ],
-            "last_checked_revision": "011471410d3fcc3301c168ee91eb92bc74ebded6\n"
+            "last_checked_revision": "dab47069a30c4ae70f7f5f4c919d639d9aaf79dc\n"
         },
         {
             "id": 49,
@@ -18353,7 +18357,7 @@
                     "name": "oxmsg"
                 }
             ],
-            "last_checked_revision": "5add74ecda75c78271b26feeef7d897bfb4e7796\n"
+            "last_checked_revision": "44246f850714529353513a2a41e691bb1cf78b7e\n"
         },
         {
             "id": 51,
@@ -20197,7 +20201,7 @@
                     "name": "winloop"
                 }
             ],
-            "last_checked_revision": "c79293c888ca8eebd275884d1c0afa8e4a1ad134\n"
+            "last_checked_revision": "760b386e7cdfd6913dc12b8d46cad9b8149cb90b\n"
         },
         {
             "id": 55,
@@ -20787,7 +20791,7 @@
                     "name": "syft_rds"
                 }
             ],
-            "last_checked_revision": "c1fe2dc16e2252646644fb5e040f93ecb358516d\n"
+            "last_checked_revision": "eb00ba8243a36853a69e7eb29920108fd540cd95\n"
         },
         {
             "id": 56,
@@ -22905,7 +22909,7 @@
                     "name": "perplexity"
                 }
             ],
-            "last_checked_revision": "1d9ddfad256408728de61f3ed3b03f63368e66f5\n"
+            "last_checked_revision": "19e1bf8a8610ab2b660a75e90a2f9e487ffe638c\n"
         },
         {
             "id": 63,
@@ -24975,7 +24979,7 @@
                     "name": "mq_bridge"
                 }
             ],
-            "last_checked_revision": "a893a298cf9f4adfc943519d673f402bf3106d4c\n"
+            "last_checked_revision": "1dba79a552a6774eedf098c9eae2b675b6f0d33a\n"
         },
         {
             "id": 72,
@@ -26391,7 +26395,7 @@
                     "name": "AntiSSRF"
                 }
             ],
-            "last_checked_revision": "7bb0034f4328613ae34acde826c4c5ceafbef5ee\n"
+            "last_checked_revision": "1c0ae0f2c954e51533cbcc536e9d1a5fcf09d70c\n"
         },
         {
             "id": 76,
@@ -28947,7 +28951,7 @@
                     "name": "wsproto"
                 }
             ],
-            "last_checked_revision": "b38b1e5261e05634a7e32fbba96912ae58f86291\n"
+            "last_checked_revision": "b57e9492961eb1ecd41bec1e1eb344640094dd76\n"
         },
         {
             "id": 88,
@@ -29121,7 +29125,7 @@
                     "name": "jesse_rust"
                 }
             ],
-            "last_checked_revision": "43a6379c9fd1e7f7438f8ada415177e81502c7fb\n"
+            "last_checked_revision": "1c9ce36c926b23e51520bfa6818a7ea84501c539\n"
         },
         {
             "id": 89,
@@ -29485,7 +29489,7 @@
                     "name": "reaktiv"
                 }
             ],
-            "last_checked_revision": "4996609ac716e20d8660636d3c3ca9806ffe6cf9\n"
+            "last_checked_revision": "b6b37c7881bb44e2944bf808f8d43b62b17daf81\n"
         },
         {
             "id": 91,
@@ -29959,7 +29963,7 @@
                     "name": "aerospike_helpers"
                 }
             ],
-            "last_checked_revision": "c8628eb0339c0c261e777ff036f5dfce1e35c460\n"
+            "last_checked_revision": "4efb86c688e7609ccdeabe2a8f827d7da11dda6c\n"
         },
         {
             "id": 92,
@@ -31251,9 +31255,13 @@
                 {
                     "id": 19736,
                     "name": "alien_pet_care"
+                },
+                {
+                    "id": 19995,
+                    "name": "pretzel"
                 }
             ],
-            "last_checked_revision": "d4c1d272ae8bbe8efd80212d67529c39d3a66f89\n"
+            "last_checked_revision": "b474a7ca3ae93def6325f82a5ac5f853a92eec37\n"
         },
         {
             "id": 98,
@@ -34109,7 +34117,7 @@
                     "name": "httpx_curl_cffi"
                 }
             ],
-            "last_checked_revision": "e57f14f111ae37215afcec08b59e7a31b6182262\n"
+            "last_checked_revision": "24149a751fafcf3206f93afa120f2cfc98759091\n"
         },
         {
             "id": 114,
@@ -34573,7 +34581,7 @@
                     "name": "cross_web"
                 }
             ],
-            "last_checked_revision": "34e9707833f99100086d2736980d5471dde054ce\n"
+            "last_checked_revision": "d22d2a83f7a6a3a2f1be28910d4d8d5d5c98e7ba\n"
         },
         {
             "id": 116,
@@ -36114,7 +36122,7 @@
                     "name": "pgserver"
                 }
             ],
-            "last_checked_revision": "1e30154d1070c7b132f389638c008b490be1481b\n"
+            "last_checked_revision": "4d7ac85a3f99b05f2d17f311679cff046d70d614\n"
         },
         {
             "id": 125,
@@ -36256,7 +36264,7 @@
             "id": 127,
             "url": "https://github.com/onyx-dot-app/onyx",
             "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
-            "stars": 31268,
+            "stars": 31354,
             "source_graph_repo_id": 60993144,
             "dependencies": [
                 {
@@ -36664,6 +36672,10 @@
                     "name": "fastapi_users_db_sqlalchemy"
                 },
                 {
+                    "id": 1412,
+                    "name": "pytest_asyncio"
+                },
+                {
                     "id": 1413,
                     "name": "bcrypt"
                 },
@@ -36956,7 +36968,7 @@
                     "name": "onyx_client"
                 }
             ],
-            "last_checked_revision": "400c872788fbb4e6c45a8882cc95f5dbdc0f8bc4\n"
+            "last_checked_revision": "27e26de8aafaa2f7e482c171b4290386af6f381b\n"
         },
         {
             "id": 128,
@@ -37090,7 +37102,7 @@
                     "name": "release_utility"
                 }
             ],
-            "last_checked_revision": "dbae7f17bef45beaf69744704bb27c0377ef0528\n"
+            "last_checked_revision": "1654b0d0de4853485751f1f74f6aa01cd68c9f8a\n"
         },
         {
             "id": 129,
@@ -37344,7 +37356,7 @@
                     "name": "slack_search"
                 }
             ],
-            "last_checked_revision": "f604485518a6a90aa72cc2dd257fabbb711aeac9\n"
+            "last_checked_revision": "40102c7b64261964cf2a42e263fd43ac2009474b\n"
         },
         {
             "id": 130,
@@ -39040,7 +39052,7 @@
                     "name": "vl_convert"
                 }
             ],
-            "last_checked_revision": "c97e809824bc1366e27f37d54dbae5cd5dcdacca\n"
+            "last_checked_revision": "f1c0bb4cf729732f81a51d8d0441b5b48f67eb45\n"
         },
         {
             "id": 136,
@@ -40888,7 +40900,7 @@
                     "name": "mypy_boto3_dynamodb"
                 }
             ],
-            "last_checked_revision": "f2266b2f6d55f56b411acc1bf08d6b9ffd73c3b8\n"
+            "last_checked_revision": "ec4eeaa4107f9ecb2665e339b99fd2b6079a3510\n"
         },
         {
             "id": 142,
@@ -41220,7 +41232,7 @@
                     "name": "external_tool"
                 }
             ],
-            "last_checked_revision": "6f1d0e9862c6c54a0e053500391280ea39d3cfb4\n"
+            "last_checked_revision": "98f53d5b8f2f6b57fe683f4f9ab40a9d61aef759\n"
         },
         {
             "id": 144,
@@ -41444,7 +41456,7 @@
                     "name": "flask"
                 }
             ],
-            "last_checked_revision": "3d66c79c78593f8e2689799386e496643a75d003\n"
+            "last_checked_revision": "7f2bca61bcb347702f1d425f8010936feb57691b\n"
         },
         {
             "id": 146,
@@ -41940,7 +41952,7 @@
                     "name": "hyper_parallel"
                 }
             ],
-            "last_checked_revision": "1b47415a2f584c168dcd0323f0ef28fdd5fa5e7f\n"
+            "last_checked_revision": "62ae362455801d4900a5132c7a30b23dc5fc3802\n"
         },
         {
             "id": 148,
@@ -43594,7 +43606,7 @@
                     "name": "cf_xarray"
                 }
             ],
-            "last_checked_revision": "0d685d24315540be6cee97155c9726539d562e44\n"
+            "last_checked_revision": "85cc2a16b2110d4c4b8cc7f956aab94bc53716f6\n"
         },
         {
             "id": 155,
@@ -43912,7 +43924,7 @@
                     "name": "shibuya"
                 }
             ],
-            "last_checked_revision": "0f3c74b55628b5c8281a33f899dfeb06d275af93\n"
+            "last_checked_revision": "0f7fce6bac6b0859fae5e5ea7507fb00488b2627\n"
         },
         {
             "id": 156,
@@ -45217,7 +45229,7 @@
                     "name": "autogluonserver"
                 }
             ],
-            "last_checked_revision": "a53b39fe30b491b2c6697bc8a1c8994ff759f017\n"
+            "last_checked_revision": "860120c2389e7c85cd7e50cbc6272338d5aa78e6\n"
         },
         {
             "id": 163,
@@ -53848,7 +53860,7 @@
                     "name": "allure_commons"
                 }
             ],
-            "last_checked_revision": "3c672c7bc0c20363736e5b7f67813572d8aca9f0\n"
+            "last_checked_revision": "9fd98f201ed58bb51f81e3e48d5679ced34d5f0e\n"
         },
         {
             "id": 193,
@@ -54518,7 +54530,7 @@
                     "name": "step3p7_multimodal_native"
                 }
             ],
-            "last_checked_revision": "438e3e79906ba642433a034461951cf6e8842e08\n"
+            "last_checked_revision": "fbff5a65950d3f89224fd824889cad8cda14aca2\n"
         },
         {
             "id": 198,
@@ -54894,7 +54906,7 @@
                     "name": "httpx_aiohttp"
                 }
             ],
-            "last_checked_revision": "42165751975c4983bb2e2c1faaa6d48952285865\n"
+            "last_checked_revision": "64c0ccb77d69ad68aa9e5c8973059b0ebd2c6f39\n"
         },
         {
             "id": 200,
@@ -55344,7 +55356,7 @@
                     "name": "zhconv_rs"
                 }
             ],
-            "last_checked_revision": "a23fce149139eddfb0de5b4c1e53ab5515a613eb\n"
+            "last_checked_revision": "7c3f9629bf2405a3ca3d0358aa31243cb0c30bd1\n"
         },
         {
             "id": 201,
@@ -57870,7 +57882,7 @@
                     "name": "mcp_types"
                 }
             ],
-            "last_checked_revision": "0fc054077ea5d513a7946027d36569c709d5ee22\n"
+            "last_checked_revision": "10b4f5b1e1ea1a5a16ba15b9e3b239c2ecac6a11\n"
         },
         {
             "id": 210,
@@ -58348,7 +58360,7 @@
                     "name": "giteapy"
                 }
             ],
-            "last_checked_revision": "b249e568e0c0fb6c674ace55fe95d02f62f8f3b3\n"
+            "last_checked_revision": "4a26c38d33d16ea490d6f0dd5c11b06e6c2f2cac\n"
         },
         {
             "id": 215,
@@ -58802,7 +58814,7 @@
                     "name": "custom_module"
                 }
             ],
-            "last_checked_revision": "7eb5acce27c80897172d55a69053ec1add422098\n"
+            "last_checked_revision": "c69136b29aca4c00ca6da7667f7b80783188980e\n"
         },
         {
             "id": 216,
@@ -61080,7 +61092,7 @@
                     "name": "ormar_rust_utils"
                 }
             ],
-            "last_checked_revision": "f455782c88c20a84018523ba6bd8a87fc50718ba\n"
+            "last_checked_revision": "5625df18a5c6acff4e60ac2bc20fa4bf3797f38f\n"
         },
         {
             "id": 229,
@@ -61256,7 +61268,7 @@
                     "name": "langchain_deepseek"
                 }
             ],
-            "last_checked_revision": "08af4577cec75fc9b96fdd0a4497ef5b5307f2ba\n"
+            "last_checked_revision": "01650efb8f130d622083cb16ee11454c7685e5c8\n"
         },
         {
             "id": 231,
@@ -64202,7 +64214,7 @@
                     "name": "vllm_qdq_plugin"
                 }
             ],
-            "last_checked_revision": "f7dc2965f5a31270189020fea27fab8dfd5ba287\n"
+            "last_checked_revision": "5336700247ec03f086d793cc05718bc53f0a169d\n"
         },
         {
             "id": 246,
@@ -66048,7 +66060,7 @@
                     "name": "mavedb_fsspec"
                 }
             ],
-            "last_checked_revision": "3708c133b86a9a07513796226e59e8b35fba9c15\n"
+            "last_checked_revision": "5a77b43bed13fc0f102dbf60a0e07081c83765f0\n"
         },
         {
             "id": 255,
@@ -66692,7 +66704,7 @@
                     "name": "annotationlib"
                 }
             ],
-            "last_checked_revision": "69689f0d04eafc7df66c24b6a24a099b43237a93\n"
+            "last_checked_revision": "7d62d95fa01c7e1db9f8680cdf6f96b681f031d7\n"
         },
         {
             "id": 261,
@@ -67406,7 +67418,7 @@
                     "name": "cabarchive"
                 }
             ],
-            "last_checked_revision": "d5096b94e2bbd5d2417072c38fcb5ef71d43aa48\n"
+            "last_checked_revision": "3fb347763cab5f269c2828e505d9b2dfb125d114\n"
         },
         {
             "id": 262,
@@ -68898,7 +68910,7 @@
                     "name": "dapr"
                 }
             ],
-            "last_checked_revision": "460ccb04a2cf806478849a81abaa96fefe3f89ee\n"
+            "last_checked_revision": "335170ced6f018ae30c3aafc3cfa36bd6f96debc\n"
         },
         {
             "id": 275,
@@ -71998,7 +72010,7 @@
                     "name": "oauth_app"
                 }
             ],
-            "last_checked_revision": "a2f21ae4b1d1d63a6a5dc533aa53a8c4badd103d\n"
+            "last_checked_revision": "26a3072d3d94a56125f8411eed58172f9b072c67\n"
         },
         {
             "id": 291,
@@ -72518,7 +72530,7 @@
                     "name": "daft_physical_ai"
                 }
             ],
-            "last_checked_revision": "318e7880ad858d1c559b0f7c19f090a35fc9e823\n"
+            "last_checked_revision": "3f5bdd175b7de3dcdf35765e1ba604b5c1cb8e15\n"
         },
         {
             "id": 293,
@@ -73448,9 +73460,13 @@
                 {
                     "id": 14670,
                     "name": "embit"
+                },
+                {
+                    "id": 19996,
+                    "name": "random_username"
                 }
             ],
-            "last_checked_revision": "bae9e1bf80e2a061e5f5660b08dcc90bcd0c5d2f\n"
+            "last_checked_revision": "02d87445bf6eb9cfc683c05b5269048399e47ca0\n"
         },
         {
             "id": 299,
@@ -73622,7 +73638,7 @@
                     "name": "redisvl"
                 }
             ],
-            "last_checked_revision": "84c9cdbaa272efcc232770cac77dc5a65584471b\n"
+            "last_checked_revision": "6bdd4a98be149b766ddbbd0e7f5a72e5671a0281\n"
         },
         {
             "id": 301,
@@ -74404,7 +74420,7 @@
                     "name": "smg_grpc_proto"
                 }
             ],
-            "last_checked_revision": "ccef71f46b8e61ce3c139d3c147911b6dd19f8a2\n"
+            "last_checked_revision": "c9ebdaad6bbaa3105061d79f6ab52af9d609e99d\n"
         },
         {
             "id": 306,
@@ -78593,7 +78609,7 @@
                     "name": "mssql_python"
                 }
             ],
-            "last_checked_revision": "e4b48670d2ca478c1a2a85c965fe573bdf194d22\n"
+            "last_checked_revision": "fe6eabb16ee564e922948c6073021f32395ae347\n"
         },
         {
             "id": 341,
@@ -79597,7 +79613,7 @@
                     "name": "_truss_shared"
                 }
             ],
-            "last_checked_revision": "b4a8f7314ec9ad981ad50f76fa27bb412e401efb\n"
+            "last_checked_revision": "05b7dc43827f4bdb0992a52a1a668eeda1df6cc3\n"
         },
         {
             "id": 345,
@@ -81825,7 +81841,7 @@
                     "name": "oauth_dcr"
                 }
             ],
-            "last_checked_revision": "3f3f2bdc0d95c9c5f4099575e11421e745fd6411\n"
+            "last_checked_revision": "2ac52370b4c09a498b76a8b08604af58fc2dd92a\n"
         },
         {
             "id": 367,
@@ -84109,7 +84125,7 @@
                     "name": "typescript"
                 }
             ],
-            "last_checked_revision": "7f10f6c0c689827642078b03aa5cbe468a808b48\n"
+            "last_checked_revision": "c7ccb646bbbf4c87fe9802e4a48683670b7be4dd\n"
         },
         {
             "id": 392,
@@ -86569,7 +86585,7 @@
                     "name": "pact_ffi"
                 }
             ],
-            "last_checked_revision": "1e209c0e5dcc0b5e5fc025f4bb3469a8131dc951\n"
+            "last_checked_revision": "f89544dda37500a97f6418793252a00d61daadd5\n"
         },
         {
             "id": 410,
@@ -88173,7 +88189,7 @@
                     "name": "zmqtt"
                 }
             ],
-            "last_checked_revision": "7734777558d31fab01391710fb118fdf2b80acbb\n"
+            "last_checked_revision": "d14ec56073c0690e854a01c00ee5df1ce53cf196\n"
         },
         {
             "id": 420,
@@ -88719,7 +88735,7 @@
                     "name": "httpx2"
                 }
             ],
-            "last_checked_revision": "16f32f891ebe30c5b6e2c9aea47f43df889ba7af\n"
+            "last_checked_revision": "7ca24747ccffc23a80165bdba0020540c2a42b9c\n"
         },
         {
             "id": 423,
@@ -89253,7 +89269,7 @@
                     "name": "startup"
                 }
             ],
-            "last_checked_revision": "7d9ca7dc4eed02c7f2f6c948caa1bbec8ee064fe\n"
+            "last_checked_revision": "79a83224702e35c3085149c6b55b43126372ac3f\n"
         },
         {
             "id": 426,
@@ -92427,7 +92443,7 @@
                     "name": "aws_durable_execution_sdk_python_testing"
                 }
             ],
-            "last_checked_revision": "fdf7d2e71431dd020f4472b201246b4cfd75e46c\n"
+            "last_checked_revision": "af9cf72e89ac0bda0b3e62e1b7ca3284dc4d551b\n"
         },
         {
             "id": 441,
@@ -92865,7 +92881,7 @@
                     "name": "patchdiff"
                 }
             ],
-            "last_checked_revision": "78b602339a64b8eef784ad3ffb87c40a5dc44f20\n"
+            "last_checked_revision": "56dc6c40f554fa42ccb48d5cfc1e81deb22dea14\n"
         },
         {
             "id": 442,
@@ -93693,7 +93709,7 @@
                     "name": "config_utils"
                 }
             ],
-            "last_checked_revision": "db3329efeae464da90bd74905e12044353c13958\n"
+            "last_checked_revision": "2817496df75df8b9a2554241011cfdf9bbc680f7\n"
         },
         {
             "id": 446,
@@ -98359,7 +98375,7 @@
                     "name": "trx"
                 }
             ],
-            "last_checked_revision": "31bc9f698e53ee46370248a524c538bf69acdddb\n"
+            "last_checked_revision": "87f07a2dce28dca06a793286a431ddde4d26adc7\n"
         },
         {
             "id": 465,
@@ -99965,7 +99981,7 @@
                     "name": "cloud"
                 }
             ],
-            "last_checked_revision": "5b1a0aaeef86a55b8b14579719300380c10ec412\n"
+            "last_checked_revision": "f7e3a70122b4d023dc4eafef9f9242ae4be9ae29\n"
         },
         {
             "id": 476,
@@ -103864,7 +103880,7 @@
                     "name": "flet_mcp"
                 }
             ],
-            "last_checked_revision": "01bf7d5105b63dda552db1c92044a3a0cafedebb\n"
+            "last_checked_revision": "a15ab62f8f41c41ecf9b6c8f7a3f05cf19d8ad82\n"
         },
         {
             "id": 498,
@@ -104056,7 +104072,7 @@
                     "name": "connectrpc"
                 }
             ],
-            "last_checked_revision": "e1c68f10c4e3126f007f5a2f736f8d00c6fdb10d\n"
+            "last_checked_revision": "82b450332c8f9531a69e74a889f9097ca1d8a19a\n"
         },
         {
             "id": 500,
@@ -104806,7 +104822,7 @@
                     "name": "immich_ml"
                 }
             ],
-            "last_checked_revision": "fe5c8ed0fb80a741a12338b6e14dede5d5add457\n"
+            "last_checked_revision": "cafd6c7c0f12add9b2c0f06a0cc1c26ef26e2756\n"
         },
         {
             "id": 507,
@@ -107745,7 +107761,7 @@
                     "name": "tzdata"
                 }
             ],
-            "last_checked_revision": "ca53d6ce9158be1a57a09b7741227a08f2a80f4b\n"
+            "last_checked_revision": "b0a2abd46ae30e6f05bafaecbb513ba19aae17a7\n"
         },
         {
             "id": 517,
@@ -108243,7 +108259,7 @@
                     "name": "selector"
                 }
             ],
-            "last_checked_revision": "5f177695f238385d513415a0e20883b6411093be\n"
+            "last_checked_revision": "d1007c323068d0c5aaa8e0f198668aaebc1a4fc2\n"
         },
         {
             "id": 518,
@@ -111239,7 +111255,7 @@
                     "name": "vllm_add_dummy_endpoint_plugin"
                 }
             ],
-            "last_checked_revision": "3333d7cb6391d27bac146f8eaf869e6e318f429f\n"
+            "last_checked_revision": "38a466e7b6e087d67c35e7f924c04c245423c99f\n"
         },
         {
             "id": 530,
@@ -111367,7 +111383,7 @@
                     "name": "ariadne"
                 }
             ],
-            "last_checked_revision": "d0867d4581af91bdb59da4a06207abfa5dd3f1c2\n"
+            "last_checked_revision": "8fea40c23d90e2fa42d916ccc213f2210007b131\n"
         },
         {
             "id": 532,
@@ -112270,7 +112286,7 @@
                     "name": "trackers"
                 }
             ],
-            "last_checked_revision": "48a7e7a3dc4823c4da2a2e630348927778cceec9\n"
+            "last_checked_revision": "a34f929e01caf42458b67476b41e65f205e766e6\n"
         },
         {
             "id": 536,
@@ -112543,6 +112559,10 @@
                 {
                     "id": 26,
                     "name": "dateutil"
+                },
+                {
+                    "id": 28,
+                    "name": "_pytest"
                 },
                 {
                     "id": 29,
@@ -113241,7 +113261,7 @@
                     "name": "claude_code"
                 }
             ],
-            "last_checked_revision": "c3da12161bc153ceef0a553843c64d91002ad126\n"
+            "last_checked_revision": "35ec1df3a08422eeb24a43ad78dd35c09f86cdd1\n"
         },
         {
             "id": 540,
@@ -113881,7 +113901,7 @@
                     "name": "killerbee"
                 }
             ],
-            "last_checked_revision": "362e5e525e2e1e39cadf4d55f18cf75a7a8a1753\n"
+            "last_checked_revision": "eac2926b138d2c21c1927fef7b940261b9b516f7\n"
         },
         {
             "id": 544,
@@ -114181,9 +114201,13 @@
                 {
                     "id": 18541,
                     "name": "openai_codex"
+                },
+                {
+                    "id": 19997,
+                    "name": "release_version"
                 }
             ],
-            "last_checked_revision": "f7112ffc791e01c4dfb06ad4a4e03a191bee6c4a\n"
+            "last_checked_revision": "855ab60c0e10dac6bc89f3e248cba3746d44f034\n"
         },
         {
             "id": 545,
@@ -114739,7 +114763,7 @@
                     "name": "tile_kernels"
                 }
             ],
-            "last_checked_revision": "821730d650d5999260cef6f3ce464edeced6047e\n"
+            "last_checked_revision": "19a085cf90875c8ada9f880782a6e92cc8d2af36\n"
         },
         {
             "id": 547,
@@ -115466,7 +115490,7 @@
                     "name": "xgen"
                 }
             ],
-            "last_checked_revision": "3619c25855f878481ddb893709c1e30d76aff794\n"
+            "last_checked_revision": "0dea79924347fad46e114621d7334d1136b30691\n"
         },
         {
             "id": 551,
@@ -115634,7 +115658,7 @@
                     "name": "wexpect"
                 }
             ],
-            "last_checked_revision": "80ef1868dbe0ab23566f99dba279026a286c2019\n"
+            "last_checked_revision": "c9dd86aae6be53ca753688aed6235df00330b691\n"
         },
         {
             "id": 553,
@@ -117378,7 +117402,7 @@
                     "name": "pycatch22"
                 }
             ],
-            "last_checked_revision": "65109255a90a8875e746e8b35f63f39c08ca3901\n"
+            "last_checked_revision": "07468b4022133a384054f3b913ff87fff9db716a\n"
         },
         {
             "id": 563,
@@ -117914,7 +117938,7 @@
             "id": 568,
             "url": "https://github.com/mem0ai/mem0",
             "description": "Universal memory layer for AI Agents",
-            "stars": 62116,
+            "stars": 62257,
             "source_graph_repo_id": 61225118,
             "dependencies": [
                 {
@@ -118570,7 +118594,7 @@
                     "name": "capture_session_summary"
                 }
             ],
-            "last_checked_revision": "760dca6f391277d79c3c7d2096c1bf1d037526c3\n"
+            "last_checked_revision": "50bdaaea0c02744720ed374d88584fd01494eeb7\n"
         },
         {
             "id": 569,
@@ -118795,7 +118819,7 @@
                     "name": "stamina"
                 }
             ],
-            "last_checked_revision": "f11ecc0da5a80580e9cd6e21b27df79ed2ea8c46\n"
+            "last_checked_revision": "e48670914d079a114cf89029a25d8d46ffde6160\n"
         },
         {
             "id": 572,
@@ -120985,7 +121009,7 @@
                     "name": "mystace"
                 }
             ],
-            "last_checked_revision": "53aaf6f5a1f7004002576b47299cf70f4739f725\n"
+            "last_checked_revision": "7c395dbecf4c93fa9500d055119028c2664454ad\n"
         },
         {
             "id": 579,
@@ -122581,7 +122605,7 @@
                     "name": "abnumber"
                 }
             ],
-            "last_checked_revision": "195cb2544860df2c19901ded1d8dac98115c5cfa\n"
+            "last_checked_revision": "80d5db663eb6a84d5d236314ce4ba11670df8837\n"
         },
         {
             "id": 589,
@@ -123189,7 +123213,7 @@
                     "name": "djangoblog"
                 }
             ],
-            "last_checked_revision": "e2c160d231c14b7bf500585c7703ebf628dbd8ae\n"
+            "last_checked_revision": "2ad75283530ea4fba3aa44b789371abc2d78db68\n"
         },
         {
             "id": 591,
@@ -126833,7 +126857,7 @@
                     "name": "sky_sandbox"
                 }
             ],
-            "last_checked_revision": "26a5e145bbcd995f478565ec5236a1bf5e4d0c42\n"
+            "last_checked_revision": "27b3404b204fb05d6f048ba9589e1566edcd2fd7\n"
         },
         {
             "id": 607,
@@ -127129,7 +127153,7 @@
                     "name": "idstools"
                 }
             ],
-            "last_checked_revision": "b0480e2449f5a12066bfd8b81d27239e1a875eea\n"
+            "last_checked_revision": "00292928857eefe578bc6ebd1eace0b86419d2d8\n"
         },
         {
             "id": 609,
@@ -132940,7 +132964,7 @@
                     "name": "googlecloudprofiler"
                 }
             ],
-            "last_checked_revision": "5beb66e9981da4802de05c90bf43fba18053d5d6\n"
+            "last_checked_revision": "ff19ffeafeb54bd2a7dc5d4a552f10191732a235\n"
         },
         {
             "id": 629,
@@ -135968,6 +135992,10 @@
                     "name": "wordllama"
                 },
                 {
+                    "id": 17325,
+                    "name": "benchmark_utils"
+                },
+                {
                     "id": 17893,
                     "name": "bench_moe"
                 },
@@ -136032,7 +136060,7 @@
                     "name": "cluster_env"
                 }
             ],
-            "last_checked_revision": "5c5ef988669797eb60cb312e73ea5007fc8499b3\n"
+            "last_checked_revision": "0a462b2d82475f27e962f6bfc7614d43808bf8da\n"
         },
         {
             "id": 637,
@@ -136262,7 +136290,7 @@
                     "name": "mcp"
                 }
             ],
-            "last_checked_revision": "d6943c269b17b394227c492cf5db6f76f12d5d44\n"
+            "last_checked_revision": "5c684b24cfd1f0cab33d6f8d4801d3a75147bd33\n"
         },
         {
             "id": 638,
@@ -139182,7 +139210,7 @@
                     "name": "minicpmo"
                 }
             ],
-            "last_checked_revision": "abbfc5867437e89bb507a7afc8004131b7712a5f\n"
+            "last_checked_revision": "850fe6baf9ca6f0f62fbc25e3afb84e9d5d7a971\n"
         },
         {
             "id": 654,
@@ -140970,7 +140998,7 @@
                     "name": "producers"
                 }
             ],
-            "last_checked_revision": "bec2542e7a87db9ba667761e4d6832483c5a46a0\n"
+            "last_checked_revision": "c2b86ac92b80673dc34856c6d23529984211c32d\n"
         },
         {
             "id": 666,
@@ -144004,7 +144032,7 @@
                     "name": "alerting"
                 }
             ],
-            "last_checked_revision": "d77fafe59a72667c4f3452b83f3d71f78bae5f3d\n"
+            "last_checked_revision": "3734b9042afdf0d0988f2a23024ddfc5d48f8891\n"
         },
         {
             "id": 689,
@@ -144074,7 +144102,7 @@
                     "name": "scheduler"
                 }
             ],
-            "last_checked_revision": "0c03f8b40467cfecdd217bab3bd842ef5d7764a6\n"
+            "last_checked_revision": "cbc6458c5dd19983357ea3c09bf17a019d8d54fb\n"
         },
         {
             "id": 690,
@@ -144582,6 +144610,10 @@
                     "name": "byonoy_devices"
                 },
                 {
+                    "id": 9837,
+                    "name": "python_multipart"
+                },
+                {
                     "id": 13013,
                     "name": "deploy_config"
                 },
@@ -144614,7 +144646,7 @@
                     "name": "audit_server"
                 }
             ],
-            "last_checked_revision": "dda00fffc483db9b9a8a73ef91cff2cbd48159e8\n"
+            "last_checked_revision": "f03fe6567fac237e3da4f5604604621d953672e3\n"
         },
         {
             "id": 692,
@@ -146050,7 +146082,7 @@
                     "name": "neo4j"
                 }
             ],
-            "last_checked_revision": "221af6bf06dee089ec6c4299f7ccd4ed946a33c0\n"
+            "last_checked_revision": "ce1fe11cd87a521a2d5bd6602bbd7a20e2cab020\n"
         },
         {
             "id": 708,
@@ -146960,7 +146992,7 @@
                     "name": "euroswarm_parliament"
                 }
             ],
-            "last_checked_revision": "ab1d0e92697d902ca54a79be8821a317d3fc2019\n"
+            "last_checked_revision": "297ae6b77c8b1705587491cd3ac1f882ea99c8c7\n"
         },
         {
             "id": 711,
@@ -147982,7 +148014,7 @@
                     "name": "badkeys"
                 }
             ],
-            "last_checked_revision": "5c653fbac8fde0e472d7f34c0ae67964fd4c994c\n"
+            "last_checked_revision": "362095ade242a9ed027662bad384a12fdfee3519\n"
         },
         {
             "id": 718,
@@ -148740,7 +148772,7 @@
                     "name": "polyfactory"
                 }
             ],
-            "last_checked_revision": "a9b3d855749bf7e37576a91c88fb4faa62046280\n"
+            "last_checked_revision": "4de24c1124fb70e67bbb09ae73d8c9f9c4c6e62a\n"
         },
         {
             "id": 725,
@@ -149152,7 +149184,7 @@
                     "name": "event_pb2"
                 }
             ],
-            "last_checked_revision": "f46ef06d4d70e91a38f4d12c6fa6bd1c1701eafc\n"
+            "last_checked_revision": "b987f4c10886aab4b174348b93cfde06bd7d24fa\n"
         },
         {
             "id": 731,
@@ -153186,7 +153218,7 @@
                     "name": "pwdlib"
                 }
             ],
-            "last_checked_revision": "79176c4739d7500f291d961cd39efcfbf4f59c38\n"
+            "last_checked_revision": "56c5f2a67e9b15961f11c07e14b9b4b6b2716ebd\n"
         },
         {
             "id": 768,
@@ -153724,7 +153756,7 @@
                     "name": "shelved_cache"
                 }
             ],
-            "last_checked_revision": "7a578ebf65045e6d96a19245bdec29d9976f0e9e\n"
+            "last_checked_revision": "c366400e9fbf3393ab335b214a2272ddc2caef78\n"
         },
         {
             "id": 771,
@@ -154928,6 +154960,10 @@
                     "name": "mpl_toolkits"
                 },
                 {
+                    "id": 445,
+                    "name": "pygments"
+                },
+                {
                     "id": 512,
                     "name": "sphinx_rtd_theme"
                 },
@@ -155048,7 +155084,7 @@
                     "name": "preallocated_qubits_context"
                 }
             ],
-            "last_checked_revision": "e8cf932e6b2769dce5763ccf6acc2aa4cf891b7d\n"
+            "last_checked_revision": "dee5b7457e53ef8a8d7872f77d3d97a2c70b9bd4\n"
         },
         {
             "id": 785,
@@ -158726,7 +158762,7 @@
                     "name": "thread_pool"
                 }
             ],
-            "last_checked_revision": "658829b8ebab2805786242c183fd8c4b473fe44c\n"
+            "last_checked_revision": "86f146fca0c3dcb94f953a6c4f10c96946b71f8e\n"
         },
         {
             "id": 829,
@@ -164803,7 +164839,7 @@
                     "name": "broadlink"
                 }
             ],
-            "last_checked_revision": "7014f94afb9f34c951fe84ba19339ad6d208fbaa\n"
+            "last_checked_revision": "2051b295b7f1114d2dec4e98bc6147de0b3b74be\n"
         },
         {
             "id": 890,
@@ -168741,7 +168777,7 @@
                     "name": "markdown_pdf"
                 }
             ],
-            "last_checked_revision": "1d931ad88466f2e38c4eec1154f3c9839156d30b\n"
+            "last_checked_revision": "7b950a6aac506d27ad9c054be7e7cd7852e49961\n"
         },
         {
             "id": 915,
@@ -169763,7 +169799,7 @@
                     "name": "kili_formats"
                 }
             ],
-            "last_checked_revision": "6cdd6fb56cedbac054e0d8e8bb57fcb7ac7f7382\n"
+            "last_checked_revision": "025f7a8bdd0e35f3b5d813072362cb7cd52403f2\n"
         },
         {
             "id": 918,
@@ -170865,7 +170901,7 @@
                     "name": "lighteval"
                 }
             ],
-            "last_checked_revision": "d574b976e0de9943cbabdb0c97e042eecabc1bd3\n"
+            "last_checked_revision": "d5d2e97bf462ba3222f55d8db507a9a67d8f12ca\n"
         },
         {
             "id": 933,
@@ -173443,7 +173479,7 @@
                     "name": "modules"
                 }
             ],
-            "last_checked_revision": "2cafa86ad06fd1d6143fb31ceb8631b677c1a718\n"
+            "last_checked_revision": "71cf37172658a64d603d01f127910c280b08d5ed\n"
         },
         {
             "id": 965,
@@ -173849,7 +173885,7 @@
                     "name": "kachi"
                 }
             ],
-            "last_checked_revision": "3753f22cfaab55483972c1d2ea0abc019f61cf59\n"
+            "last_checked_revision": "f610838014d669eb4fb72aeba624e21e1c770d37\n"
         },
         {
             "id": 968,
@@ -174459,7 +174495,7 @@
                     "name": "modal_version"
                 }
             ],
-            "last_checked_revision": "2a40b0eb316b0894644b3b322bf893a3f57bceef\n"
+            "last_checked_revision": "a483eede1a4dbaf28d135ec4962010d6469be171\n"
         },
         {
             "id": 973,
@@ -175111,7 +175147,7 @@
                     "name": "eqassertions"
                 }
             ],
-            "last_checked_revision": "1c0a16bba55bed49d43061c8d1cb6cb04afc720c\n"
+            "last_checked_revision": "6c08827241e9737487905c62d8834edc2a0da8e7\n"
         },
         {
             "id": 979,
@@ -176839,7 +176875,7 @@
                     "name": "tqdm_joblib"
                 }
             ],
-            "last_checked_revision": "aa0d42fa71b0cbce7121c8ab635282aeb1181147\n"
+            "last_checked_revision": "43e7d8c3f24bb6eec3be74d5b0e8a63217e22df5\n"
         },
         {
             "id": 993,
@@ -177821,7 +177857,7 @@
                     "name": "aphrodite_add_dummy_endpoint_plugin"
                 }
             ],
-            "last_checked_revision": "6586b288985c3bff8359abcaff158258e82c60c8\n"
+            "last_checked_revision": "83a077213ac3894bf0c6d33aabbd8a5811907261\n"
         },
         {
             "id": 994,
@@ -178175,6 +178211,10 @@
                     "name": "orjson"
                 },
                 {
+                    "id": 539,
+                    "name": "pydantic_core"
+                },
+                {
                     "id": 1083,
                     "name": "aiofiles"
                 },
@@ -178223,7 +178263,7 @@
                     "name": "nx"
                 }
             ],
-            "last_checked_revision": "c3c9712134dd75cf0cf1b796ffa835a88539a122\n"
+            "last_checked_revision": "f1ff68e31ea9d30808c00dc7be4a4acbc943f9d2\n"
         },
         {
             "id": 997,
@@ -179846,7 +179886,7 @@
                     "name": "polli_agent"
                 }
             ],
-            "last_checked_revision": "b25eee6b3d9c4d6a96e9422460246b84734e58d9\n"
+            "last_checked_revision": "01e063bfb248b4a0b3124616ee11a7b8330deb35\n"
         },
         {
             "id": 1013,
@@ -182388,7 +182428,7 @@
                     "name": "example_pb2"
                 }
             ],
-            "last_checked_revision": "88d30abff4787b0d3331eb6825a52a8f1ad88a6d\n"
+            "last_checked_revision": "e78d0cf62cff51b2752cab742ab4f5b0d3a82790\n"
         },
         {
             "id": 1032,
@@ -184273,9 +184313,13 @@
                 {
                     "id": 19323,
                     "name": "bench_parity"
+                },
+                {
+                    "id": 19998,
+                    "name": "gated_delta_net_tile_scheduler"
                 }
             ],
-            "last_checked_revision": "68d442945f9c5e10eced40a1a3da254efe7e96be\n"
+            "last_checked_revision": "131bd51b01d96de247fbd1966fb45bdbecbb80b5\n"
         },
         {
             "id": 1038,
@@ -188573,7 +188617,7 @@
                     "name": "i18n_locales"
                 }
             ],
-            "last_checked_revision": "d97e0970a01f4c0567ff41c305287a6ebe0845b8\n"
+            "last_checked_revision": "acc10194bfaf668135a0a9f18439f6f3589705b8\n"
         },
         {
             "id": 1073,
@@ -188679,7 +188723,7 @@
                     "name": "results"
                 }
             ],
-            "last_checked_revision": "c3c6f97e8132ff5fc137066f5da962dcfe6f6152\n"
+            "last_checked_revision": "d9cf91de96611d5da2fee9c48762cdd297d5ba6c\n"
         },
         {
             "id": 1074,
@@ -189863,7 +189907,7 @@
                     "name": "_pyodide_core"
                 }
             ],
-            "last_checked_revision": "26b5461b7dcc640bb16072f1ba6f2c6df82572ba\n"
+            "last_checked_revision": "d82c2a45a8695aac30d4d24828ce1ee7fb11909b\n"
         },
         {
             "id": 1078,
@@ -283010,7 +283054,7 @@
             "id": 1622,
             "url": "https://github.com/getzep/graphiti",
             "description": "Build Real-Time Knowledge Graphs for AI Agents",
-            "stars": 29377,
+            "stars": 29436,
             "source_graph_repo_id": 63470511,
             "dependencies": [
                 {
@@ -325665,7 +325709,7 @@
             "id": 1838,
             "url": "https://github.com/agentscope-ai/agentscope",
             "description": "Build and run agents you can see, understand and trust.",
-            "stars": 28425,
+            "stars": 28474,
             "source_graph_repo_id": 62606506,
             "dependencies": [
                 {
@@ -381379,7 +381423,7 @@
             "id": 2097,
             "url": "https://github.com/supermemoryai/supermemory",
             "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
-            "stars": 28694,
+            "stars": 28725,
             "source_graph_repo_id": 63077504,
             "dependencies": [
                 {
@@ -397795,7 +397839,7 @@
             "id": 2160,
             "url": "https://github.com/getzep/zep",
             "description": "Zep | Examples, Integrations, & More",
-            "stars": 4794,
+            "stars": 4798,
             "source_graph_repo_id": 60969981,
             "dependencies": [
                 {
@@ -442669,7 +442713,7 @@
             "id": 2322,
             "url": "https://github.com/espressif/esp-idf",
             "description": "Espressif IoT Development Framework. Official development framework for Espressif SoCs.",
-            "stars": 18649,
+            "stars": 18672,
             "source_graph_repo_id": 301749,
             "dependencies": [
                 {
@@ -505343,6 +505387,723 @@
                 }
             ],
             "last_checked_revision": "95d3d854185906f2955d8e0ab42029242a5213a1\n"
+        },
+        {
+            "id": 2664,
+            "url": "https://github.com/hashintel/hash",
+            "description": "\ud83d\ude80  The open-source, multi-tenant platform for self-building knowledge graphs and simulation",
+            "stars": 1592,
+            "source_graph_repo_id": 41290612,
+            "dependencies": [
+                {
+                    "id": 2,
+                    "name": "starlette"
+                },
+                {
+                    "id": 3,
+                    "name": "fastapi"
+                },
+                {
+                    "id": 13,
+                    "name": "pytest"
+                },
+                {
+                    "id": 34,
+                    "name": "uvicorn"
+                },
+                {
+                    "id": 38,
+                    "name": "pydantic"
+                },
+                {
+                    "id": 77,
+                    "name": "dotenv"
+                },
+                {
+                    "id": 531,
+                    "name": "opentelemetry"
+                },
+                {
+                    "id": 533,
+                    "name": "optuna"
+                },
+                {
+                    "id": 689,
+                    "name": "src"
+                }
+            ],
+            "last_checked_revision": "60caa1d3dfdde718d4712931efa487227e2c179b\n"
+        },
+        {
+            "id": 2665,
+            "url": "https://github.com/itayinbarr/little-coder",
+            "description": "A coding agent optimized to smaller LLMs",
+            "stars": 1393,
+            "source_graph_repo_id": 64292926,
+            "dependencies": [
+                {
+                    "id": 13,
+                    "name": "pytest"
+                },
+                {
+                    "id": 14,
+                    "name": "numpy"
+                },
+                {
+                    "id": 161,
+                    "name": "matplotlib"
+                },
+                {
+                    "id": 185,
+                    "name": "huggingface_hub"
+                },
+                {
+                    "id": 261,
+                    "name": "pyarrow"
+                },
+                {
+                    "id": 9689,
+                    "name": "harbor"
+                },
+                {
+                    "id": 12445,
+                    "name": "terminal_bench"
+                },
+                {
+                    "id": 14436,
+                    "name": "rpc_client"
+                }
+            ],
+            "last_checked_revision": "0b7234031aabe56163e345792ce7a6ea05af321a\n"
+        },
+        {
+            "id": 2666,
+            "url": "https://github.com/agent-network-protocol/AgentNetworkProtocol",
+            "description": "AgentNetworkProtocol(ANP) is an open source protocol for agent communication. Our vision is to define how agents connect with each other, building an open, secure, and efficient collaboration network for billions of intelligent agents.",
+            "stars": 1307,
+            "source_graph_repo_id": 64094637,
+            "dependencies": [],
+            "last_checked_revision": null
+        },
+        {
+            "id": 2667,
+            "url": "https://github.com/Sumanth077/Hands-On-AI-Engineering",
+            "description": "A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.",
+            "stars": 1224,
+            "source_graph_repo_id": 64140108,
+            "dependencies": [
+                {
+                    "id": 3,
+                    "name": "fastapi"
+                },
+                {
+                    "id": 11,
+                    "name": "transformers"
+                },
+                {
+                    "id": 12,
+                    "name": "pandas"
+                },
+                {
+                    "id": 13,
+                    "name": "pytest"
+                },
+                {
+                    "id": 14,
+                    "name": "numpy"
+                },
+                {
+                    "id": 15,
+                    "name": "torch"
+                },
+                {
+                    "id": 19,
+                    "name": "requests"
+                },
+                {
+                    "id": 22,
+                    "name": "bs4"
+                },
+                {
+                    "id": 34,
+                    "name": "uvicorn"
+                },
+                {
+                    "id": 37,
+                    "name": "httpx"
+                },
+                {
+                    "id": 38,
+                    "name": "pydantic"
+                },
+                {
+                    "id": 39,
+                    "name": "streamlit"
+                },
+                {
+                    "id": 44,
+                    "name": "chromadb"
+                },
+                {
+                    "id": 51,
+                    "name": "qdrant_client"
+                },
+                {
+                    "id": 77,
+                    "name": "dotenv"
+                },
+                {
+                    "id": 82,
+                    "name": "PIL"
+                },
+                {
+                    "id": 106,
+                    "name": "anyio"
+                },
+                {
+                    "id": 118,
+                    "name": "gradio"
+                },
+                {
+                    "id": 183,
+                    "name": "openai"
+                },
+                {
+                    "id": 185,
+                    "name": "huggingface_hub"
+                },
+                {
+                    "id": 206,
+                    "name": "langchain"
+                },
+                {
+                    "id": 212,
+                    "name": "duckduckgo_search"
+                },
+                {
+                    "id": 224,
+                    "name": "google"
+                },
+                {
+                    "id": 243,
+                    "name": "html2text"
+                },
+                {
+                    "id": 246,
+                    "name": "sentence_transformers"
+                },
+                {
+                    "id": 251,
+                    "name": "playwright"
+                },
+                {
+                    "id": 278,
+                    "name": "plotly"
+                },
+                {
+                    "id": 609,
+                    "name": "rank_bm25"
+                },
+                {
+                    "id": 611,
+                    "name": "fitz"
+                },
+                {
+                    "id": 639,
+                    "name": "whisper"
+                },
+                {
+                    "id": 896,
+                    "name": "llama_cpp"
+                },
+                {
+                    "id": 1620,
+                    "name": "pypdfium2"
+                },
+                {
+                    "id": 1629,
+                    "name": "faster_whisper"
+                },
+                {
+                    "id": 1835,
+                    "name": "soundfile"
+                },
+                {
+                    "id": 2179,
+                    "name": "lib"
+                },
+                {
+                    "id": 2331,
+                    "name": "pypdf"
+                },
+                {
+                    "id": 2335,
+                    "name": "feedparser"
+                },
+                {
+                    "id": 2990,
+                    "name": "tools"
+                },
+                {
+                    "id": 3085,
+                    "name": "haystack"
+                },
+                {
+                    "id": 3901,
+                    "name": "wikipedia"
+                },
+                {
+                    "id": 3929,
+                    "name": "yt_dlp"
+                },
+                {
+                    "id": 4072,
+                    "name": "trafilatura"
+                },
+                {
+                    "id": 4073,
+                    "name": "geopy"
+                },
+                {
+                    "id": 4497,
+                    "name": "agents"
+                },
+                {
+                    "id": 4677,
+                    "name": "tavily"
+                },
+                {
+                    "id": 5113,
+                    "name": "research_assistant"
+                },
+                {
+                    "id": 5226,
+                    "name": "langchain_core"
+                },
+                {
+                    "id": 5568,
+                    "name": "langchain_community"
+                },
+                {
+                    "id": 5585,
+                    "name": "langchain_google_genai"
+                },
+                {
+                    "id": 5664,
+                    "name": "langchain_mistralai"
+                },
+                {
+                    "id": 5665,
+                    "name": "mistralai"
+                },
+                {
+                    "id": 5770,
+                    "name": "langchain_openai"
+                },
+                {
+                    "id": 6776,
+                    "name": "haystack_integrations"
+                },
+                {
+                    "id": 6786,
+                    "name": "langgraph"
+                },
+                {
+                    "id": 7081,
+                    "name": "ollama"
+                },
+                {
+                    "id": 7458,
+                    "name": "langchain_text_splitters"
+                },
+                {
+                    "id": 7712,
+                    "name": "crewai_tools"
+                },
+                {
+                    "id": 7715,
+                    "name": "crewai"
+                },
+                {
+                    "id": 8635,
+                    "name": "mem0"
+                },
+                {
+                    "id": 8723,
+                    "name": "langchain_ollama"
+                },
+                {
+                    "id": 10178,
+                    "name": "mcp"
+                },
+                {
+                    "id": 10328,
+                    "name": "browser_use"
+                },
+                {
+                    "id": 10388,
+                    "name": "kokoro"
+                },
+                {
+                    "id": 10662,
+                    "name": "agno"
+                },
+                {
+                    "id": 10838,
+                    "name": "langchain_mcp_adapters"
+                },
+                {
+                    "id": 10960,
+                    "name": "ddgs"
+                },
+                {
+                    "id": 12476,
+                    "name": "langchain_classic"
+                },
+                {
+                    "id": 14873,
+                    "name": "telnyx"
+                },
+                {
+                    "id": 18564,
+                    "name": "landingai_ade"
+                },
+                {
+                    "id": 19989,
+                    "name": "nvidia_client"
+                },
+                {
+                    "id": 19990,
+                    "name": "actian_vectorai"
+                },
+                {
+                    "id": 19991,
+                    "name": "brand_monitor_agent"
+                },
+                {
+                    "id": 19992,
+                    "name": "offline_medical_agent"
+                },
+                {
+                    "id": 19993,
+                    "name": "customer_query_routing_agent"
+                }
+            ],
+            "last_checked_revision": "16e97a2682d875853bb8d2146b7c5eb33b110e2d\n"
+        },
+        {
+            "id": 2668,
+            "url": "https://github.com/siddsachar/Thoth",
+            "description": "Thoth - Personal AI Sovereignty. A local-first AI assistant with integrated tools, a personal knowledge graph, voice, vision, shell, browser automation, scheduled tasks, health tracking, and messaging channels. Run locally via Ollama or add opt-in cloud models. Your data stays on your machine.",
+            "stars": 1207,
+            "source_graph_repo_id": 64279165,
+            "dependencies": [
+                {
+                    "id": 2,
+                    "name": "starlette"
+                },
+                {
+                    "id": 3,
+                    "name": "fastapi"
+                },
+                {
+                    "id": 11,
+                    "name": "transformers"
+                },
+                {
+                    "id": 12,
+                    "name": "pandas"
+                },
+                {
+                    "id": 13,
+                    "name": "pytest"
+                },
+                {
+                    "id": 14,
+                    "name": "numpy"
+                },
+                {
+                    "id": 15,
+                    "name": "torch"
+                },
+                {
+                    "id": 19,
+                    "name": "requests"
+                },
+                {
+                    "id": 22,
+                    "name": "bs4"
+                },
+                {
+                    "id": 31,
+                    "name": "yaml"
+                },
+                {
+                    "id": 37,
+                    "name": "httpx"
+                },
+                {
+                    "id": 38,
+                    "name": "pydantic"
+                },
+                {
+                    "id": 40,
+                    "name": "pptx"
+                },
+                {
+                    "id": 50,
+                    "name": "tiktoken"
+                },
+                {
+                    "id": 71,
+                    "name": "cv2"
+                },
+                {
+                    "id": 82,
+                    "name": "PIL"
+                },
+                {
+                    "id": 115,
+                    "name": "packaging"
+                },
+                {
+                    "id": 122,
+                    "name": "psutil"
+                },
+                {
+                    "id": 183,
+                    "name": "openai"
+                },
+                {
+                    "id": 185,
+                    "name": "huggingface_hub"
+                },
+                {
+                    "id": 215,
+                    "name": "cryptography"
+                },
+                {
+                    "id": 218,
+                    "name": "lxml"
+                },
+                {
+                    "id": 224,
+                    "name": "google"
+                },
+                {
+                    "id": 225,
+                    "name": "google_auth_oauthlib"
+                },
+                {
+                    "id": 251,
+                    "name": "playwright"
+                },
+                {
+                    "id": 266,
+                    "name": "discord"
+                },
+                {
+                    "id": 278,
+                    "name": "plotly"
+                },
+                {
+                    "id": 556,
+                    "name": "anthropic"
+                },
+                {
+                    "id": 615,
+                    "name": "faiss"
+                },
+                {
+                    "id": 620,
+                    "name": "networkx"
+                },
+                {
+                    "id": 933,
+                    "name": "plugins"
+                },
+                {
+                    "id": 948,
+                    "name": "apscheduler"
+                },
+                {
+                    "id": 1061,
+                    "name": "jwt"
+                },
+                {
+                    "id": 1068,
+                    "name": "docx"
+                },
+                {
+                    "id": 1071,
+                    "name": "markdown2"
+                },
+                {
+                    "id": 1084,
+                    "name": "webview"
+                },
+                {
+                    "id": 1419,
+                    "name": "nicegui"
+                },
+                {
+                    "id": 1629,
+                    "name": "faster_whisper"
+                },
+                {
+                    "id": 1723,
+                    "name": "plyer"
+                },
+                {
+                    "id": 1740,
+                    "name": "twilio"
+                },
+                {
+                    "id": 1745,
+                    "name": "fpdf"
+                },
+                {
+                    "id": 1862,
+                    "name": "qrcode"
+                },
+                {
+                    "id": 2074,
+                    "name": "objc"
+                },
+                {
+                    "id": 2331,
+                    "name": "pypdf"
+                },
+                {
+                    "id": 2548,
+                    "name": "slack_bolt"
+                },
+                {
+                    "id": 3054,
+                    "name": "pyngrok"
+                },
+                {
+                    "id": 3662,
+                    "name": "sounddevice"
+                },
+                {
+                    "id": 3770,
+                    "name": "keyring"
+                },
+                {
+                    "id": 3901,
+                    "name": "wikipedia"
+                },
+                {
+                    "id": 4034,
+                    "name": "youtube_search"
+                },
+                {
+                    "id": 4068,
+                    "name": "arxiv"
+                },
+                {
+                    "id": 4211,
+                    "name": "simpleeval"
+                },
+                {
+                    "id": 4356,
+                    "name": "AppKit"
+                },
+                {
+                    "id": 4677,
+                    "name": "tavily"
+                },
+                {
+                    "id": 4774,
+                    "name": "pystray"
+                },
+                {
+                    "id": 5226,
+                    "name": "langchain_core"
+                },
+                {
+                    "id": 5400,
+                    "name": "winpty"
+                },
+                {
+                    "id": 5509,
+                    "name": "Foundation"
+                },
+                {
+                    "id": 5568,
+                    "name": "langchain_community"
+                },
+                {
+                    "id": 5585,
+                    "name": "langchain_google_genai"
+                },
+                {
+                    "id": 5673,
+                    "name": "langchain_anthropic"
+                },
+                {
+                    "id": 5696,
+                    "name": "mss"
+                },
+                {
+                    "id": 5770,
+                    "name": "langchain_openai"
+                },
+                {
+                    "id": 6786,
+                    "name": "langgraph"
+                },
+                {
+                    "id": 7081,
+                    "name": "ollama"
+                },
+                {
+                    "id": 8256,
+                    "name": "langchain_huggingface"
+                },
+                {
+                    "id": 8723,
+                    "name": "langchain_ollama"
+                },
+                {
+                    "id": 8727,
+                    "name": "langchain_google_community"
+                },
+                {
+                    "id": 9675,
+                    "name": "langchain_xai"
+                },
+                {
+                    "id": 10178,
+                    "name": "mcp"
+                },
+                {
+                    "id": 10394,
+                    "name": "kokoro_onnx"
+                },
+                {
+                    "id": 11956,
+                    "name": "PyObjCTools"
+                },
+                {
+                    "id": 12476,
+                    "name": "langchain_classic"
+                },
+                {
+                    "id": 14050,
+                    "name": "langchain_openrouter"
+                },
+                {
+                    "id": 14051,
+                    "name": "openrouter"
+                },
+                {
+                    "id": 19988,
+                    "name": "row_bot"
+                }
+            ],
+            "last_checked_revision": "c769e57e4a79862b5d05ee6a75d428055d58f559\n"
         }
     ]
 }
