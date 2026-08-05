@@ -80171,6 +80171,158 @@
         {
             "id": 20044,
             "name": "aisoc_detections"
+        },
+        {
+            "id": 20045,
+            "name": "check_artifacts"
+        },
+        {
+            "id": 20046,
+            "name": "nb_aiopool"
+        },
+        {
+            "id": 20047,
+            "name": "my_app_config"
+        },
+        {
+            "id": 20048,
+            "name": "celery_pool"
+        },
+        {
+            "id": 20049,
+            "name": "boost_spider"
+        },
+        {
+            "id": 20050,
+            "name": "custom_threadpool_executor"
+        },
+        {
+            "id": 20051,
+            "name": "pytest_split"
+        },
+        {
+            "id": 20052,
+            "name": "_mm_rust_utils"
+        },
+        {
+            "id": 20053,
+            "name": "agent_search_direct"
+        },
+        {
+            "id": 20054,
+            "name": "discovery_common"
+        },
+        {
+            "id": 20055,
+            "name": "easymagpie_vllm_omni"
+        },
+        {
+            "id": 20056,
+            "name": "benchmark_model"
+        },
+        {
+            "id": 20057,
+            "name": "benchmark_server"
+        },
+        {
+            "id": 20058,
+            "name": "vllm_plugin_easymagpie_omni"
+        },
+        {
+            "id": 20059,
+            "name": "benchmark_incremental_server"
+        },
+        {
+            "id": 20060,
+            "name": "convert_to_vllm"
+        },
+        {
+            "id": 20061,
+            "name": "convert_codec"
+        },
+        {
+            "id": 20062,
+            "name": "extension_test_fixtures"
+        },
+        {
+            "id": 20063,
+            "name": "deerflow_extension_api"
+        },
+        {
+            "id": 20064,
+            "name": "langevals"
+        },
+        {
+            "id": 20065,
+            "name": "sourcelib"
+        },
+        {
+            "id": 20066,
+            "name": "go"
+        },
+        {
+            "id": 20067,
+            "name": "symmetries"
+        },
+        {
+            "id": 20068,
+            "name": "evalplus"
+        },
+        {
+            "id": 20069,
+            "name": "gtp_wrapper"
+        },
+        {
+            "id": 20070,
+            "name": "_context"
+        },
+        {
+            "id": 20071,
+            "name": "split_vectors_by_device_key"
+        },
+        {
+            "id": 20072,
+            "name": "cerno"
+        },
+        {
+            "id": 20073,
+            "name": "textual_image"
+        },
+        {
+            "id": 20074,
+            "name": "build_te_prequant_checkpoint"
+        },
+        {
+            "id": 20075,
+            "name": "install_sd_cpp_prebuilt"
+        },
+        {
+            "id": 20076,
+            "name": "compare_results"
+        },
+        {
+            "id": 20077,
+            "name": "sync_history"
+        },
+        {
+            "id": 20078,
+            "name": "optimize_format"
+        },
+        {
+            "id": 20079,
+            "name": "build_preview_manifest"
+        },
+        {
+            "id": 20080,
+            "name": "vss_api_models"
+        },
+        {
+            "id": 20081,
+            "name": "via_stream_handler"
+        },
+        {
+            "id": 20082,
+            "name": "rtvi_vlm_client"
         }
     ]
 }
