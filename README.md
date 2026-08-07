@@ -55,3 +55,6 @@ make front
 
 This will install the dependencies and start the development server.
 The frontend will be available at http://localhost:3000.
+
+### Boilerplate
+In a rush? You can use either the [PostgreSQL app generator](https://github.com/tiangolo/full-stack-fastapi-postgresql) or the [MongoDB app generator](https://github.com/mongodb-labs/full-stack-fastapi-mongodb) for FASTAPI and eliminate much of the boilerplate.
