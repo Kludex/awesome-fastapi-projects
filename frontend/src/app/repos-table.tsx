@@ -76,7 +76,11 @@ export function ReposTable({
       <div className="container mb-4 max-w-xl" ref={_ref}>
         <SearchForm onSubmit={onSearchSubmit} dependencies={dependencies} />
       </div>
-      <DataTable columns={columns} data={searchedRepos} />
+      <DataTable
+        columns={columns}
+        data={searchedRepos}
+        initialSorting={[{ id: "stars", desc: true }]}
+      />
     </>
   );
 }
