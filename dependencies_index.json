@@ -80587,6 +80587,498 @@
         {
             "id": 20148,
             "name": "document_parse_service"
+        },
+        {
+            "id": 20149,
+            "name": "minds"
+        },
+        {
+            "id": 20150,
+            "name": "langchain_apify"
+        },
+        {
+            "id": 20151,
+            "name": "crewai_devtools"
+        },
+        {
+            "id": 20152,
+            "name": "patronus"
+        },
+        {
+            "id": 20153,
+            "name": "crewai_files"
+        },
+        {
+            "id": 20154,
+            "name": "crewai_cli"
+        },
+        {
+            "id": 20155,
+            "name": "qdrant_edge"
+        },
+        {
+            "id": 20156,
+            "name": "qbruntime"
+        },
+        {
+            "id": 20157,
+            "name": "reflex_release"
+        },
+        {
+            "id": 20158,
+            "name": "oxapy"
+        },
+        {
+            "id": 20159,
+            "name": "fsdp_turbo"
+        },
+        {
+            "id": 20160,
+            "name": "deno"
+        },
+        {
+            "id": 20161,
+            "name": "iregexp_check"
+        },
+        {
+            "id": 20162,
+            "name": "_ddtrace_internal"
+        },
+        {
+            "id": 20163,
+            "name": "vllm_bnb_plugin"
+        },
+        {
+            "id": 20164,
+            "name": "_instructions"
+        },
+        {
+            "id": 20165,
+            "name": "trial_simulation"
+        },
+        {
+            "id": 20166,
+            "name": "council_meeting"
+        },
+        {
+            "id": 20167,
+            "name": "negotiation_session"
+        },
+        {
+            "id": 20168,
+            "name": "peer_review_process"
+        },
+        {
+            "id": 20169,
+            "name": "mentorship_session"
+        },
+        {
+            "id": 20170,
+            "name": "mediation_session"
+        },
+        {
+            "id": 20171,
+            "name": "brainstorming_session"
+        },
+        {
+            "id": 20172,
+            "name": "periodic_junit"
+        },
+        {
+            "id": 20173,
+            "name": "sol_attn"
+        },
+        {
+            "id": 20174,
+            "name": "test_hisparse"
+        },
+        {
+            "id": 20175,
+            "name": "quant_videogen"
+        },
+        {
+            "id": 20176,
+            "name": "sample_dataset"
+        },
+        {
+            "id": 20177,
+            "name": "agent_mcp_client"
+        },
+        {
+            "id": 20178,
+            "name": "agent_web"
+        },
+        {
+            "id": 20179,
+            "name": "foundrytrainingjob"
+        },
+        {
+            "id": 20180,
+            "name": "runtime_root"
+        },
+        {
+            "id": 20181,
+            "name": "android_deploy"
+        },
+        {
+            "id": 20182,
+            "name": "check_dependency_lower_bounds"
+        },
+        {
+            "id": 20183,
+            "name": "krb5"
+        },
+        {
+            "id": 20184,
+            "name": "tenki"
+        },
+        {
+            "id": 20185,
+            "name": "eltdx"
+        },
+        {
+            "id": 20186,
+            "name": "model_capability_registry"
+        },
+        {
+            "id": 20187,
+            "name": "deerflow_extension_example"
+        },
+        {
+            "id": 20188,
+            "name": "component_owners"
+        },
+        {
+            "id": 20189,
+            "name": "fastmcp_tasks"
+        },
+        {
+            "id": 20190,
+            "name": "ucloud_sandbox"
+        },
+        {
+            "id": 20191,
+            "name": "rust_api_rendering"
+        },
+        {
+            "id": 20192,
+            "name": "api_discovery"
+        },
+        {
+            "id": 20193,
+            "name": "markdown_rendering"
+        },
+        {
+            "id": 20194,
+            "name": "api_freshness"
+        },
+        {
+            "id": 20195,
+            "name": "gen_rust_api"
+        },
+        {
+            "id": 20196,
+            "name": "kubernetes_api_discovery"
+        },
+        {
+            "id": 20197,
+            "name": "rust_api_discovery"
+        },
+        {
+            "id": 20198,
+            "name": "kubernetes_api_rendering"
+        },
+        {
+            "id": 20199,
+            "name": "api_rendering"
+        },
+        {
+            "id": 20200,
+            "name": "gen_kubernetes_api"
+        },
+        {
+            "id": 20201,
+            "name": "gen_python_api"
+        },
+        {
+            "id": 20202,
+            "name": "kuhn_poker"
+        },
+        {
+            "id": 20203,
+            "name": "alphabet_sort"
+        },
+        {
+            "id": 20204,
+            "name": "web_search_interception"
+        },
+        {
+            "id": 20205,
+            "name": "bash_interception"
+        },
+        {
+            "id": 20206,
+            "name": "interception"
+        },
+        {
+            "id": 20207,
+            "name": "openenv_wordle"
+        },
+        {
+            "id": 20208,
+            "name": "glossary"
+        },
+        {
+            "id": 20209,
+            "name": "proposer_solver"
+        },
+        {
+            "id": 20210,
+            "name": "code_golf"
+        },
+        {
+            "id": 20211,
+            "name": "wordle"
+        },
+        {
+            "id": 20212,
+            "name": "color_codeword"
+        },
+        {
+            "id": 20213,
+            "name": "reverse_text"
+        },
+        {
+            "id": 20214,
+            "name": "nemo_gym_weather"
+        },
+        {
+            "id": 20215,
+            "name": "scratchpad"
+        },
+        {
+            "id": 20216,
+            "name": "grayscale_interception"
+        },
+        {
+            "id": 20217,
+            "name": "gsm8k"
+        },
+        {
+            "id": 20218,
+            "name": "deepwiki"
+        },
+        {
+            "id": 20219,
+            "name": "wiki_search"
+        },
+        {
+            "id": 20220,
+            "name": "a2a_pb2"
+        },
+        {
+            "id": 20221,
+            "name": "gate_compare"
+        },
+        {
+            "id": 20222,
+            "name": "gate_ptq"
+        },
+        {
+            "id": 20223,
+            "name": "gate_run"
+        },
+        {
+            "id": 20224,
+            "name": "perf_regression_compare"
+        },
+        {
+            "id": 20225,
+            "name": "github_slack_utils"
+        },
+        {
+            "id": 20226,
+            "name": "codebuddy_agent_sdk"
+        },
+        {
+            "id": 20227,
+            "name": "push_handler"
+        },
+        {
+            "id": 20228,
+            "name": "message_queue_consumer"
+        },
+        {
+            "id": 20229,
+            "name": "idc_index"
+        },
+        {
+            "id": 20230,
+            "name": "check_version"
+        },
+        {
+            "id": 20231,
+            "name": "mmaudio"
+        },
+        {
+            "id": 20232,
+            "name": "agent_context_resolution"
+        },
+        {
+            "id": 20233,
+            "name": "classify_pr_changes"
+        },
+        {
+            "id": 20234,
+            "name": "validate_workflows"
+        },
+        {
+            "id": 20235,
+            "name": "test_domain_registry"
+        },
+        {
+            "id": 20236,
+            "name": "starfish_spaces"
+        },
+        {
+            "id": 20237,
+            "name": "starfish_replica"
+        },
+        {
+            "id": 20238,
+            "name": "check_tts_adapter"
+        },
+        {
+            "id": 20239,
+            "name": "reme_ai_studio"
+        },
+        {
+            "id": 20240,
+            "name": "install_manifest"
+        },
+        {
+            "id": 20241,
+            "name": "refactor_guard"
+        },
+        {
+            "id": 20242,
+            "name": "x402_secure"
+        },
+        {
+            "id": 20243,
+            "name": "x402_services"
+        },
+        {
+            "id": 20244,
+            "name": "tool_gohighlevel"
+        },
+        {
+            "id": 20245,
+            "name": "bosdyn"
+        },
+        {
+            "id": 20246,
+            "name": "gs_usb"
+        },
+        {
+            "id": 20247,
+            "name": "imagecodecs"
+        },
+        {
+            "id": 20248,
+            "name": "a1z"
+        },
+        {
+            "id": 20249,
+            "name": "graspgenx"
+        },
+        {
+            "id": 20250,
+            "name": "noveum_trace"
+        },
+        {
+            "id": 20251,
+            "name": "gen_worker_protocol"
+        },
+        {
+            "id": 20252,
+            "name": "analyze_rocprof_overlap"
+        },
+        {
+            "id": 20253,
+            "name": "ds4_publication_decode_client"
+        },
+        {
+            "id": 20254,
+            "name": "ds4_context_sweep"
+        },
+        {
+            "id": 20255,
+            "name": "job_dispatcher"
+        },
+        {
+            "id": 20256,
+            "name": "supply_chain_common"
+        },
+        {
+            "id": 20257,
+            "name": "gvm_scan"
+        },
+        {
+            "id": 20258,
+            "name": "cypherfix_codefix"
+        },
+        {
+            "id": 20259,
+            "name": "github_secret_hunt"
+        },
+        {
+            "id": 20260,
+            "name": "supply_chain_scan"
+        },
+        {
+            "id": 20261,
+            "name": "trufflehog_scan"
+        },
+        {
+            "id": 20262,
+            "name": "env_values"
+        },
+        {
+            "id": 20263,
+            "name": "tb2_sandbox_modal"
+        },
+        {
+            "id": 20264,
+            "name": "openenv_modal_agent_function"
+        },
+        {
+            "id": 20265,
+            "name": "model_args_utils"
+        },
+        {
+            "id": 20266,
+            "name": "openenv_launch_common"
+        },
+        {
+            "id": 20267,
+            "name": "brainbase_universal_harness_bakeoff"
+        },
+        {
+            "id": 20268,
+            "name": "datus_semantic_dosi"
+        },
+        {
+            "id": 20269,
+            "name": "generate_components"
+        },
+        {
+            "id": 20270,
+            "name": "op_guards"
+        },
+        {
+            "id": 20271,
+            "name": "generate_register_all_kernels"
         }
     ]
 }
