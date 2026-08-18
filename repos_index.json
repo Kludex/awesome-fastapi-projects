@@ -574,7 +574,7 @@
                     "name": "annotated_doc"
                 }
             ],
-            "last_checked_revision": "a1fa70d4237d50aae6586a0d9b229df583463d21\n"
+            "last_checked_revision": "66b2c5a9b5ddf65f218423072ad158e42ed780aa\n"
         },
         {
             "id": 5,
@@ -2800,7 +2800,7 @@
                     "name": "httpx2"
                 }
             ],
-            "last_checked_revision": "9a5810712658bdb9ad91925d3242032822f54a5e\n"
+            "last_checked_revision": "9c21d84bcbaf541d6aa9bcc28131bad3f4288c2d\n"
         },
         {
             "id": 6,
@@ -3822,7 +3822,7 @@
                     "name": "apigw"
                 }
             ],
-            "last_checked_revision": "d7d0a4944eabb8d77e3ca9c91b75379b16f29b13\n"
+            "last_checked_revision": "0dc8eca550e10e3fea95ccdeebcd0be6701ee722\n"
         },
         {
             "id": 9,
@@ -5747,7 +5747,7 @@
                     "name": "jarvis_assistant"
                 }
             ],
-            "last_checked_revision": "9022435e993babd6337bfd084c4dd62516b2d7f1\n"
+            "last_checked_revision": "40f4cd2652d75ef8e49d76e5c4d431d458712719\n"
         },
         {
             "id": 16,
@@ -7417,7 +7417,7 @@
                     "name": "qbruntime"
                 }
             ],
-            "last_checked_revision": "97f7eec5345d58677b832573af6b5e4946d744ef\n"
+            "last_checked_revision": "e3ff26cec38d4f4ecbe18a7672ec316a17bc56f7\n"
         },
         {
             "id": 17,
@@ -8675,7 +8675,7 @@
                     "name": "freqtrade_client"
                 }
             ],
-            "last_checked_revision": "2adb0edd37b8a17fe806ee43ee08abccc300a522\n"
+            "last_checked_revision": "ba634ac4044b5d702db14baa7b9f9166308f6e46\n"
         },
         {
             "id": 22,
@@ -9129,7 +9129,7 @@
                     "name": "hf_gradio"
                 }
             ],
-            "last_checked_revision": "3f52f1737f1d68f6e1cda7bb8b498da9e4111799\n"
+            "last_checked_revision": "a79d94a031ac08fed050582f3a12b20a0f092453\n"
         },
         {
             "id": 23,
@@ -10333,7 +10333,7 @@
                     "name": "spandrel"
                 }
             ],
-            "last_checked_revision": "f2af8c60130f79544ee03372ad66e2ab8bac40d8\n"
+            "last_checked_revision": "fd0e38bc178d038141dc2f09be2e0e63c0c162a6\n"
         },
         {
             "id": 27,
@@ -10463,7 +10463,7 @@
                     "name": "legacy_model_dict_client"
                 }
             ],
-            "last_checked_revision": "dbf38dc0cdb8741e3e21f1bc3ade4aad091c85a9\n"
+            "last_checked_revision": "51433f0873e14864075ada810da8c48e685d7aa1\n"
         },
         {
             "id": 28,
@@ -11889,7 +11889,7 @@
                     "name": "ty_extensions"
                 }
             ],
-            "last_checked_revision": "b96364cbf66e27df3c87beed5923f561f033b52c\n"
+            "last_checked_revision": "82e37beef9b39da7ad66cd27ab94edec8c187eb1\n"
         },
         {
             "id": 29,
@@ -12245,6 +12245,10 @@
                 {
                     "id": 533,
                     "name": "optuna"
+                },
+                {
+                    "id": 539,
+                    "name": "pydantic_core"
                 },
                 {
                     "id": 556,
@@ -12775,7 +12779,7 @@
                     "name": "classify_flaky_tests"
                 }
             ],
-            "last_checked_revision": "9355281ca38ff7e288161f0a71022400f8197175\n"
+            "last_checked_revision": "af7acb646cd96c1bbd6bb1686a5e260c9e02aec8\n"
         },
         {
             "id": 30,
@@ -14151,7 +14155,7 @@
                     "name": "pwdlib"
                 }
             ],
-            "last_checked_revision": "75b402644329e53b2c9c862181b47003ad5fc914\n"
+            "last_checked_revision": "162344da111e833b30892728372ab95331f06873\n"
         },
         {
             "id": 36,
@@ -14817,7 +14821,7 @@
                     "name": "types_aiobotocore_logs"
                 }
             ],
-            "last_checked_revision": "63e895073cf3a05cee21f8d1a70e5dc2f1bc94e0\n"
+            "last_checked_revision": "ed602f1862dbad4820c985fefae1c6175a38e491\n"
         },
         {
             "id": 37,
@@ -15763,7 +15767,7 @@
                     "name": "tvm_ffi"
                 }
             ],
-            "last_checked_revision": "2f78caa4db0f90730a11ee3bb5cbd5f23bf67f9f\n"
+            "last_checked_revision": "9fa644f54b04983adea4d0168f49fc6af4a893ba\n"
         },
         {
             "id": 42,
@@ -16813,7 +16817,7 @@
                     "name": "lfx_google"
                 }
             ],
-            "last_checked_revision": "48aac8b7445a009132b3c5ce16412ec7d8e2c82f\n"
+            "last_checked_revision": "12b09ff4113bd1726a2ad56e96e67963312406f8\n"
         },
         {
             "id": 43,
@@ -17757,7 +17761,7 @@
                     "name": "reflex_release"
                 }
             ],
-            "last_checked_revision": "092aa4f38224ddc88cde9c9279450f0aba3c8b83\n"
+            "last_checked_revision": "7e57be7479c774a76e0075899c94db6582bcc187\n"
         },
         {
             "id": 47,
@@ -17853,7 +17857,7 @@
                     "name": "aiohttp"
                 }
             ],
-            "last_checked_revision": "538b8a79532c44dfbcb8e694d2f43e753c60b157\n"
+            "last_checked_revision": "24e571ee44747a3adf1b3c618102fc9d2b1b61cd\n"
         },
         {
             "id": 49,
@@ -18433,7 +18437,7 @@
                     "name": "oxmsg"
                 }
             ],
-            "last_checked_revision": "5ede1e4303e46a937d65540d0e7c7413f65111d0\n"
+            "last_checked_revision": "e84738b9a291539f37b8425ddf18a83a8e034f8f\n"
         },
         {
             "id": 51,
@@ -20151,7 +20155,7 @@
                     "name": "soap"
                 }
             ],
-            "last_checked_revision": "5d19f3e632124e2f92266faca773047aeeeb0da4\n"
+            "last_checked_revision": "8afd6b64c018377052c5671af61fecf99c57feec\n"
         },
         {
             "id": 54,
@@ -20261,6 +20265,10 @@
                     "name": "pydantic"
                 },
                 {
+                    "id": 68,
+                    "name": "sqlalchemy"
+                },
+                {
                     "id": 106,
                     "name": "anyio"
                 },
@@ -20277,7 +20285,7 @@
                     "name": "winloop"
                 }
             ],
-            "last_checked_revision": "6c5f3a388489b66297c8abab67c31a8a9c5927bd\n"
+            "last_checked_revision": "7034c7e450c9d9b2bdc51b9a23ce6c7fb55bb846\n"
         },
         {
             "id": 55,
@@ -21801,7 +21809,7 @@
                     "name": "pyroscope"
                 }
             ],
-            "last_checked_revision": "b4d74078918e396eaffa30273b913d18f9c0a42c\n"
+            "last_checked_revision": "cd724d81160a31a1f6ff4cf55851f99643f89ece\n"
         },
         {
             "id": 59,
@@ -22985,7 +22993,7 @@
                     "name": "perplexity"
                 }
             ],
-            "last_checked_revision": "aecdd12c8a891610db8653630b066b32ceb678b5\n"
+            "last_checked_revision": "75459777ca0ac6712dd262fe9b041446ed308f4a\n"
         },
         {
             "id": 63,
@@ -25063,7 +25071,7 @@
                     "name": "oxapy"
                 }
             ],
-            "last_checked_revision": "a705df17c7b80354ebeaf1ee79a8c74ddda94833\n"
+            "last_checked_revision": "eb46a5f48054cdce75ef7fc0210a3d42aced2c3c\n"
         },
         {
             "id": 72,
@@ -26479,7 +26487,7 @@
                     "name": "AntiSSRF"
                 }
             ],
-            "last_checked_revision": "3aecce9c1c53bc10cebe5e8021e3137d884fb574\n"
+            "last_checked_revision": "97e3d36ee893fd3072f760a216be742d545f748b\n"
         },
         {
             "id": 76,
@@ -27179,7 +27187,7 @@
                     "name": "dbgpt_sandbox"
                 }
             ],
-            "last_checked_revision": "1982cd11fbc2bfe3a1059ada20e9b5545f6e81f8\n"
+            "last_checked_revision": "db580e952e544acf9f6c6c153da29dc67e9e40d7\n"
         },
         {
             "id": 78,
@@ -29035,7 +29043,7 @@
                     "name": "wsproto"
                 }
             ],
-            "last_checked_revision": "f521614c0d02508512580338fe8d09ae807f619c\n"
+            "last_checked_revision": "92e80fca8a6bce348e49fd80aa7264147b4c223c\n"
         },
         {
             "id": 88,
@@ -29209,7 +29217,7 @@
                     "name": "jesse_rust"
                 }
             ],
-            "last_checked_revision": "534159c259e3e5f334ad905da90649232e0554fb\n"
+            "last_checked_revision": "43c83679f2f3d7350f5f3fc24b98a0f1982efc55\n"
         },
         {
             "id": 89,
@@ -29573,7 +29581,7 @@
                     "name": "reaktiv"
                 }
             ],
-            "last_checked_revision": "17ad90059e05a6c690990da8e23a8c9fd56cd2fa\n"
+            "last_checked_revision": "9b5133cae5c3eb4190ba8db583f349c053753785\n"
         },
         {
             "id": 91,
@@ -30047,7 +30055,7 @@
                     "name": "aerospike_helpers"
                 }
             ],
-            "last_checked_revision": "89240fad90e58cda8ce20ef2b83b18931b8f0ea3\n"
+            "last_checked_revision": "5fd7af7d2b09abbafd06e7a2fbc616616a1060e3\n"
         },
         {
             "id": 92,
@@ -31343,9 +31351,13 @@
                 {
                     "id": 19995,
                     "name": "pretzel"
+                },
+                {
+                    "id": 20305,
+                    "name": "mini_contacts"
                 }
             ],
-            "last_checked_revision": "7ecc7c477823e8f0a5ea3573b91c1d06c8ac4853\n"
+            "last_checked_revision": "5125bcfacb535fb88b749fecdaf358e5607a54fe\n"
         },
         {
             "id": 98,
@@ -32295,7 +32307,7 @@
                     "name": "annotationlib"
                 }
             ],
-            "last_checked_revision": "4c23e9ae7c5d9b46350dd645569f5068e793708e\n"
+            "last_checked_revision": "ab0ac780120e789a45e5c082cfb1e3f762f8004c\n"
         },
         {
             "id": 103,
@@ -34205,7 +34217,7 @@
                     "name": "httpx_curl_cffi"
                 }
             ],
-            "last_checked_revision": "68512c52b65149165997d423f8428cf8f4ebf5a7\n"
+            "last_checked_revision": "48e551d9b368a6ed36dafdd587519f916d3d13f0\n"
         },
         {
             "id": 114,
@@ -34669,7 +34681,7 @@
                     "name": "cross_web"
                 }
             ],
-            "last_checked_revision": "6c3cee91cbbb2bf22165c3ce0730b1022e123efd\n"
+            "last_checked_revision": "dc747bd773df5bfcc36c839e58a13deb0951d773\n"
         },
         {
             "id": 116,
@@ -35904,7 +35916,7 @@
                     "name": "managed_deepagents"
                 }
             ],
-            "last_checked_revision": "eb3c43a78eff4c548a6aa9d5bfb4941a19807f8a\n"
+            "last_checked_revision": "be81dfac37950087792f10c32302303e9388a5d6\n"
         },
         {
             "id": 124,
@@ -36346,13 +36358,13 @@
                     "name": "pwdlib"
                 }
             ],
-            "last_checked_revision": "d02c73b69582c0e69210a6d7d527b4eb4ebe1bb6\n"
+            "last_checked_revision": "e9c57ff7ff2fd385bb0f6f795b524e9736b64290\n"
         },
         {
             "id": 127,
             "url": "https://github.com/onyx-dot-app/onyx",
             "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
-            "stars": 31608,
+            "stars": 31641,
             "source_graph_repo_id": 60993144,
             "dependencies": [
                 {
@@ -37072,7 +37084,7 @@
                     "name": "onyx_client"
                 }
             ],
-            "last_checked_revision": "6376385614d6c5d69b7460a11a86b656cdd88a7b\n"
+            "last_checked_revision": "3874c57e9bb0e75fecfa19f694c648f9df78d15e\n"
         },
         {
             "id": 128,
@@ -37464,7 +37476,7 @@
                     "name": "slack_search"
                 }
             ],
-            "last_checked_revision": "40102c7b64261964cf2a42e263fd43ac2009474b\n"
+            "last_checked_revision": "eaf1040642b205973318769cab65f0c62b4b6ca4\n"
         },
         {
             "id": 130,
@@ -39160,7 +39172,7 @@
                     "name": "vl_convert"
                 }
             ],
-            "last_checked_revision": "432007a5adec8d5af00440f29d011b7a707f3870\n"
+            "last_checked_revision": "95c0be7b4e57aea92dc9df556d79f3be46fc6f49\n"
         },
         {
             "id": 136,
@@ -39990,7 +40002,7 @@
                     "name": "training_script"
                 }
             ],
-            "last_checked_revision": "b34ca804b2b42371f51f7f0d62f74b1129f8c47a\n"
+            "last_checked_revision": "067f4f7f5f979f2dada590fe01a5c2c3dcc1cbe8\n"
         },
         {
             "id": 137,
@@ -41008,7 +41020,7 @@
                     "name": "mypy_boto3_dynamodb"
                 }
             ],
-            "last_checked_revision": "ec4eeaa4107f9ecb2665e339b99fd2b6079a3510\n"
+            "last_checked_revision": "4128bb9a7c4bfea466f4d1c91ff9d3218c128192\n"
         },
         {
             "id": 142,
@@ -41340,7 +41352,7 @@
                     "name": "external_tool"
                 }
             ],
-            "last_checked_revision": "23be51b1af1aa7a5b08f9f2784d115f4fef59a49\n"
+            "last_checked_revision": "aefa7d56dacc17f9348cf88c802ab77d8e2799ba\n"
         },
         {
             "id": 144,
@@ -41564,7 +41576,7 @@
                     "name": "flask"
                 }
             ],
-            "last_checked_revision": "b0c06e68431619d0f6bfc182673badbff31edd5a\n"
+            "last_checked_revision": "75403748880be33a81c98fdec2512a5fcff17b7d\n"
         },
         {
             "id": 146,
@@ -44040,7 +44052,7 @@
                     "name": "shibuya"
                 }
             ],
-            "last_checked_revision": "667da0c51dd44c90f87c6d8900d0b89009599cbe\n"
+            "last_checked_revision": "b6b3df82616b2014896d5560a71f03a7bb778c84\n"
         },
         {
             "id": 156,
@@ -45353,7 +45365,7 @@
                     "name": "autogluonserver"
                 }
             ],
-            "last_checked_revision": "59a57ddf403a50bbf0f3a0bdae49c86be9ee939c\n"
+            "last_checked_revision": "842929019827b30d6df7dd9ed9be0e6e0f65c85d\n"
         },
         {
             "id": 163,
@@ -46639,7 +46651,7 @@
                     "name": "fleet_bridge"
                 }
             ],
-            "last_checked_revision": "df4d552ffc669d4d048b922aa71b33c0cbc90a0c\n"
+            "last_checked_revision": "73894a4f1c1dbcb96957438270c01d7fb291e583\n"
         },
         {
             "id": 170,
@@ -48584,7 +48596,7 @@
                     "name": "anyascii"
                 }
             ],
-            "last_checked_revision": "533257459802a6759c0263c3a96c61d4f588173c\n"
+            "last_checked_revision": "e8120116cb6e4ae7a66e4d95e2a88e405500b73e\n"
         },
         {
             "id": 183,
@@ -49320,7 +49332,7 @@
                     "name": "gliner_server"
                 }
             ],
-            "last_checked_revision": "877f33102ef85e1b0c6ec0624bc7123a73de4794\n"
+            "last_checked_revision": "6e53c3060a159ac88f4fa0137f4d3359d6e6815f\n"
         },
         {
             "id": 187,
@@ -53984,7 +53996,7 @@
                     "name": "allure_commons"
                 }
             ],
-            "last_checked_revision": "c60bde9733dad2fc4ef8f6451f58a10e8c7b6663\n"
+            "last_checked_revision": "f20556f3a8d592a6d22e6482a7a07b7f1299e2cf\n"
         },
         {
             "id": 193,
@@ -55030,7 +55042,7 @@
                     "name": "httpx_aiohttp"
                 }
             ],
-            "last_checked_revision": "dd8ad8900984737570ab425233fb139cdf27c15d\n"
+            "last_checked_revision": "5dbcbd950a18c0fe7652bc95af16dfce01022be0\n"
         },
         {
             "id": 200,
@@ -55284,6 +55296,10 @@
                     "name": "pyparsing"
                 },
                 {
+                    "id": 1413,
+                    "name": "bcrypt"
+                },
+                {
                     "id": 1430,
                     "name": "parse"
                 },
@@ -55492,7 +55508,7 @@
                     "name": "zhconv_rs"
                 }
             ],
-            "last_checked_revision": "98276a68a803fb0e5e88f0d8143b7569fb67c007\n"
+            "last_checked_revision": "4dc713f02fac12c788878363a4fbd5b5fd4ab45d\n"
         },
         {
             "id": 201,
@@ -58500,7 +58516,7 @@
                     "name": "giteapy"
                 }
             ],
-            "last_checked_revision": "7550d0aebb81c2210f4cb7bf040778d969df297b\n"
+            "last_checked_revision": "1eea001187afc7cbbdd055f6bc1347917e7b509a\n"
         },
         {
             "id": 215,
@@ -58962,7 +58978,7 @@
                     "name": "deno"
                 }
             ],
-            "last_checked_revision": "15c62d459b0779b49ab19993b89688f9cee0240b\n"
+            "last_checked_revision": "aa9d2d0538ae67bb81d8fe56ed0daa9e9b57ac7b\n"
         },
         {
             "id": 216,
@@ -61240,7 +61256,7 @@
                     "name": "ormar_rust_utils"
                 }
             ],
-            "last_checked_revision": "e2c8a526b5cee5b7090b02d50c6063e9b2fec5db\n"
+            "last_checked_revision": "efd7cb22f9ff19128f94e9b55794051ba09f1161\n"
         },
         {
             "id": 229,
@@ -62784,7 +62800,7 @@
                     "name": "quickchart"
                 }
             ],
-            "last_checked_revision": "af93f550b6498089d5e93b6dd426fc2a49498464\n"
+            "last_checked_revision": "401030d3e91e82f2343a9eaaf08cc7bb0e46c257\n"
         },
         {
             "id": 237,
@@ -65356,7 +65372,7 @@
                     "name": "pytorchocr"
                 }
             ],
-            "last_checked_revision": "3efd66a6ba32ff6b7ae1c7a36b8a3cb54c93e53c\n"
+            "last_checked_revision": "667d04c02998e7d5256a9369ecbf9da94a4e1c95\n"
         },
         {
             "id": 253,
@@ -66212,7 +66228,7 @@
                     "name": "check_artifacts"
                 }
             ],
-            "last_checked_revision": "08d4c8af5d655a7ca2ee03c3f6efa36a455f18d9\n"
+            "last_checked_revision": "153877787058b88f274abf950b11db749d676383\n"
         },
         {
             "id": 255,
@@ -66856,7 +66872,7 @@
                     "name": "annotationlib"
                 }
             ],
-            "last_checked_revision": "72b5d66c38a83ddcfba6c5fc351435dd242db676\n"
+            "last_checked_revision": "99aba555d6f5f741f2f6686880181ddc43ff5c42\n"
         },
         {
             "id": 261,
@@ -67574,7 +67590,7 @@
                     "name": "pyspdx"
                 }
             ],
-            "last_checked_revision": "b22a2c3144906d67e7cca870e444c487da6dcbce\n"
+            "last_checked_revision": "15983bd0f99d0a23c87717b53903d4b79fd1a3e0\n"
         },
         {
             "id": 262,
@@ -69052,7 +69068,7 @@
                     "name": "_fake_support_mod"
                 }
             ],
-            "last_checked_revision": "f102211a04ac6e79829281ad20e7e48b1fe04471\n"
+            "last_checked_revision": "f4b651dada8219b595b231adea4ffda0e272d0d5\n"
         },
         {
             "id": 274,
@@ -71532,7 +71548,7 @@
                     "name": "timesfm"
                 }
             ],
-            "last_checked_revision": "1985f06e9925795be3882361bd80a2fbbad50585\n"
+            "last_checked_revision": "f90cd0d6edab4537dce01ff18ead0d00efb76e93\n"
         },
         {
             "id": 288,
@@ -72686,7 +72702,7 @@
                     "name": "daft_physical_ai"
                 }
             ],
-            "last_checked_revision": "9c2b73e084356711bd74b2ca629464045737327b\n"
+            "last_checked_revision": "7eeb9b2f22779f0ae66103d97e1d88d9f8dd0e25\n"
         },
         {
             "id": 293,
@@ -74186,7 +74202,7 @@
                     "name": "odmantic"
                 }
             ],
-            "last_checked_revision": "6b14756a030a0185378675a1ef227dc5d5cc3ec4\n"
+            "last_checked_revision": "112bb00cafaa6448ff49b2a65363f18383913f6e\n"
         },
         {
             "id": 305,
@@ -74576,7 +74592,7 @@
                     "name": "smg_grpc_proto"
                 }
             ],
-            "last_checked_revision": "d7a1736aa612564ec650a4f53783ad30790d1945\n"
+            "last_checked_revision": "382bc1051b24c731387ba52ed59c4cc0b7599bd3\n"
         },
         {
             "id": 306,
@@ -75705,7 +75721,7 @@
                     "name": "fastapi_oidc"
                 }
             ],
-            "last_checked_revision": "eefa3de598be15b226b959ae791c93887e3417c0\n"
+            "last_checked_revision": "2757f30d8a43163bb1b1374bc5aaa89ef984d5ae\n"
         },
         {
             "id": 317,
@@ -77395,7 +77411,7 @@
                     "name": "background_task"
                 }
             ],
-            "last_checked_revision": "2c24fcd5c20ef328aab1c2d3c2a220fb5e91527b\n"
+            "last_checked_revision": "7223a06298ed0d0649ec1e884fabfc88abe3b6f2\n"
         },
         {
             "id": 330,
@@ -77919,7 +77935,7 @@
                     "name": "pydantic_settings"
                 }
             ],
-            "last_checked_revision": "ff466bfbbbf37a0c8be1c9dbff3b2bc0621b925c\n"
+            "last_checked_revision": "82513294cc1126ba4ef72da903ef6423b803eb45\n"
         },
         {
             "id": 334,
@@ -78769,7 +78785,7 @@
                     "name": "mssql_python"
                 }
             ],
-            "last_checked_revision": "909ee91a9662dd862db6b04f43ae86c5cbef3aed\n"
+            "last_checked_revision": "839c5b2caface322045441d41c74f528a508998e\n"
         },
         {
             "id": 341,
@@ -79773,7 +79789,7 @@
                     "name": "_truss_shared"
                 }
             ],
-            "last_checked_revision": "2bbe1d52e992bdd8737df605c82c919aefc6d581\n"
+            "last_checked_revision": "441129f98af274f111bc7f9efae0c4ad52dcfb31\n"
         },
         {
             "id": 345,
@@ -81953,6 +81969,10 @@
                     "name": "django_elasticsearch_dsl"
                 },
                 {
+                    "id": 9939,
+                    "name": "niquests"
+                },
+                {
                     "id": 10161,
                     "name": "markitdown"
                 },
@@ -82001,7 +82021,7 @@
                     "name": "oauth_dcr"
                 }
             ],
-            "last_checked_revision": "2ac52370b4c09a498b76a8b08604af58fc2dd92a\n"
+            "last_checked_revision": "383876134b113cf7895ab986d625bac55daf696a\n"
         },
         {
             "id": 367,
@@ -84289,7 +84309,7 @@
                     "name": "stripe_config"
                 }
             ],
-            "last_checked_revision": "11d0edae5ebad634a21c8fbe6bafc5626055951e\n"
+            "last_checked_revision": "dc59047d53b57a6c6ea8c720798410e730fadfbf\n"
         },
         {
             "id": 392,
@@ -88353,7 +88373,7 @@
                     "name": "zmqtt"
                 }
             ],
-            "last_checked_revision": "bee90b9b41748e04598c12230550de4ba72815f5\n"
+            "last_checked_revision": "31e9e5a840fdbe18fe4a9b2d7c5d988ebfe618cb\n"
         },
         {
             "id": 420,
@@ -88899,7 +88919,7 @@
                     "name": "httpx2"
                 }
             ],
-            "last_checked_revision": "1192425cdc7be548a1f50e59cef0c13424fdfbad\n"
+            "last_checked_revision": "b4e7e098f81c3713798a5747c76e87f8c03b1e7e\n"
         },
         {
             "id": 423,
@@ -89433,7 +89453,7 @@
                     "name": "startup"
                 }
             ],
-            "last_checked_revision": "a4a68922b126a32140e83b9d95b5ad75f416f8af\n"
+            "last_checked_revision": "7f5764660d1a670bd9baf62c31841bdb3fe38ea3\n"
         },
         {
             "id": 426,
@@ -92623,7 +92643,7 @@
                     "name": "_ddtrace_internal"
                 }
             ],
-            "last_checked_revision": "e5c63be476e569f59a1281d2b35c21933808b6c0\n"
+            "last_checked_revision": "3b40799da0b1743f11038daa55639a74283d3bc2\n"
         },
         {
             "id": 441,
@@ -93501,7 +93521,7 @@
                     "name": "flipt_client"
                 }
             ],
-            "last_checked_revision": "f0087083e88db708286d5f8f128e1ff409bff205\n"
+            "last_checked_revision": "2cd177ee95d7b831a59feeadab6662e4e7a1d7b4\n"
         },
         {
             "id": 444,
@@ -98557,9 +98577,13 @@
                 {
                     "id": 17751,
                     "name": "trx"
+                },
+                {
+                    "id": 20329,
+                    "name": "unknown_funcs"
                 }
             ],
-            "last_checked_revision": "3460a98c4a11ec9539696b51b577b4ff6db7ef86\n"
+            "last_checked_revision": "552aaf961731d19f017d34320e27d0fd176bd0b8\n"
         },
         {
             "id": 465,
@@ -99247,7 +99271,7 @@
                     "name": "pmd_pytcp"
                 }
             ],
-            "last_checked_revision": "f24499a70e44d68d3dbf0ca8a87e9e2d9b31d9a2\n"
+            "last_checked_revision": "e83c65bed8e63a17431350b3cf1e64d4c03a217d\n"
         },
         {
             "id": 471,
@@ -99811,7 +99835,7 @@
                     "name": "_hashlib"
                 }
             ],
-            "last_checked_revision": "16ce0f212aa460fa0ef7e6840ec2edc7a9203541\n"
+            "last_checked_revision": "970f4716518f6ac24b16d4bf2832fc8f23167c51\n"
         },
         {
             "id": 475,
@@ -100169,7 +100193,7 @@
                     "name": "cloud"
                 }
             ],
-            "last_checked_revision": "2baea5b1a36e4cd5f9b07d6f3e7ae17ebc61d585\n"
+            "last_checked_revision": "9ef9093922a42aacf075319a6e9a043e64f23f2d\n"
         },
         {
             "id": 476,
@@ -104260,7 +104284,7 @@
                     "name": "connectrpc"
                 }
             ],
-            "last_checked_revision": "508f1ae8d1fcf620d4298b8ab970c531110604f7\n"
+            "last_checked_revision": "93ddaff140a4d446619a333f5d0270fc9be729da\n"
         },
         {
             "id": 500,
@@ -105010,7 +105034,7 @@
                     "name": "immich_ml"
                 }
             ],
-            "last_checked_revision": "ffc83eae36034fe75525a0abd6c5df351184cd91\n"
+            "last_checked_revision": "225ca9ab8dfbddc8a9cce4a2a0b4165ef1c6937b\n"
         },
         {
             "id": 507,
@@ -105740,7 +105764,7 @@
                     "name": "openai_codex"
                 }
             ],
-            "last_checked_revision": "9c8bb5550f446ba5d3046b78896578742495b3cf\n"
+            "last_checked_revision": "601093ddfe23a3d58a9c8f4a208bd49b203ee612\n"
         },
         {
             "id": 508,
@@ -108471,7 +108495,7 @@
                     "name": "selector"
                 }
             ],
-            "last_checked_revision": "2e4914e7f9e0950e47eeb831675d6167a51d0632\n"
+            "last_checked_revision": "bff70399427fe5a06ea5244d1410dd729efe462e\n"
         },
         {
             "id": 518,
@@ -111471,7 +111495,7 @@
                     "name": "vllm_bnb_plugin"
                 }
             ],
-            "last_checked_revision": "fa9d67f7828e9bc105912ddf41dc384105732b1e\n"
+            "last_checked_revision": "c296851a7d173fa89d2eefbca0243be42ae9b5e0\n"
         },
         {
             "id": 530,
@@ -113481,7 +113505,7 @@
                     "name": "claude_code"
                 }
             ],
-            "last_checked_revision": "ae8afec7c1ddfe323e8037cbcfcaa0984acb6bd9\n"
+            "last_checked_revision": "175b639bc3dd05eb59ce0414b0f3b6a096eb04be\n"
         },
         {
             "id": 540,
@@ -114427,7 +114451,7 @@
                     "name": "release_version"
                 }
             ],
-            "last_checked_revision": "c2a8c3371fe71fc3890c3e82798f54448c7ffe61\n"
+            "last_checked_revision": "5a8f33ee6c82aee2ffbbf2e998b5f3e4995459a2\n"
         },
         {
             "id": 545,
@@ -114991,7 +115015,7 @@
                     "name": "tile_kernels"
                 }
             ],
-            "last_checked_revision": "f03bdf1c485ceb1519ae6ea8594349261de04496\n"
+            "last_checked_revision": "53714ad021d9ce4768fe35d211380fb40018f589\n"
         },
         {
             "id": 547,
@@ -115890,7 +115914,7 @@
                     "name": "wexpect"
                 }
             ],
-            "last_checked_revision": "84ac957ce04c52873336109f5b122698e5a9bbcc\n"
+            "last_checked_revision": "6292fdf818a9f46fa89f81dc6245980cfeb068e3\n"
         },
         {
             "id": 553,
@@ -118174,7 +118198,7 @@
             "id": 568,
             "url": "https://github.com/mem0ai/mem0",
             "description": "Universal memory layer for AI Agents",
-            "stars": 63326,
+            "stars": 63460,
             "source_graph_repo_id": 61225118,
             "dependencies": [
                 {
@@ -119067,7 +119091,7 @@
                     "name": "stamina"
                 }
             ],
-            "last_checked_revision": "6b45bebbf04bd0de05599392bd4fa96360958556\n"
+            "last_checked_revision": "5a1bbb7ac280abe8bec845674487413698ba5487\n"
         },
         {
             "id": 572,
@@ -121277,7 +121301,7 @@
                     "name": "qa_matrix_lib"
                 }
             ],
-            "last_checked_revision": "0af145e4c02e3f7bc78c964eb9dcfc8660cb1e2c\n"
+            "last_checked_revision": "1df3eed4a37b6282161ab4fe651d3dac0764dd8d\n"
         },
         {
             "id": 579,
@@ -123401,6 +123425,10 @@
                     "name": "ninja"
                 },
                 {
+                    "id": 913,
+                    "name": "cherrypy"
+                },
+                {
                     "id": 919,
                     "name": "pyramid"
                 },
@@ -123485,7 +123513,7 @@
                     "name": "djangoblog"
                 }
             ],
-            "last_checked_revision": "d4f1b2af6a9ee704c3ac19f6b4742f52f65b5aaa\n"
+            "last_checked_revision": "7da48661de8a89035023ec5074efb28b632e3504\n"
         },
         {
             "id": 591,
@@ -127177,7 +127205,7 @@
                     "name": "sky_sandbox"
                 }
             ],
-            "last_checked_revision": "9e318aec4b00e6338424fc948155e4f598883477\n"
+            "last_checked_revision": "e1284fc8d4bed0d757c930abd983b6df38418b64\n"
         },
         {
             "id": 607,
@@ -136420,7 +136448,7 @@
                     "name": "periodic_junit"
                 }
             ],
-            "last_checked_revision": "71f025e9b2db99638f0f4c0e46079ba79cf0ce43\n"
+            "last_checked_revision": "29d774315c7560d7846562e5325ae3a81a814471\n"
         },
         {
             "id": 637,
@@ -139570,7 +139598,7 @@
                     "name": "minicpmo"
                 }
             ],
-            "last_checked_revision": "cc25166a1167a387a7df8fff272c8ae04d99f32f\n"
+            "last_checked_revision": "1a1ba3ee86488af323ef9b64ca3d34edee90ab11\n"
         },
         {
             "id": 654,
@@ -141358,7 +141386,7 @@
                     "name": "producers"
                 }
             ],
-            "last_checked_revision": "c2b86ac92b80673dc34856c6d23529984211c32d\n"
+            "last_checked_revision": "bea3815b768b7a18003deb3ee387dfbd3f8de2f3\n"
         },
         {
             "id": 666,
@@ -142042,7 +142070,7 @@
                     "name": "weave_server_sdk"
                 }
             ],
-            "last_checked_revision": "c47d259a2e9b38fbd3865ec29ad0eff2e9c29b3b\n"
+            "last_checked_revision": "af911c812ef2a0c85cf9953207536c9cf1685651\n"
         },
         {
             "id": 668,
@@ -142758,7 +142786,7 @@
                     "name": "workos"
                 }
             ],
-            "last_checked_revision": "671011d96430d4e343440f8ececf93c81e6b1610\n"
+            "last_checked_revision": "063600f80671ce638f931038d96e19a5227f8da4\n"
         },
         {
             "id": 672,
@@ -144462,7 +144490,7 @@
                     "name": "scheduler"
                 }
             ],
-            "last_checked_revision": "7f42bd6f02f0f0730c875ca92df68111ab0411f3\n"
+            "last_checked_revision": "6fd64f9ed441abeaad5e9c6831a0c7c3dacc2a23\n"
         },
         {
             "id": 690,
@@ -145006,7 +145034,7 @@
                     "name": "audit_server"
                 }
             ],
-            "last_checked_revision": "332be7a4f12614e06b6278196f08fe79221110c8\n"
+            "last_checked_revision": "9e99d997b5bf8acdff57a4feb36ab737848bf371\n"
         },
         {
             "id": 692,
@@ -147380,7 +147408,7 @@
                     "name": "brainstorming_session"
                 }
             ],
-            "last_checked_revision": "aa81316e1cd7ab39c59bb66198309814e092cab9\n"
+            "last_checked_revision": "a5764139386c2502e85fcfa0ebc36e896ba04075\n"
         },
         {
             "id": 711,
@@ -148402,7 +148430,7 @@
                     "name": "badkeys"
                 }
             ],
-            "last_checked_revision": "692a9ce8a05b673515ae2a061cc84253f170ce65\n"
+            "last_checked_revision": "b254617e975b942df2e2a7116a89027aa6736802\n"
         },
         {
             "id": 718,
@@ -149572,7 +149600,7 @@
                     "name": "event_pb2"
                 }
             ],
-            "last_checked_revision": "bde2204e7acf3eba4d94dee66a172e3c651973d3\n"
+            "last_checked_revision": "9397d7a98596bf4c6fc0c0d556af58f5b487bfdb\n"
         },
         {
             "id": 731,
@@ -150302,7 +150330,7 @@
                     "name": "vpp_papi"
                 }
             ],
-            "last_checked_revision": "32f3ce2d951e30335dc6216e3759d7c1fcef4832\n"
+            "last_checked_revision": "de57cd205cfd846eb1689967af0dccc3f764b22c\n"
         },
         {
             "id": 736,
@@ -153606,7 +153634,7 @@
                     "name": "pwdlib"
                 }
             ],
-            "last_checked_revision": "6fbcfa32a1c320f00dc8a5bccbde9a11182598ac\n"
+            "last_checked_revision": "9542c2691bdb65496d285431d8fc055d7a63b2e2\n"
         },
         {
             "id": 768,
@@ -154152,7 +154180,7 @@
                     "name": "shelved_cache"
                 }
             ],
-            "last_checked_revision": "aac1fe2a4b53854509c635c501627cc942ea1fe6\n"
+            "last_checked_revision": "8a9209fbbe4e04c38aa3baa0357d16f88edb6255\n"
         },
         {
             "id": 771,
@@ -155212,7 +155240,7 @@
                     "name": "codecarbon"
                 }
             ],
-            "last_checked_revision": "5bdef673ba08e2745da1fc8008ccda7dc495142b\n"
+            "last_checked_revision": "6a48f69ad2934b8892093063c948d1a573aeee8b\n"
         },
         {
             "id": 783,
@@ -155492,7 +155520,7 @@
                     "name": "cudaq_pulse"
                 }
             ],
-            "last_checked_revision": "ec3f0ed9891df46df0b584d6cdb77101bd925cee\n"
+            "last_checked_revision": "d44cacbd81da568bf1408ed1c3d80d4bf6f1b1a0\n"
         },
         {
             "id": 785,
@@ -162075,7 +162103,7 @@
                     "name": "breez_sdk_spark"
                 }
             ],
-            "last_checked_revision": "e5ea0ca7a9a47c700eca3bd1ed75176d8b1a4e3e\n"
+            "last_checked_revision": "6eed7b20f2559823b8b6259f8904c6f505d7ff0f\n"
         },
         {
             "id": 856,
@@ -165247,7 +165275,7 @@
                     "name": "broadlink"
                 }
             ],
-            "last_checked_revision": "2051b295b7f1114d2dec4e98bc6147de0b3b74be\n"
+            "last_checked_revision": "41a6ba4e7feed1334fc327fa1c2bb6094d1175f5\n"
         },
         {
             "id": 890,
@@ -166723,7 +166751,7 @@
                     "name": "netbox_nms"
                 }
             ],
-            "last_checked_revision": "f98c31f5ae160a101024ccea5910fdae20b39537\n"
+            "last_checked_revision": "9f52dd302fed56a63ab45b522568c024d6acb220\n"
         },
         {
             "id": 898,
@@ -170039,7 +170067,7 @@
                     "name": "mypytest"
                 }
             ],
-            "last_checked_revision": "3196f46e20a5b61f1ce9df97eddd450065f5252b\n"
+            "last_checked_revision": "5220798bc0ce122366ac90e8cb374d6bf2a3057b\n"
         },
         {
             "id": 916,
@@ -171317,7 +171345,7 @@
                     "name": "lighteval"
                 }
             ],
-            "last_checked_revision": "a121f34b0e4610c71920b387966ab08d39ecadf8\n"
+            "last_checked_revision": "e3b4e1460e2a686e0ff765e6f67efa72b451f60e\n"
         },
         {
             "id": 933,
@@ -174911,7 +174939,7 @@
                     "name": "modal_version"
                 }
             ],
-            "last_checked_revision": "59e6e618d03a1bfa0f1921df2f42ddada2116293\n"
+            "last_checked_revision": "6a841265ca9056f5a76f92c2a1e4f9688c46aa6d\n"
         },
         {
             "id": 973,
@@ -175767,7 +175795,7 @@
                     "name": "strands"
                 }
             ],
-            "last_checked_revision": "8266f884785b832a4465d8bdfcfdd5944d9f5a76\n"
+            "last_checked_revision": "e4ad1818079c5089814e4d1610b585286d28b98f\n"
         },
         {
             "id": 981,
@@ -179154,7 +179182,7 @@
                     "name": "jwt"
                 }
             ],
-            "last_checked_revision": "e29bf01f26c7436c6090b2e927873f7bf7ceb67a\n"
+            "last_checked_revision": "8bb74dcf948af519e6a429a3997b3fb4aafc1f28\n"
         },
         {
             "id": 1005,
@@ -180306,7 +180334,7 @@
                     "name": "polli_agent"
                 }
             ],
-            "last_checked_revision": "c65c1c1d2cb376c9218901579cf98f9e1e10b2ef\n"
+            "last_checked_revision": "4108d1634e4e3701213e408cc5e774edbab5da94\n"
         },
         {
             "id": 1013,
@@ -184779,7 +184807,7 @@
                     "name": "quant_videogen"
                 }
             ],
-            "last_checked_revision": "4a6dc267e19f7e6f9361e0a00aa68b3830d22276\n"
+            "last_checked_revision": "9ffc2856fbee4409ed86dbf2cc115a544a2e4d5d\n"
         },
         {
             "id": 1038,
@@ -184805,7 +184833,7 @@
                     "name": "llama_cpp"
                 }
             ],
-            "last_checked_revision": "0551d283faeba6e73899b01dd85ea38307b24699\n"
+            "last_checked_revision": "22ea4a64b7a2178ca10957dc53f14a0404e31587\n"
         },
         {
             "id": 1039,
@@ -187067,7 +187095,7 @@
                     "name": "joserfc"
                 }
             ],
-            "last_checked_revision": "e63693538056cff72ebed1e0adc7954783e3b49e\n"
+            "last_checked_revision": "bc149635304b8c7b74d91b3d170563011cf2e690\n"
         },
         {
             "id": 1060,
@@ -189089,7 +189117,7 @@
                     "name": "i18n_locales"
                 }
             ],
-            "last_checked_revision": "06b0771f6e145c0dc2a6ae4f3b5a732a21281002\n"
+            "last_checked_revision": "1f3b2d5cd62ae7ca29b0d15160507b4a61363712\n"
         },
         {
             "id": 1073,
@@ -190269,7 +190297,7 @@
                     "name": "theine"
                 }
             ],
-            "last_checked_revision": "d0602426d025a0934bce06bda1c1bc55c22143ef\n"
+            "last_checked_revision": "ff1095a26eedf5005cd9a1e9e4e555cbe8065b0d\n"
         },
         {
             "id": 1077,
@@ -190379,7 +190407,7 @@
                     "name": "_pyodide_core"
                 }
             ],
-            "last_checked_revision": "9c08f8af2803dcf6c5cb524b019d7ffc0c16b411\n"
+            "last_checked_revision": "61d6a22cf3cd76ef620d04121fc9a36f55f455e5\n"
         },
         {
             "id": 1078,
@@ -195353,7 +195381,7 @@
                     "name": "libth_grammar_tokenizer_info"
                 }
             ],
-            "last_checked_revision": "6a9733d3685665b71ed2dba9b1f704d6f05b39b0\n"
+            "last_checked_revision": "6e5459a86ea2566c73847335f16d99205501bda4\n"
         },
         {
             "id": 1099,
@@ -196699,7 +196727,7 @@
                     "name": "pydal"
                 }
             ],
-            "last_checked_revision": "e389f1b44c54660c7bb5512207a561e684b41595\n"
+            "last_checked_revision": "9e9110bf23a86d1e312e23fc19921cd911f53861\n"
         },
         {
             "id": 1105,
@@ -196805,7 +196833,7 @@
                     "name": "pbr"
                 }
             ],
-            "last_checked_revision": "d7563392d63b09a9269c606ca9fa76ed817fe869\n"
+            "last_checked_revision": "b267e1ed687684bfe67a2351164e007fea374ed7\n"
         },
         {
             "id": 1106,
@@ -197199,7 +197227,7 @@
                     "name": "ip2region"
                 }
             ],
-            "last_checked_revision": "75682751266bccd75c71d59cf77f90080d8ace93\n"
+            "last_checked_revision": "6149d0472f137d30ca35a3e40fde3cdba1c37c59\n"
         },
         {
             "id": 1109,
@@ -199799,7 +199827,7 @@
                     "name": "pulumi_tailscale"
                 }
             ],
-            "last_checked_revision": "be3ef7b2e8cfaa73ae0d0b0046b6ad8fda58be1a\n"
+            "last_checked_revision": "03eebe30893574bd8e9e5b409dc6de4df9ca67e1\n"
         },
         {
             "id": 1125,
@@ -199957,6 +199985,10 @@
                     "name": "bpy"
                 },
                 {
+                    "id": 351,
+                    "name": "sphinx"
+                },
+                {
                     "id": 408,
                     "name": "socketio"
                 },
@@ -200103,6 +200135,10 @@
                 {
                     "id": 5737,
                     "name": "addon_utils"
+                },
+                {
+                    "id": 5935,
+                    "name": "clang"
                 },
                 {
                     "id": 6027,
@@ -200349,6 +200385,10 @@
                     "name": "bpy_restrict_state"
                 },
                 {
+                    "id": 10625,
+                    "name": "aqt"
+                },
+                {
                     "id": 10778,
                     "name": "bl_ui_utils"
                 },
@@ -200387,9 +200427,21 @@
                 {
                     "id": 18651,
                     "name": "bl_operators"
+                },
+                {
+                    "id": 20306,
+                    "name": "wrappergen"
+                },
+                {
+                    "id": 20307,
+                    "name": "_ifcopenshell_experimental"
+                },
+                {
+                    "id": 20308,
+                    "name": "ifcopenshell_experimental"
                 }
             ],
-            "last_checked_revision": "1af5cc9bbe5e81814e1fb744f6fa77b41ba869b2\n"
+            "last_checked_revision": "511584b36f8d9858957b20b8ebb68c92d61d79b1\n"
         },
         {
             "id": 1126,
@@ -203209,7 +203261,7 @@
                     "name": "reo_census"
                 }
             ],
-            "last_checked_revision": "afd0fef371831f9bda13e5af7167cf4e981278ab\n"
+            "last_checked_revision": "3759b52cfb88dd966f9c4b0301a5583a6180ad1b\n"
         },
         {
             "id": 1130,
@@ -203767,7 +203819,7 @@
                     "name": "harvest"
                 }
             ],
-            "last_checked_revision": "97597c46d0c2fe9a3c187b970d32d93100f738fd\n"
+            "last_checked_revision": "f5113d09c2c1b4fcda532f180050603393e9bd49\n"
         },
         {
             "id": 1131,
@@ -210120,7 +210172,7 @@
                     "name": "akari_bot_i18n"
                 }
             ],
-            "last_checked_revision": "33b627b7a6b6bf06403389e2d9091dcc052a0f29\n"
+            "last_checked_revision": "dfa943b2e9a63fb74a583a79e60499c3ffe106ce\n"
         },
         {
             "id": 1185,
@@ -210808,7 +210860,7 @@
                     "name": "vmss_porter"
                 }
             ],
-            "last_checked_revision": "881b8fb8031a34f6ffa1e7b46165443cf5c3508c\n"
+            "last_checked_revision": "3b773995fb730b54b09028e3a5b6cc4a9b78bae1\n"
         },
         {
             "id": 1191,
@@ -213806,7 +213858,7 @@
                     "name": "_jac_finder"
                 }
             ],
-            "last_checked_revision": "fdb49780d1e56735e2f30b4f1dbc73b70a4bdf55\n"
+            "last_checked_revision": "3f7fd4f46eee9afea5405c77a182e355fcd076ff\n"
         },
         {
             "id": 1210,
@@ -216375,7 +216427,7 @@
                     "name": "volview_server"
                 }
             ],
-            "last_checked_revision": "2af123ed6788bddc048a81206c22191bf9526a5f\n"
+            "last_checked_revision": "4130541757b260461c1820a573ef081d93dfbcb6\n"
         },
         {
             "id": 1241,
@@ -216923,7 +216975,7 @@
                     "name": "deprecated"
                 }
             ],
-            "last_checked_revision": "628ba130651492bb2346dcf332b56a32ff890123\n"
+            "last_checked_revision": "0e5358d9e641c7fe2ad3f445d69b42654d964ceb\n"
         },
         {
             "id": 1247,
@@ -217782,7 +217834,7 @@
                     "name": "sample_dataset"
                 }
             ],
-            "last_checked_revision": "f9e2b715b621f100400ef816526af2700a7e1593\n"
+            "last_checked_revision": "5ce1f506b93da435140a7f8fcfd8519a87f3e242\n"
         },
         {
             "id": 1251,
@@ -220154,7 +220206,7 @@
                     "name": "digitalio"
                 }
             ],
-            "last_checked_revision": "96e9a84bd1db8dad4c0b5851d5e8b977a91e7381\n"
+            "last_checked_revision": "7093cb01905996a1edb86501aa97561e1659aa34\n"
         },
         {
             "id": 1272,
@@ -220385,7 +220437,7 @@
                     "name": "reducto"
                 }
             ],
-            "last_checked_revision": "4253c86ca3a763a6065b4134a6017a630b610061\n"
+            "last_checked_revision": "ca5a1e21e482d2f4a0a273972e12bc671364c58d\n"
         },
         {
             "id": 1274,
@@ -222203,6 +222255,10 @@
                     "name": "responses"
                 },
                 {
+                    "id": 778,
+                    "name": "docker"
+                },
+                {
                     "id": 794,
                     "name": "moto"
                 },
@@ -222347,7 +222403,7 @@
                     "name": "open_data_contract_standard"
                 }
             ],
-            "last_checked_revision": "af2f8d2e73875fc3f138f3baad5d5beb6978e4a8\n"
+            "last_checked_revision": "6b4d4cf94bd50bbfe19212647ef579fd6f3f5997\n"
         },
         {
             "id": 1287,
@@ -222441,7 +222497,7 @@
                     "name": "url_normalize"
                 }
             ],
-            "last_checked_revision": "74514a50b6917216cbe6b668aeda4204ae4c0403\n"
+            "last_checked_revision": "15eefc0b3ed497c17dbef6ed4d78d3f1f8cf2acc\n"
         },
         {
             "id": 1288,
@@ -224515,7 +224571,7 @@
                     "name": "base62"
                 }
             ],
-            "last_checked_revision": "0d15c5e79e91a659f238954e1db8a3da289c4801\n"
+            "last_checked_revision": "c41bda23d6b648bf3a30422ab9d71bd7675caea1\n"
         },
         {
             "id": 1295,
@@ -226212,7 +226268,7 @@
                     "name": "streamlit_tour"
                 }
             ],
-            "last_checked_revision": "1f9f19c2021a68d04df228f33e9099a0c947f6f8\n"
+            "last_checked_revision": "b42e945b497176c823579f9b1895d9323446de23\n"
         },
         {
             "id": 1304,
@@ -227062,7 +227118,7 @@
                     "name": "mock_ingestion"
                 }
             ],
-            "last_checked_revision": "2169926457d739a2efbffb39d7d068c8ee573789\n"
+            "last_checked_revision": "b948f88d48befe58e8b10e6b833adacdce4e0ddd\n"
         },
         {
             "id": 1307,
@@ -227664,7 +227720,7 @@
                     "name": "rate_limit"
                 }
             ],
-            "last_checked_revision": "ff469ace3f6aca8b26cdddb6711ba9333a72550f\n"
+            "last_checked_revision": "176ff7efb35a960e004c030b9f0493a12984ec87\n"
         },
         {
             "id": 1310,
@@ -236947,7 +237003,7 @@
                     "name": "tree_sitter_rust"
                 }
             ],
-            "last_checked_revision": "bb0315ef285ca85d0d6e47706724faf22775dc19\n"
+            "last_checked_revision": "2087fba0a6922eb16fa7716156ef5c938446c905\n"
         },
         {
             "id": 1392,
@@ -237601,7 +237657,7 @@
                     "name": "_shared"
                 }
             ],
-            "last_checked_revision": "82cd5e007a6560956ef71c924d321c25ff8e1ad6\n"
+            "last_checked_revision": "983c205febedae5536c506e050c167381f60a6b8\n"
         },
         {
             "id": 1395,
@@ -238411,7 +238467,7 @@
                     "name": "awkward"
                 }
             ],
-            "last_checked_revision": "9e31b27eef6c3d35782513614382821f2f6bb97e\n"
+            "last_checked_revision": "7ff2b4d2ce4720cd49da50e5e902441d2b4b3d92\n"
         },
         {
             "id": 1396,
@@ -240506,7 +240562,7 @@
                     "name": "bashkit"
                 }
             ],
-            "last_checked_revision": "bfed0a890e9dc6a0ae802262c687d8e77136fb2e\n"
+            "last_checked_revision": "8f31d5d541dca1f67e42bc91ce25e8474b4efe11\n"
         },
         {
             "id": 1408,
@@ -241184,7 +241240,7 @@
                     "name": "rstream"
                 }
             ],
-            "last_checked_revision": "b0b73fc926074873a3ada10bb354b55051079d4a\n"
+            "last_checked_revision": "56c12dad7117708c2a61a2233bcb16386898a49d\n"
         },
         {
             "id": 1411,
@@ -242848,7 +242904,7 @@
                     "name": "baml_bridge"
                 }
             ],
-            "last_checked_revision": "552b637debfecd5be02ab9c1054bc1c02062e0d5\n"
+            "last_checked_revision": "9d24fbaeb0866d709afd83cae6a9579f99fe873d\n"
         },
         {
             "id": 1421,
@@ -243020,7 +243076,7 @@
                     "name": "starlette_context"
                 }
             ],
-            "last_checked_revision": "8a0810fa04bde084bd3446d126831ae5bd65e373\n"
+            "last_checked_revision": "3691546f1c9e0c1bf93323dff02230bd959cf562\n"
         },
         {
             "id": 1423,
@@ -244794,7 +244850,7 @@
                     "name": "swarm"
                 }
             ],
-            "last_checked_revision": "c54c3f7a6552aa079d4a2fd753d93df15a5656e2\n"
+            "last_checked_revision": "cc32c6eb656405faf067ebfcbe6b76eb8818b27f\n"
         },
         {
             "id": 1432,
@@ -247422,7 +247478,7 @@
                     "name": "scalar_ninja"
                 }
             ],
-            "last_checked_revision": "deaf0959062194a628376e604f45668580ab1c85\n"
+            "last_checked_revision": "8cfa1e0aa405b8ff689c31cf0e144af4ae49fe3f\n"
         },
         {
             "id": 1442,
@@ -249112,7 +249168,7 @@
                     "name": "wren_langchain"
                 }
             ],
-            "last_checked_revision": "7f7370e4e9b05a51dbde918cd5c9ecbedafe3d20\n"
+            "last_checked_revision": "28920e7e2689fa1af0494742fcc19edba42399ab\n"
         },
         {
             "id": 1455,
@@ -250318,7 +250374,7 @@
                     "name": "httpx2"
                 }
             ],
-            "last_checked_revision": "f2ce7fdefd7296960382f79f3b96f45aeb3f6008\n"
+            "last_checked_revision": "daaf9f2c5a16733cea5e1d44a9128e8abb92d1fc\n"
         },
         {
             "id": 1465,
@@ -251404,7 +251460,7 @@
                     "name": "mempalace"
                 }
             ],
-            "last_checked_revision": "52c6cca0ca4b4114d658414cecf69fed4da70a59\n"
+            "last_checked_revision": "901a19fc0d7f8844898b8e5b0b63f4132c33e5c4\n"
         },
         {
             "id": 1470,
@@ -254452,6 +254508,10 @@
                     "name": "common"
                 },
                 {
+                    "id": 1151,
+                    "name": "tensorflow_hub"
+                },
+                {
                     "id": 1169,
                     "name": "nibabel"
                 },
@@ -254640,7 +254700,7 @@
                     "name": "foundrytrainingjob"
                 }
             ],
-            "last_checked_revision": "a42aec0827810e3fd4b5ace3a29385f5be59d135\n"
+            "last_checked_revision": "136d1a6565ed9cf849103b2ed144022da30930f0\n"
         },
         {
             "id": 1484,
@@ -255170,7 +255230,7 @@
                     "name": "loudness"
                 }
             ],
-            "last_checked_revision": "703cea03c2ec2b1b73feb6eeab30d20bcbc52cbb\n"
+            "last_checked_revision": "26426f0d36ca6c32c221efc798674e87ed183045\n"
         },
         {
             "id": 1485,
@@ -259245,7 +259305,7 @@
                     "name": "daily"
                 }
             ],
-            "last_checked_revision": "315d56c76493b9f7c830de236a1658b1d7166dc6\n"
+            "last_checked_revision": "898b05d1a59c9bb33ab7b07ad4c286b01d60da9f\n"
         },
         {
             "id": 1503,
@@ -260349,7 +260409,7 @@
                     "name": "mcp"
                 }
             ],
-            "last_checked_revision": "d20b695fb944e7bf6024aa265273e6f2410644bd\n"
+            "last_checked_revision": "f82fc962b65f49c19445dd4a346091a3989ab0ec\n"
         },
         {
             "id": 1511,
@@ -260739,7 +260799,7 @@
                     "name": "docker"
                 }
             ],
-            "last_checked_revision": "afde9685779f1a9bac58996a884255857ddbf5ca\n"
+            "last_checked_revision": "71016d396bd9809dd79346e6bded9f466d29c0a3\n"
         },
         {
             "id": 1514,
@@ -260821,6 +260881,14 @@
                     "name": "schemas"
                 },
                 {
+                    "id": 1412,
+                    "name": "pytest_asyncio"
+                },
+                {
+                    "id": 2947,
+                    "name": "run"
+                },
+                {
                     "id": 4276,
                     "name": "g4f"
                 },
@@ -260837,7 +260905,7 @@
                     "name": "platform_utils"
                 }
             ],
-            "last_checked_revision": "f81aa1248e0d78e53f7171c9bdb416952d71d4b6\n"
+            "last_checked_revision": "9941b3238121d215e80c3c4d995823059b6c1683\n"
         },
         {
             "id": 1515,
@@ -263701,7 +263769,7 @@
                     "name": "decent_whisper"
                 }
             ],
-            "last_checked_revision": "61f4b03f277a387a873edddf01376f9f723b54c8\n"
+            "last_checked_revision": "606f3ce6063072905d9b432aba2f0e77f5b3d6a0\n"
         },
         {
             "id": 1536,
@@ -264575,7 +264643,7 @@
                     "name": "sa_empty_plugin"
                 }
             ],
-            "last_checked_revision": "89ece36f0abfe42527794f0c1b6dfd3af0db5b20\n"
+            "last_checked_revision": "5e4eedfc25450f1896c68194ce7e19e4fe10f5f9\n"
         },
         {
             "id": 1543,
@@ -269017,7 +269085,7 @@
                     "name": "desktop_backend"
                 }
             ],
-            "last_checked_revision": "985895cb38a1ee26ecbea1f356fdf82e93213f81\n"
+            "last_checked_revision": "a5c7455bb4f4cdfce1ab02992f27d52f41620fc9\n"
         },
         {
             "id": 1564,
@@ -270497,7 +270565,7 @@
                     "name": "_validate_dataloader"
                 }
             ],
-            "last_checked_revision": "71820fbc750b1623b7746958a03cb25788942f90\n"
+            "last_checked_revision": "d0a07c056b6601f8cbee893d45e23a2599550fed\n"
         },
         {
             "id": 1568,
@@ -271917,7 +271985,7 @@
                     "name": "composio_google_adk"
                 }
             ],
-            "last_checked_revision": "b297a6ed5eb15c1507e3fa052f3156fd0c3acc2c\n"
+            "last_checked_revision": "40a6db796f394c53dfd927000107c8ebcd74118e\n"
         },
         {
             "id": 1572,
@@ -273373,7 +273441,7 @@
                     "name": "glide_sync"
                 }
             ],
-            "last_checked_revision": "ad32c78fa8f7babfb267cb8d176a6e5c9b923f95\n"
+            "last_checked_revision": "c958e40ca25b77c75d9fabbd8eb05736dded5790\n"
         },
         {
             "id": 1578,
@@ -275639,7 +275707,7 @@
                     "name": "openai"
                 }
             ],
-            "last_checked_revision": "d25cae2722bfaed94c56d992c6df399a736db7a9\n"
+            "last_checked_revision": "a0b1ffc536ec06b2919b6958278a74113175b151\n"
         },
         {
             "id": 1589,
@@ -276314,7 +276382,7 @@
                     "name": "tracecat_benchmark"
                 }
             ],
-            "last_checked_revision": "504a26ab7745ed388d722d1e70117e7a742a04bd\n"
+            "last_checked_revision": "1da998c7f6751e91150a9aaf2badf15af235936a\n"
         },
         {
             "id": 1595,
@@ -276784,7 +276852,7 @@
                     "name": "hyperpod_cli"
                 }
             ],
-            "last_checked_revision": "10ada9be10d357465e03858661054abeb98a1b13\n"
+            "last_checked_revision": "b6eb059fcacd782f179892e80e1a046bd239226d\n"
         },
         {
             "id": 1596,
@@ -277914,7 +277982,7 @@
                     "name": "llamafactory"
                 }
             ],
-            "last_checked_revision": "4a5c929a2e5c96facf89fb6fc1a165a63b1df3d6\n"
+            "last_checked_revision": "6774b3e29f272f73025b3d788272558a60c73696\n"
         },
         {
             "id": 1601,
@@ -278048,7 +278116,7 @@
                     "name": "k8s_agent_sandbox"
                 }
             ],
-            "last_checked_revision": "1339663100357d7298c727faab20ac752ee13931\n"
+            "last_checked_revision": "175e8474dafad5324d585c5c198a82f5d5a27a40\n"
         },
         {
             "id": 1602,
@@ -280984,7 +281052,7 @@
                     "name": "MicrosoftGraphFilesApiModule"
                 }
             ],
-            "last_checked_revision": "c38a590864bb9afabbcaf8321e94cfcf38c655df\n"
+            "last_checked_revision": "2c0ed411c03767d7463e1d2b5f3cda90906a3e79\n"
         },
         {
             "id": 1612,
@@ -282758,7 +282826,7 @@
                     "name": "check_ts_sdk_docs_package_version_in_sync"
                 }
             ],
-            "last_checked_revision": "53f6786a9eca4b7a516c33148fc43c765af58106\n"
+            "last_checked_revision": "7c34d3097eba77910ec7ea4b121741704b890e50\n"
         },
         {
             "id": 1615,
@@ -283602,6 +283670,10 @@
                     "name": "httpcore"
                 },
                 {
+                    "id": 2374,
+                    "name": "pytest_httpserver"
+                },
+                {
                     "id": 2379,
                     "name": "pyrate_limiter"
                 },
@@ -283874,7 +283946,7 @@
                     "name": "llm_constants"
                 }
             ],
-            "last_checked_revision": "73b2c959946e08bcab5996deec94eabef8c8464b\n"
+            "last_checked_revision": "49edf167f42acb1de037a9653ec6bd22419b9d53\n"
         },
         {
             "id": 1621,
@@ -283994,7 +284066,7 @@
             "id": 1622,
             "url": "https://github.com/getzep/graphiti",
             "description": "Build Real-Time Knowledge Graphs for AI Agents",
-            "stars": 29951,
+            "stars": 30013,
             "source_graph_repo_id": 63470511,
             "dependencies": [
                 {
@@ -284162,7 +284234,7 @@
                     "name": "gliner2"
                 }
             ],
-            "last_checked_revision": "203b792af462be6973373986f08f3a5cdebca430\n"
+            "last_checked_revision": "96ef997b265d05222233553bcf86a23e2d1dfd89\n"
         },
         {
             "id": 1623,
@@ -284994,7 +285066,7 @@
                     "name": "ai_edge_litert"
                 }
             ],
-            "last_checked_revision": "11f87864594c2e54c5e45358fcaea7e4f588791e\n"
+            "last_checked_revision": "8425a76558e93fd1c6179ceefa3a621599b433f6\n"
         },
         {
             "id": 1627,
@@ -285506,7 +285578,7 @@
                     "name": "extract_adapter_common"
                 }
             ],
-            "last_checked_revision": "110ab590e7f83e7260b8505b108a87cb4a295e7d\n"
+            "last_checked_revision": "c313cc3d97066da29ef8b6dacf3d33e7853f527a\n"
         },
         {
             "id": 1629,
@@ -286118,7 +286190,7 @@
                     "name": "android_deploy"
                 }
             ],
-            "last_checked_revision": "92aba0367d9075ba8da0b6c4fe5ff699183ab99d\n"
+            "last_checked_revision": "617d6ee3506d049cfa300bdaee17ca1178610791\n"
         },
         {
             "id": 1631,
@@ -286778,7 +286850,7 @@
                     "name": "analyze_moe_model"
                 }
             ],
-            "last_checked_revision": "eb9b70c4115cff151ace2cae5b0fc9db3690e31e\n"
+            "last_checked_revision": "e80614fc2d2c3990bd1abe895d5014fc14733fde\n"
         },
         {
             "id": 1635,
@@ -287440,7 +287512,7 @@
                     "name": "openai_frontend"
                 }
             ],
-            "last_checked_revision": "43f0cf0fa3f22e6b84a5e601e8e79682e524df15\n"
+            "last_checked_revision": "359f3ac3ab1b7b1f294bd518873ba648400bd69c\n"
         },
         {
             "id": 1640,
@@ -288156,7 +288228,7 @@
                     "name": "bedrock_agentcore"
                 }
             ],
-            "last_checked_revision": "390c57eccf81498082c81770e29ede148d015043\n"
+            "last_checked_revision": "11e53e8eedb36429920033bdadf013b62ca564a4\n"
         },
         {
             "id": 1642,
@@ -288640,7 +288712,7 @@
                     "name": "dora_ros2_bridge_python"
                 }
             ],
-            "last_checked_revision": "044256482c3b5acd02bf8468d181f8394cecf197\n"
+            "last_checked_revision": "8ff6f3bfad56ff4424270cbf71671f57f63d375a\n"
         },
         {
             "id": 1644,
@@ -288950,7 +289022,7 @@
                     "name": "flydsl"
                 }
             ],
-            "last_checked_revision": "d37142aff4d85f3d4ee8958781d104a0b8c388ec\n"
+            "last_checked_revision": "f10e69bf4d0d8f838585cc4a28e9a291b5c91597\n"
         },
         {
             "id": 1645,
@@ -290112,7 +290184,7 @@
                     "name": "assistant_ui"
                 }
             ],
-            "last_checked_revision": "b2f91b67c1bfab271f5b1b40c708fa163523f165\n"
+            "last_checked_revision": "30c96632f2ec50ee805871dd70c6119e1aed16d1\n"
         },
         {
             "id": 1650,
@@ -291372,7 +291444,7 @@
                     "name": "contextcompany"
                 }
             ],
-            "last_checked_revision": "b8894410bc40f94c82377b5e7f2eb59a6528fdac\n"
+            "last_checked_revision": "32e5fb9c2203fa98de19ca72750133a57a075899\n"
         },
         {
             "id": 1654,
@@ -291462,7 +291534,7 @@
                     "name": "e2b_charts"
                 }
             ],
-            "last_checked_revision": "f615cb7b968eb20a98107570b8b642e3fbf5724f\n"
+            "last_checked_revision": "771b20c93db89831c0a3641bb692629a1627605b\n"
         },
         {
             "id": 1655,
@@ -292732,7 +292804,7 @@
                     "name": "praisonai_deploy"
                 }
             ],
-            "last_checked_revision": "e27b9d13f5346b9d57ebc7a269699df55371ca30\n"
+            "last_checked_revision": "c89c0a0a05321e2acff9f80970b5abcc9ff869ae\n"
         },
         {
             "id": 1658,
@@ -293190,6 +293262,10 @@
                     "name": "jwt"
                 },
                 {
+                    "id": 1065,
+                    "name": "async_timeout"
+                },
+                {
                     "id": 1068,
                     "name": "docx"
                 },
@@ -293342,7 +293418,7 @@
                     "name": "_native_docx_fixtures"
                 }
             ],
-            "last_checked_revision": "ab6ccc25566cc2edee95349a464ac18c61c1afe7\n"
+            "last_checked_revision": "d692105847ca7a32f4c90e20e81c25c50af1e87c\n"
         },
         {
             "id": 1661,
@@ -294826,7 +294902,7 @@
                     "name": "signals"
                 }
             ],
-            "last_checked_revision": "8dde0f0736bfdfa57066f1d35a00e3b69452d2ee\n"
+            "last_checked_revision": "0a7de343cf475c48c1e7352566f7393192e2692d\n"
         },
         {
             "id": 1671,
@@ -296094,7 +296170,7 @@
                     "name": "tenki"
                 }
             ],
-            "last_checked_revision": "56c69763991689ffb73b3daabb29ff7f3ee0c672\n"
+            "last_checked_revision": "4b8b6e43aa12c5e8309db6c7416b6a92ba3e6f26\n"
         },
         {
             "id": 1677,
@@ -296614,7 +296690,7 @@
                     "name": "ydf_tf"
                 }
             ],
-            "last_checked_revision": "845cda92378a9cf74106b035652b3b1c77dc76a5\n"
+            "last_checked_revision": "72c7f34cd0387610968b62eaac3710e5db43fcb7\n"
         },
         {
             "id": 1681,
@@ -297118,6 +297194,10 @@
                     "name": "websocket"
                 },
                 {
+                    "id": 251,
+                    "name": "playwright"
+                },
+                {
                     "id": 399,
                     "name": "orjson"
                 },
@@ -297318,7 +297398,7 @@
                     "name": "pydantic_monty"
                 }
             ],
-            "last_checked_revision": "aaf02c1eaf6717f3fc1be0e9126c470d33bae576\n"
+            "last_checked_revision": "a939e58aee1fd56926cf63174e8bffe12aff39f2\n"
         },
         {
             "id": 1683,
@@ -298132,7 +298212,7 @@
                     "name": "monsterui"
                 }
             ],
-            "last_checked_revision": "269d2162a9d94bdf2d570e9d91b6dab4f39b918a\n"
+            "last_checked_revision": "886c93c92bafe178ced39babd0a3d0ea903a525e\n"
         },
         {
             "id": 1688,
@@ -300434,7 +300514,7 @@
                     "name": "filebrowser"
                 }
             ],
-            "last_checked_revision": "a1ee371d3b2f9e1d5f7500a26d98d23f82a284a6\n"
+            "last_checked_revision": "ea1420d0d59b0cfec266f1103c1abd77b81c8682\n"
         },
         {
             "id": 1704,
@@ -302140,7 +302220,7 @@
                     "name": "human_automation"
                 }
             ],
-            "last_checked_revision": "e71f32609b3c38d2401cafe1081cce128038e864\n"
+            "last_checked_revision": "44e4e4be317b112ab0cce06fa1e86983eddf394c\n"
         },
         {
             "id": 1713,
@@ -303140,7 +303220,7 @@
                     "name": "pydotplus"
                 }
             ],
-            "last_checked_revision": "a3be78f9d0bf4efc0fc8f1ad1ae2a51bf7fbabab\n"
+            "last_checked_revision": "64c1ed1f371ebcfd573c21395e45e6850a714d77\n"
         },
         {
             "id": 1719,
@@ -303756,7 +303836,7 @@
                     "name": "respx"
                 }
             ],
-            "last_checked_revision": "4408f071dc34b7c00297e5db5d7f3dc7ec3f8f1e\n"
+            "last_checked_revision": "a8b7520ca192780302bfaee747e64a083bbd15e9\n"
         },
         {
             "id": 1727,
@@ -305928,7 +306008,7 @@
                     "name": "_distutils_hack"
                 }
             ],
-            "last_checked_revision": "735774fa002eb02abef8adeaa31db62fc3252cc5\n"
+            "last_checked_revision": "f2ca8b85d25839dc9a2c1d13fe3090e48d1b4240\n"
         },
         {
             "id": 1733,
@@ -307086,7 +307166,7 @@
                     "name": "uv"
                 }
             ],
-            "last_checked_revision": "1e6d194790cf4b4b82db9daa757874a63165508b\n"
+            "last_checked_revision": "f1dad6da5fef950c0e5f3b08776e50ce7522d108\n"
         },
         {
             "id": 1744,
@@ -307944,7 +308024,7 @@
                     "name": "cosmos3"
                 }
             ],
-            "last_checked_revision": "d5baa4fb548294f47dbca49890abd4b291204c60\n"
+            "last_checked_revision": "9284607295a09f759aadd65ed08f48b35feea6d9\n"
         },
         {
             "id": 1749,
@@ -312375,7 +312455,7 @@
                     "name": "smbus"
                 }
             ],
-            "last_checked_revision": "bed84ec11814269a40fca341710acd774eb09d52\n"
+            "last_checked_revision": "3b0768b2dce076347e33013390f9b58979b922c9\n"
         },
         {
             "id": 1767,
@@ -315906,7 +315986,7 @@
                     "name": "gpustack_higress_plugins"
                 }
             ],
-            "last_checked_revision": "9b15b7e2a92913208155c71f6f3bb49a46ffeed9\n"
+            "last_checked_revision": "87148b8cb7b039e06907467a7dcedf87852db2e8\n"
         },
         {
             "id": 1781,
@@ -316442,6 +316522,10 @@
                     "name": "fastapi"
                 },
                 {
+                    "id": 10,
+                    "name": "typer"
+                },
+                {
                     "id": 12,
                     "name": "pandas"
                 },
@@ -316466,6 +316550,10 @@
                     "name": "bs4"
                 },
                 {
+                    "id": 31,
+                    "name": "yaml"
+                },
+                {
                     "id": 34,
                     "name": "uvicorn"
                 },
@@ -316486,6 +316574,10 @@
                     "name": "torchvision"
                 },
                 {
+                    "id": 97,
+                    "name": "omegaconf"
+                },
+                {
                     "id": 118,
                     "name": "gradio"
                 },
@@ -316504,6 +316596,10 @@
                 {
                     "id": 183,
                     "name": "openai"
+                },
+                {
+                    "id": 185,
+                    "name": "huggingface_hub"
                 },
                 {
                     "id": 443,
@@ -316564,9 +316660,17 @@
                 {
                     "id": 10232,
                     "name": "glm"
+                },
+                {
+                    "id": 20309,
+                    "name": "matanyone2"
+                },
+                {
+                    "id": 20310,
+                    "name": "RobustVideoMatting"
                 }
             ],
-            "last_checked_revision": "6a1ee7d3aeb310e244bc6d6ce7703e7e8cdfbef9\n"
+            "last_checked_revision": "4467e97cd97194c2c54762043cf121c6d313db12\n"
         },
         {
             "id": 1785,
@@ -317624,7 +317728,7 @@
                     "name": "pypi_attestations"
                 }
             ],
-            "last_checked_revision": "f1a42680ff5272232d65748acf338b19778dde24\n"
+            "last_checked_revision": "5cc226096ea4424d021be17259bae51d761a827b\n"
         },
         {
             "id": 1792,
@@ -317990,7 +318094,7 @@
                     "name": "browser_harness"
                 }
             ],
-            "last_checked_revision": "f3298c559aabb327a61cf6a9caef5ea3462f45de\n"
+            "last_checked_revision": "3c989dc0adc594d592be62272d70e28caaa5553b\n"
         },
         {
             "id": 1793,
@@ -318652,7 +318756,7 @@
                     "name": "kv_tier_connector"
                 }
             ],
-            "last_checked_revision": "9d4d8059b024c0e8fbf396577a133211e7aa17e7\n"
+            "last_checked_revision": "40abdfb1cee2e2102c79f94384d20672f2e72d54\n"
         },
         {
             "id": 1794,
@@ -319528,7 +319632,7 @@
                     "name": "mcp"
                 }
             ],
-            "last_checked_revision": "f52f00904fbc0dffb1206a0b723824d236334f96\n"
+            "last_checked_revision": "8a9945c582600a7c302733874a0e95a9531c3bf7\n"
         },
         {
             "id": 1800,
@@ -322024,7 +322128,7 @@
                     "name": "model_capability_registry"
                 }
             ],
-            "last_checked_revision": "66057c6e898e0fe3df05bb8cc648db7df87935cf\n"
+            "last_checked_revision": "0a27a45390b48ffe5910d9983a764f852df5ed7c\n"
         },
         {
             "id": 1810,
@@ -322550,7 +322654,7 @@
                     "name": "kiln_ai"
                 }
             ],
-            "last_checked_revision": "7b70de19830462573b7cad153f6411f3422ef4f8\n"
+            "last_checked_revision": "6afd4b6d2c21cadeabcc74e58cd65e0d66a3d2d9\n"
         },
         {
             "id": 1813,
@@ -323484,7 +323588,7 @@
                     "name": "retrieval_bench"
                 }
             ],
-            "last_checked_revision": "aa5731f1298f75ccad555465de44f90b55ea62d1\n"
+            "last_checked_revision": "34e0f6a7af18321d564b922f08b643e1ad4d5595\n"
         },
         {
             "id": 1816,
@@ -323972,7 +324076,7 @@
                     "name": "webview_test_server"
                 }
             ],
-            "last_checked_revision": "e98e17ed18d9ea52b11c128ff6d1bcdfbd8af92e\n"
+            "last_checked_revision": "49ac7486e822ed2bb085110c2b73da9daaab0263\n"
         },
         {
             "id": 1820,
@@ -325499,7 +325603,7 @@
                     "name": "deliverable"
                 }
             ],
-            "last_checked_revision": "67cbe66ca8552d789e311324d9b7e4986cc504a9\n"
+            "last_checked_revision": "76469b1bdd7bc600f0be6dd7307bdd876bff5876\n"
         },
         {
             "id": 1830,
@@ -326169,7 +326273,7 @@
                     "name": "langevals"
                 }
             ],
-            "last_checked_revision": "178f164127f0be9eddb1940b7b4a10833356ae32\n"
+            "last_checked_revision": "54cdbfc066707d8cd7fb9df361a3623a7dcbf99b\n"
         },
         {
             "id": 1833,
@@ -326777,7 +326881,7 @@
             "id": 1838,
             "url": "https://github.com/agentscope-ai/agentscope",
             "description": "Build and run agents you can see, understand and trust.",
-            "stars": 28968,
+            "stars": 28997,
             "source_graph_repo_id": 62606506,
             "dependencies": [
                 {
@@ -327809,7 +327913,7 @@
                     "name": "pem"
                 }
             ],
-            "last_checked_revision": "6a7d8c51c67d04368d03e15fa350dea83add7ca9\n"
+            "last_checked_revision": "28137e4db8bbbe233b71a7ca3cd3d41841fffdd7\n"
         },
         {
             "id": 1841,
@@ -329239,7 +329343,7 @@
                     "name": "realitydefender"
                 }
             ],
-            "last_checked_revision": "b20f372994abd3105b17fcb4cddf7ae6a436e5aa\n"
+            "last_checked_revision": "a465439d507af239c3133a3b22b178b291769b47\n"
         },
         {
             "id": 1848,
@@ -329977,7 +330081,7 @@
                     "name": "deerflow_extension_example"
                 }
             ],
-            "last_checked_revision": "8be08101b32fe66265bda4850cbe79456a031020\n"
+            "last_checked_revision": "0debff98c1caf4a7d3047e8ef162d85a841b5c6d\n"
         },
         {
             "id": 1851,
@@ -330521,7 +330625,7 @@
                     "name": "opencode_env"
                 }
             ],
-            "last_checked_revision": "b39c2276567639b93ca5b53658751e0f9c09b92f\n"
+            "last_checked_revision": "31bfab1829adb6a7e635e73cc903f1f8ef3d09eb\n"
         },
         {
             "id": 1853,
@@ -330741,7 +330845,7 @@
                     "name": "httpx2"
                 }
             ],
-            "last_checked_revision": "cb8a2e7e7dd83a427cff9076e58356d00c4f90b2\n"
+            "last_checked_revision": "1a4cfa20a343779b729bb77e2adb515c715e668e\n"
         },
         {
             "id": 1855,
@@ -331259,9 +331363,13 @@
                 {
                     "id": 19367,
                     "name": "rl_insight"
+                },
+                {
+                    "id": 20159,
+                    "name": "fsdp_turbo"
                 }
             ],
-            "last_checked_revision": "bf48903d93e4618531d3bbae96551a889007dd8b\n"
+            "last_checked_revision": "d4701e4eb50feeabc2781499c02f64793ed55461\n"
         },
         {
             "id": 1857,
@@ -331643,7 +331751,7 @@
                     "name": "fastmcp_tasks"
                 }
             ],
-            "last_checked_revision": "d6ff5c55ada7067c77a211e39b2188cd2925e3d9\n"
+            "last_checked_revision": "b3cdbc96796f0294f1ac6943cdba70d14af8a0ef\n"
         },
         {
             "id": 1858,
@@ -332045,7 +332153,7 @@
                     "name": "component_owners"
                 }
             ],
-            "last_checked_revision": "5134c9b0df18758852f314dc3fec7dd31d04ca2d\n"
+            "last_checked_revision": "0b39e7280a14dd61d0faa3efef9c95206363f60c\n"
         },
         {
             "id": 1859,
@@ -333313,7 +333421,7 @@
                     "name": "github_utils"
                 }
             ],
-            "last_checked_revision": "a61d5f9e4fc184cff66938ff6c521cc358b5e024\n"
+            "last_checked_revision": "8c62d6f8d30a8c155b0c4d5efc34e39ff9797242\n"
         },
         {
             "id": 1861,
@@ -333617,7 +333725,7 @@
                     "name": "agentic_commerce"
                 }
             ],
-            "last_checked_revision": "5bff2e10495570b034dcd07d0e2abb16bf7f6d16\n"
+            "last_checked_revision": "9a9d99e936c18e95ed5559cb0afa861710fa007b\n"
         },
         {
             "id": 1863,
@@ -334531,7 +334639,7 @@
                     "name": "ucloud_sandbox"
                 }
             ],
-            "last_checked_revision": "554fb1133ac3861732235ad9c377eb5e0a770665\n"
+            "last_checked_revision": "68f8260821c5c41a612666a90afc899e422c02ef\n"
         },
         {
             "id": 1864,
@@ -335133,7 +335241,7 @@
                     "name": "always_on_hn_briefing_agent"
                 }
             ],
-            "last_checked_revision": "a0e0eb33c6e55afc0ab404181fbfcb1098372350\n"
+            "last_checked_revision": "813a55e1a6a80d2329b55287b4f33cbf661538ea\n"
         },
         {
             "id": 1865,
@@ -337085,7 +337193,7 @@
                     "name": "repackage_cua_train_wheel"
                 }
             ],
-            "last_checked_revision": "e3d822e8abf387a7146528f0cd53fc97818d5a9e\n"
+            "last_checked_revision": "3af8db7111fe409f0d02d26a4a018f0807358912\n"
         },
         {
             "id": 1869,
@@ -337440,7 +337548,7 @@
                     "name": "adalflow"
                 }
             ],
-            "last_checked_revision": "ee8e8850514ccebfce5466c4fbc35316a8e20e71\n"
+            "last_checked_revision": "c6bea82b68d47fd81f514e96025de90698030708\n"
         },
         {
             "id": 1873,
@@ -337918,7 +338026,7 @@
                     "name": "ogx_open_client"
                 }
             ],
-            "last_checked_revision": "59872d43931e4bd288d0de69e129c6eda9829d7a\n"
+            "last_checked_revision": "ceade4cbe9f2c74d3a8c2e6f0edb82fe5c03d07d\n"
         },
         {
             "id": 1874,
@@ -338814,7 +338922,7 @@
                     "name": "speechify"
                 }
             ],
-            "last_checked_revision": "06c71f9c718e24a151630447755a9fa86851b389\n"
+            "last_checked_revision": "f34ad64a6fdec4d379e133091c88827ad98ce6a7\n"
         },
         {
             "id": 1878,
@@ -339538,7 +339646,7 @@
                     "name": "lxml_html_clean"
                 }
             ],
-            "last_checked_revision": "172699b1924765688d8474f83213a29fc427d098\n"
+            "last_checked_revision": "6e7bddcf42bc2d5359f8e3a8e7b94a8c2f6f58b0\n"
         },
         {
             "id": 1882,
@@ -339866,9 +339974,13 @@
                 {
                     "id": 19798,
                     "name": "ag_ui_claude_managed_agents"
+                },
+                {
+                    "id": 20311,
+                    "name": "ag2"
                 }
             ],
-            "last_checked_revision": "277a06d4632916f77eca55b13c4511240119b032\n"
+            "last_checked_revision": "faadf11ece3867131074583e4e8327df1f9787bb\n"
         },
         {
             "id": 1885,
@@ -340846,7 +340958,7 @@
                     "name": "hatch_build"
                 }
             ],
-            "last_checked_revision": "6d289e1281fb20512b0fc7db7a917c4bccdaf53c\n"
+            "last_checked_revision": "0e7ae48589f8e8252e4dbb5702d7a7ea2ee96216\n"
         },
         {
             "id": 1890,
@@ -340968,7 +341080,7 @@
                     "name": "mcp_use"
                 }
             ],
-            "last_checked_revision": "9afeeb6d3e0f42c8adb5cd49d182f65f91949820\n"
+            "last_checked_revision": "5710d284d109d11f56ad673075bc380a0ac20cc7\n"
         },
         {
             "id": 1891,
@@ -341526,7 +341638,7 @@
                     "name": "gen_python_api"
                 }
             ],
-            "last_checked_revision": "e147ceeac0563354f530b9624d0fc90ccfa6952a\n"
+            "last_checked_revision": "af146a0b8be58bd2de2fd4fae756241f9c89b14d\n"
         },
         {
             "id": 1892,
@@ -342572,7 +342684,7 @@
                     "name": "prometrix"
                 }
             ],
-            "last_checked_revision": "d6baa7453effd96d330e24c187942e92bc82094b\n"
+            "last_checked_revision": "5b83bbc1403a9e89483110288149b5932f5b1ddd\n"
         },
         {
             "id": 1899,
@@ -343266,7 +343378,7 @@
                     "name": "hybrid_ep_cpp"
                 }
             ],
-            "last_checked_revision": "7585dda17553bd7996080fe645229b31011758cf\n"
+            "last_checked_revision": "0568fd44fa46932cde71d6431192cde5d8a0b1e1\n"
         },
         {
             "id": 1902,
@@ -345638,7 +345750,7 @@
                     "name": "flash_qla"
                 }
             ],
-            "last_checked_revision": "fe9bdabfc331b990124f1ec27daf6bb7945cf7ee\n"
+            "last_checked_revision": "eb732b2c91011a662fd718d74717d5f84b713e1d\n"
         },
         {
             "id": 1908,
@@ -346026,7 +346138,7 @@
                     "name": "maru"
                 }
             ],
-            "last_checked_revision": "e8f938189d42875abf469f25a34765659e0f9c2d\n"
+            "last_checked_revision": "5703ad9dcc92ceb20cbf22ef2a5dc2340533690e\n"
         },
         {
             "id": 1910,
@@ -346136,7 +346248,7 @@
                     "name": "crowdmail"
                 }
             ],
-            "last_checked_revision": "6ccd03b10965a5aac8ffd195eb73d3ea0aeb0f60\n"
+            "last_checked_revision": "8614b4233830574cd40594c1c748533b54040a9e\n"
         },
         {
             "id": 1911,
@@ -347866,7 +347978,7 @@
                     "name": "analyze_bot_phrase_patterns"
                 }
             ],
-            "last_checked_revision": "da8faa6d9406d3041650cdfeab9f5af2fca4e1df\n"
+            "last_checked_revision": "b043c99666ac9b691f33ef1dd755fe3ff2114367\n"
         },
         {
             "id": 1918,
@@ -349310,7 +349422,7 @@
                     "name": "MegaASR"
                 }
             ],
-            "last_checked_revision": "727fc9301de58b2179eff415710b7d95dda59169\n"
+            "last_checked_revision": "65fb3ccbecbbbb8b32fd625326fb0bc85d2ad03b\n"
         },
         {
             "id": 1926,
@@ -349556,7 +349668,7 @@
                     "name": "strands_mcp_server"
                 }
             ],
-            "last_checked_revision": "3e3859e9c68fffc31c23e2f67b10037bc95493e2\n"
+            "last_checked_revision": "dd5c918180575f091f7d3a19b2bae4bb6b6a08d4\n"
         },
         {
             "id": 1927,
@@ -351692,7 +351804,7 @@
                     "name": "pydantic_xml"
                 }
             ],
-            "last_checked_revision": "7d51def3e4c9ac67bb6194a7c8960cc421f79dd6\n"
+            "last_checked_revision": "883d31fd75a3b49ae8bfda39ff7735439dc7e20d\n"
         },
         {
             "id": 1937,
@@ -352562,7 +352674,7 @@
                     "name": "aweagent"
                 }
             ],
-            "last_checked_revision": "1bd2cb3180492d00f7081f210eeb35a35c2617b9\n"
+            "last_checked_revision": "195a2a38bcde3e51befdacb1ddacb68a21f87006\n"
         },
         {
             "id": 1940,
@@ -353050,9 +353162,13 @@
                 {
                     "id": 20069,
                     "name": "gtp_wrapper"
+                },
+                {
+                    "id": 20313,
+                    "name": "resolve_cross_references"
                 }
             ],
-            "last_checked_revision": "05e4d5ed0b5e3ca63932ed9d32ae109e8657707b\n"
+            "last_checked_revision": "0e94dd65899ff639fd779fc4581eb14df077b0ff\n"
         },
         {
             "id": 1941,
@@ -353266,7 +353382,7 @@
                     "name": "great_expectations_provider"
                 }
             ],
-            "last_checked_revision": "78e5a85ff335822e03409b1e0cbbe5166b1e88ad\n"
+            "last_checked_revision": "0c53107cb5df23dc4ca6ecc90a478a2d751ccf56\n"
         },
         {
             "id": 1942,
@@ -353552,7 +353668,7 @@
                     "name": "runtime_home"
                 }
             ],
-            "last_checked_revision": "f4db521214c29337164ec788bafede7eab236c25\n"
+            "last_checked_revision": "b41c8996a8dcb9df81998cced68d11457ce950c3\n"
         },
         {
             "id": 1943,
@@ -353622,7 +353738,7 @@
                     "name": "argcomplete"
                 }
             ],
-            "last_checked_revision": "84b50bbeab7f2bd97723339844700f0a73dc9549\n"
+            "last_checked_revision": "f72327d2020fb40167dc35dd2141ad62a7df10e6\n"
         },
         {
             "id": 1944,
@@ -354318,7 +354434,7 @@
                     "name": "fastapi_mcp"
                 }
             ],
-            "last_checked_revision": "c76ae793fdec79a1595b927954f870b54e5d7403\n"
+            "last_checked_revision": "663b19b4ae69a9eb45ba6e507704b23cc5d1e792\n"
         },
         {
             "id": 1948,
@@ -355195,7 +355311,7 @@
                     "name": "tool_collection"
                 }
             ],
-            "last_checked_revision": "9c58d9787355197d17d92485f980c8f8c8b3892c\n"
+            "last_checked_revision": "53a386c2e54f1bdf1822140fb1a4e7f486e4dc26\n"
         },
         {
             "id": 1953,
@@ -355921,7 +356037,7 @@
                     "name": "sleep"
                 }
             ],
-            "last_checked_revision": "82cd3ad18434f6430a550ed1b64fe0adead05324\n"
+            "last_checked_revision": "bc4e5bb2a0796e18f46e5655b99a957342dd0a94\n"
         },
         {
             "id": 1958,
@@ -357277,7 +357393,7 @@
                     "name": "axllm"
                 }
             ],
-            "last_checked_revision": "14939d9677621aaaae8f125cf46cc8630254e205\n"
+            "last_checked_revision": "94681b903c12282732479dc5960189bbcfc2cc6f\n"
         },
         {
             "id": 1964,
@@ -357635,7 +357751,7 @@
                     "name": "yuxi_cli"
                 }
             ],
-            "last_checked_revision": "c46ce7ff1c7b926fb2f32f2084129a3371d6375b\n"
+            "last_checked_revision": "19826d2b8be03e7c11875e297afc60b57bef646c\n"
         },
         {
             "id": 1965,
@@ -358407,7 +358523,7 @@
                     "name": "wiki_search"
                 }
             ],
-            "last_checked_revision": "5787d1dbd74f6245749b1cf9b0b467f0a28da6d0\n"
+            "last_checked_revision": "88de7294f35e85da014d8ec61fe10f93f74cfb03\n"
         },
         {
             "id": 1969,
@@ -359959,7 +360075,7 @@
                     "name": "pyrender"
                 }
             ],
-            "last_checked_revision": "60fcc7ff88901f556c8744b34cc7b28f0424568f\n"
+            "last_checked_revision": "625f71fae24f0d5c5ee7f1ec747094e815393405\n"
         },
         {
             "id": 1975,
@@ -360769,7 +360885,7 @@
                     "name": "test_picoschema"
                 }
             ],
-            "last_checked_revision": "ea38fd76c6658da1d39aaf7ec0b030d0f5297dec\n"
+            "last_checked_revision": "47126fbd52633fdad4a3cbf4da31ac11260c65ba\n"
         },
         {
             "id": 1982,
@@ -361119,6 +361235,10 @@
                     "name": "overrides"
                 },
                 {
+                    "id": 1112,
+                    "name": "filetype"
+                },
+                {
                     "id": 1386,
                     "name": "sacrebleu"
                 },
@@ -361339,7 +361459,7 @@
                     "name": "model_inference"
                 }
             ],
-            "last_checked_revision": "d19a85904542f0e9f0f057f64d75672581f4b82c\n"
+            "last_checked_revision": "426979f45121b3a69dc4bf73f221327df994e7b6\n"
         },
         {
             "id": 1983,
@@ -362997,7 +363117,7 @@
                     "name": "a2a_pb2"
                 }
             ],
-            "last_checked_revision": "7beafb75b4ec9f9a69cc67a9c6ed2cc57904a2cd\n"
+            "last_checked_revision": "bc92b6850b4e1342fd6b9483961aa163ece94836\n"
         },
         {
             "id": 1996,
@@ -363179,7 +363299,7 @@
                     "name": "custom_oauth_prompt"
                 }
             ],
-            "last_checked_revision": "8877fa0c19c155d952f5338749aacbc0439a3613\n"
+            "last_checked_revision": "f1faa489a40439cbc03f0cce0fe9fd336afb5ad8\n"
         },
         {
             "id": 1997,
@@ -364091,8 +364211,16 @@
                     "name": "fastapi"
                 },
                 {
+                    "id": 13,
+                    "name": "pytest"
+                },
+                {
                     "id": 14,
                     "name": "numpy"
+                },
+                {
+                    "id": 15,
+                    "name": "torch"
                 },
                 {
                     "id": 19,
@@ -364107,6 +364235,10 @@
                     "name": "uvicorn"
                 },
                 {
+                    "id": 37,
+                    "name": "httpx"
+                },
+                {
                     "id": 38,
                     "name": "pydantic"
                 },
@@ -364119,16 +364251,36 @@
                     "name": "loguru"
                 },
                 {
+                    "id": 55,
+                    "name": "pgvector"
+                },
+                {
                     "id": 56,
                     "name": "redis"
+                },
+                {
+                    "id": 68,
+                    "name": "sqlalchemy"
                 },
                 {
                     "id": 71,
                     "name": "cv2"
                 },
                 {
+                    "id": 72,
+                    "name": "jsonschema"
+                },
+                {
+                    "id": 77,
+                    "name": "dotenv"
+                },
+                {
                     "id": 82,
                     "name": "PIL"
+                },
+                {
+                    "id": 84,
+                    "name": "torchvision"
                 },
                 {
                     "id": 127,
@@ -364145,6 +364297,18 @@
                 {
                     "id": 212,
                     "name": "duckduckgo_search"
+                },
+                {
+                    "id": 538,
+                    "name": "pydantic_settings"
+                },
+                {
+                    "id": 3627,
+                    "name": "services"
+                },
+                {
+                    "id": 4638,
+                    "name": "base"
                 },
                 {
                     "id": 5226,
@@ -364165,9 +364329,13 @@
                 {
                     "id": 8737,
                     "name": "streamlit_cropper"
+                },
+                {
+                    "id": 20312,
+                    "name": "stpages"
                 }
             ],
-            "last_checked_revision": "ee51d6eb7f980aca911a141fc9cf51d214dbe4b6\n"
+            "last_checked_revision": "713ccf196baa2001a1b9a22dc849e6dad7c45c47\n"
         },
         {
             "id": 2005,
@@ -364495,6 +364663,10 @@
                 {
                     "id": 3672,
                     "name": "httpx_sse"
+                },
+                {
+                    "id": 3901,
+                    "name": "wikipedia"
                 },
                 {
                     "id": 3909,
@@ -364889,7 +365061,7 @@
                     "name": "microsoft_agents_a365"
                 }
             ],
-            "last_checked_revision": "a35d30cdaf2327e93cb9b47e0ddb447e1d64f523\n"
+            "last_checked_revision": "c933737c7a1696fbf2217683fcea64e4eed35cc9\n"
         },
         {
             "id": 2006,
@@ -365069,7 +365241,7 @@
                     "name": "bencodepy"
                 }
             ],
-            "last_checked_revision": "4c658fd8f8936bc81236ee7562d0abdd7220e611\n"
+            "last_checked_revision": "3cf9a4ebca75b24dbae3a5793710ce18a7528fdc\n"
         },
         {
             "id": 2008,
@@ -365389,7 +365561,7 @@
                     "name": "kopf"
                 }
             ],
-            "last_checked_revision": "1789e968b2e4439f0cf9e6a378c8edf3eb11c078\n"
+            "last_checked_revision": "0089f609064aec502884bd0489b7ae0df90b7778\n"
         },
         {
             "id": 2010,
@@ -366153,7 +366325,7 @@
                     "name": "hub_model"
                 }
             ],
-            "last_checked_revision": "18d8c421e1546fb06873322de601f4bec0ee800d\n"
+            "last_checked_revision": "f15d08c544afbbd25909a8c90bcd8b19a8cc3331\n"
         },
         {
             "id": 2012,
@@ -368449,7 +368621,7 @@
                     "name": "gate_run"
                 }
             ],
-            "last_checked_revision": "3d2522e44724683b3292f706c207949b343c8ef1\n"
+            "last_checked_revision": "58ad6edc5f61fee85a5e9632992952259049db24\n"
         },
         {
             "id": 2018,
@@ -368845,7 +369017,7 @@
                     "name": "b9bench"
                 }
             ],
-            "last_checked_revision": "49ff920fca37afed0167837305c4238b9ee8f4d7\n"
+            "last_checked_revision": "7fe6fdb641ef543af811407707314b504bea624a\n"
         },
         {
             "id": 2022,
@@ -369355,7 +369527,7 @@
                     "name": "pydeseq2"
                 }
             ],
-            "last_checked_revision": "a4568d016c95265c87e49bb320692dded9a1d8e2\n"
+            "last_checked_revision": "b57c5c1e85a784aaf8e834a7e4997f3d56279542\n"
         },
         {
             "id": 2025,
@@ -370055,7 +370227,7 @@
                     "name": "voltdbclient"
                 }
             ],
-            "last_checked_revision": "05ce03c362de6aef9d32b68cb839762c67230304\n"
+            "last_checked_revision": "d041c3eddeabe81dc468f311c28261fa40c317e5\n"
         },
         {
             "id": 2027,
@@ -370277,7 +370449,7 @@
                     "name": "xue"
                 }
             ],
-            "last_checked_revision": "5de53662f8f5a6b516ab92cad5857af541e2891a\n"
+            "last_checked_revision": "25b362c0b26944621a209b5015568ad60eef1e46\n"
         },
         {
             "id": 2030,
@@ -370603,7 +370775,7 @@
                     "name": "pottery"
                 }
             ],
-            "last_checked_revision": "1789de4055f3c7ea848cc23dde3eb2c290ed1396\n"
+            "last_checked_revision": "4976dee7e77668d33444f62f7c75a257cebdf735\n"
         },
         {
             "id": 2031,
@@ -371227,6 +371399,10 @@
                     "name": "networkx"
                 },
                 {
+                    "id": 640,
+                    "name": "numba"
+                },
+                {
                     "id": 657,
                     "name": "pycocotools"
                 },
@@ -371639,7 +371815,7 @@
                     "name": "perf_regression_compare"
                 }
             ],
-            "last_checked_revision": "50a82f835593512c4176546b4af68d7e91315a86\n"
+            "last_checked_revision": "e6a5722be2d93ae1cdb865080e3cd07318fc97e6\n"
         },
         {
             "id": 2033,
@@ -375137,7 +375313,7 @@
                     "name": "neopixel"
                 }
             ],
-            "last_checked_revision": "d5376f270400f525fe70ee753b325fb9c0d5022b\n"
+            "last_checked_revision": "2ab1da8440d288520e416b237c63f808520d167d\n"
         },
         {
             "id": 2058,
@@ -378234,7 +378410,7 @@
                     "name": "local_places"
                 }
             ],
-            "last_checked_revision": "60babddd626adcad473ae7b2b1b4417892a7828d\n"
+            "last_checked_revision": "720da745d9988a9020ac7cab86e98008bd6dc97d\n"
         },
         {
             "id": 2079,
@@ -378693,7 +378869,7 @@
                     "name": "streamlit_pdf"
                 }
             ],
-            "last_checked_revision": "438c17661e023f98fe5c9e87c3724dffff76053c\n"
+            "last_checked_revision": "cf124741c596f0bb689710f1d7d741a63db0b136\n"
         },
         {
             "id": 2083,
@@ -379011,7 +379187,7 @@
                     "name": "insa_its"
                 }
             ],
-            "last_checked_revision": "f1923017275a69516822ad551a8dfed34a772723\n"
+            "last_checked_revision": "06c5e118c4d3e6c3b7f9445f973a2194c82de193\n"
         },
         {
             "id": 2086,
@@ -379253,7 +379429,7 @@
                     "name": "BroadTopicExtraction"
                 }
             ],
-            "last_checked_revision": "dcd309dfc08480708e41af0c9f7b2e68db191a25\n"
+            "last_checked_revision": "7aee7a449666de9e0df0d8750fc915c07726f60c\n"
         },
         {
             "id": 2087,
@@ -380355,7 +380531,7 @@
                     "name": "deltalite"
                 }
             ],
-            "last_checked_revision": "3db7c5e1f1aaf7bf6a1920af5a764e101aad6f2e\n"
+            "last_checked_revision": "da3fb53817b2cac0be6e5921a94c3c61e90e0167\n"
         },
         {
             "id": 2088,
@@ -382207,7 +382383,7 @@
                     "name": "render_tracker_comparison"
                 }
             ],
-            "last_checked_revision": "f51e3f061e494fb3f7c3d93c5ac97ecf717ff7ed\n"
+            "last_checked_revision": "0d1df44b887cc110f82d476b624053b3813ed3fd\n"
         },
         {
             "id": 2092,
@@ -383115,7 +383291,7 @@
             "id": 2097,
             "url": "https://github.com/supermemoryai/supermemory",
             "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
-            "stars": 28924,
+            "stars": 28938,
             "source_graph_repo_id": 63077504,
             "dependencies": [
                 {
@@ -383195,7 +383371,7 @@
                     "name": "supermemory_cartesia"
                 }
             ],
-            "last_checked_revision": "e651045ac50470aa10df5cc8ff7ad2a9b72b00cf\n"
+            "last_checked_revision": "e2be9c9edd2f657771399b9d960b1cc7f3669892\n"
         },
         {
             "id": 2098,
@@ -384119,7 +384295,7 @@
                     "name": "github_slack_utils"
                 }
             ],
-            "last_checked_revision": "e60e42fa1e82c2b9e2fb4145f93e446394447bda\n"
+            "last_checked_revision": "dd8c825b3ad59ac15f70c7d075e1527cf8e29215\n"
         },
         {
             "id": 2100,
@@ -384320,7 +384496,7 @@
                     "name": "weknora_mcp_server"
                 }
             ],
-            "last_checked_revision": "b18ae0f73414d1406eed4cf64fd6115e4b5f56a5\n"
+            "last_checked_revision": "9b4f792a04d82bef630a2b2dc95344b3dad2649d\n"
         },
         {
             "id": 2103,
@@ -384394,6 +384570,10 @@
                     "name": "pydantic"
                 },
                 {
+                    "id": 73,
+                    "name": "jinja2"
+                },
+                {
                     "id": 77,
                     "name": "dotenv"
                 },
@@ -384428,6 +384608,14 @@
                 {
                     "id": 138,
                     "name": "nltk"
+                },
+                {
+                    "id": 145,
+                    "name": "fire"
+                },
+                {
+                    "id": 152,
+                    "name": "rouge_score"
                 },
                 {
                     "id": 154,
@@ -384506,6 +384694,10 @@
                     "name": "sqlparse"
                 },
                 {
+                    "id": 778,
+                    "name": "docker"
+                },
+                {
                     "id": 929,
                     "name": "yarl"
                 },
@@ -384516,6 +384708,10 @@
                 {
                     "id": 1412,
                     "name": "pytest_asyncio"
+                },
+                {
+                    "id": 1683,
+                    "name": "structlog"
                 },
                 {
                     "id": 1892,
@@ -384578,6 +384774,10 @@
                     "name": "langgraph"
                 },
                 {
+                    "id": 6802,
+                    "name": "kr8s"
+                },
+                {
                     "id": 7715,
                     "name": "crewai"
                 },
@@ -384610,8 +384810,16 @@
                     "name": "mcp"
                 },
                 {
+                    "id": 10534,
+                    "name": "math_verify"
+                },
+                {
                     "id": 10948,
                     "name": "fastmcp"
+                },
+                {
+                    "id": 11334,
+                    "name": "scienceworld"
                 },
                 {
                     "id": 11374,
@@ -384646,6 +384854,10 @@
                     "name": "tinker_cookbook"
                 },
                 {
+                    "id": 12810,
+                    "name": "httpx_retries"
+                },
+                {
                     "id": 14853,
                     "name": "agl_envs"
                 },
@@ -384656,9 +384868,17 @@
                 {
                     "id": 14855,
                     "name": "add_instruction"
+                },
+                {
+                    "id": 20314,
+                    "name": "instructions_registry"
+                },
+                {
+                    "id": 20315,
+                    "name": "llm_in_sandbox"
                 }
             ],
-            "last_checked_revision": "d2c4d1f6307afd5948cd302a1928306d859daa06\n"
+            "last_checked_revision": "352f1bd7c1a06994c841d86ae7cffd222148824a\n"
         },
         {
             "id": 2104,
@@ -385458,7 +385678,7 @@
                     "name": "gunicorn_h1c"
                 }
             ],
-            "last_checked_revision": "a8283bbf5e1416d0dd13f994f71ec2761988aeab\n"
+            "last_checked_revision": "ab0910b78df3b3c8469c196f3086705440a7e44d\n"
         },
         {
             "id": 2108,
@@ -385620,7 +385840,7 @@
                     "name": "modelaudit"
                 }
             ],
-            "last_checked_revision": "fded938b65a81e12070a66e90ca4ad2d42a8062e\n"
+            "last_checked_revision": "33cc8bc90e07d6c4ba36c83001cca1b4726b7593\n"
         },
         {
             "id": 2109,
@@ -385916,9 +386136,13 @@
                 {
                     "id": 20226,
                     "name": "codebuddy_agent_sdk"
+                },
+                {
+                    "id": 20316,
+                    "name": "graphrag_llm"
                 }
             ],
-            "last_checked_revision": "23ad80d1bf76b61da322fb2dd657978c56ade342\n"
+            "last_checked_revision": "96d6df9eb1a3e2d5f485df7bf45266afa89b7ecc\n"
         },
         {
             "id": 2110,
@@ -386872,6 +387096,10 @@
                     "name": "mlx"
                 },
                 {
+                    "id": 7434,
+                    "name": "deepgram"
+                },
+                {
                     "id": 8832,
                     "name": "mistral_common"
                 },
@@ -386912,7 +387140,7 @@
                     "name": "qwen3_asr_causal"
                 }
             ],
-            "last_checked_revision": "db78a58f3dc02528cf989f7be827d0ff248873dc\n"
+            "last_checked_revision": "ed571b69099d089a04f15b7690bbcae6aa2cc54b\n"
         },
         {
             "id": 2113,
@@ -387166,7 +387394,7 @@
                     "name": "workflow_business"
                 }
             ],
-            "last_checked_revision": "3bb1f1431602489c961813991d36b9423afbfd03\n"
+            "last_checked_revision": "e03019cfb0c6c2fafd8bff6194f043f1ba09377e\n"
         },
         {
             "id": 2114,
@@ -389150,7 +389378,7 @@
                     "name": "ci_message"
                 }
             ],
-            "last_checked_revision": "f4cf133143be737ac7394fe0b347d59e4cfbc288\n"
+            "last_checked_revision": "10e5333754fe87a6d30c9e0fa54003a4c93d53fe\n"
         },
         {
             "id": 2120,
@@ -389292,7 +389520,7 @@
                     "name": "message_queue_consumer"
                 }
             ],
-            "last_checked_revision": "b25e3d22c69c00c748fb611dc8464952f3993785\n"
+            "last_checked_revision": "de730e40c54569de0326ea6a0962ea8775b069c5\n"
         },
         {
             "id": 2121,
@@ -389495,6 +389723,10 @@
             "stars": 26687,
             "source_graph_repo_id": 64236967,
             "dependencies": [
+                {
+                    "id": 11,
+                    "name": "transformers"
+                },
                 {
                     "id": 12,
                     "name": "pandas"
@@ -389946,6 +390178,10 @@
                 {
                     "id": 17468,
                     "name": "match_skills"
+                },
+                {
+                    "id": 17690,
+                    "name": "OCP"
                 },
                 {
                     "id": 18308,
@@ -391114,9 +391350,21 @@
                 {
                     "id": 20230,
                     "name": "check_version"
+                },
+                {
+                    "id": 20317,
+                    "name": "profiler_to_waypoint"
+                },
+                {
+                    "id": 20318,
+                    "name": "vocab_coverage"
+                },
+                {
+                    "id": 20319,
+                    "name": "waypoint_bio"
                 }
             ],
-            "last_checked_revision": "43a3e619a1dd8f053abdeb258c87ce81c53b424f\n"
+            "last_checked_revision": "9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6\n"
         },
         {
             "id": 2123,
@@ -391202,7 +391450,7 @@
                     "name": "sqlfluff"
                 }
             ],
-            "last_checked_revision": "bdb56869369e99abf05d27761dc7cf1557d3a6e5\n"
+            "last_checked_revision": "c2c8edc13a7cab275645bdf940d78ee07bbbaa81\n"
         },
         {
             "id": 2124,
@@ -392178,7 +392426,7 @@
                     "name": "agent_hooks"
                 }
             ],
-            "last_checked_revision": "12621e0a746517068300f7b9445225c3ee2406ea\n"
+            "last_checked_revision": "a445e4815d4736a0269e58b4285205c812a2515f\n"
         },
         {
             "id": 2126,
@@ -392772,7 +393020,7 @@
                     "name": "amazon_creatorsapi"
                 }
             ],
-            "last_checked_revision": "297ed7c20300c6c72fc24e75979770ea73a4e76b\n"
+            "last_checked_revision": "41170b510463c99783196072610794311e5f0d13\n"
         },
         {
             "id": 2129,
@@ -393180,7 +393428,7 @@
                     "name": "changed_skill_evidence"
                 }
             ],
-            "last_checked_revision": "77a348f816d822b16f6ee9c3d72445ec92f70699\n"
+            "last_checked_revision": "1f67c44dc9aeaad2baa5130460a1f850d357a9ff\n"
         },
         {
             "id": 2131,
@@ -393386,7 +393634,7 @@
                     "name": "tavily_search"
                 }
             ],
-            "last_checked_revision": "7c824c482b375ba3833834f402866300d19452df\n"
+            "last_checked_revision": "f9be26e5e26d090f6af05ddfe2cafc84397d322f\n"
         },
         {
             "id": 2132,
@@ -393798,7 +394046,7 @@
                     "name": "model_compact"
                 }
             ],
-            "last_checked_revision": "4685618388a5e49fad5b3005806f3bdd6a7c25c3\n"
+            "last_checked_revision": "a76adc3c2fdf715919ea2bec5cec3a26d36cce74\n"
         },
         {
             "id": 2134,
@@ -394058,7 +394306,7 @@
                     "name": "agent_framework_foundry_hosting"
                 }
             ],
-            "last_checked_revision": "188f14219300100164521b9d26cb8584c56e3e98\n"
+            "last_checked_revision": "7adcc4c92d9c48d96050096a2c37afb0ee7ba219\n"
         },
         {
             "id": 2136,
@@ -394534,7 +394782,7 @@
                     "name": "catalog"
                 }
             ],
-            "last_checked_revision": "167a828e8319aa7b403f4f4312489e9cffadff10\n"
+            "last_checked_revision": "6dba93edc0b849b3fb11aa82a025083e7cfc834a\n"
         },
         {
             "id": 2138,
@@ -394922,7 +395170,7 @@
                     "name": "deep_ep_cpp"
                 }
             ],
-            "last_checked_revision": "575d7e058040baa7f609b3d5d3f397653877bc25\n"
+            "last_checked_revision": "a0b7553f0cf87aacdf43154d086b43655ab225cf\n"
         },
         {
             "id": 2140,
@@ -395598,7 +395846,7 @@
                     "name": "case_study"
                 }
             ],
-            "last_checked_revision": "055ade445a100a9c43b215d5b17802672564574b\n"
+            "last_checked_revision": "015e838c8935a51ade88df6bdaa91ad9522f64e9\n"
         },
         {
             "id": 2142,
@@ -397816,7 +398064,7 @@
                     "name": "tent"
                 }
             ],
-            "last_checked_revision": "dc549aec0e66ec52104e280d519a358ae888feec\n"
+            "last_checked_revision": "b0cb83fdab0166268493f03584ccf50108bb0387\n"
         },
         {
             "id": 2149,
@@ -398674,9 +398922,13 @@
                 {
                     "id": 11864,
                     "name": "tree_sitter_language_pack"
+                },
+                {
+                    "id": 20320,
+                    "name": "star_history"
                 }
             ],
-            "last_checked_revision": "833d8580340d7fceb88dc3999b10a86fd46cd78d\n"
+            "last_checked_revision": "1de903b1dab52dbdf5a7f382ccd4bff9734a3b29\n"
         },
         {
             "id": 2155,
@@ -399727,7 +399979,7 @@
             "id": 2160,
             "url": "https://github.com/getzep/zep",
             "description": "Zep | Examples, Integrations, & More",
-            "stars": 4838,
+            "stars": 4844,
             "source_graph_repo_id": 60969981,
             "dependencies": [
                 {
@@ -400637,7 +400889,7 @@
                     "name": "plotnine"
                 }
             ],
-            "last_checked_revision": "545fef981507692cdec375abd5f50650a3d8fc6c\n"
+            "last_checked_revision": "d5b03a14ca51a15ffe1aad4b73328fd557c8f503\n"
         },
         {
             "id": 2164,
@@ -400713,6 +400965,10 @@
                 {
                     "id": 200,
                     "name": "models"
+                },
+                {
+                    "id": 215,
+                    "name": "cryptography"
                 },
                 {
                     "id": 218,
@@ -400835,7 +401091,7 @@
                     "name": "llmai"
                 }
             ],
-            "last_checked_revision": "523b9cb47889e1fc124bb0dab77015b344a46f76\n"
+            "last_checked_revision": "fb186b302fed376233d3202f57484fb2d125dab8\n"
         },
         {
             "id": 2165,
@@ -402048,7 +402304,7 @@
                     "name": "feedparser"
                 }
             ],
-            "last_checked_revision": "221a033a5f5dc4135a13174980defc79454da096\n"
+            "last_checked_revision": "fa5cf39bd66b9d6f7e31d1ab27c5443b2d5759dd\n"
         },
         {
             "id": 2168,
@@ -402934,7 +403190,7 @@
                     "name": "textual_image"
                 }
             ],
-            "last_checked_revision": "0b8a36410b6a9ae2bf436378e7bb3bf14ce23426\n"
+            "last_checked_revision": "c28bbce58eed495cb531b004b7e1633c80a099fc\n"
         },
         {
             "id": 2171,
@@ -403220,7 +403476,7 @@
                     "name": "flash_qla"
                 }
             ],
-            "last_checked_revision": "2fa9a442f2f4d4e6ec4041fe110e0319af56ba4d\n"
+            "last_checked_revision": "41014d1f29e201137fdffce737bb8bac65bc5219\n"
         },
         {
             "id": 2172,
@@ -405060,11 +405316,15 @@
                     "name": "ecoji"
                 },
                 {
+                    "id": 18569,
+                    "name": "pyatr"
+                },
+                {
                     "id": 18876,
                     "name": "memory_migrations"
                 }
             ],
-            "last_checked_revision": "f618c27d1274da004ee0456fb4a93cc3d561369b\n"
+            "last_checked_revision": "1270f264d400de62d82036fa83b9033dccf8fa87\n"
         },
         {
             "id": 2180,
@@ -406120,7 +406380,7 @@
                     "name": "cpex_retry_with_backoff"
                 }
             ],
-            "last_checked_revision": "6004d236479c12ed2571d9bf9dc5cc20bf3aead7\n"
+            "last_checked_revision": "f32b2107085564cfe788a193752a6ba56d46d3a2\n"
         },
         {
             "id": 2186,
@@ -406644,7 +406904,7 @@
                     "name": "test_domain_registry"
                 }
             ],
-            "last_checked_revision": "251455d6d2c17de81d1ec12274548ccfa34d8de2\n"
+            "last_checked_revision": "ef9e5dd99c953a21d20a99a93547e57468bae863\n"
         },
         {
             "id": 2190,
@@ -407830,7 +408090,7 @@
                     "name": "Unlimited_OCR"
                 }
             ],
-            "last_checked_revision": "d3b5ed4f2285bd863d67c768ee706a9374a6ff6e\n"
+            "last_checked_revision": "22694909ddc41569f81a822b377b639aa3ab4c8d\n"
         },
         {
             "id": 2193,
@@ -407950,7 +408210,7 @@
                     "name": "stamina"
                 }
             ],
-            "last_checked_revision": "0cbe45aee8cc472c18a44c9c169508b6fee2009f\n"
+            "last_checked_revision": "165a3910efcc607422b9d1499aa5430beef66221\n"
         },
         {
             "id": 2195,
@@ -408300,7 +408560,7 @@
                     "name": "pesq"
                 }
             ],
-            "last_checked_revision": "78c79c9c78bccca62eaebbbef553b5af7871772b\n"
+            "last_checked_revision": "891886a61a1ed45fd429a0a63bd96181e6cff637\n"
         },
         {
             "id": 2198,
@@ -410906,7 +411166,7 @@
                     "name": "voice_code_bench_run"
                 }
             ],
-            "last_checked_revision": "fd89713311b121f93192ae756525f16b17321712\n"
+            "last_checked_revision": "19ee5ed5ac15767e7a7a5a7f2622b9e814a777f1\n"
         },
         {
             "id": 2201,
@@ -411092,7 +411352,7 @@
                     "name": "tickflow"
                 }
             ],
-            "last_checked_revision": "5c964bf23bade6571d09a085fc42199882b77f8f\n"
+            "last_checked_revision": "cfd6b0a5fb9c57685dc2b02ca059fa88d8eff8ec\n"
         },
         {
             "id": 2202,
@@ -411464,7 +411724,7 @@
                     "name": "dingtalk_stream"
                 }
             ],
-            "last_checked_revision": "287510fbf6820147a48adf79f7fd86b0ed1afe92\n"
+            "last_checked_revision": "e01fa5c38e66d600df3b516daf9e2c66d3ce0008\n"
         },
         {
             "id": 2204,
@@ -412384,7 +412644,7 @@
                     "name": "html_processing"
                 }
             ],
-            "last_checked_revision": "d1cd3a64db8777a55b653a5baf9b97bbf7f06220\n"
+            "last_checked_revision": "97cc8fe1733582bb091adee999464da3bfa8dd92\n"
         },
         {
             "id": 2211,
@@ -412778,6 +413038,10 @@
                     "name": "pytest_metadata"
                 },
                 {
+                    "id": 5604,
+                    "name": "backend"
+                },
+                {
                     "id": 5696,
                     "name": "mss"
                 },
@@ -412918,7 +413182,7 @@
                     "name": "vendor"
                 }
             ],
-            "last_checked_revision": "59f2849c4e64331924cab7e14290fac3b3f03358\n"
+            "last_checked_revision": "8d689a4c334b09bbe33f3e2c50ee1a3b8bcf30af\n"
         },
         {
             "id": 2212,
@@ -413346,7 +413610,7 @@
                     "name": "nanovllm"
                 }
             ],
-            "last_checked_revision": "6d467e4b5081ccb0abf1ec1bf4fdf9051a2d34b0\n"
+            "last_checked_revision": "14c0211d5a0653b0f63e27686f4c3f151b4d8629\n"
         },
         {
             "id": 2214,
@@ -413460,6 +413724,10 @@
                     "name": "mcp"
                 },
                 {
+                    "id": 13193,
+                    "name": "deepagents"
+                },
+                {
                     "id": 13808,
                     "name": "agent_sandbox"
                 },
@@ -413482,9 +413750,13 @@
                 {
                     "id": 15248,
                     "name": "opensandbox_server"
+                },
+                {
+                    "id": 20321,
+                    "name": "langchain_opensandbox"
                 }
             ],
-            "last_checked_revision": "f8ed8734ce1fda69f0979f912160fb933b9bfa0c\n"
+            "last_checked_revision": "96175e2836ab8d44cc8bc6fb3c258b3d10ec3642\n"
         },
         {
             "id": 2215,
@@ -413830,7 +414102,7 @@
                     "name": "drivers"
                 }
             ],
-            "last_checked_revision": "72ed2be674ca13a2a836e5ecebf9533f9ac01c4e\n"
+            "last_checked_revision": "4468aa21315353102380d3182a3ce8aae06664b6\n"
         },
         {
             "id": 2218,
@@ -414078,7 +414350,7 @@
                     "name": "genkit_google_cloud"
                 }
             ],
-            "last_checked_revision": "5abc834dd335f3343cd2c022e1ff249eab882355\n"
+            "last_checked_revision": "889d0f428b29f76ec920f808fdb949b1ab9be22a\n"
         },
         {
             "id": 2220,
@@ -415161,7 +415433,7 @@
                     "name": "langchain_openviking"
                 }
             ],
-            "last_checked_revision": "dbf3fcccefe43616e4b1c3b60dfe36c2222e2dd6\n"
+            "last_checked_revision": "87d5142e0666821180ea969a1d135a93497e3b4a\n"
         },
         {
             "id": 2224,
@@ -415383,7 +415655,7 @@
                     "name": "fake_cmux_server"
                 }
             ],
-            "last_checked_revision": "ec4389e94e9bbdf9e38d29a0d2b886a35f1e299e\n"
+            "last_checked_revision": "0fc34d7067f838933e9ff394e8c6d3597c749312\n"
         },
         {
             "id": 2227,
@@ -415712,7 +415984,7 @@
                     "name": "tokie"
                 }
             ],
-            "last_checked_revision": "0a6baea1a42c9afe9b3bc31ecb37739e744bb1ec\n"
+            "last_checked_revision": "3b55ae6054359eac88946d52d380775f47ce8888\n"
         },
         {
             "id": 2230,
@@ -415957,7 +416229,7 @@
                     "name": "fasttext"
                 }
             ],
-            "last_checked_revision": "43cbdae69472863f53f4f712f0331a1cd62f0615\n"
+            "last_checked_revision": "532a685ea1bd4db96befd17447f3a9aec70bca54\n"
         },
         {
             "id": 2235,
@@ -417295,6 +417567,10 @@
                     "name": "qwen_omni_utils"
                 },
                 {
+                    "id": 10897,
+                    "name": "lerobot"
+                },
+                {
                     "id": 10952,
                     "name": "vllm_ascend"
                 },
@@ -417495,7 +417771,7 @@
                     "name": "check_tts_adapter"
                 }
             ],
-            "last_checked_revision": "9798bc3a8d5a400b97fba7402f42510577e7302d\n"
+            "last_checked_revision": "d7216ef5144866c2f039947e1cc396b1984fcf09\n"
         },
         {
             "id": 2241,
@@ -417639,7 +417915,7 @@
                     "name": "garth"
                 }
             ],
-            "last_checked_revision": "7aeb8a9d1659b6e1bcbbc33de874d8beb815d52e\n"
+            "last_checked_revision": "4eddf0953df1c0fcb16cfd4c0e1eccd9668ea38a\n"
         },
         {
             "id": 2243,
@@ -417709,7 +417985,7 @@
                     "name": "spandrel"
                 }
             ],
-            "last_checked_revision": "0217e68f2e009a655934e6c3d6003a03a13d8ac9\n"
+            "last_checked_revision": "9ec0b53a636164eb069d2533e43f3df147e91f06\n"
         },
         {
             "id": 2244,
@@ -417749,7 +418025,7 @@
                     "name": "cursor_sdk"
                 }
             ],
-            "last_checked_revision": "51607968ffee015c45a735a65fad345034e1e7a5\n"
+            "last_checked_revision": "ae2ffbe2beee40576b19bd24b0d24acdc33f7ef9\n"
         },
         {
             "id": 2246,
@@ -417881,6 +418157,10 @@
                 {
                     "id": 98,
                     "name": "pytz"
+                },
+                {
+                    "id": 122,
+                    "name": "psutil"
                 },
                 {
                     "id": 127,
@@ -418371,7 +418651,7 @@
                     "name": "omnigent"
                 }
             ],
-            "last_checked_revision": "4a02110dd9a7a644d8ba7a5ccd295c58a3c3628f\n"
+            "last_checked_revision": "1f282c8fcbe751297053134331704dae1febc093\n"
         },
         {
             "id": 2247,
@@ -419569,7 +419849,7 @@
                     "name": "india_context"
                 }
             ],
-            "last_checked_revision": "50c89fc0a85cbcfc2b3f8ada5e2782992dc94167\n"
+            "last_checked_revision": "a9fa86d0c6af0b12775211aff4188fdf6c3d9d0d\n"
         },
         {
             "id": 2252,
@@ -420155,7 +420435,7 @@
                     "name": "everos"
                 }
             ],
-            "last_checked_revision": "04a6c93468f285809ea9adeefb3d2671399f06f7\n"
+            "last_checked_revision": "d07cddc403049464aa0cd48bb3b8233d68e41af4\n"
         },
         {
             "id": 2255,
@@ -420973,7 +421253,7 @@
                     "name": "x402_services"
                 }
             ],
-            "last_checked_revision": "ded45844e7a74e273166c6badab0db13492b9a76\n"
+            "last_checked_revision": "105307698425ef7dca60f059ac7e238db87ba31c\n"
         },
         {
             "id": 2256,
@@ -421479,7 +421759,7 @@
                     "name": "hindsight_copilot_cli"
                 }
             ],
-            "last_checked_revision": "396f63aafc9b618f04d446e2465cac95aa1cb426\n"
+            "last_checked_revision": "b64943d195422ec62c1b7c7704d27c7e04c3f250\n"
         },
         {
             "id": 2257,
@@ -422219,7 +422499,7 @@
                     "name": "robot"
                 }
             ],
-            "last_checked_revision": "6d84be9abe16cf06aa37426d076eb4d616071929\n"
+            "last_checked_revision": "eeeb67afa7f38ef0f5ec72a48c65f4ea5b658bfb\n"
         },
         {
             "id": 2263,
@@ -422479,7 +422759,7 @@
                     "name": "bcrypt"
                 }
             ],
-            "last_checked_revision": "84f9c262a37784dd4169c542b209b8041ef76393\n"
+            "last_checked_revision": "1dfcb0031a8da1781685fee289878a2c338907f5\n"
         },
         {
             "id": 2267,
@@ -422567,7 +422847,7 @@
                     "name": "primp"
                 }
             ],
-            "last_checked_revision": "a12929a72429a39a0841c3d7caacb20ee17acd4d\n"
+            "last_checked_revision": "173ccbd852113fe3027187df368ed87236df977f\n"
         },
         {
             "id": 2269,
@@ -432338,7 +432618,7 @@
                     "name": "evalchemy"
                 }
             ],
-            "last_checked_revision": "557edaa97d6f74e2e91d0312d6dd30fb6dee22fa\n"
+            "last_checked_revision": "c5a148fa92dcab3a0ee807c20599209c2f1d7803\n"
         },
         {
             "id": 2273,
@@ -433096,7 +433376,7 @@
                     "name": "olm"
                 }
             ],
-            "last_checked_revision": "d5773bfc3ad32148f0ff2e1de975fc94e37a0335\n"
+            "last_checked_revision": "bc76f62c2034515dcd8dd0e71dffb582f69e7806\n"
         },
         {
             "id": 2274,
@@ -433792,7 +434072,7 @@
                     "name": "lift"
                 }
             ],
-            "last_checked_revision": "34ab79142c8d1157094c20ea14c840c7db285f4c\n"
+            "last_checked_revision": "563ef29defa9c43a04ad69e24ffe6e9aa6278eae\n"
         },
         {
             "id": 2276,
@@ -433832,7 +434112,7 @@
                     "name": "requests"
                 }
             ],
-            "last_checked_revision": "efe1ce982513e2e384e05530c7a1063429468378\n"
+            "last_checked_revision": "5cb3e2bdb8b5bcafc88917e81dfe574a365bbf3a\n"
         },
         {
             "id": 2279,
@@ -434030,7 +434310,7 @@
                     "name": "ast_grep_py"
                 }
             ],
-            "last_checked_revision": "af21dce336ed4605250a0ab4d76d0081b6bbd44a\n"
+            "last_checked_revision": "76e393c733adba9bf2813a258bc5426d801dd946\n"
         },
         {
             "id": 2280,
@@ -434276,6 +434556,10 @@
                     "name": "easydict"
                 },
                 {
+                    "id": 689,
+                    "name": "src"
+                },
+                {
                     "id": 754,
                     "name": "librosa"
                 },
@@ -434394,6 +434678,10 @@
                 {
                     "id": 9241,
                     "name": "cuvs"
+                },
+                {
+                    "id": 9339,
+                    "name": "natten"
                 },
                 {
                     "id": 9521,
@@ -434564,7 +434852,7 @@
                     "name": "robolab"
                 }
             ],
-            "last_checked_revision": "205d5c872d01557935dc87d67156f4f94069ea65\n"
+            "last_checked_revision": "d034a6b0ecaa31aa07c81aeb7bbe69b225f1d7be\n"
         },
         {
             "id": 2281,
@@ -436826,7 +437114,7 @@
                     "name": "studio_client"
                 }
             ],
-            "last_checked_revision": "6f443b5ccd3f54762aa1b347c874cf3e307951ed\n"
+            "last_checked_revision": "ee68d9e2add48c8dcc1bad45029736a3bd6493c6\n"
         },
         {
             "id": 2288,
@@ -437240,7 +437528,7 @@
                     "name": "onebitllms"
                 }
             ],
-            "last_checked_revision": "7419d92bacc815c8e2a53bd39b56e1cb1f82f91b\n"
+            "last_checked_revision": "13dfcfb6c64f7e8a8b9c30251fdb558a18e43f06\n"
         },
         {
             "id": 2289,
@@ -437797,7 +438085,7 @@
                     "name": "sb_query"
                 }
             ],
-            "last_checked_revision": "e9e33ca6372662feea82ec4232d5b4da130067fd\n"
+            "last_checked_revision": "2e7a0038b59b9f45fffbe3ad625b7a92ad1a3d7c\n"
         },
         {
             "id": 2294,
@@ -441211,7 +441499,7 @@
                     "name": "mcp_http"
                 }
             ],
-            "last_checked_revision": "fcc83bfea4bd2da97dc0f5a94b7927232e2aec99\n"
+            "last_checked_revision": "62044b60119900be9fe66375f70bbd2121f5fc5d\n"
         },
         {
             "id": 2299,
@@ -443280,7 +443568,7 @@
                     "name": "harness"
                 }
             ],
-            "last_checked_revision": "dcfc42699386758b1f4fbf05142e198cc2afb7a5\n"
+            "last_checked_revision": "8ba04220e3de2bb9699e672703846b7201fa56ac\n"
         },
         {
             "id": 2312,
@@ -443762,6 +444050,10 @@
                     "name": "opendal"
                 },
                 {
+                    "id": 4344,
+                    "name": "e2b"
+                },
+                {
                     "id": 4488,
                     "name": "charset_normalizer"
                 },
@@ -444110,6 +444402,10 @@
                     "name": "shell_session_manager"
                 },
                 {
+                    "id": 18618,
+                    "name": "pydantic_ai_harness"
+                },
+                {
                     "id": 19449,
                     "name": "shellctl"
                 },
@@ -444118,7 +444414,7 @@
                     "name": "machinery"
                 }
             ],
-            "last_checked_revision": "8fb5dd85878c847b6f07abc67504288f2057f572\n"
+            "last_checked_revision": "02f0e8cffaaa3e5033b29404c5746597acc14b9e\n"
         },
         {
             "id": 2313,
@@ -444228,7 +444524,7 @@
                     "name": "workflow_bench"
                 }
             ],
-            "last_checked_revision": "dac33d8056d5708a740a9854a6f9e335ff9467ee\n"
+            "last_checked_revision": "fe3d7e56be5a557e051f12684dfbdce9d5a31920\n"
         },
         {
             "id": 2314,
@@ -444334,7 +444630,7 @@
                     "name": "toad"
                 }
             ],
-            "last_checked_revision": "a80885b76044550770f60f360f8a0e5ae3524a31\n"
+            "last_checked_revision": "318066d2213b510e89b500ed0d53506c54093ddc\n"
         },
         {
             "id": 2315,
@@ -444412,6 +444708,10 @@
                     "name": "google"
                 },
                 {
+                    "id": 251,
+                    "name": "playwright"
+                },
+                {
                     "id": 266,
                     "name": "discord"
                 },
@@ -444444,7 +444744,7 @@
                     "name": "free_claude_code"
                 }
             ],
-            "last_checked_revision": "416bc66a1984e73025593420c4e9016af2f47dc8\n"
+            "last_checked_revision": "41045e738060afa95b480add1c43d18210402dc4\n"
         },
         {
             "id": 2316,
@@ -444564,7 +444864,7 @@
                     "name": "ksuid"
                 }
             ],
-            "last_checked_revision": "c40ebb027b2bac8b7fa5d219c7a16425adfe64da\n"
+            "last_checked_revision": "cfc7a04bc859376b1d70b49747b2cd0830c0ece0\n"
         },
         {
             "id": 2318,
@@ -445266,7 +445566,7 @@
                     "name": "drbench"
                 }
             ],
-            "last_checked_revision": "d01e4ac5bf36752e5c89c1c6645d486282cb611f\n"
+            "last_checked_revision": "32f35d5e01f460549c10365eb569978909f5c969\n"
         },
         {
             "id": 2321,
@@ -445281,7 +445581,7 @@
             "id": 2322,
             "url": "https://github.com/espressif/esp-idf",
             "description": "Espressif IoT Development Framework. Official development framework for Espressif SoCs.",
-            "stars": 18786,
+            "stars": 18801,
             "source_graph_repo_id": 301749,
             "dependencies": [
                 {
@@ -446147,7 +446447,7 @@
                     "name": "cohere_melody"
                 }
             ],
-            "last_checked_revision": "b2fdc7158f2290f4a94a27e327f5ca40597973b4\n"
+            "last_checked_revision": "6307e396acfdfff7b75d3ceb9b4756272fb03b6b\n"
         },
         {
             "id": 2326,
@@ -446321,7 +446621,7 @@
                     "name": "optimize_format"
                 }
             ],
-            "last_checked_revision": "44a420b67957fafc0b02d55a153fdaf72e32ffb5\n"
+            "last_checked_revision": "29b715fa89fc5bb8351d2ea0116f03d4f2e212f2\n"
         },
         {
             "id": 2327,
@@ -446463,7 +446763,7 @@
                     "name": "rookie_cookies"
                 }
             ],
-            "last_checked_revision": "2d47b372776ee4a54ed021314b364dca56ada137\n"
+            "last_checked_revision": "3bb0c1850ac4e85378a831581a0cf1e82fa80272\n"
         },
         {
             "id": 2328,
@@ -446808,7 +447108,7 @@
                     "name": "HIServices"
                 }
             ],
-            "last_checked_revision": "3f39e2b980c7dd02a00327967848a86db768cd6e\n"
+            "last_checked_revision": "6d2cf092641a61d0d99eaed8850be20500e3b866\n"
         },
         {
             "id": 2331,
@@ -447582,7 +447882,7 @@
                     "name": "pr_checker_bot"
                 }
             ],
-            "last_checked_revision": "0f267927e02ce234ec75a7a4970104a73bcc06dc\n"
+            "last_checked_revision": "76c8cf0882411467c93f83a2fb05a4a0ae3a1646\n"
         },
         {
             "id": 2334,
@@ -447656,7 +447956,7 @@
                     "name": "gmssl"
                 }
             ],
-            "last_checked_revision": "0569de226a2a1aa63b2f0798699c8a0a82676b94\n"
+            "last_checked_revision": "848bcaf7bf5c5bebbe028e8ccec76e30ad1bef6b\n"
         },
         {
             "id": 2335,
@@ -447832,7 +448132,7 @@
                     "name": "anthropic_api"
                 }
             ],
-            "last_checked_revision": "de6b7974a0658e1fae8fac584368a33021ae668f\n"
+            "last_checked_revision": "644ad30d6e9436074a00f8bd08ecadcd98992fc1\n"
         },
         {
             "id": 2337,
@@ -448127,7 +448427,7 @@
                     "name": "check_imports"
                 }
             ],
-            "last_checked_revision": "b772866fd75ef902e4c5f6f0c4aee2298e9c6073\n"
+            "last_checked_revision": "74abb20cc123e13b4c0ebd05043ca81fd0bf0abf\n"
         },
         {
             "id": 2339,
@@ -448267,7 +448567,7 @@
                     "name": "cubesandbox"
                 }
             ],
-            "last_checked_revision": "0f7ab984be668313232fa3136e1a688b46cb558c\n"
+            "last_checked_revision": "2962ba74c879728b501efd566a3655689008c9b8\n"
         },
         {
             "id": 2341,
@@ -448298,7 +448598,7 @@
                     "name": "sqlalchemy"
                 }
             ],
-            "last_checked_revision": "10fea73fe9a2f7a587c57d833f252425a0106b72\n"
+            "last_checked_revision": "a6ca333258b85ed5b957309ac4857ae028d08782\n"
         },
         {
             "id": 2343,
@@ -448692,7 +448992,7 @@
                     "name": "WebView2"
                 }
             ],
-            "last_checked_revision": "d9c933798fc406a109c3329c422140d26fec8bbd\n"
+            "last_checked_revision": "699efe8ef73e25c5a7af393bd769362f04d2dfff\n"
         },
         {
             "id": 2344,
@@ -448780,7 +449080,7 @@
                     "name": "liteparse"
                 }
             ],
-            "last_checked_revision": "36e7431dea3779f2f4c0558487de42ce8cd90cd9\n"
+            "last_checked_revision": "9a2bc04e981805ea26e37bde007f34d21764a53c\n"
         },
         {
             "id": 2346,
@@ -448840,7 +449140,7 @@
                     "name": "pypdfium2"
                 }
             ],
-            "last_checked_revision": "78c195a8e5cefde952be588325ff00803a4b4981\n"
+            "last_checked_revision": "52f93c65be22148bcd36c76ba77ec78a4418ddc0\n"
         },
         {
             "id": 2348,
@@ -449030,7 +449330,7 @@
                     "name": "moonshine"
                 }
             ],
-            "last_checked_revision": "5a0c79f538488dd508e5353ba58f37a101aaf9cb\n"
+            "last_checked_revision": "08dbc862ea3aa2f91bf38b5c429a3173860db87d\n"
         },
         {
             "id": 2349,
@@ -449498,7 +449798,7 @@
                     "name": "apple_fm_sdk"
                 }
             ],
-            "last_checked_revision": "3042bfe3f1f766838ce45dbcb20c31ea3900f953\n"
+            "last_checked_revision": "7c55bddaf04caaf8301c73aa93754ac7e8512cd7\n"
         },
         {
             "id": 2351,
@@ -449701,7 +450001,7 @@
                     "name": "mcp_bakery_app"
                 }
             ],
-            "last_checked_revision": "56815c6e969c261f73170425d9a6596651475a6d\n"
+            "last_checked_revision": "9ebafd607afdc06245323756a07221df23790a93\n"
         },
         {
             "id": 2355,
@@ -449935,7 +450235,7 @@
                     "name": "honcho_cli"
                 }
             ],
-            "last_checked_revision": "444897975c95393b0d48024470ece03c025d3aa4\n"
+            "last_checked_revision": "f88892b0715adbd852c6b846532cc39a335d2de4\n"
         },
         {
             "id": 2356,
@@ -450407,7 +450707,7 @@
                     "name": "next_version"
                 }
             ],
-            "last_checked_revision": "f0ecfea9efb447dd6172d807cfc73c56e776f66b\n"
+            "last_checked_revision": "0cf691e9b06e53e1a90f5de4e863a9493988c9b9\n"
         },
         {
             "id": 2358,
@@ -450785,7 +451085,7 @@
                     "name": "mysite"
                 }
             ],
-            "last_checked_revision": "5d0faa1825daae61e1a816c90e35ef9401677f16\n"
+            "last_checked_revision": "8a44a3eab13c3229bf93dc3e50b1123e18b0bda0\n"
         },
         {
             "id": 2363,
@@ -450987,7 +451287,7 @@
                     "name": "aioapns"
                 }
             ],
-            "last_checked_revision": "0ba55aec0325dda93931bd8c550b75e9fa5596c7\n"
+            "last_checked_revision": "fa4aeb8e8ecc59e6317fd4fdd7edcf1eb89cb183\n"
         },
         {
             "id": 2364,
@@ -452093,6 +452393,10 @@
                     "name": "test_contracts"
                 },
                 {
+                    "id": 18930,
+                    "name": "thumbnail"
+                },
+                {
                     "id": 19455,
                     "name": "adapt"
                 },
@@ -452139,9 +452443,17 @@
                 {
                     "id": 20244,
                     "name": "tool_gohighlevel"
+                },
+                {
+                    "id": 20322,
+                    "name": "frame_grabber"
+                },
+                {
+                    "id": 20323,
+                    "name": "embedding_video"
                 }
             ],
-            "last_checked_revision": "4a72f8d142d949010a25e34f42eb5f7802f040ea\n"
+            "last_checked_revision": "1b3943231cc5ef6c18a46cd6609a26224b82b1ab\n"
         },
         {
             "id": 2369,
@@ -452251,6 +452563,10 @@
                     "name": "PIL"
                 },
                 {
+                    "id": 84,
+                    "name": "torchvision"
+                },
+                {
                     "id": 86,
                     "name": "sse_starlette"
                 },
@@ -452273,6 +452589,10 @@
                 {
                     "id": 127,
                     "name": "tqdm"
+                },
+                {
+                    "id": 130,
+                    "name": "safetensors"
                 },
                 {
                     "id": 136,
@@ -452759,7 +453079,7 @@
                     "name": "graspgenx"
                 }
             ],
-            "last_checked_revision": "5dc691323d257a4e39f38a66c7164bf02c3aa784\n"
+            "last_checked_revision": "11e70d00b7ad82c4519509d9168b62398b26b98c\n"
         },
         {
             "id": 2370,
@@ -453655,7 +453975,7 @@
                     "name": "oracle_vecdb"
                 }
             ],
-            "last_checked_revision": "74f7b01b3d85c1bfc94a66c72011da55fd316d61\n"
+            "last_checked_revision": "006c3db5e123c7c76e8e50b295429b10cdeb1905\n"
         },
         {
             "id": 2376,
@@ -453737,7 +454057,7 @@
                     "name": "hermes_constants"
                 }
             ],
-            "last_checked_revision": "594ffaf1a330dce3543d86e61ad73c750daa1060\n"
+            "last_checked_revision": "d4430ff7e5a5cf2a642ffe2885c250648f39d96d\n"
         },
         {
             "id": 2377,
@@ -453763,7 +454083,7 @@
                     "name": "flask"
                 }
             ],
-            "last_checked_revision": "c626f3d9fe78914324952dc6973d4387fddfc726\n"
+            "last_checked_revision": "96b729caeb84bc51776b65779286a98a91cb74c5\n"
         },
         {
             "id": 2378,
@@ -454625,7 +454945,7 @@
                     "name": "noveum_trace"
                 }
             ],
-            "last_checked_revision": "66ab884d5e4098d37beef7bc502a422ef42951ee\n"
+            "last_checked_revision": "fc5bb9b2384f0de20472ff9314c3fb34667d3adb\n"
         },
         {
             "id": 2381,
@@ -454651,7 +454971,7 @@
                     "name": "codebase_memory_mcp"
                 }
             ],
-            "last_checked_revision": "49d928be67322184fe25c8d15acd6f0e80b7e648\n"
+            "last_checked_revision": "4d7d9f1117b8e0c9322ff8c73e5124b0b5f7a185\n"
         },
         {
             "id": 2382,
@@ -454770,7 +455090,7 @@
                     "name": "mcp"
                 }
             ],
-            "last_checked_revision": "e3f3d7d22b631a368da46811e831ba563cf10295\n"
+            "last_checked_revision": "ce02bad8b746a0cd3b49c96f7943e7fac3029c32\n"
         },
         {
             "id": 2384,
@@ -454884,7 +455204,7 @@
                     "name": "glide_shared"
                 }
             ],
-            "last_checked_revision": "d83691222fa58252b60394d37d0e0e12f6609c8e\n"
+            "last_checked_revision": "4c50c6e6c09e0d8ca7bc8003a20a8ccd767c28b5\n"
         },
         {
             "id": 2385,
@@ -455470,7 +455790,7 @@
                     "name": "omlx"
                 }
             ],
-            "last_checked_revision": "e4c6e7cfa00db6dbbce048e23e482b39bad87167\n"
+            "last_checked_revision": "f2d400c372ed57d852ea02f31e0c8986c18b5329\n"
         },
         {
             "id": 2388,
@@ -455807,6 +456127,10 @@
                     "name": "whisperx"
                 },
                 {
+                    "id": 6690,
+                    "name": "flashinfer"
+                },
+                {
                     "id": 6766,
                     "name": "mlx"
                 },
@@ -455947,7 +456271,7 @@
                     "name": "gen_worker_protocol"
                 }
             ],
-            "last_checked_revision": "ee35d2389e825dc4dc4bb98de14d85d747d74846\n"
+            "last_checked_revision": "2d5f2e800e5564e366d9154125fa8d0c59c2b8b2\n"
         },
         {
             "id": 2391,
@@ -456187,7 +456511,7 @@
                     "name": "k8s_agent_sandbox_mcp_server"
                 }
             ],
-            "last_checked_revision": "fa7f00f8645d9582bd3798a6318d71f3c8752da7\n"
+            "last_checked_revision": "2c40f1acdbc316a6984f20fd42616e3bec951130\n"
         },
         {
             "id": 2393,
@@ -456325,7 +456649,7 @@
                     "name": "pyJianYingDraft"
                 }
             ],
-            "last_checked_revision": "d76443e2816f89c3111bff10ce53b021ab9b9d71\n"
+            "last_checked_revision": "4d8e86d6bedf17f7d2799bf15703fb4f33709aab\n"
         },
         {
             "id": 2394,
@@ -456583,6 +456907,10 @@
                     "name": "sherpa_onnx"
                 },
                 {
+                    "id": 10178,
+                    "name": "mcp"
+                },
+                {
                     "id": 10181,
                     "name": "pydantic_ai"
                 },
@@ -456647,7 +456975,7 @@
                     "name": "pydantic_monty"
                 }
             ],
-            "last_checked_revision": "14f83208abb2b92d9341a10dbaa4cb4786fe7eb2\n"
+            "last_checked_revision": "e0a4f51109cbe6b8a239700d8348f0cbebd70b26\n"
         },
         {
             "id": 2395,
@@ -457425,7 +457753,7 @@
                     "name": "triton_mlp"
                 }
             ],
-            "last_checked_revision": "d435a67e30ecb41f916716607c30c4646f208ee6\n"
+            "last_checked_revision": "642ae58d3ef884c63efe8d372e44d65ae77d9572\n"
         },
         {
             "id": 2396,
@@ -457655,7 +457983,7 @@
                     "name": "pr_classifier"
                 }
             ],
-            "last_checked_revision": "a21aef60242940100f77ebe2b1db6b95b6db0229\n"
+            "last_checked_revision": "8558c10dd5c29f62d74b4463a69fa922dd56cfc0\n"
         },
         {
             "id": 2397,
@@ -459044,7 +459372,7 @@
                     "name": "cann_ops_transformer"
                 }
             ],
-            "last_checked_revision": "d5e9816065ede613327d93908f87fee9f5c47128\n"
+            "last_checked_revision": "6b424bfa9e891d78544c2fd737a5486ddc5f1e35\n"
         },
         {
             "id": 2404,
@@ -459204,7 +459532,7 @@
                     "name": "ds4_context_sweep"
                 }
             ],
-            "last_checked_revision": "12a0fd99ab26b736823df35ec6abec5ca29b4f4d\n"
+            "last_checked_revision": "7bea91924969f697a3b28e8c19ce67b89a255f46\n"
         },
         {
             "id": 2406,
@@ -459634,7 +459962,7 @@
                     "name": "_control"
                 }
             ],
-            "last_checked_revision": "286163f12aa627af22051bd95321bc6404e237ae\n"
+            "last_checked_revision": "010583a13c28bb62d850038dfa89f8a738361be5\n"
         },
         {
             "id": 2407,
@@ -459724,7 +460052,7 @@
                     "name": "e2b_code_interpreter"
                 }
             ],
-            "last_checked_revision": "13e3995c099b121ed45d6e62c8568e983ab868cf\n"
+            "last_checked_revision": "83d8783187a2d29dda1b046cb667009cc50c8203\n"
         },
         {
             "id": 2408,
@@ -459826,7 +460154,7 @@
                     "name": "images"
                 }
             ],
-            "last_checked_revision": "db8a92c5c16d849b2940ffeb12b334df8bdda1ec\n"
+            "last_checked_revision": "2e5b0daefdfef0efb8d1f197f69e3c7a3d0abb26\n"
         },
         {
             "id": 2409,
@@ -460758,7 +461086,7 @@
                     "name": "harbor_atif2otel"
                 }
             ],
-            "last_checked_revision": "a27e9c2ae10a31c40b2dcef33ef5486bce36e185\n"
+            "last_checked_revision": "f03db62fd2ed2ed1f79aefe024cfcbc68a0d759e\n"
         },
         {
             "id": 2411,
@@ -461076,7 +461404,7 @@
                     "name": "optscale_data"
                 }
             ],
-            "last_checked_revision": "98304fb08bb99458813a06558de1746b90c15292\n"
+            "last_checked_revision": "9727d5b3ac7faa84afd7bdc3fdb3b2145b9b53e8\n"
         },
         {
             "id": 2412,
@@ -461373,7 +461701,7 @@
                     "name": "timezone_field"
                 }
             ],
-            "last_checked_revision": "cc9dae66dbb11cc2ef0db7d2cb55df6bc931c1cd\n"
+            "last_checked_revision": "a82023f8b09f605f95be0af7cfcccd8e651d5346\n"
         },
         {
             "id": 2415,
@@ -461661,7 +461989,7 @@
                     "name": "urandom"
                 }
             ],
-            "last_checked_revision": "1b04e910ce061f94a241d84a742319a6c3c49b70\n"
+            "last_checked_revision": "990cced209e1509f5eba0470ec3d9a9e61e93594\n"
         },
         {
             "id": 2417,
@@ -463357,7 +463685,7 @@
                     "name": "bench047"
                 }
             ],
-            "last_checked_revision": "46ccdbc4407a06214839e829461eae8f41ae0dbb\n"
+            "last_checked_revision": "4904960d44697b843975335c5dcae87bebc7d3b4\n"
         },
         {
             "id": 2421,
@@ -464213,7 +464541,7 @@
                     "name": "product_context"
                 }
             ],
-            "last_checked_revision": "a1dd50be427f4f26657d41adcc2122af2948b45d\n"
+            "last_checked_revision": "54d370494c3dcba04ca28a1c6e771f7416ab0130\n"
         },
         {
             "id": 2425,
@@ -464555,7 +464883,7 @@
                     "name": "agent_evals"
                 }
             ],
-            "last_checked_revision": "2f4d001c9ffd7f856c8dab3e31a8240a1c676f04\n"
+            "last_checked_revision": "c16be9bbbec4aec6d4b35e482c166daef8afa72c\n"
         },
         {
             "id": 2426,
@@ -464669,7 +464997,7 @@
                     "name": "mcp_agent_mail"
                 }
             ],
-            "last_checked_revision": "e8701f3c751992bb9f846e8921316d7491c66810\n"
+            "last_checked_revision": "2ee870325b01023bdcd34ec0f9346d19ad2855b2\n"
         },
         {
             "id": 2427,
@@ -464703,7 +465031,7 @@
                     "name": "yt_dude"
                 }
             ],
-            "last_checked_revision": "2cfcf8308e4f476ac112914d851d49f018c36cae\n"
+            "last_checked_revision": "3df18c6cffeea0db2a3a441c0d924ea1970b08e2\n"
         },
         {
             "id": 2428,
@@ -466090,7 +466418,7 @@
                     "name": "ioc_match"
                 }
             ],
-            "last_checked_revision": "7a791ab61feb8219c06e99828f311857c98eb8e0\n"
+            "last_checked_revision": "aa3c6fb18529ecfc8d9f792dbc7d849c36ad3e2b\n"
         },
         {
             "id": 2434,
@@ -467260,7 +467588,7 @@
                     "name": "arctic_platform"
                 }
             ],
-            "last_checked_revision": "4bdf9766629dd54850c8885617aec5d483a5ee57\n"
+            "last_checked_revision": "125cb814fcfecf40d32ac2fbb99d68258b041616\n"
         },
         {
             "id": 2437,
@@ -467486,7 +467814,7 @@
                     "name": "base_agent"
                 }
             ],
-            "last_checked_revision": "88c5fa92c924a4ce9e7da46f6c18587c09894925\n"
+            "last_checked_revision": "8c33f17a06c42c191bbb685833f99c2de6a23c7d\n"
         },
         {
             "id": 2438,
@@ -469212,7 +469540,7 @@
                     "name": "measure"
                 }
             ],
-            "last_checked_revision": "aa78b8c5f61a2a4f675f7e4e1042472167f1cf0d\n"
+            "last_checked_revision": "b85ef61ca767ff681fdc74e7f124e461e4829464\n"
         },
         {
             "id": 2445,
@@ -469852,7 +470180,7 @@
                     "name": "aiomqtt"
                 }
             ],
-            "last_checked_revision": "a2870a6e292bced7ee0bc6152ce4323eaed610af\n"
+            "last_checked_revision": "9bc02d61c200253cca891fcbcc1e73e5ea920c4f\n"
         },
         {
             "id": 2449,
@@ -470010,6 +470338,10 @@
                     "name": "paddleocr"
                 },
                 {
+                    "id": 932,
+                    "name": "tomli"
+                },
+                {
                     "id": 1139,
                     "name": "dill"
                 },
@@ -470122,7 +470454,7 @@
                     "name": "sensenova_u1_5"
                 }
             ],
-            "last_checked_revision": "acb8b5f80fb9492ff6d4e0241b0c9af452e42455\n"
+            "last_checked_revision": "35fb2fc520869aa09223a819882abdb3dc328ecd\n"
         },
         {
             "id": 2450,
@@ -470677,7 +471009,7 @@
                     "name": "kg_fixtures"
                 }
             ],
-            "last_checked_revision": "8b58b52dcaa8aa221f00cd75ac06d91421f0376b\n"
+            "last_checked_revision": "d22dc3c2b8d4c0bee431e2f22ab27e55c0fe271d\n"
         },
         {
             "id": 2454,
@@ -471115,7 +471447,7 @@
                     "name": "supersonic"
                 }
             ],
-            "last_checked_revision": "e8c916fbdab8d34f4f073824205689ac52a0b69f\n"
+            "last_checked_revision": "2f0728eac912e3ad6b110774c9095330779d53e5\n"
         },
         {
             "id": 2459,
@@ -473011,7 +473343,7 @@
                     "name": "fastmcp"
                 }
             ],
-            "last_checked_revision": "c79410a1f3f9906b55e1ab436c5bff4a42468d03\n"
+            "last_checked_revision": "ac98c1d847f0a639ab51ca51b8d089baf4789a10\n"
         },
         {
             "id": 2469,
@@ -473244,6 +473576,10 @@
                     "name": "paramiko"
                 },
                 {
+                    "id": 373,
+                    "name": "tests"
+                },
+                {
                     "id": 408,
                     "name": "socketio"
                 },
@@ -473282,6 +473618,10 @@
                 {
                     "id": 876,
                     "name": "pyperclip"
+                },
+                {
+                    "id": 901,
+                    "name": "hypothesis"
                 },
                 {
                     "id": 936,
@@ -473460,7 +473800,7 @@
                     "name": "cluster_node"
                 }
             ],
-            "last_checked_revision": "43a33a94100b30569a1a954c4978e27449dcd5bd\n"
+            "last_checked_revision": "a1d5f9599070f0563655d1eae7e405f336d8e691\n"
         },
         {
             "id": 2472,
@@ -473586,7 +473926,7 @@
                     "name": "simplepyble"
                 }
             ],
-            "last_checked_revision": "993cb6ca7e325def3b2082009d7ba707971ae526\n"
+            "last_checked_revision": "a9d9c1f17f96d7a89a970d82161a2e840d21ccfa\n"
         },
         {
             "id": 2473,
@@ -473876,7 +474216,7 @@
                     "name": "asposeslidescloud"
                 }
             ],
-            "last_checked_revision": "b923ae05883387f6a3e09b1135f604589c4f0a59\n"
+            "last_checked_revision": "b7f8162ebb738b7fa249c4f34a11502b9ba355e5\n"
         },
         {
             "id": 2474,
@@ -473934,7 +474274,7 @@
                     "name": "polib"
                 }
             ],
-            "last_checked_revision": "b87a8c81f2d399374157033ae9de69b72fc9253e\n"
+            "last_checked_revision": "471fe745e7c3d582048d647257c74ae566cd235f\n"
         },
         {
             "id": 2475,
@@ -474280,7 +474620,7 @@
                     "name": "app_logic"
                 }
             ],
-            "last_checked_revision": "4d60c19227ed30078913818b4e822f6100684476\n"
+            "last_checked_revision": "40070001709e5f7d9b7797e8193d330e3e93f125\n"
         },
         {
             "id": 2476,
@@ -475185,7 +475525,7 @@
                     "name": "_posixshmem"
                 }
             ],
-            "last_checked_revision": "5674984375e10a0f2b77710cd1857c58630fbbe2\n"
+            "last_checked_revision": "7591f1f8cc684a667a2f85a9be67792733821b15\n"
         },
         {
             "id": 2483,
@@ -475355,7 +475695,7 @@
                     "name": "pyftpdlib"
                 }
             ],
-            "last_checked_revision": "74c876a588ffcf48bacfe847aef32bc3a6c9c5ec\n"
+            "last_checked_revision": "f10f485801158b90e856a5321f46fc477ffd9fad\n"
         },
         {
             "id": 2484,
@@ -475867,7 +476207,7 @@
                     "name": "run_grpo"
                 }
             ],
-            "last_checked_revision": "c1385707b17a2c38bf5af450320c93435124c257\n"
+            "last_checked_revision": "e181c9f8f8dcae4df3f45b27f26a1f64e5878f68\n"
         },
         {
             "id": 2486,
@@ -476230,7 +476570,7 @@
                     "name": "patchright"
                 }
             ],
-            "last_checked_revision": "c5d969fbd3a4d52c6c8c86fd55058e9d4add8f72\n"
+            "last_checked_revision": "9e033e6ed400292bbefa664c91709ac073e3fcc7\n"
         },
         {
             "id": 2490,
@@ -476520,7 +476860,7 @@
                     "name": "smolagents"
                 }
             ],
-            "last_checked_revision": "53243f49de7f60411a11377ed46e4746b0abbc6d\n"
+            "last_checked_revision": "c051fa08a4ef1d04cf1ac63428fbbed44d515008\n"
         },
         {
             "id": 2493,
@@ -476724,6 +477064,10 @@
                     "name": "cryptography"
                 },
                 {
+                    "id": 496,
+                    "name": "httptools"
+                },
+                {
                     "id": 539,
                     "name": "pydantic_core"
                 },
@@ -476734,6 +477078,10 @@
                 {
                     "id": 732,
                     "name": "zstandard"
+                },
+                {
+                    "id": 901,
+                    "name": "hypothesis"
                 },
                 {
                     "id": 929,
@@ -476784,7 +477132,7 @@
                     "name": "aiohappyeyeballs"
                 }
             ],
-            "last_checked_revision": "ef9c68e0fbc553ff83c374e4dcb7a3c079b163a9\n"
+            "last_checked_revision": "b26df4176463b51d310b56a41b05b70163e4d30f\n"
         },
         {
             "id": 2495,
@@ -477262,7 +477610,7 @@
                     "name": "agently_stage"
                 }
             ],
-            "last_checked_revision": "4aed4449b4c2cae04a14ac6cc30c67d0af0d66b8\n"
+            "last_checked_revision": "8e1dba588cc1c77953e3f29f99f98281fe88a4a3\n"
         },
         {
             "id": 2498,
@@ -477828,7 +478176,7 @@
                     "name": "upload_utils"
                 }
             ],
-            "last_checked_revision": "7163b2c6e26f46302292599e7129db18b95e6fb7\n"
+            "last_checked_revision": "9f8ab10723c4d98f3661554811f8cce3acecda3d\n"
         },
         {
             "id": 2501,
@@ -479149,6 +479497,10 @@
                     "name": "tasks"
                 },
                 {
+                    "id": 2480,
+                    "name": "examples"
+                },
+                {
                     "id": 2847,
                     "name": "onnxruntime_extensions"
                 },
@@ -479413,7 +479765,7 @@
                     "name": "ch14"
                 }
             ],
-            "last_checked_revision": "112782087ca058b3e0bfe102fdcc3947fd1fe8c9\n"
+            "last_checked_revision": "12f23d0c5a340dff16bb8eaa0a97551828431530\n"
         },
         {
             "id": 2514,
@@ -479807,7 +480159,7 @@
                     "name": "webauthn"
                 }
             ],
-            "last_checked_revision": "ddd7b557c360ff7ebe87f2dddfb0de96593eddf0\n"
+            "last_checked_revision": "0ba134eddfc35f47898cfa4dbb55413971172ef5\n"
         },
         {
             "id": 2517,
@@ -479869,6 +480221,10 @@
                     "name": "argon2"
                 },
                 {
+                    "id": 2215,
+                    "name": "apprise"
+                },
+                {
                     "id": 2355,
                     "name": "pyotp"
                 },
@@ -479881,7 +480237,7 @@
                     "name": "trip"
                 }
             ],
-            "last_checked_revision": "6bb2eb205a51d7bc1fe6d50c8d4f86d107f16825\n"
+            "last_checked_revision": "860ed416aa70992c5cabb651597e49a3feb4b3d5\n"
         },
         {
             "id": 2518,
@@ -480185,7 +480541,7 @@
                     "name": "anonymizer_service"
                 }
             ],
-            "last_checked_revision": "537beb5bc590810a5a5dd95cd26b45ab76a06294\n"
+            "last_checked_revision": "0d6c2d084e354bd61ca93511f8de6ab3445c7416\n"
         },
         {
             "id": 2520,
@@ -480773,7 +481129,7 @@
                     "name": "observal_shared"
                 }
             ],
-            "last_checked_revision": "7a003f67060c412120d164cbd9d906a679dbb42c\n"
+            "last_checked_revision": "576522b168ca2db2ca9504f79f7ded9c1065d01b\n"
         },
         {
             "id": 2522,
@@ -480839,7 +481195,7 @@
                     "name": "oss2"
                 }
             ],
-            "last_checked_revision": "e9c745466f142721977735e92a291619ac536ee0\n"
+            "last_checked_revision": "3938f7537645c961d94498a0a79fc0a977019595\n"
         },
         {
             "id": 2523,
@@ -481305,7 +481661,7 @@
                     "name": "agent_sessions"
                 }
             ],
-            "last_checked_revision": "038ed0cbbefe2b40677b63867aeea0d16bc303e0\n"
+            "last_checked_revision": "3a3fc577b0ac855bbcf7feff69cf8d2a8c3c0353\n"
         },
         {
             "id": 2528,
@@ -481443,7 +481799,7 @@
                     "name": "random_package"
                 }
             ],
-            "last_checked_revision": "c3e1c9c7291365eab04d4920e941a35c2a27941c\n"
+            "last_checked_revision": "9afd19c325e819fb8b6429b1a6528f659e173a2a\n"
         },
         {
             "id": 2529,
@@ -481469,7 +481825,7 @@
                     "name": "openai"
                 }
             ],
-            "last_checked_revision": "664bfe54997fed22c8798f76522b0a5b552b4755\n"
+            "last_checked_revision": "700148e98d7a5d0d5882332ffafead499d25de43\n"
         },
         {
             "id": 2530,
@@ -481709,7 +482065,7 @@
                     "name": "cactus"
                 }
             ],
-            "last_checked_revision": "22b86a6dbedfdade7f7a05e716ae9d31d7838ee7\n"
+            "last_checked_revision": "71ddfc71b4691163340cc013c8092931d37715ff\n"
         },
         {
             "id": 2532,
@@ -481759,7 +482115,7 @@
                     "name": "pypdf"
                 }
             ],
-            "last_checked_revision": "9d252b332f10646d81146bfb3fb283e2d455c289\n"
+            "last_checked_revision": "8428a63d016b2c2f92c54c2c6df3c46a0b9bfaf9\n"
         },
         {
             "id": 2533,
@@ -481801,7 +482157,7 @@
                     "name": "atmosphere_crewai_bridge"
                 }
             ],
-            "last_checked_revision": "b600b8a9496c812c31ebae566002d873d2cbe999\n"
+            "last_checked_revision": "768ea0bb00f4a1ea8606dd794939b573c3e1f178\n"
         },
         {
             "id": 2534,
@@ -482815,7 +483171,7 @@
                     "name": "rtvi_vlm_client"
                 }
             ],
-            "last_checked_revision": "f57db324519f8bbea959b21752ed73b6ab5eb7d7\n"
+            "last_checked_revision": "27bc8aa04855e9539d4ad423178cd062d609d268\n"
         },
         {
             "id": 2539,
@@ -483307,7 +483663,7 @@
                     "name": "openenv_launch_common"
                 }
             ],
-            "last_checked_revision": "22f268ef807505eba6374a2a3b32fb283b1ce25c\n"
+            "last_checked_revision": "62a66297ba7f6eb9ca2b6d762747fa3c14536353\n"
         },
         {
             "id": 2541,
@@ -483591,7 +483947,7 @@
                     "name": "imdbio"
                 }
             ],
-            "last_checked_revision": "833a9fdc48c973862340cd9026b768a86a355985\n"
+            "last_checked_revision": "9a3174bdb2cd3fececaea0d6fbdfd888b87b4f68\n"
         },
         {
             "id": 2543,
@@ -484449,7 +484805,7 @@
                     "name": "kaggle_runtime"
                 }
             ],
-            "last_checked_revision": "1c83d671dec19006aa7ce7605cb5a8980fc7b138\n"
+            "last_checked_revision": "036fdeb145ccb8d67efff08e8eeb9cfc882314fd\n"
         },
         {
             "id": 2550,
@@ -484911,7 +485267,7 @@
                     "name": "squidpy"
                 }
             ],
-            "last_checked_revision": "fcf51367c21f4318488c366831f7e84c7474556b\n"
+            "last_checked_revision": "e2d9673fdd31c31187acab764d828254b6fcd7e0\n"
         },
         {
             "id": 2551,
@@ -485025,7 +485381,7 @@
                     "name": "ukernel_ccl"
                 }
             ],
-            "last_checked_revision": "61aca9181721c2499ed2aef0a193b2d8188b75a6\n"
+            "last_checked_revision": "9ef7dfd46a38328020cfbc7d77c6826e176d67e9\n"
         },
         {
             "id": 2552,
@@ -485451,7 +485807,7 @@
                     "name": "check_component_core_api"
                 }
             ],
-            "last_checked_revision": "1beb714f387c2e89c550f71bd7ec7321a70fbfe8\n"
+            "last_checked_revision": "9ed3c352327fa5af0fbac1448c0df7de51f5dbf7\n"
         },
         {
             "id": 2553,
@@ -485501,7 +485857,7 @@
                     "name": "yfinance"
                 }
             ],
-            "last_checked_revision": "c236a946a7a756e1a9d9aadff36ea14d1d0518e1\n"
+            "last_checked_revision": "718bcf5c6d40fb92a095466fde9b6f1953b751b1\n"
         },
         {
             "id": 2554,
@@ -487255,7 +487611,7 @@
                     "name": "brainbase_universal_harness_bakeoff"
                 }
             ],
-            "last_checked_revision": "4e00eed4470136a7b31a65b1d99fd7f4fc906a75\n"
+            "last_checked_revision": "39c8c98740c4222574cd25be228adf8ad191f7b4\n"
         },
         {
             "id": 2561,
@@ -487631,7 +487987,7 @@
                     "name": "batching"
                 }
             ],
-            "last_checked_revision": "350d6571852cb298ac934150cdab1104d8c76916\n"
+            "last_checked_revision": "5ca0a1f57856fd74b87b303f5e335ff235139fda\n"
         },
         {
             "id": 2563,
@@ -487861,7 +488217,7 @@
                     "name": "dialogue_state_manager"
                 }
             ],
-            "last_checked_revision": "ef6d5d608cc5cb890c6010e1533263134a91859a\n"
+            "last_checked_revision": "515195ae8fa60fa331ca4a4d29ee8761e60b3af0\n"
         },
         {
             "id": 2564,
@@ -488985,6 +489341,10 @@
                     "name": "uvicorn"
                 },
                 {
+                    "id": 37,
+                    "name": "httpx"
+                },
+                {
                     "id": 38,
                     "name": "pydantic"
                 },
@@ -489105,6 +489465,10 @@
                     "name": "pygments"
                 },
                 {
+                    "id": 502,
+                    "name": "pyflakes"
+                },
+                {
                     "id": 609,
                     "name": "rank_bm25"
                 },
@@ -489221,6 +489585,10 @@
                     "name": "sounddevice"
                 },
                 {
+                    "id": 3770,
+                    "name": "keyring"
+                },
+                {
                     "id": 3997,
                     "name": "langsmith"
                 },
@@ -489251,6 +489619,10 @@
                 {
                     "id": 5226,
                     "name": "langchain_core"
+                },
+                {
+                    "id": 5546,
+                    "name": "shiboken6"
                 },
                 {
                     "id": 5770,
@@ -489329,6 +489701,10 @@
                     "name": "openevals"
                 },
                 {
+                    "id": 15513,
+                    "name": "radon"
+                },
+                {
                     "id": 15560,
                     "name": "mobi"
                 },
@@ -489371,9 +489747,25 @@
                 {
                     "id": 18497,
                     "name": "airunner_startup_env"
+                },
+                {
+                    "id": 18498,
+                    "name": "vulture"
+                },
+                {
+                    "id": 20325,
+                    "name": "facehuggershield"
+                },
+                {
+                    "id": 20326,
+                    "name": "airunner_common"
+                },
+                {
+                    "id": 20327,
+                    "name": "airunner_native"
                 }
             ],
-            "last_checked_revision": "17eac5aaa554d3dd339e0ece797d849b86e91a55\n"
+            "last_checked_revision": "6a0885ecd153db37fc1c3650633b3b8266f580ad\n"
         },
         {
             "id": 2572,
@@ -489843,9 +490235,13 @@
                 {
                     "id": 19780,
                     "name": "kimi3_reference"
+                },
+                {
+                    "id": 20324,
+                    "name": "cache_pool_test_utils"
                 }
             ],
-            "last_checked_revision": "740bd8e0e7826b2b7d8555f5ac49659edaeef766\n"
+            "last_checked_revision": "64d8e513980dc799c21efda9d1f0e9b52608c58e\n"
         },
         {
             "id": 2574,
@@ -491467,6 +491863,10 @@
                     "name": "apache_beam"
                 },
                 {
+                    "id": 1560,
+                    "name": "nbformat"
+                },
+                {
                     "id": 1676,
                     "name": "atheris"
                 },
@@ -491505,6 +491905,10 @@
                 {
                     "id": 4990,
                     "name": "fontTools"
+                },
+                {
+                    "id": 5349,
+                    "name": "nbclient"
                 },
                 {
                     "id": 5794,
@@ -491559,7 +491963,7 @@
                     "name": "openmed_example_plugin"
                 }
             ],
-            "last_checked_revision": "8924075d53e4af18ed98c565d1c92848da619441\n"
+            "last_checked_revision": "576520381df7500adf4dd42aa3967f44c7096e8a\n"
         },
         {
             "id": 2579,
@@ -491967,7 +492371,7 @@
                     "name": "mediafile"
                 }
             ],
-            "last_checked_revision": "358efc519311f5794b3ac0ef2c7a614ffd1e6ebf\n"
+            "last_checked_revision": "40b51806baba7ac0a1ee3623e930f79b68d5ed75\n"
         },
         {
             "id": 2583,
@@ -492447,8 +492851,16 @@
                     "name": "psutil"
                 },
                 {
+                    "id": 127,
+                    "name": "tqdm"
+                },
+                {
                     "id": 149,
                     "name": "jieba"
+                },
+                {
+                    "id": 185,
+                    "name": "huggingface_hub"
                 },
                 {
                     "id": 215,
@@ -492507,7 +492919,7 @@
                     "name": "wx_key"
                 }
             ],
-            "last_checked_revision": "6a7fabda19e1d493accb67f35e8aae7ca624552f\n"
+            "last_checked_revision": "68079f23a75e42c57643d9c5ac3f0f5f57f5d6c5\n"
         },
         {
             "id": 2587,
@@ -494154,7 +494566,7 @@
                     "name": "datus_semantic_dosi"
                 }
             ],
-            "last_checked_revision": "aec774dfbed11f7a832ffac00343d9c5fccdebfe\n"
+            "last_checked_revision": "2903a06e9a1a03d5f67243dfe53f5a4eab3c33d3\n"
         },
         {
             "id": 2597,
@@ -494664,7 +495076,7 @@
                     "name": "memories"
                 }
             ],
-            "last_checked_revision": "7c302a9a49f7099078d0f37cf544ea9242353e2a\n"
+            "last_checked_revision": "cce6d8ed0b86353a1d525d72e97cc5eced91c344\n"
         },
         {
             "id": 2600,
@@ -496034,7 +496446,7 @@
                     "name": "getitune"
                 }
             ],
-            "last_checked_revision": "13622a0d3d8faaa2678d912bc7f388a17b7ff0fd\n"
+            "last_checked_revision": "df78d42f7395264ba7916ca859265ec073322cac\n"
         },
         {
             "id": 2607,
@@ -496104,7 +496516,7 @@
                     "name": "vulture"
                 }
             ],
-            "last_checked_revision": "2aebbe0160ef1ede9950c7a5edc8e5c196a56b21\n"
+            "last_checked_revision": "6be77f8c635c4e7b5a138dc47359a37eed53f4f8\n"
         },
         {
             "id": 2608,
@@ -496426,7 +496838,7 @@
                     "name": "counterfactual_loader"
                 }
             ],
-            "last_checked_revision": "6115fe8ed2f967e18ab5188fb4ccb7a4c8f4068b\n"
+            "last_checked_revision": "733def17ff995f3d022454162f50c541a0b4397c\n"
         },
         {
             "id": 2611,
@@ -496504,7 +496916,7 @@
                     "name": "a2a"
                 }
             ],
-            "last_checked_revision": "6dc730ebfacdfde2b58407ef975e7dfc7a3cba7b\n"
+            "last_checked_revision": "ba4a78e7523497947d8d9479cf646aa37f352b96\n"
         },
         {
             "id": 2612,
@@ -496574,7 +496986,7 @@
                     "name": "prompty"
                 }
             ],
-            "last_checked_revision": "c4e7bd4939d3c3622361fcd5c63237691fee79f5\n"
+            "last_checked_revision": "76a8ab1ec8370feae992faddb4d474c57406b4e3\n"
         },
         {
             "id": 2613,
@@ -500178,7 +500590,7 @@
                     "name": "alibabacloud_dm20151123"
                 }
             ],
-            "last_checked_revision": "e446ae2757ce1122cdb1cc52be541a4da0637a68\n"
+            "last_checked_revision": "f5eac1df6fd416e4b5a13c370e20aba3373cd22b\n"
         },
         {
             "id": 2627,
@@ -500466,7 +500878,7 @@
                     "name": "job_support"
                 }
             ],
-            "last_checked_revision": "6143610608fd78d6b94b2aaaa2366fbbd6ee8932\n"
+            "last_checked_revision": "89d8ffec5d1266251b7feeb05a3d998a6d5c747f\n"
         },
         {
             "id": 2629,
@@ -500690,7 +501102,7 @@
                     "name": "instantdb"
                 }
             ],
-            "last_checked_revision": "4a3097305c364852a5c223fffad9b61086fc3f64\n"
+            "last_checked_revision": "1bbf73865cbcf5629a02c730ef1577c09a8037e1\n"
         },
         {
             "id": 2631,
@@ -500836,7 +501248,7 @@
                     "name": "langchain_e2b"
                 }
             ],
-            "last_checked_revision": "c70bae662cc34f7406e9e05cd6b89ef94abb67b1\n"
+            "last_checked_revision": "ff9b4b3b1dbc5df203e38d9e2bad2b5197a12064\n"
         },
         {
             "id": 2632,
@@ -500850,7 +501262,7 @@
                     "name": "jinja2"
                 }
             ],
-            "last_checked_revision": "3a9d778562f39bcc0be46255b013c6a3ca526244\n"
+            "last_checked_revision": "07ce908fcf44e06abe320b08a93fc01f57b25ec1\n"
         },
         {
             "id": 2633,
@@ -501176,7 +501588,7 @@
                     "name": "python_ripgrep"
                 }
             ],
-            "last_checked_revision": "b9e565f3ba44cef54800bfd962fcea2f9b6d2671\n"
+            "last_checked_revision": "c4616578d610c237766a5d497f9db4b607d1c75b\n"
         },
         {
             "id": 2634,
@@ -501658,7 +502070,7 @@
                     "name": "generate_register_all_kernels"
                 }
             ],
-            "last_checked_revision": "42ebbc3d63e60135518e3120f3908940abfae081\n"
+            "last_checked_revision": "a1eee717fff9950406cb01af1a1b726772038381\n"
         },
         {
             "id": 2635,
@@ -502276,7 +502688,7 @@
                     "name": "simstudio"
                 }
             ],
-            "last_checked_revision": "417ae2075d52bc777d3317d9540525cfe26bb49d\n"
+            "last_checked_revision": "804a452bbee12c9ea5a76a55934c81ef72dfdf0f\n"
         },
         {
             "id": 2640,
@@ -502560,7 +502972,7 @@
                     "name": "latitude_telemetry_prime_intellect"
                 }
             ],
-            "last_checked_revision": "93b28d4ea9f25a7981be074c0a773181462e869e\n"
+            "last_checked_revision": "082d2a8c6cf23950a6514aab2b35951cced23929\n"
         },
         {
             "id": 2642,
@@ -502574,7 +502986,7 @@
                     "name": "env"
                 }
             ],
-            "last_checked_revision": "3b403e88989cf2c02e712f3a4031733171dbb745\n"
+            "last_checked_revision": "0343917aeb4c5954051ad2ae3e1110ccd1a6206f\n"
         },
         {
             "id": 2643,
@@ -502702,6 +503114,10 @@
                 {
                     "id": 127,
                     "name": "tqdm"
+                },
+                {
+                    "id": 130,
+                    "name": "safetensors"
                 },
                 {
                     "id": 136,
@@ -502944,7 +503360,7 @@
                     "name": "octen"
                 }
             ],
-            "last_checked_revision": "daf9ccc2003a2ba2c1d358f0aef4086ffdd4937a\n"
+            "last_checked_revision": "7ee24356ebf060689b59de8d198ac85960d38fce\n"
         },
         {
             "id": 2644,
@@ -502953,6 +503369,10 @@
             "stars": 7095,
             "source_graph_repo_id": 64254403,
             "dependencies": [
+                {
+                    "id": 9,
+                    "name": "typing_extensions"
+                },
                 {
                     "id": 13,
                     "name": "pytest"
@@ -502966,7 +503386,7 @@
                     "name": "openwa"
                 }
             ],
-            "last_checked_revision": "b264862870de7f0438180ccd6fccaff8679a49d0\n"
+            "last_checked_revision": "4e3d28349a2073ddce6a7ddbe2c892e21af03fcf\n"
         },
         {
             "id": 2645,
@@ -503604,7 +504024,7 @@
                     "name": "fednova"
                 }
             ],
-            "last_checked_revision": "79f5c0e4d54d914979dafb6b597f89a9b51ad4c7\n"
+            "last_checked_revision": "85cf6618dca698bcd472e6121f9c32b1f0a8a98b\n"
         },
         {
             "id": 2646,
@@ -507346,7 +507766,7 @@
                     "name": "dp_accounting"
                 }
             ],
-            "last_checked_revision": "589e977488f21a336a3d3da9b96da91ddbcf935e\n"
+            "last_checked_revision": "1eb8bb0cbe5fd9072311ae3fd760e3644fee690b\n"
         },
         {
             "id": 2653,
@@ -507390,6 +507810,10 @@
                 {
                     "id": 29,
                     "name": "aiohttp"
+                },
+                {
+                    "id": 30,
+                    "name": "certifi"
                 },
                 {
                     "id": 31,
@@ -507592,6 +508016,10 @@
                     "name": "langchain_core"
                 },
                 {
+                    "id": 5673,
+                    "name": "langchain_anthropic"
+                },
+                {
                     "id": 5770,
                     "name": "langchain_openai"
                 },
@@ -507720,7 +508148,7 @@
                     "name": "openbb_ai"
                 }
             ],
-            "last_checked_revision": "9806936f762168eccc217cab9bda5ba95b09dd95\n"
+            "last_checked_revision": "4ad3b6b077b7ecf33744d1582064c109ca8234c0\n"
         },
         {
             "id": 2654,
@@ -507754,7 +508182,7 @@
                     "name": "check_peps"
                 }
             ],
-            "last_checked_revision": "29cc60d663c78c475288475a013656086a0d3a1e\n"
+            "last_checked_revision": "d94899e4a97f5768af14a330da24ec113664a4bd\n"
         },
         {
             "id": 2655,
@@ -507809,7 +508237,7 @@
                     "name": "workers"
                 }
             ],
-            "last_checked_revision": "6e7fa35a3c86c71b1360f8017ada9ea696f8375e\n"
+            "last_checked_revision": "6b73819a02f609e8942b1d9286dc197fbca200ab\n"
         },
         {
             "id": 2657,
@@ -508201,7 +508629,7 @@
                     "name": "hermes_tools"
                 }
             ],
-            "last_checked_revision": "d7d41cb9f40401f6b1dd3f92297e06f72a243168\n"
+            "last_checked_revision": "2751ef7662643023200397e8ac9171a28cc79ac0\n"
         },
         {
             "id": 2659,
@@ -508417,7 +508845,7 @@
                     "name": "hudi_agent_gateway"
                 }
             ],
-            "last_checked_revision": "558007d76eaf345f759a349bd4bc6d17967708d9\n"
+            "last_checked_revision": "989badc3952e05052754dc1f028800c660646aee\n"
         },
         {
             "id": 2661,
@@ -509010,6 +509438,10 @@
                     "name": "yaml"
                 },
                 {
+                    "id": 39,
+                    "name": "streamlit"
+                },
+                {
                     "id": 71,
                     "name": "cv2"
                 },
@@ -509028,6 +509460,10 @@
                 {
                     "id": 82,
                     "name": "PIL"
+                },
+                {
+                    "id": 96,
+                    "name": "rich"
                 },
                 {
                     "id": 115,
@@ -509134,6 +509570,10 @@
                     "name": "shapefile"
                 },
                 {
+                    "id": 3670,
+                    "name": "rich_click"
+                },
+                {
                     "id": 4598,
                     "name": "squarify"
                 },
@@ -509160,9 +509600,13 @@
                 {
                     "id": 19974,
                     "name": "bokeh_sampledata"
+                },
+                {
+                    "id": 20328,
+                    "name": "streamlit_particles"
                 }
             ],
-            "last_checked_revision": "7baeadbe2d786e9b79d395be7e571d7e3d37e02c\n"
+            "last_checked_revision": "e40959e7da00157ff732a82e0bd428889c18e471\n"
         },
         {
             "id": 2664,
@@ -509208,7 +509652,7 @@
                     "name": "src"
                 }
             ],
-            "last_checked_revision": "1f543d0d6f167edc28c116edfc579873393a4560\n"
+            "last_checked_revision": "d31547cb84b0df6f6cf800206667b6868df2d1c4\n"
         },
         {
             "id": 2665,
@@ -509891,7 +510335,7 @@
                     "name": "row_bot"
                 }
             ],
-            "last_checked_revision": "f0d54d2ee8725661c015086a976f2544180dfa80\n"
+            "last_checked_revision": "9fe2b8410f4939bcbf40880895ce75cc11eb045f\n"
         },
         {
             "id": 2669,
@@ -509921,7 +510365,7 @@
                     "name": "pypdf"
                 }
             ],
-            "last_checked_revision": "299e201bbe8133f70da085fc1940a4ddc4197d67\n"
+            "last_checked_revision": "7a5c4934be4106ac740ffdb95280bb81b3f4b83c\n"
         },
         {
             "id": 2670,
@@ -509936,7 +510380,7 @@
             "id": 2671,
             "url": "https://github.com/crewAIInc/crewAI",
             "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-            "stars": 57117,
+            "stars": 57215,
             "source_graph_repo_id": 62044873,
             "dependencies": [
                 {
@@ -510110,6 +510554,10 @@
                 {
                     "id": 410,
                     "name": "selenium"
+                },
+                {
+                    "id": 430,
+                    "name": "urllib3"
                 },
                 {
                     "id": 531,
@@ -510428,7 +510876,7 @@
                     "name": "qdrant_edge"
                 }
             ],
-            "last_checked_revision": "754d7323beb2fd042e33444a115ea2d5a47193f0\n"
+            "last_checked_revision": "63884215103e287c87fa1e9f3010938dc6c12404\n"
         },
         {
             "id": 2672,
@@ -510494,7 +510942,7 @@
                     "name": "djangoex"
                 }
             ],
-            "last_checked_revision": "93a4118f377074e4131da3bc406dfd7122b3e31d\n"
+            "last_checked_revision": "5235225ba635f01b56149e38fc0fb75f35ad853d\n"
         },
         {
             "id": 2673,
@@ -510540,7 +510988,7 @@
                     "name": "pymodbus"
                 }
             ],
-            "last_checked_revision": "5523620ce754bdba67e7b6b50c86894e215d50a2\n"
+            "last_checked_revision": "d73fbb5c0930dcb586a114d10bee851fd65428f4\n"
         }
     ]
 }
