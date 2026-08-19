@@ -374,7 +374,7 @@
             "id": 4,
             "url": "https://github.com/fastapi/fastapi",
             "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
-            "stars": 99296,
+            "stars": 101677,
             "source_graph_repo_id": 37328078,
             "dependencies": [
                 {
@@ -574,7 +574,7 @@
                     "name": "annotated_doc"
                 }
             ],
-            "last_checked_revision": "66b2c5a9b5ddf65f218423072ad158e42ed780aa\n"
+            "last_checked_revision": "80257cb8dab912fff8ab8cc06c6cc7dcb2c95f31\n"
         },
         {
             "id": 5,
@@ -2800,7 +2800,7 @@
                     "name": "httpx2"
                 }
             ],
-            "last_checked_revision": "9c21d84bcbaf541d6aa9bcc28131bad3f4288c2d\n"
+            "last_checked_revision": "2019bf5ebe50324c548f67c2666a804343f9b772\n"
         },
         {
             "id": 6,
@@ -3306,7 +3306,7 @@
             "id": 8,
             "url": "https://github.com/getsentry/sentry",
             "description": "Developer-first error tracking and performance monitoring",
-            "stars": 44105,
+            "stars": 44568,
             "source_graph_repo_id": 49872,
             "dependencies": [
                 {
@@ -3822,7 +3822,7 @@
                     "name": "apigw"
                 }
             ],
-            "last_checked_revision": "0dc8eca550e10e3fea95ccdeebcd0be6701ee722\n"
+            "last_checked_revision": "38e151abd15dff871740b3a9f91a16a9c00591cc\n"
         },
         {
             "id": 9,
@@ -4222,7 +4222,7 @@
             "id": 10,
             "url": "https://github.com/GokuMohandas/Made-With-ML",
             "description": "Learn how to develop, deploy and iterate on production-grade ML applications.",
-            "stars": 48199,
+            "stars": 49128,
             "source_graph_repo_id": 37246772,
             "dependencies": [
                 {
@@ -5139,7 +5139,7 @@
             "id": 15,
             "url": "https://github.com/geekcomputers/Python",
             "description": "My Python Examples",
-            "stars": 35033,
+            "stars": 35261,
             "source_graph_repo_id": 51240,
             "dependencies": [
                 {
@@ -7417,7 +7417,7 @@
                     "name": "qbruntime"
                 }
             ],
-            "last_checked_revision": "e3ff26cec38d4f4ecbe18a7672ec316a17bc56f7\n"
+            "last_checked_revision": "d45607468b3f29c98073c2acd58dc928c6b9aadb\n"
         },
         {
             "id": 17,
@@ -8675,13 +8675,13 @@
                     "name": "freqtrade_client"
                 }
             ],
-            "last_checked_revision": "ba634ac4044b5d702db14baa7b9f9166308f6e46\n"
+            "last_checked_revision": "b3404c9d81422fed6a8fd83d3d296c37c7915327\n"
         },
         {
             "id": 22,
             "url": "https://github.com/gradio-app/gradio",
             "description": "Build and share delightful machine learning apps, all in Python. \ud83c\udf1f Star to support our work!",
-            "stars": 42953,
+            "stars": 43377,
             "source_graph_repo_id": 38815265,
             "dependencies": [
                 {
@@ -9129,7 +9129,7 @@
                     "name": "hf_gradio"
                 }
             ],
-            "last_checked_revision": "a79d94a031ac08fed050582f3a12b20a0f092453\n"
+            "last_checked_revision": "e9dabaa18afea53329cc99282f28c69c70e237c5\n"
         },
         {
             "id": 23,
@@ -10001,6 +10001,10 @@
                     "name": "uvicorn"
                 },
                 {
+                    "id": 37,
+                    "name": "httpx"
+                },
+                {
                     "id": 38,
                     "name": "pydantic"
                 },
@@ -10333,7 +10337,7 @@
                     "name": "spandrel"
                 }
             ],
-            "last_checked_revision": "fd0e38bc178d038141dc2f09be2e0e63c0c162a6\n"
+            "last_checked_revision": "77f00f13ebf450375ce185649d5e919c2bad0e6c\n"
         },
         {
             "id": 27,
@@ -10463,7 +10467,7 @@
                     "name": "legacy_model_dict_client"
                 }
             ],
-            "last_checked_revision": "51433f0873e14864075ada810da8c48e685d7aa1\n"
+            "last_checked_revision": "0842190cbba6150604994111c5513b25c18c6c65\n"
         },
         {
             "id": 28,
@@ -11889,13 +11893,13 @@
                     "name": "ty_extensions"
                 }
             ],
-            "last_checked_revision": "82e37beef9b39da7ad66cd27ab94edec8c187eb1\n"
+            "last_checked_revision": "49bf50b1c782a4e443ae3edce2fdb6d81c2df562\n"
         },
         {
             "id": 29,
             "url": "https://github.com/mlflow/mlflow",
             "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
-            "stars": 26584,
+            "stars": 27564,
             "source_graph_repo_id": 36559358,
             "dependencies": [
                 {
@@ -12779,7 +12783,7 @@
                     "name": "classify_flaky_tests"
                 }
             ],
-            "last_checked_revision": "af7acb646cd96c1bbd6bb1686a5e260c9e02aec8\n"
+            "last_checked_revision": "36c7a7f6eca65daf1f2015a27016b550193e3a6a\n"
         },
         {
             "id": 30,
@@ -14161,7 +14165,7 @@
             "id": 36,
             "url": "https://github.com/PrefectHQ/prefect",
             "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
-            "stars": 22632,
+            "stars": 23634,
             "source_graph_repo_id": 37910275,
             "dependencies": [
                 {
@@ -14821,7 +14825,7 @@
                     "name": "types_aiobotocore_logs"
                 }
             ],
-            "last_checked_revision": "ed602f1862dbad4820c985fefae1c6175a38e491\n"
+            "last_checked_revision": "ff0ac9ed3451c9c3e2e3dfa94e3c50cf0d4b40f3\n"
         },
         {
             "id": 37,
@@ -15209,7 +15213,7 @@
             "id": 38,
             "url": "https://github.com/jina-ai/clip-as-service",
             "description": "\ud83c\udfc4 Scalable embedding, reasoning, ranking for images and sentences with CLIP",
-            "stars": 12828,
+            "stars": 12834,
             "source_graph_repo_id": 37066110,
             "dependencies": [
                 {
@@ -16817,7 +16821,7 @@
                     "name": "lfx_google"
                 }
             ],
-            "last_checked_revision": "12b09ff4113bd1726a2ad56e96e67963312406f8\n"
+            "last_checked_revision": "7a975c596eca6b596f0c19bd1374843ddbec12e2\n"
         },
         {
             "id": 43,
@@ -17761,7 +17765,7 @@
                     "name": "reflex_release"
                 }
             ],
-            "last_checked_revision": "7e57be7479c774a76e0075899c94db6582bcc187\n"
+            "last_checked_revision": "27460683b210142841244d67c8c58365d202185a\n"
         },
         {
             "id": 47,
@@ -18437,7 +18441,7 @@
                     "name": "oxmsg"
                 }
             ],
-            "last_checked_revision": "e84738b9a291539f37b8425ddf18a83a8e034f8f\n"
+            "last_checked_revision": "e50a5bce643976a637c1a36b34fbc58a25685a9f\n"
         },
         {
             "id": 51,
@@ -19779,7 +19783,7 @@
             "id": 53,
             "url": "https://github.com/ludwig-ai/ludwig",
             "description": "Low-code framework for building custom LLMs, neural networks, and other AI models",
-            "stars": 11719,
+            "stars": 11748,
             "source_graph_repo_id": 37625913,
             "dependencies": [
                 {
@@ -20161,7 +20165,7 @@
             "id": 54,
             "url": "https://github.com/laramies/theHarvester",
             "description": "E-mails, subdomains and names Harvester - OSINT ",
-            "stars": 16309,
+            "stars": 17102,
             "source_graph_repo_id": 13615,
             "dependencies": [
                 {
@@ -20285,7 +20289,7 @@
                     "name": "winloop"
                 }
             ],
-            "last_checked_revision": "7034c7e450c9d9b2bdc51b9a23ce6c7fb55bb846\n"
+            "last_checked_revision": "57507bb0c27fa42890dbeb332adce2a4449ecb35\n"
         },
         {
             "id": 55,
@@ -21809,7 +21813,7 @@
                     "name": "pyroscope"
                 }
             ],
-            "last_checked_revision": "cd724d81160a31a1f6ff4cf55851f99643f89ece\n"
+            "last_checked_revision": "b720491d2346643528b8a405cf363d155af8cc3c\n"
         },
         {
             "id": 59,
@@ -22611,7 +22615,7 @@
             "id": 61,
             "url": "https://github.com/cortexlabs/cortex",
             "description": "Production infrastructure for machine learning at scale",
-            "stars": 8012,
+            "stars": 8010,
             "source_graph_repo_id": 39958573,
             "dependencies": [
                 {
@@ -22993,7 +22997,7 @@
                     "name": "perplexity"
                 }
             ],
-            "last_checked_revision": "75459777ca0ac6712dd262fe9b041446ed308f4a\n"
+            "last_checked_revision": "f787b8db833811f2f48e7e6b20c78cba02d65872\n"
         },
         {
             "id": 63,
@@ -23211,7 +23215,7 @@
                     "name": "scim2_server"
                 }
             ],
-            "last_checked_revision": "91aea17225c643dcbe238f9b9e9d09edf852f793\n"
+            "last_checked_revision": "2cd7885c0640854e41789075818acd2dfd42dd1c\n"
         },
         {
             "id": 64,
@@ -24893,7 +24897,7 @@
                     "name": "nftables"
                 }
             ],
-            "last_checked_revision": "06424670fa5d60fee851f58bfc49f66086d5f0a6\n"
+            "last_checked_revision": "02552ffefdf0869f988edf4a7e03822e8b467b34\n"
         },
         {
             "id": 71,
@@ -25435,7 +25439,7 @@
             "id": 75,
             "url": "https://github.com/github/codeql",
             "description": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security",
-            "stars": 9714,
+            "stars": 9966,
             "source_graph_repo_id": 36573299,
             "dependencies": [
                 {
@@ -26487,7 +26491,7 @@
                     "name": "AntiSSRF"
                 }
             ],
-            "last_checked_revision": "97e3d36ee893fd3072f760a216be742d545f748b\n"
+            "last_checked_revision": "05c40eafe6fb4cc88c764703a855714c281bf1e1\n"
         },
         {
             "id": 76,
@@ -27321,7 +27325,7 @@
                     "name": "clickhouse_connect"
                 }
             ],
-            "last_checked_revision": "843b00ad932004bcaa51e063f7ac84d876c37303\n"
+            "last_checked_revision": "8b891aadc76e0727c2aae013b576bb9bbf38699a\n"
         },
         {
             "id": 79,
@@ -29043,13 +29047,13 @@
                     "name": "wsproto"
                 }
             ],
-            "last_checked_revision": "92e80fca8a6bce348e49fd80aa7264147b4c223c\n"
+            "last_checked_revision": "d47cb2485a791eb1f4933f7a507cbb9cfdad6848\n"
         },
         {
             "id": 88,
             "url": "https://github.com/jesse-ai/jesse",
             "description": "An advanced crypto trading bot written in Python",
-            "stars": 8057,
+            "stars": 8341,
             "source_graph_repo_id": 38751220,
             "dependencies": [
                 {
@@ -29581,13 +29585,13 @@
                     "name": "reaktiv"
                 }
             ],
-            "last_checked_revision": "9b5133cae5c3eb4190ba8db583f349c053753785\n"
+            "last_checked_revision": "03ab44c40192e12a12a8023b979a2f61d31562f1\n"
         },
         {
             "id": 91,
             "url": "https://github.com/feast-dev/feast",
             "description": "The Open Source Feature Store for AI/ML",
-            "stars": 7095,
+            "stars": 7217,
             "source_graph_repo_id": 37346145,
             "dependencies": [
                 {
@@ -29963,6 +29967,10 @@
                     "name": "psycopg"
                 },
                 {
+                    "id": 1712,
+                    "name": "hvac"
+                },
+                {
                     "id": 2360,
                     "name": "features"
                 },
@@ -30055,7 +30063,7 @@
                     "name": "aerospike_helpers"
                 }
             ],
-            "last_checked_revision": "5fd7af7d2b09abbafd06e7a2fbc616616a1060e3\n"
+            "last_checked_revision": "6a4690a1fc837e8afb537ebd60b6f93bc9e7d02e\n"
         },
         {
             "id": 92,
@@ -32159,7 +32167,7 @@
             "id": 102,
             "url": "https://github.com/elastic/elasticsearch-py",
             "description": "Official Python client for Elasticsearch",
-            "stars": 4373,
+            "stars": 4385,
             "source_graph_repo_id": 48877,
             "dependencies": [
                 {
@@ -34217,7 +34225,7 @@
                     "name": "httpx_curl_cffi"
                 }
             ],
-            "last_checked_revision": "48e551d9b368a6ed36dafdd587519f916d3d13f0\n"
+            "last_checked_revision": "9aff08975f65adb323484429f78bdac8ea412ff3\n"
         },
         {
             "id": 114,
@@ -34497,7 +34505,7 @@
             "id": 115,
             "url": "https://github.com/strawberry-graphql/strawberry",
             "description": "A GraphQL library for Python that leverages type annotations \ud83c\udf53",
-            "stars": 4675,
+            "stars": 4704,
             "source_graph_repo_id": 38023634,
             "dependencies": [
                 {
@@ -35916,7 +35924,7 @@
                     "name": "managed_deepagents"
                 }
             ],
-            "last_checked_revision": "be81dfac37950087792f10c32302303e9388a5d6\n"
+            "last_checked_revision": "4e6b33945005f49fa9d205897c518d6c4cc82991\n"
         },
         {
             "id": 124,
@@ -36364,7 +36372,7 @@
             "id": 127,
             "url": "https://github.com/onyx-dot-app/onyx",
             "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
-            "stars": 31641,
+            "stars": 31650,
             "source_graph_repo_id": 60993144,
             "dependencies": [
                 {
@@ -36760,6 +36768,10 @@
                     "name": "jwt"
                 },
                 {
+                    "id": 1067,
+                    "name": "dns"
+                },
+                {
                     "id": 1068,
                     "name": "docx"
                 },
@@ -37084,7 +37096,7 @@
                     "name": "onyx_client"
                 }
             ],
-            "last_checked_revision": "3874c57e9bb0e75fecfa19f694c648f9df78d15e\n"
+            "last_checked_revision": "cec6accb5c7a7e3a61a1868127ef0102b86a46b4\n"
         },
         {
             "id": 128,
@@ -38792,7 +38804,7 @@
             "id": 135,
             "url": "https://github.com/holoviz/panel",
             "description": "Panel: The powerful data exploration & web app framework for Python",
-            "stars": 5705,
+            "stars": 5733,
             "source_graph_repo_id": 36685859,
             "dependencies": [
                 {
@@ -39172,7 +39184,7 @@
                     "name": "vl_convert"
                 }
             ],
-            "last_checked_revision": "95c0be7b4e57aea92dc9df556d79f3be46fc6f49\n"
+            "last_checked_revision": "ba74d23bd29c1cdd5fa020d14d21a2bdf54c8367\n"
         },
         {
             "id": 136,
@@ -40002,7 +40014,7 @@
                     "name": "training_script"
                 }
             ],
-            "last_checked_revision": "067f4f7f5f979f2dada590fe01a5c2c3dcc1cbe8\n"
+            "last_checked_revision": "4cd0be89aee0ad0cc0cc2b237c28c3d490729e45\n"
         },
         {
             "id": 137,
@@ -41020,7 +41032,7 @@
                     "name": "mypy_boto3_dynamodb"
                 }
             ],
-            "last_checked_revision": "4128bb9a7c4bfea466f4d1c91ff9d3218c128192\n"
+            "last_checked_revision": "f5f3fa8664a5ff9a50148919004e9317dd446d5e\n"
         },
         {
             "id": 142,
@@ -41144,7 +41156,7 @@
             "id": 143,
             "url": "https://github.com/pantsbuild/pants",
             "description": "The Pants Build System",
-            "stars": 3774,
+            "stars": 3817,
             "source_graph_repo_id": 76555,
             "dependencies": [
                 {
@@ -41352,7 +41364,7 @@
                     "name": "external_tool"
                 }
             ],
-            "last_checked_revision": "aefa7d56dacc17f9348cf88c802ab77d8e2799ba\n"
+            "last_checked_revision": "e6d5d3b6c1096cc1f75bbbdf19d2be0ff40f797c\n"
         },
         {
             "id": 144,
@@ -42080,7 +42092,7 @@
                     "name": "fsdp_turbo"
                 }
             ],
-            "last_checked_revision": "f28afaf6355af515454dfb16c97d728307c93897\n"
+            "last_checked_revision": "ff6d4d12eeb035d6ce06805a5733dd7b29f2ac30\n"
         },
         {
             "id": 148,
@@ -43586,6 +43598,10 @@
                     "name": "typing_extensions"
                 },
                 {
+                    "id": 10,
+                    "name": "typer"
+                },
+                {
                     "id": 12,
                     "name": "pandas"
                 },
@@ -43616,6 +43632,10 @@
                 {
                     "id": 38,
                     "name": "pydantic"
+                },
+                {
+                    "id": 96,
+                    "name": "rich"
                 },
                 {
                     "id": 98,
@@ -43734,7 +43754,7 @@
                     "name": "cf_xarray"
                 }
             ],
-            "last_checked_revision": "22010db8df9418c40418dfe7136e985c899575b8\n"
+            "last_checked_revision": "d4733d71389da511fb3b4980185a85f80f3163e4\n"
         },
         {
             "id": 155,
@@ -45365,7 +45385,7 @@
                     "name": "autogluonserver"
                 }
             ],
-            "last_checked_revision": "842929019827b30d6df7dd9ed9be0e6e0f65c85d\n"
+            "last_checked_revision": "2f2afd581869c9db53c6f9ce75a2797743a934d6\n"
         },
         {
             "id": 163,
@@ -45697,7 +45717,7 @@
             "id": 166,
             "url": "https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker",
             "description": "Docker image with Uvicorn managed by Gunicorn for high-performance FastAPI web applications in Python with performance auto-tuning.",
-            "stars": 2911,
+            "stars": 2915,
             "source_graph_repo_id": 39960131,
             "dependencies": [
                 {
@@ -48104,7 +48124,7 @@
             "id": 178,
             "url": "https://github.com/mirumee/ariadne",
             "description": "Python library for implementing GraphQL servers using schema-first approach. Created with :heart: by Mirumee",
-            "stars": 2343,
+            "stars": 2342,
             "source_graph_repo_id": 36829930,
             "dependencies": [
                 {
@@ -48596,7 +48616,7 @@
                     "name": "anyascii"
                 }
             ],
-            "last_checked_revision": "e8120116cb6e4ae7a66e4d95e2a88e405500b73e\n"
+            "last_checked_revision": "080753ce0dde85d6acb37156301dddb8fabc7c4c\n"
         },
         {
             "id": 183,
@@ -49332,7 +49352,7 @@
                     "name": "gliner_server"
                 }
             ],
-            "last_checked_revision": "6e53c3060a159ac88f4fa0137f4d3359d6e6815f\n"
+            "last_checked_revision": "36c13016a7b5acfc65ce2039630c505986fbb480\n"
         },
         {
             "id": 187,
@@ -53996,7 +54016,7 @@
                     "name": "allure_commons"
                 }
             ],
-            "last_checked_revision": "f20556f3a8d592a6d22e6482a7a07b7f1299e2cf\n"
+            "last_checked_revision": "f38ed775d27a5f45463a03a54f91305152f0cb04\n"
         },
         {
             "id": 193,
@@ -54360,7 +54380,7 @@
                     "name": "fastapi_websocket_pubsub"
                 }
             ],
-            "last_checked_revision": "6498da1e130d66bedbf4975f7d12e2a384685fa6\n"
+            "last_checked_revision": "f6c3d831c172263f3dbdc7dedb50c1f90160a4b4\n"
         },
         {
             "id": 195,
@@ -54666,7 +54686,7 @@
                     "name": "step3p7_multimodal_native"
                 }
             ],
-            "last_checked_revision": "af23441b5beecdccca44f4c1b4c3807295af250e\n"
+            "last_checked_revision": "e61c7ce88a2ea4f8d65207153ed34933187cefc4\n"
         },
         {
             "id": 198,
@@ -55042,7 +55062,7 @@
                     "name": "httpx_aiohttp"
                 }
             ],
-            "last_checked_revision": "5dbcbd950a18c0fe7652bc95af16dfce01022be0\n"
+            "last_checked_revision": "016b244b8f07e83202729139a86389f6c7bac8ad\n"
         },
         {
             "id": 200,
@@ -55508,7 +55528,7 @@
                     "name": "zhconv_rs"
                 }
             ],
-            "last_checked_revision": "4dc713f02fac12c788878363a4fbd5b5fd4ab45d\n"
+            "last_checked_revision": "91d339a8dddff8959ed33a090c439015a265fd21\n"
         },
         {
             "id": 201,
@@ -57280,7 +57300,7 @@
             "id": 208,
             "url": "https://github.com/labmlai/labml",
             "description": "\ud83d\udd0e Monitor deep learning model training and hardware usage from your mobile phone \ud83d\udcf1",
-            "stars": 2322,
+            "stars": 2324,
             "source_graph_repo_id": 40116032,
             "dependencies": [
                 {
@@ -57482,7 +57502,7 @@
             "id": 209,
             "url": "https://github.com/getsentry/sentry-python",
             "description": "The official Python SDK for Sentry.io",
-            "stars": 2193,
+            "stars": 2202,
             "source_graph_repo_id": 36339871,
             "dependencies": [
                 {
@@ -58516,7 +58536,7 @@
                     "name": "giteapy"
                 }
             ],
-            "last_checked_revision": "1eea001187afc7cbbdd055f6bc1347917e7b509a\n"
+            "last_checked_revision": "89b038d443c92f7fa5cd7943ee917a0351884343\n"
         },
         {
             "id": 215,
@@ -58974,11 +58994,15 @@
                     "name": "custom_module"
                 },
                 {
+                    "id": 12765,
+                    "name": "gepa"
+                },
+                {
                     "id": 20160,
                     "name": "deno"
                 }
             ],
-            "last_checked_revision": "aa9d2d0538ae67bb81d8fe56ed0daa9e9b57ac7b\n"
+            "last_checked_revision": "822f393194b845d292db89b71f6b39edf4f13e80\n"
         },
         {
             "id": 216,
@@ -60888,7 +60912,7 @@
             "id": 224,
             "url": "https://github.com/Kludex/mangum",
             "description": "AWS Lambda support for ASGI applications",
-            "stars": 2124,
+            "stars": 2131,
             "source_graph_repo_id": 40057464,
             "dependencies": [
                 {
@@ -64378,7 +64402,7 @@
                     "name": "vllm_qdq_plugin"
                 }
             ],
-            "last_checked_revision": "295b56ac69511733762982091fef434fdc9a3d6a\n"
+            "last_checked_revision": "301b37af783e9b02188d828c623c29661976d7d5\n"
         },
         {
             "id": 246,
@@ -64712,7 +64736,7 @@
             "id": 248,
             "url": "https://github.com/sumerc/yappi",
             "description": "Yet Another Python Profiler, but this time multithreading, asyncio and gevent aware.",
-            "stars": 1715,
+            "stars": 1725,
             "source_graph_repo_id": 40124311,
             "dependencies": [
                 {
@@ -65372,7 +65396,7 @@
                     "name": "pytorchocr"
                 }
             ],
-            "last_checked_revision": "667d04c02998e7d5256a9369ecbf9da94a4e1c95\n"
+            "last_checked_revision": "9ceb3420f551643d6daaf2ae9e06d09c37edca6a\n"
         },
         {
             "id": 253,
@@ -66228,7 +66252,7 @@
                     "name": "check_artifacts"
                 }
             ],
-            "last_checked_revision": "153877787058b88f274abf950b11db749d676383\n"
+            "last_checked_revision": "36127deab0fa1c883adc24dcb17033a1cb5f2da1\n"
         },
         {
             "id": 255,
@@ -66872,7 +66896,7 @@
                     "name": "annotationlib"
                 }
             ],
-            "last_checked_revision": "99aba555d6f5f741f2f6686880181ddc43ff5c42\n"
+            "last_checked_revision": "7576ccead92135b25c09fc5353784bb1f53db0df\n"
         },
         {
             "id": 261,
@@ -67590,7 +67614,7 @@
                     "name": "pyspdx"
                 }
             ],
-            "last_checked_revision": "15983bd0f99d0a23c87717b53903d4b79fd1a3e0\n"
+            "last_checked_revision": "9f91c2b27246b9e867a0a76a93c683221f4d34db\n"
         },
         {
             "id": 262,
@@ -67742,7 +67766,7 @@
             "id": 263,
             "url": "https://github.com/piccolo-orm/piccolo",
             "description": "A fast, user friendly ORM and query builder which supports asyncio.",
-            "stars": 1913,
+            "stars": 1937,
             "source_graph_repo_id": 41254928,
             "dependencies": [
                 {
@@ -69082,7 +69106,7 @@
                     "name": "dapr"
                 }
             ],
-            "last_checked_revision": "f337722b406a95ae9fab932f1294b09f824ca20f\n"
+            "last_checked_revision": "5958a7e19a04e199326a6c5321bdd7714ee83b4c\n"
         },
         {
             "id": 275,
@@ -70068,7 +70092,7 @@
                     "name": "fastapi_cloudevents"
                 }
             ],
-            "last_checked_revision": "6d7fdebb485ea3bd77844a37cbeab8877489a6a8\n"
+            "last_checked_revision": "1285eeab5cac77059e1821fb5342795a5df7af2e\n"
         },
         {
             "id": 280,
@@ -71548,7 +71572,7 @@
                     "name": "timesfm"
                 }
             ],
-            "last_checked_revision": "f90cd0d6edab4537dce01ff18ead0d00efb76e93\n"
+            "last_checked_revision": "7ac54985e450b33f7706cda628225363ddac9daf\n"
         },
         {
             "id": 288,
@@ -73810,7 +73834,7 @@
                     "name": "redisvl"
                 }
             ],
-            "last_checked_revision": "e5e7b7f49a7e4fc0a2cfeef5959f86b26ad5ce9a\n"
+            "last_checked_revision": "1c554002931dd6f83c6e2b8a0ef25ce5a7957a85\n"
         },
         {
             "id": 301,
@@ -74592,7 +74616,7 @@
                     "name": "smg_grpc_proto"
                 }
             ],
-            "last_checked_revision": "382bc1051b24c731387ba52ed59c4cc0b7599bd3\n"
+            "last_checked_revision": "19a442db5f9718cf06c03b08a44e46fbe1454024\n"
         },
         {
             "id": 306,
@@ -75721,7 +75745,7 @@
                     "name": "fastapi_oidc"
                 }
             ],
-            "last_checked_revision": "2757f30d8a43163bb1b1374bc5aaa89ef984d5ae\n"
+            "last_checked_revision": "eb2cfef111ab21ac25ce5d2b665d94ad0a3ebb56\n"
         },
         {
             "id": 317,
@@ -78785,7 +78809,7 @@
                     "name": "mssql_python"
                 }
             ],
-            "last_checked_revision": "839c5b2caface322045441d41c74f528a508998e\n"
+            "last_checked_revision": "7bd09efb146c3c7f0a49ca3389833294cf2ddceb\n"
         },
         {
             "id": 341,
@@ -79789,7 +79813,7 @@
                     "name": "_truss_shared"
                 }
             ],
-            "last_checked_revision": "441129f98af274f111bc7f9efae0c4ad52dcfb31\n"
+            "last_checked_revision": "0bee989b9ec85ed9d29374ab4d7e2883e49de87e\n"
         },
         {
             "id": 345,
@@ -83349,7 +83373,7 @@
                     "name": "click_default_group"
                 }
             ],
-            "last_checked_revision": "478ad29132216feb21d1a5606baaad7c491dc7a6\n"
+            "last_checked_revision": "2a775b0d120410725e43d74a81437c00031cb047\n"
         },
         {
             "id": 381,
@@ -84309,7 +84333,7 @@
                     "name": "stripe_config"
                 }
             ],
-            "last_checked_revision": "dc59047d53b57a6c6ea8c720798410e730fadfbf\n"
+            "last_checked_revision": "42db4b384b75ef2c8783f677de4cb89a8c68730f\n"
         },
         {
             "id": 392,
@@ -88373,7 +88397,7 @@
                     "name": "zmqtt"
                 }
             ],
-            "last_checked_revision": "31e9e5a840fdbe18fe4a9b2d7c5d988ebfe618cb\n"
+            "last_checked_revision": "0f11b37ff3b1758b406b07ed4404934fa71dd7d4\n"
         },
         {
             "id": 420,
@@ -88919,7 +88943,7 @@
                     "name": "httpx2"
                 }
             ],
-            "last_checked_revision": "b4e7e098f81c3713798a5747c76e87f8c03b1e7e\n"
+            "last_checked_revision": "7b794faf874169d78ad56ba0f4da8365aee75b5c\n"
         },
         {
             "id": 423,
@@ -89453,7 +89477,7 @@
                     "name": "startup"
                 }
             ],
-            "last_checked_revision": "7f5764660d1a670bd9baf62c31841bdb3fe38ea3\n"
+            "last_checked_revision": "42fcf2764b824cf896d5fcd3117bd01e4f76ab99\n"
         },
         {
             "id": 426,
@@ -92643,7 +92667,7 @@
                     "name": "_ddtrace_internal"
                 }
             ],
-            "last_checked_revision": "3b40799da0b1743f11038daa55639a74283d3bc2\n"
+            "last_checked_revision": "4c6a9e3603f1b10b7531c2e49cfef8264c418a72\n"
         },
         {
             "id": 441,
@@ -93521,7 +93545,7 @@
                     "name": "flipt_client"
                 }
             ],
-            "last_checked_revision": "2cd177ee95d7b831a59feeadab6662e4e7a1d7b4\n"
+            "last_checked_revision": "b1fa4438b5d30a3db1c06d27d0458907508ceab3\n"
         },
         {
             "id": 444,
@@ -95163,7 +95187,7 @@
                     "name": "twelvelabs"
                 }
             ],
-            "last_checked_revision": "a76799a1ded719ffb779d6d3df15d8474f00e7f0\n"
+            "last_checked_revision": "7b6a81bb74298204cada8a956fc1b0212cf50dfc\n"
         },
         {
             "id": 459,
@@ -99019,6 +99043,10 @@
                     "name": "uvicorn"
                 },
                 {
+                    "id": 37,
+                    "name": "httpx"
+                },
+                {
                     "id": 38,
                     "name": "pydantic"
                 },
@@ -99227,6 +99255,10 @@
                     "name": "sslpsk_pmd3"
                 },
                 {
+                    "id": 6597,
+                    "name": "asgi_webdav"
+                },
+                {
                     "id": 6628,
                     "name": "shellingham"
                 },
@@ -99271,7 +99303,7 @@
                     "name": "pmd_pytcp"
                 }
             ],
-            "last_checked_revision": "e83c65bed8e63a17431350b3cf1e64d4c03a217d\n"
+            "last_checked_revision": "5ab6e805e681df98422048068d770e9755eb123f\n"
         },
         {
             "id": 471,
@@ -99551,7 +99583,7 @@
                     "name": "js2py_"
                 }
             ],
-            "last_checked_revision": "444e0eefb6c97d2718e5298d0f93dd6dec5337ee\n"
+            "last_checked_revision": "b52967cf773f1216870be31711914c4ef529461c\n"
         },
         {
             "id": 473,
@@ -100193,7 +100225,7 @@
                     "name": "cloud"
                 }
             ],
-            "last_checked_revision": "9ef9093922a42aacf075319a6e9a043e64f23f2d\n"
+            "last_checked_revision": "d6df7342459c0355e564a9a01a939c09e18bd690\n"
         },
         {
             "id": 476,
@@ -104284,7 +104316,7 @@
                     "name": "connectrpc"
                 }
             ],
-            "last_checked_revision": "93ddaff140a4d446619a333f5d0270fc9be729da\n"
+            "last_checked_revision": "5cbd1710a19290dfc5eee7cdbf2dab05ce27ed53\n"
         },
         {
             "id": 500,
@@ -105034,7 +105066,7 @@
                     "name": "immich_ml"
                 }
             ],
-            "last_checked_revision": "225ca9ab8dfbddc8a9cce4a2a0b4165ef1c6937b\n"
+            "last_checked_revision": "7918ad9f79235b436210b3946f135f1b7349d955\n"
         },
         {
             "id": 507,
@@ -111495,7 +111527,7 @@
                     "name": "vllm_bnb_plugin"
                 }
             ],
-            "last_checked_revision": "c296851a7d173fa89d2eefbca0243be42ae9b5e0\n"
+            "last_checked_revision": "f1178f3a06fa30a0cc282376924210cedad08c44\n"
         },
         {
             "id": 530,
@@ -112530,7 +112562,7 @@
                     "name": "PyNvVideoCodec"
                 }
             ],
-            "last_checked_revision": "a6caf5e75f76a31c6cc41eb167c01ef0a2e23f76\n"
+            "last_checked_revision": "aa9306bd8e3c674c3c0a324635307b7272eb54ef\n"
         },
         {
             "id": 536,
@@ -113505,7 +113537,7 @@
                     "name": "claude_code"
                 }
             ],
-            "last_checked_revision": "175b639bc3dd05eb59ce0414b0f3b6a096eb04be\n"
+            "last_checked_revision": "b19d59be09b9d2095193feb0deca61731b3f310d\n"
         },
         {
             "id": 540,
@@ -114077,7 +114109,7 @@
             "id": 543,
             "url": "https://github.com/rapid7/metasploit-framework",
             "description": "Metasploit Framework",
-            "stars": 38240,
+            "stars": 38827,
             "source_graph_repo_id": 69744,
             "dependencies": [
                 {
@@ -114145,7 +114177,7 @@
                     "name": "killerbee"
                 }
             ],
-            "last_checked_revision": "9f74eb0a48ca7f8039c2618e359c2e80f998ac89\n"
+            "last_checked_revision": "73737ce70ac6ed44411c09ba95b3a7d3f5f3ee8a\n"
         },
         {
             "id": 544,
@@ -115015,7 +115047,7 @@
                     "name": "tile_kernels"
                 }
             ],
-            "last_checked_revision": "53714ad021d9ce4768fe35d211380fb40018f589\n"
+            "last_checked_revision": "424593be56722707c3e4fa8d8b80696c5cea52f3\n"
         },
         {
             "id": 547,
@@ -115914,7 +115946,7 @@
                     "name": "wexpect"
                 }
             ],
-            "last_checked_revision": "6292fdf818a9f46fa89f81dc6245980cfeb068e3\n"
+            "last_checked_revision": "abd58f0def5f2e60c69d10584c7fc2bb109e4a6b\n"
         },
         {
             "id": 553,
@@ -117658,7 +117690,7 @@
                     "name": "pycatch22"
                 }
             ],
-            "last_checked_revision": "4aa79da4ff18ae78e9e65725431cac809196a9ef\n"
+            "last_checked_revision": "2542979f3f771842e0a2d683fec15b0f02e9151d\n"
         },
         {
             "id": 563,
@@ -118198,7 +118230,7 @@
             "id": 568,
             "url": "https://github.com/mem0ai/mem0",
             "description": "Universal memory layer for AI Agents",
-            "stars": 63460,
+            "stars": 63541,
             "source_graph_repo_id": 61225118,
             "dependencies": [
                 {
@@ -119091,7 +119123,7 @@
                     "name": "stamina"
                 }
             ],
-            "last_checked_revision": "5a1bbb7ac280abe8bec845674487413698ba5487\n"
+            "last_checked_revision": "5d9e459279784d21c3fd48eee7ea527783016087\n"
         },
         {
             "id": 572,
@@ -122897,7 +122929,7 @@
                     "name": "abnumber"
                 }
             ],
-            "last_checked_revision": "41722ae0f179117249c99d2e555e2112a88915c2\n"
+            "last_checked_revision": "2b6097cbbb6eade319ba07adeae5186f3824da40\n"
         },
         {
             "id": 589,
@@ -123331,7 +123363,7 @@
                     "name": "seltz"
                 }
             ],
-            "last_checked_revision": "786c4fe39a3fd7b595d3220a08676e9af78f4143\n"
+            "last_checked_revision": "e0c2a34369d1fad25a709ed80f69c67d51883681\n"
         },
         {
             "id": 590,
@@ -123513,7 +123545,7 @@
                     "name": "djangoblog"
                 }
             ],
-            "last_checked_revision": "7da48661de8a89035023ec5074efb28b632e3504\n"
+            "last_checked_revision": "44c8c9ff2dfa4399b8b353449b5a49942f3326cf\n"
         },
         {
             "id": 591,
@@ -127205,7 +127237,7 @@
                     "name": "sky_sandbox"
                 }
             ],
-            "last_checked_revision": "e1284fc8d4bed0d757c930abd983b6df38418b64\n"
+            "last_checked_revision": "bbd40375a6ff7cb12cb6e12cf42ceeb5be20073b\n"
         },
         {
             "id": 607,
@@ -136012,6 +136044,10 @@
                     "name": "fla"
                 },
                 {
+                    "id": 8389,
+                    "name": "causal_conv1d"
+                },
+                {
                     "id": 8414,
                     "name": "llist"
                 },
@@ -136448,7 +136484,7 @@
                     "name": "periodic_junit"
                 }
             ],
-            "last_checked_revision": "29d774315c7560d7846562e5325ae3a81a814471\n"
+            "last_checked_revision": "849c9eb375bdc21ad7c49e1c552c2f7007b3c085\n"
         },
         {
             "id": 637,
@@ -137684,7 +137720,7 @@
                     "name": "ctranslate2"
                 }
             ],
-            "last_checked_revision": "2458f7339df4d90643cdc6eb3fbbe968cd73ac78\n"
+            "last_checked_revision": "2a5cd0ea68268bab49dc96d4d480bfe4fa22a38e\n"
         },
         {
             "id": 643,
@@ -139598,7 +139634,7 @@
                     "name": "minicpmo"
                 }
             ],
-            "last_checked_revision": "1a1ba3ee86488af323ef9b64ca3d34edee90ab11\n"
+            "last_checked_revision": "302b074dd4e8886ba98d7797899fcd993f41ae14\n"
         },
         {
             "id": 654,
@@ -142070,7 +142106,7 @@
                     "name": "weave_server_sdk"
                 }
             ],
-            "last_checked_revision": "af911c812ef2a0c85cf9953207536c9cf1685651\n"
+            "last_checked_revision": "7ac030afc10930d578c57d86dc4253b9a45e5a05\n"
         },
         {
             "id": 668,
@@ -143468,7 +143504,7 @@
                     "name": "psutil"
                 }
             ],
-            "last_checked_revision": "785d9a21b078c61625d86c8137f18ed83f106bf3\n"
+            "last_checked_revision": "cb509a82e55778d5faefa9d872aacb3ee8c225ea\n"
         },
         {
             "id": 681,
@@ -144490,7 +144526,7 @@
                     "name": "scheduler"
                 }
             ],
-            "last_checked_revision": "6fd64f9ed441abeaad5e9c6831a0c7c3dacc2a23\n"
+            "last_checked_revision": "8d65e53e7c7b60f43cc258b9aa703ddf2d3ac782\n"
         },
         {
             "id": 690,
@@ -145034,7 +145070,7 @@
                     "name": "audit_server"
                 }
             ],
-            "last_checked_revision": "9e99d997b5bf8acdff57a4feb36ab737848bf371\n"
+            "last_checked_revision": "1b73f539de20599da992aa87b2f0fe9fe99ecc62\n"
         },
         {
             "id": 692,
@@ -147408,7 +147444,7 @@
                     "name": "brainstorming_session"
                 }
             ],
-            "last_checked_revision": "a5764139386c2502e85fcfa0ebc36e896ba04075\n"
+            "last_checked_revision": "375d8081c48c63f32ef969899cd43f95abe3d268\n"
         },
         {
             "id": 711,
@@ -148430,7 +148466,7 @@
                     "name": "badkeys"
                 }
             ],
-            "last_checked_revision": "b254617e975b942df2e2a7116a89027aa6736802\n"
+            "last_checked_revision": "2f7a8c4c3cdcbb5c62df6a7e48a568fb07f52574\n"
         },
         {
             "id": 718,
@@ -149600,7 +149636,7 @@
                     "name": "event_pb2"
                 }
             ],
-            "last_checked_revision": "9397d7a98596bf4c6fc0c0d556af58f5b487bfdb\n"
+            "last_checked_revision": "48db4382aed78068962cdaabacf89aff84e2b17a\n"
         },
         {
             "id": 731,
@@ -150330,7 +150366,7 @@
                     "name": "vpp_papi"
                 }
             ],
-            "last_checked_revision": "de57cd205cfd846eb1689967af0dccc3f764b22c\n"
+            "last_checked_revision": "fb4317a143c6d58d5a2497b0f206554d5a9d7b0a\n"
         },
         {
             "id": 736,
@@ -154180,7 +154216,7 @@
                     "name": "shelved_cache"
                 }
             ],
-            "last_checked_revision": "8a9209fbbe4e04c38aa3baa0357d16f88edb6255\n"
+            "last_checked_revision": "c1c6e9dcf59500bb7a9ac19ff0ee1499c060cec4\n"
         },
         {
             "id": 771,
@@ -154618,7 +154654,7 @@
                     "name": "generate_cli_docs"
                 }
             ],
-            "last_checked_revision": "13f714a15cabcca60240f547a7bbd4f7086829e4\n"
+            "last_checked_revision": "4ba2498c17df488a28746e640fd28db40b6600ef\n"
         },
         {
             "id": 772,
@@ -155520,7 +155556,7 @@
                     "name": "cudaq_pulse"
                 }
             ],
-            "last_checked_revision": "d44cacbd81da568bf1408ed1c3d80d4bf6f1b1a0\n"
+            "last_checked_revision": "0f7fac47e2e15666eb2dadfd499c3d74b5dc30cd\n"
         },
         {
             "id": 785,
@@ -159198,7 +159234,7 @@
                     "name": "thread_pool"
                 }
             ],
-            "last_checked_revision": "171c3ffa3072eff668dfda449d1d34da8ec15353\n"
+            "last_checked_revision": "fd7d9ea1a54508a9466e7e89fe8153c866593413\n"
         },
         {
             "id": 829,
@@ -169213,7 +169249,7 @@
                     "name": "markdown_pdf"
                 }
             ],
-            "last_checked_revision": "4725fdd3b4cdc0a47f39f51b6f4002d69249f512\n"
+            "last_checked_revision": "7d6579ad9cc675ae76b2bace7f472aa03f30bb51\n"
         },
         {
             "id": 915,
@@ -170067,7 +170103,7 @@
                     "name": "mypytest"
                 }
             ],
-            "last_checked_revision": "5220798bc0ce122366ac90e8cb374d6bf2a3057b\n"
+            "last_checked_revision": "7387f91a9510f44f095cbad40d634f515aceb5f6\n"
         },
         {
             "id": 916,
@@ -171345,7 +171381,7 @@
                     "name": "lighteval"
                 }
             ],
-            "last_checked_revision": "e3b4e1460e2a686e0ff765e6f67efa72b451f60e\n"
+            "last_checked_revision": "72e35afe7198fc05e00d3237eeb9055116f2b4eb\n"
         },
         {
             "id": 933,
@@ -174939,7 +174975,7 @@
                     "name": "modal_version"
                 }
             ],
-            "last_checked_revision": "6a841265ca9056f5a76f92c2a1e4f9688c46aa6d\n"
+            "last_checked_revision": "039c182aa72e293ebde1a543629c12149fec49d8\n"
         },
         {
             "id": 973,
@@ -180334,7 +180370,7 @@
                     "name": "polli_agent"
                 }
             ],
-            "last_checked_revision": "4108d1634e4e3701213e408cc5e774edbab5da94\n"
+            "last_checked_revision": "be8f7eec43f70adf98217b995af309650a66a210\n"
         },
         {
             "id": 1013,
@@ -181590,7 +181626,7 @@
                     "name": "fps_jupyterlab"
                 }
             ],
-            "last_checked_revision": "751b2f0ca5a71a593810ce3b2254418393585327\n"
+            "last_checked_revision": "65718111112b1170ac2313a22a3db24601ad7c9d\n"
         },
         {
             "id": 1023,
@@ -183673,7 +183709,7 @@
                     "name": "ERes2NetV2"
                 }
             ],
-            "last_checked_revision": "d523079fc05d9a8028d6085bffe4a2757c32abb6\n"
+            "last_checked_revision": "48b1a0169a28582a8984402f82cf438d3bfa6aca\n"
         },
         {
             "id": 1037,
@@ -184807,7 +184843,7 @@
                     "name": "quant_videogen"
                 }
             ],
-            "last_checked_revision": "9ffc2856fbee4409ed86dbf2cc115a544a2e4d5d\n"
+            "last_checked_revision": "ef490853bb89ed1867ebc6c9253d55edccc0ce3c\n"
         },
         {
             "id": 1038,
@@ -186903,7 +186939,7 @@
                     "name": "httpx2"
                 }
             ],
-            "last_checked_revision": "7d56b11e49c7edb313bbcf2503f2a6e804976209\n"
+            "last_checked_revision": "fc059451664616bc32ff6a7365e72b8048db0353\n"
         },
         {
             "id": 1058,
@@ -187095,7 +187131,7 @@
                     "name": "joserfc"
                 }
             ],
-            "last_checked_revision": "bc149635304b8c7b74d91b3d170563011cf2e690\n"
+            "last_checked_revision": "707e6b0c4a81402b288ef25d7998507d9265e6b6\n"
         },
         {
             "id": 1060,
@@ -189115,9 +189151,13 @@
                 {
                     "id": 18856,
                     "name": "i18n_locales"
+                },
+                {
+                    "id": 20358,
+                    "name": "fireredtts3"
                 }
             ],
-            "last_checked_revision": "1f3b2d5cd62ae7ca29b0d15160507b4a61363712\n"
+            "last_checked_revision": "e4e1bbf2871fe37dc3a62ebf25a00988bb709e61\n"
         },
         {
             "id": 1073,
@@ -189223,7 +189263,7 @@
                     "name": "results"
                 }
             ],
-            "last_checked_revision": "6e1f50c556e589da706e4652c0c1a371c533f879\n"
+            "last_checked_revision": "f39f20e4ebf1e375a54c2508d70be9e06848d053\n"
         },
         {
             "id": 1074,
@@ -190407,7 +190447,7 @@
                     "name": "_pyodide_core"
                 }
             ],
-            "last_checked_revision": "61d6a22cf3cd76ef620d04121fc9a36f55f455e5\n"
+            "last_checked_revision": "310788b1d51b395f142c699259215da7025e16c9\n"
         },
         {
             "id": 1078,
@@ -194911,7 +194951,7 @@
                     "name": "mdtopptx"
                 }
             ],
-            "last_checked_revision": "0a5affda6fea25ddecccf0ba0cf8bec3da489452\n"
+            "last_checked_revision": "cfa73d0ea904143f7b0983ff7894883284f98b57\n"
         },
         {
             "id": 1098,
@@ -195381,7 +195421,7 @@
                     "name": "libth_grammar_tokenizer_info"
                 }
             ],
-            "last_checked_revision": "6e5459a86ea2566c73847335f16d99205501bda4\n"
+            "last_checked_revision": "434aeadbacad2ebf199fa136f56d9747f8a965b3\n"
         },
         {
             "id": 1099,
@@ -196235,7 +196275,7 @@
             "id": 1104,
             "url": "https://github.com/buildroot/buildroot",
             "description": "Buildroot, making embedded Linux easy. Note that this is not the official repository, but only a mirror. The official Git repository is at https://gitlab.com/buildroot.org/buildroot/. Do not open issues or file pull requests here.",
-            "stars": 3476,
+            "stars": 3619,
             "source_graph_repo_id": 48207,
             "dependencies": [
                 {
@@ -196727,7 +196767,7 @@
                     "name": "pydal"
                 }
             ],
-            "last_checked_revision": "9e9110bf23a86d1e312e23fc19921cd911f53861\n"
+            "last_checked_revision": "7aba8ecc6aa74cc9c2604ac3bf5548d0d6c2687e\n"
         },
         {
             "id": 1105,
@@ -199827,7 +199867,7 @@
                     "name": "pulumi_tailscale"
                 }
             ],
-            "last_checked_revision": "03eebe30893574bd8e9e5b409dc6de4df9ca67e1\n"
+            "last_checked_revision": "40c09b266d44e9975e15289c42cc0c2ad8d14995\n"
         },
         {
             "id": 1125,
@@ -200441,7 +200481,7 @@
                     "name": "ifcopenshell_experimental"
                 }
             ],
-            "last_checked_revision": "511584b36f8d9858957b20b8ebb68c92d61d79b1\n"
+            "last_checked_revision": "1a6336bd207c8cdd2dc0013263a00b7eccb2a349\n"
         },
         {
             "id": 1126,
@@ -203261,7 +203301,7 @@
                     "name": "reo_census"
                 }
             ],
-            "last_checked_revision": "3759b52cfb88dd966f9c4b0301a5583a6180ad1b\n"
+            "last_checked_revision": "30e759af1f0ff1f4c062bc13f90c7236fae06c65\n"
         },
         {
             "id": 1130,
@@ -203819,7 +203859,7 @@
                     "name": "harvest"
                 }
             ],
-            "last_checked_revision": "f5113d09c2c1b4fcda532f180050603393e9bd49\n"
+            "last_checked_revision": "3f34fcf0c3ab1777f1a1420ee7e2f6fde04111d7\n"
         },
         {
             "id": 1131,
@@ -210172,7 +210212,7 @@
                     "name": "akari_bot_i18n"
                 }
             ],
-            "last_checked_revision": "dfa943b2e9a63fb74a583a79e60499c3ffe106ce\n"
+            "last_checked_revision": "0eac8e389aa4ccd5a036fa3edb85437b91cbd9ac\n"
         },
         {
             "id": 1185,
@@ -213858,7 +213898,7 @@
                     "name": "_jac_finder"
                 }
             ],
-            "last_checked_revision": "3f7fd4f46eee9afea5405c77a182e355fcd076ff\n"
+            "last_checked_revision": "6283f8186b89396a509cf13b675547c4f6036901\n"
         },
         {
             "id": 1210,
@@ -216427,7 +216467,7 @@
                     "name": "volview_server"
                 }
             ],
-            "last_checked_revision": "4130541757b260461c1820a573ef081d93dfbcb6\n"
+            "last_checked_revision": "45ca1a476edce10879aab8df7fcc35e132230541\n"
         },
         {
             "id": 1241,
@@ -217834,7 +217874,7 @@
                     "name": "sample_dataset"
                 }
             ],
-            "last_checked_revision": "5ce1f506b93da435140a7f8fcfd8519a87f3e242\n"
+            "last_checked_revision": "2a2730de20344b16ff5c609540ee5aea5c1d40f6\n"
         },
         {
             "id": 1251,
@@ -219282,7 +219322,7 @@
                     "name": "microsoft_teams"
                 }
             ],
-            "last_checked_revision": "ddd831c565e341ec76647fb7b1c99e62db1ab400\n"
+            "last_checked_revision": "d7710b5b1aba8dd178a563687d520b9a7f7beaa1\n"
         },
         {
             "id": 1266,
@@ -220078,7 +220118,7 @@
                     "name": "meta_merge"
                 }
             ],
-            "last_checked_revision": "12df9f5225552c456ebeebbab3e5aeb819db612a\n"
+            "last_checked_revision": "4eb37c8e0b0536da7dfe37e581cac82f3995a2a8\n"
         },
         {
             "id": 1270,
@@ -220437,7 +220477,7 @@
                     "name": "reducto"
                 }
             ],
-            "last_checked_revision": "ca5a1e21e482d2f4a0a273972e12bc671364c58d\n"
+            "last_checked_revision": "e6115a61809d7578950ba6b30d38b205369d912c\n"
         },
         {
             "id": 1274,
@@ -222403,7 +222443,7 @@
                     "name": "open_data_contract_standard"
                 }
             ],
-            "last_checked_revision": "6b4d4cf94bd50bbfe19212647ef579fd6f3f5997\n"
+            "last_checked_revision": "bdf6d613e78ea6e1cde73c51a0432ccc355f8a52\n"
         },
         {
             "id": 1287,
@@ -223969,7 +224009,7 @@
                     "name": "florence2_base_ft"
                 }
             ],
-            "last_checked_revision": "64f976fec8492ea4930c0e30c32369573189b23d\n"
+            "last_checked_revision": "557d882e184c7b702208cc7805659b10dfa06c59\n"
         },
         {
             "id": 1294,
@@ -224571,7 +224611,7 @@
                     "name": "base62"
                 }
             ],
-            "last_checked_revision": "c41bda23d6b648bf3a30422ab9d71bd7675caea1\n"
+            "last_checked_revision": "1916c9046c4e6a1e081be1ba06e278d182a40133\n"
         },
         {
             "id": 1295,
@@ -226268,7 +226308,7 @@
                     "name": "streamlit_tour"
                 }
             ],
-            "last_checked_revision": "b42e945b497176c823579f9b1895d9323446de23\n"
+            "last_checked_revision": "1339ee87c6336df2a599118f7d9e6f5fc09c2064\n"
         },
         {
             "id": 1304,
@@ -227720,7 +227760,7 @@
                     "name": "rate_limit"
                 }
             ],
-            "last_checked_revision": "176ff7efb35a960e004c030b9f0493a12984ec87\n"
+            "last_checked_revision": "5e84511715f1fbb351ae9ab7bf043cd39debc90d\n"
         },
         {
             "id": 1310,
@@ -229240,7 +229280,7 @@
                     "name": "pwinput"
                 }
             ],
-            "last_checked_revision": "6d50bc3dd2ff16a76618755e8f857442c215f808\n"
+            "last_checked_revision": "99b128873ffa578fc7b334d67715be184952ccfb\n"
         },
         {
             "id": 1320,
@@ -237003,7 +237043,7 @@
                     "name": "tree_sitter_rust"
                 }
             ],
-            "last_checked_revision": "2087fba0a6922eb16fa7716156ef5c938446c905\n"
+            "last_checked_revision": "7beb0519a442a41e30c52d7d56c132f788fc1f66\n"
         },
         {
             "id": 1392,
@@ -237657,7 +237697,7 @@
                     "name": "_shared"
                 }
             ],
-            "last_checked_revision": "983c205febedae5536c506e050c167381f60a6b8\n"
+            "last_checked_revision": "63392db20d558012752d317e0baec7b2abc61757\n"
         },
         {
             "id": 1395,
@@ -238467,7 +238507,7 @@
                     "name": "awkward"
                 }
             ],
-            "last_checked_revision": "7ff2b4d2ce4720cd49da50e5e902441d2b4b3d92\n"
+            "last_checked_revision": "df8dbed044afad4f080efba015eb7909146024c3\n"
         },
         {
             "id": 1396,
@@ -240558,11 +240598,15 @@
                     "name": "pydantic_monty"
                 },
                 {
+                    "id": 18247,
+                    "name": "httpx2"
+                },
+                {
                     "id": 18610,
                     "name": "bashkit"
                 }
             ],
-            "last_checked_revision": "8f31d5d541dca1f67e42bc91ce25e8474b4efe11\n"
+            "last_checked_revision": "2301e2dc16a878fa3da518d4d35f7c382803d51d\n"
         },
         {
             "id": 1408,
@@ -241240,7 +241284,7 @@
                     "name": "rstream"
                 }
             ],
-            "last_checked_revision": "56c12dad7117708c2a61a2233bcb16386898a49d\n"
+            "last_checked_revision": "56cf824fa62fa7c4708ec76be2b70c6fff17d2ab\n"
         },
         {
             "id": 1411,
@@ -242904,7 +242948,7 @@
                     "name": "baml_bridge"
                 }
             ],
-            "last_checked_revision": "9d24fbaeb0866d709afd83cae6a9579f99fe873d\n"
+            "last_checked_revision": "2bd9e073fc2fc9a8561e3cb382e5894bec871710\n"
         },
         {
             "id": 1421,
@@ -243430,7 +243474,7 @@
                     "name": "httpx2"
                 }
             ],
-            "last_checked_revision": "c9c336f37774e46ef1b0cd016ec7bb9233805527\n"
+            "last_checked_revision": "35c229c470d86ee8d14de2b7a814435297020ccb\n"
         },
         {
             "id": 1424,
@@ -244418,7 +244462,7 @@
                     "name": "check_source_boundary"
                 }
             ],
-            "last_checked_revision": "94733b08971121a6ad0a1ee853852a5c9f4eba34\n"
+            "last_checked_revision": "2689884a625736fa79bc79f42b22d389665c434c\n"
         },
         {
             "id": 1428,
@@ -244850,7 +244894,7 @@
                     "name": "swarm"
                 }
             ],
-            "last_checked_revision": "cc32c6eb656405faf067ebfcbe6b76eb8818b27f\n"
+            "last_checked_revision": "31522cf981bf51e884a94a794f94fe7aca56d9b3\n"
         },
         {
             "id": 1432,
@@ -246520,7 +246564,7 @@
                     "name": "rustwright"
                 }
             ],
-            "last_checked_revision": "ef7b59bdcc0c2c68a69cf9c650726452f0d7f750\n"
+            "last_checked_revision": "6a6b6383eb6a37d90b55df84dd29dc91c19ca0de\n"
         },
         {
             "id": 1439,
@@ -247432,7 +247476,7 @@
                     "name": "mmdit"
                 }
             ],
-            "last_checked_revision": "ea889af1cac8c7f7d8424c91a1134184f2ebdc53\n"
+            "last_checked_revision": "3b7fce9c695669222845854cdfd7cd58aac5eee1\n"
         },
         {
             "id": 1441,
@@ -247478,7 +247522,7 @@
                     "name": "scalar_ninja"
                 }
             ],
-            "last_checked_revision": "8cfa1e0aa405b8ff689c31cf0e144af4ae49fe3f\n"
+            "last_checked_revision": "4ad9f97810dd5a69bae2d5334286701dd6b0658a\n"
         },
         {
             "id": 1442,
@@ -248402,6 +248446,10 @@
                     "name": "aiohttp"
                 },
                 {
+                    "id": 31,
+                    "name": "yaml"
+                },
+                {
                     "id": 34,
                     "name": "uvicorn"
                 },
@@ -248442,7 +248490,7 @@
                     "name": "offat"
                 }
             ],
-            "last_checked_revision": "3a938a3ff37aa82a2d6c4e300f7d75af41ee9903\n"
+            "last_checked_revision": "c55b46b530e5c1ccc30b92abd7110eca57a069f5\n"
         },
         {
             "id": 1448,
@@ -249168,7 +249216,7 @@
                     "name": "wren_langchain"
                 }
             ],
-            "last_checked_revision": "28920e7e2689fa1af0494742fcc19edba42399ab\n"
+            "last_checked_revision": "7830cc746c11602d5899d8fdec1e28de4ce11a87\n"
         },
         {
             "id": 1455,
@@ -250374,7 +250422,7 @@
                     "name": "httpx2"
                 }
             ],
-            "last_checked_revision": "daaf9f2c5a16733cea5e1d44a9128e8abb92d1fc\n"
+            "last_checked_revision": "ba4d823be2ef11905a7e2b9dfa69176524a2303d\n"
         },
         {
             "id": 1465,
@@ -250786,7 +250834,7 @@
                     "name": "api2mdx"
                 }
             ],
-            "last_checked_revision": "dd02f478b350c269ab0dc36257b8e0fc294ed2d6\n"
+            "last_checked_revision": "41d433578653411dbff96c6eaca4fa869aafc931\n"
         },
         {
             "id": 1467,
@@ -254218,7 +254266,7 @@
                     "name": "microsoft_agents"
                 }
             ],
-            "last_checked_revision": "c028a0c7dc4f0814cdcbaba9d998f187a41197bf\n"
+            "last_checked_revision": "5e1f1fb87d9a38ed44683228dda2434a9b2f0ef9\n"
         },
         {
             "id": 1483,
@@ -254700,7 +254748,7 @@
                     "name": "foundrytrainingjob"
                 }
             ],
-            "last_checked_revision": "136d1a6565ed9cf849103b2ed144022da30930f0\n"
+            "last_checked_revision": "2be5c38c0baa406efd838513c745afb8f5edfb62\n"
         },
         {
             "id": 1484,
@@ -255230,7 +255278,7 @@
                     "name": "loudness"
                 }
             ],
-            "last_checked_revision": "26426f0d36ca6c32c221efc798674e87ed183045\n"
+            "last_checked_revision": "45a5b692b49772820a821b7a39bd8653c03f12bd\n"
         },
         {
             "id": 1485,
@@ -258340,7 +258388,7 @@
                     "name": "langchain_classic"
                 }
             ],
-            "last_checked_revision": "070dc66032730d9764cc353eea8ad15bbab4b45d\n"
+            "last_checked_revision": "d96462ce0dc15e43fe9cce568a1df1f6c47063ae\n"
         },
         {
             "id": 1498,
@@ -259305,7 +259353,7 @@
                     "name": "daily"
                 }
             ],
-            "last_checked_revision": "898b05d1a59c9bb33ab7b07ad4c286b01d60da9f\n"
+            "last_checked_revision": "38faa409b3e425b582573eaf0c5e8c3e0d2bda5e\n"
         },
         {
             "id": 1503,
@@ -260905,7 +260953,7 @@
                     "name": "platform_utils"
                 }
             ],
-            "last_checked_revision": "9941b3238121d215e80c3c4d995823059b6c1683\n"
+            "last_checked_revision": "423d3562a13769db290089a6b35fb1776979d096\n"
         },
         {
             "id": 1515,
@@ -263769,7 +263817,7 @@
                     "name": "decent_whisper"
                 }
             ],
-            "last_checked_revision": "606f3ce6063072905d9b432aba2f0e77f5b3d6a0\n"
+            "last_checked_revision": "7ccb87edf3abcb6093a3b0303e2eef5606fc8bc9\n"
         },
         {
             "id": 1536,
@@ -264101,7 +264149,7 @@
             "id": 1539,
             "url": "https://github.com/HIT-SCIR/ltp",
             "description": "Language Technology Platform",
-            "stars": 5245,
+            "stars": 5256,
             "source_graph_repo_id": 360508,
             "dependencies": [
                 {
@@ -264643,7 +264691,7 @@
                     "name": "sa_empty_plugin"
                 }
             ],
-            "last_checked_revision": "5e4eedfc25450f1896c68194ce7e19e4fe10f5f9\n"
+            "last_checked_revision": "3f8b3c5866c4a7ec495caded86b70ae9457dd876\n"
         },
         {
             "id": 1543,
@@ -269085,7 +269133,7 @@
                     "name": "desktop_backend"
                 }
             ],
-            "last_checked_revision": "a5c7455bb4f4cdfce1ab02992f27d52f41620fc9\n"
+            "last_checked_revision": "3265e65b9cf94cf0b0b55a4aa33d08dd33df5634\n"
         },
         {
             "id": 1564,
@@ -270565,7 +270613,7 @@
                     "name": "_validate_dataloader"
                 }
             ],
-            "last_checked_revision": "d0a07c056b6601f8cbee893d45e23a2599550fed\n"
+            "last_checked_revision": "e0a284b67db4da54f90a7873dd723aa2106a503e\n"
         },
         {
             "id": 1568,
@@ -271985,7 +272033,7 @@
                     "name": "composio_google_adk"
                 }
             ],
-            "last_checked_revision": "40a6db796f394c53dfd927000107c8ebcd74118e\n"
+            "last_checked_revision": "9fe68b96f0a7b79edfb65a660f4a85885a9a19fb\n"
         },
         {
             "id": 1572,
@@ -274823,7 +274871,7 @@
                     "name": "funasr_onnx"
                 }
             ],
-            "last_checked_revision": "b054623cca8f015b73ec471dce4f473ac47413da\n"
+            "last_checked_revision": "6991744856587fa44379e8b5dcc432debffeb1be\n"
         },
         {
             "id": 1585,
@@ -275707,7 +275755,7 @@
                     "name": "openai"
                 }
             ],
-            "last_checked_revision": "a0b1ffc536ec06b2919b6958278a74113175b151\n"
+            "last_checked_revision": "2174f202c21f86a44124a11baea8baa29f5dd0e5\n"
         },
         {
             "id": 1589,
@@ -276382,7 +276430,7 @@
                     "name": "tracecat_benchmark"
                 }
             ],
-            "last_checked_revision": "1da998c7f6751e91150a9aaf2badf15af235936a\n"
+            "last_checked_revision": "8f1cec9f9fe31d258c9ab45db3125e6abf1f0024\n"
         },
         {
             "id": 1595,
@@ -276852,7 +276900,7 @@
                     "name": "hyperpod_cli"
                 }
             ],
-            "last_checked_revision": "b6eb059fcacd782f179892e80e1a046bd239226d\n"
+            "last_checked_revision": "fd775cd1f38430e7678f5205340c6c026b124779\n"
         },
         {
             "id": 1596,
@@ -278116,7 +278164,7 @@
                     "name": "k8s_agent_sandbox"
                 }
             ],
-            "last_checked_revision": "175e8474dafad5324d585c5c198a82f5d5a27a40\n"
+            "last_checked_revision": "aac52c96876b8d267f062256aad2bceff731e809\n"
         },
         {
             "id": 1602,
@@ -281052,7 +281100,7 @@
                     "name": "MicrosoftGraphFilesApiModule"
                 }
             ],
-            "last_checked_revision": "2c0ed411c03767d7463e1d2b5f3cda90906a3e79\n"
+            "last_checked_revision": "39819bd9dfdbfc80dedfb0ee48200667d7b3a263\n"
         },
         {
             "id": 1612,
@@ -282826,7 +282874,7 @@
                     "name": "check_ts_sdk_docs_package_version_in_sync"
                 }
             ],
-            "last_checked_revision": "7c34d3097eba77910ec7ea4b121741704b890e50\n"
+            "last_checked_revision": "ae54b2be5ee4572a8336da6f0f419194ce294966\n"
         },
         {
             "id": 1615,
@@ -283946,7 +283994,7 @@
                     "name": "llm_constants"
                 }
             ],
-            "last_checked_revision": "49edf167f42acb1de037a9653ec6bd22419b9d53\n"
+            "last_checked_revision": "0261ea4f33d4a6f20bf34def50519682df3ce7b8\n"
         },
         {
             "id": 1621,
@@ -284066,7 +284114,7 @@
             "id": 1622,
             "url": "https://github.com/getzep/graphiti",
             "description": "Build Real-Time Knowledge Graphs for AI Agents",
-            "stars": 30013,
+            "stars": 30061,
             "source_graph_repo_id": 63470511,
             "dependencies": [
                 {
@@ -284234,7 +284282,7 @@
                     "name": "gliner2"
                 }
             ],
-            "last_checked_revision": "96ef997b265d05222233553bcf86a23e2d1dfd89\n"
+            "last_checked_revision": "10374d6044f91b9ecae3586828abb1ecbf022c4f\n"
         },
         {
             "id": 1623,
@@ -284738,7 +284786,7 @@
             "id": 1626,
             "url": "https://github.com/blakeblackshear/frigate",
             "description": "NVR with realtime local object detection for IP cameras",
-            "stars": 33803,
+            "stars": 35183,
             "source_graph_repo_id": 40014381,
             "dependencies": [
                 {
@@ -285066,7 +285114,7 @@
                     "name": "ai_edge_litert"
                 }
             ],
-            "last_checked_revision": "8425a76558e93fd1c6179ceefa3a621599b433f6\n"
+            "last_checked_revision": "036bae4ea96f23e564622a3d19c1558254122b2b\n"
         },
         {
             "id": 1627,
@@ -286190,7 +286238,7 @@
                     "name": "android_deploy"
                 }
             ],
-            "last_checked_revision": "617d6ee3506d049cfa300bdaee17ca1178610791\n"
+            "last_checked_revision": "2dbb1a88c1f72771b79e23e917349cc05d60ea89\n"
         },
         {
             "id": 1631,
@@ -286850,7 +286898,7 @@
                     "name": "analyze_moe_model"
                 }
             ],
-            "last_checked_revision": "e80614fc2d2c3990bd1abe895d5014fc14733fde\n"
+            "last_checked_revision": "41e54fd44cebd2a357cebf1c441c3fc24ba2d044\n"
         },
         {
             "id": 1635,
@@ -287208,7 +287256,7 @@
             "id": 1639,
             "url": "https://github.com/triton-inference-server/server",
             "description": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. ",
-            "stars": 10758,
+            "stars": 10925,
             "source_graph_repo_id": 37186009,
             "dependencies": [
                 {
@@ -288712,7 +288760,7 @@
                     "name": "dora_ros2_bridge_python"
                 }
             ],
-            "last_checked_revision": "8ff6f3bfad56ff4424270cbf71671f57f63d375a\n"
+            "last_checked_revision": "8933adb5473b2cc881484903e299b5f9254f935a\n"
         },
         {
             "id": 1644,
@@ -289022,7 +289070,7 @@
                     "name": "flydsl"
                 }
             ],
-            "last_checked_revision": "f10e69bf4d0d8f838585cc4a28e9a291b5c91597\n"
+            "last_checked_revision": "be381235dd4846ac9ec1648c51135ddf49a29064\n"
         },
         {
             "id": 1645,
@@ -290184,7 +290232,7 @@
                     "name": "assistant_ui"
                 }
             ],
-            "last_checked_revision": "30c96632f2ec50ee805871dd70c6119e1aed16d1\n"
+            "last_checked_revision": "d0eb08d4c75395ca1903f79b19e2fe60307c279d\n"
         },
         {
             "id": 1650,
@@ -291444,7 +291492,7 @@
                     "name": "contextcompany"
                 }
             ],
-            "last_checked_revision": "32e5fb9c2203fa98de19ca72750133a57a075899\n"
+            "last_checked_revision": "8fe42dbd0c402ad0f2ca87a528ece50c33965f6c\n"
         },
         {
             "id": 1654,
@@ -292804,7 +292852,7 @@
                     "name": "praisonai_deploy"
                 }
             ],
-            "last_checked_revision": "c89c0a0a05321e2acff9f80970b5abcc9ff869ae\n"
+            "last_checked_revision": "92c146faa529d0c897731a136a7638ce51c0a6e0\n"
         },
         {
             "id": 1658,
@@ -293418,7 +293466,7 @@
                     "name": "_native_docx_fixtures"
                 }
             ],
-            "last_checked_revision": "d692105847ca7a32f4c90e20e81c25c50af1e87c\n"
+            "last_checked_revision": "a28d886e424578d0756c35a5499508d2322842af\n"
         },
         {
             "id": 1661,
@@ -294902,7 +294950,7 @@
                     "name": "signals"
                 }
             ],
-            "last_checked_revision": "0a7de343cf475c48c1e7352566f7393192e2692d\n"
+            "last_checked_revision": "d11c1831e8b6ee9c65bb966ea9669c77109424da\n"
         },
         {
             "id": 1671,
@@ -296170,7 +296218,7 @@
                     "name": "tenki"
                 }
             ],
-            "last_checked_revision": "4b8b6e43aa12c5e8309db6c7416b6a92ba3e6f26\n"
+            "last_checked_revision": "a9b2d07f11b4f92896596b45f2275bb47492ca7b\n"
         },
         {
             "id": 1677,
@@ -296368,7 +296416,7 @@
                     "name": "ghosts_rpg"
                 }
             ],
-            "last_checked_revision": "6669b2969d79858b0539d23ca6ce4e91a6b25eaf\n"
+            "last_checked_revision": "dbb0b19acef3bb778018bc84fe5f6acbdbffb3a4\n"
         },
         {
             "id": 1678,
@@ -296690,7 +296738,7 @@
                     "name": "ydf_tf"
                 }
             ],
-            "last_checked_revision": "72c7f34cd0387610968b62eaac3710e5db43fcb7\n"
+            "last_checked_revision": "bcdf995934f489efb9cf7aa5a495e2ceedcdeb31\n"
         },
         {
             "id": 1681,
@@ -297398,7 +297446,7 @@
                     "name": "pydantic_monty"
                 }
             ],
-            "last_checked_revision": "a939e58aee1fd56926cf63174e8bffe12aff39f2\n"
+            "last_checked_revision": "1e977f35a40b04f532cbb5c0dccb67d208229fa3\n"
         },
         {
             "id": 1683,
@@ -298278,7 +298326,7 @@
                     "name": "podman"
                 }
             ],
-            "last_checked_revision": "1f6255017c892f99a9bc767e6bca34f3091adb99\n"
+            "last_checked_revision": "77c5636045b0aed0762727363be105b2a5fa47fd\n"
         },
         {
             "id": 1689,
@@ -300514,7 +300562,7 @@
                     "name": "filebrowser"
                 }
             ],
-            "last_checked_revision": "ea1420d0d59b0cfec266f1103c1abd77b81c8682\n"
+            "last_checked_revision": "a293ec7923f10faf4f8119bc366d49ee00ae5a9b\n"
         },
         {
             "id": 1704,
@@ -306670,7 +306718,7 @@
                     "name": "deep_phonemizer"
                 }
             ],
-            "last_checked_revision": "a1e5002822e59f585ca12cc6880dd7c0427b32c6\n"
+            "last_checked_revision": "1fe20264bac3ca855b721d36ae9ca2d980c429ec\n"
         },
         {
             "id": 1738,
@@ -306764,7 +306812,7 @@
                     "name": "sftkit"
                 }
             ],
-            "last_checked_revision": "3fc78a3a3689cedba11b96cc420a03d3e2cc0dfe\n"
+            "last_checked_revision": "e805622c783b214fc33f45fce162290329ee7f2b\n"
         },
         {
             "id": 1739,
@@ -308024,7 +308072,7 @@
                     "name": "cosmos3"
                 }
             ],
-            "last_checked_revision": "9284607295a09f759aadd65ed08f48b35feea6d9\n"
+            "last_checked_revision": "11a82a15fe473ed974ff35111dd629b05fb1b3ed\n"
         },
         {
             "id": 1749,
@@ -309018,7 +309066,7 @@
                     "name": "langchain_protocol"
                 }
             ],
-            "last_checked_revision": "644815f9e5bc52ad8f7a5227a456227e9c3e639b\n"
+            "last_checked_revision": "1e44bda48ff4982b8ccfeec9c14156ea9e8ae5a2\n"
         },
         {
             "id": 1752,
@@ -310452,7 +310500,7 @@
                     "name": "ASD"
                 }
             ],
-            "last_checked_revision": "0a7d12c889970e0b231c346eec0d50b091d2843d\n"
+            "last_checked_revision": "d528fe0878182a49b894cf95209670911bd4e080\n"
         },
         {
             "id": 1755,
@@ -312016,7 +312064,7 @@
                     "name": "vincent"
                 }
             ],
-            "last_checked_revision": "a16678313800a431ef6757be58a3858624077602\n"
+            "last_checked_revision": "ff3f2d792cc74b98f700817e80af9c216acd9f28\n"
         },
         {
             "id": 1763,
@@ -312455,7 +312503,7 @@
                     "name": "smbus"
                 }
             ],
-            "last_checked_revision": "3b0768b2dce076347e33013390f9b58979b922c9\n"
+            "last_checked_revision": "44ad0286d322d03676f2960c6397aa7506babc03\n"
         },
         {
             "id": 1767,
@@ -314887,6 +314935,14 @@
                     "name": "scrapling"
                 },
                 {
+                    "id": 13810,
+                    "name": "code_interpreter"
+                },
+                {
+                    "id": 13811,
+                    "name": "opensandbox"
+                },
+                {
                     "id": 14790,
                     "name": "langchain_daytona"
                 },
@@ -314903,7 +314959,7 @@
                     "name": "captchatools"
                 }
             ],
-            "last_checked_revision": "d96e29d4d2dcd407ca6e0ece973bb66c8a115855\n"
+            "last_checked_revision": "ac04677a2ca4fdc3c963a1d0ea5593de66748fa4\n"
         },
         {
             "id": 1775,
@@ -315986,7 +316042,7 @@
                     "name": "gpustack_higress_plugins"
                 }
             ],
-            "last_checked_revision": "87148b8cb7b039e06907467a7dcedf87852db2e8\n"
+            "last_checked_revision": "f6d53a8f1a1ba76ad3a4fd02e1b11fc5100f616c\n"
         },
         {
             "id": 1781,
@@ -316242,7 +316298,7 @@
                     "name": "languagemodels"
                 }
             ],
-            "last_checked_revision": "c8458d73c522af116355f123577e963ef8e22378\n"
+            "last_checked_revision": "1ef131421eef3fbcf69c942a68f7df456120931d\n"
         },
         {
             "id": 1783,
@@ -317728,7 +317784,7 @@
                     "name": "pypi_attestations"
                 }
             ],
-            "last_checked_revision": "5cc226096ea4424d021be17259bae51d761a827b\n"
+            "last_checked_revision": "67537ee5494df2920018969040af9c8cfee16723\n"
         },
         {
             "id": 1792,
@@ -318094,7 +318150,7 @@
                     "name": "browser_harness"
                 }
             ],
-            "last_checked_revision": "3c989dc0adc594d592be62272d70e28caaa5553b\n"
+            "last_checked_revision": "898f23f0b672ef44b4a01835ff4b3368e91812fd\n"
         },
         {
             "id": 1793,
@@ -318142,6 +318198,10 @@
                 {
                     "id": 19,
                     "name": "requests"
+                },
+                {
+                    "id": 22,
+                    "name": "bs4"
                 },
                 {
                     "id": 28,
@@ -318324,6 +318384,10 @@
                     "name": "plotly"
                 },
                 {
+                    "id": 313,
+                    "name": "mypy_extensions"
+                },
+                {
                     "id": 335,
                     "name": "_typeshed"
                 },
@@ -318342,6 +318406,10 @@
                 {
                     "id": 419,
                     "name": "torchmetrics"
+                },
+                {
+                    "id": 430,
+                    "name": "urllib3"
                 },
                 {
                     "id": 452,
@@ -318376,6 +318444,10 @@
                     "name": "vllm"
                 },
                 {
+                    "id": 613,
+                    "name": "platformdirs"
+                },
+                {
                     "id": 837,
                     "name": "shared"
                 },
@@ -318396,12 +318468,28 @@
                     "name": "ninja"
                 },
                 {
+                    "id": 932,
+                    "name": "tomli"
+                },
+                {
                     "id": 946,
                     "name": "pytest_mock"
                 },
                 {
+                    "id": 1004,
+                    "name": "colorama"
+                },
+                {
+                    "id": 1026,
+                    "name": "jupyter_client"
+                },
+                {
                     "id": 1083,
                     "name": "aiofiles"
+                },
+                {
+                    "id": 1104,
+                    "name": "pathspec"
                 },
                 {
                     "id": 1255,
@@ -318440,8 +318528,16 @@
                     "name": "pythonjsonlogger"
                 },
                 {
+                    "id": 1676,
+                    "name": "atheris"
+                },
+                {
                     "id": 2018,
                     "name": "pyinstrument"
+                },
+                {
+                    "id": 2038,
+                    "name": "ipykernel"
                 },
                 {
                     "id": 2224,
@@ -318624,6 +318720,10 @@
                     "name": "tvm_ffi"
                 },
                 {
+                    "id": 13029,
+                    "name": "bindings"
+                },
+                {
                     "id": 13035,
                     "name": "reporting"
                 },
@@ -318754,9 +318854,37 @@
                 {
                     "id": 19561,
                     "name": "kv_tier_connector"
+                },
+                {
+                    "id": 20359,
+                    "name": "diff_shades"
+                },
+                {
+                    "id": 20360,
+                    "name": "hypothesmith"
+                },
+                {
+                    "id": 20361,
+                    "name": "_mblack_version"
+                },
+                {
+                    "id": 20362,
+                    "name": "tokenize_rt"
+                },
+                {
+                    "id": 20363,
+                    "name": "mblib2to3"
+                },
+                {
+                    "id": 20364,
+                    "name": "commonmark"
+                },
+                {
+                    "id": 20365,
+                    "name": "init_bindings"
                 }
             ],
-            "last_checked_revision": "40abdfb1cee2e2102c79f94384d20672f2e72d54\n"
+            "last_checked_revision": "f66d4d522c34be0a961ffac3dbfc81e30f67942e\n"
         },
         {
             "id": 1794,
@@ -319632,7 +319760,7 @@
                     "name": "mcp"
                 }
             ],
-            "last_checked_revision": "8a9945c582600a7c302733874a0e95a9531c3bf7\n"
+            "last_checked_revision": "c2bb506328a242375cb112780d2b7ee9e4a38fcf\n"
         },
         {
             "id": 1800,
@@ -322654,7 +322782,7 @@
                     "name": "kiln_ai"
                 }
             ],
-            "last_checked_revision": "6afd4b6d2c21cadeabcc74e58cd65e0d66a3d2d9\n"
+            "last_checked_revision": "1f94d1fa05908be46df0fd3314e11d1755fbf488\n"
         },
         {
             "id": 1813,
@@ -323588,7 +323716,7 @@
                     "name": "retrieval_bench"
                 }
             ],
-            "last_checked_revision": "34e0f6a7af18321d564b922f08b643e1ad4d5595\n"
+            "last_checked_revision": "e389d0632d0488b0e9146817110af3e6d52e4212\n"
         },
         {
             "id": 1816,
@@ -323900,7 +324028,7 @@
             "id": 1819,
             "url": "https://github.com/KiCad/kicad-source-mirror",
             "description": "This is an active mirror of the KiCad development branch, which is hosted at GitLab (updated every time something is pushed). Pull requests on GitHub are not accepted or watched.",
-            "stars": 2723,
+            "stars": 2885,
             "source_graph_repo_id": 314837,
             "dependencies": [
                 {
@@ -324076,7 +324204,7 @@
                     "name": "webview_test_server"
                 }
             ],
-            "last_checked_revision": "49ac7486e822ed2bb085110c2b73da9daaab0263\n"
+            "last_checked_revision": "686c7576e97448d15e7ec60443b04a3c16ebe778\n"
         },
         {
             "id": 1820,
@@ -324851,7 +324979,7 @@
                     "name": "misaki"
                 }
             ],
-            "last_checked_revision": "27d65d0568854cb83891603f0c9fcf5991226c34\n"
+            "last_checked_revision": "26eec068d8ce6f559afef83f68933127ac38e315\n"
         },
         {
             "id": 1826,
@@ -326273,7 +326401,7 @@
                     "name": "langevals"
                 }
             ],
-            "last_checked_revision": "54cdbfc066707d8cd7fb9df361a3623a7dcbf99b\n"
+            "last_checked_revision": "7fb95fe9048f03c3acdf874a0e7dde539c71b035\n"
         },
         {
             "id": 1833,
@@ -326881,7 +327009,7 @@
             "id": 1838,
             "url": "https://github.com/agentscope-ai/agentscope",
             "description": "Build and run agents you can see, understand and trust.",
-            "stars": 28997,
+            "stars": 29029,
             "source_graph_repo_id": 62606506,
             "dependencies": [
                 {
@@ -329343,7 +329471,7 @@
                     "name": "realitydefender"
                 }
             ],
-            "last_checked_revision": "a465439d507af239c3133a3b22b178b291769b47\n"
+            "last_checked_revision": "1a8917cff9a23f9be52fe9f11c0d163c74682f33\n"
         },
         {
             "id": 1848,
@@ -330081,7 +330209,7 @@
                     "name": "deerflow_extension_example"
                 }
             ],
-            "last_checked_revision": "0debff98c1caf4a7d3047e8ef162d85a841b5c6d\n"
+            "last_checked_revision": "62ffcff45b954606fe77ec7ccb7395db11ce5f3e\n"
         },
         {
             "id": 1851,
@@ -330347,7 +330475,7 @@
                     "name": "mcp_types"
                 }
             ],
-            "last_checked_revision": "c9cf23779e2cf7c3273165736b5defcdbd19738f\n"
+            "last_checked_revision": "609f79b8a118cd6c4bb58a5341bafd76e42e5a2b\n"
         },
         {
             "id": 1852,
@@ -330625,7 +330753,7 @@
                     "name": "opencode_env"
                 }
             ],
-            "last_checked_revision": "31bfab1829adb6a7e635e73cc903f1f8ef3d09eb\n"
+            "last_checked_revision": "7bd0d61728333b5197704fa2e2c224a52944de41\n"
         },
         {
             "id": 1853,
@@ -330845,7 +330973,7 @@
                     "name": "httpx2"
                 }
             ],
-            "last_checked_revision": "1a4cfa20a343779b729bb77e2adb515c715e668e\n"
+            "last_checked_revision": "2c5560339cd7f77b4dabcf7d85c5d150594fd74c\n"
         },
         {
             "id": 1855,
@@ -331369,7 +331497,7 @@
                     "name": "fsdp_turbo"
                 }
             ],
-            "last_checked_revision": "d4701e4eb50feeabc2781499c02f64793ed55461\n"
+            "last_checked_revision": "cfacd76a0bdd4540346f99588d3ab35b07f4fe6f\n"
         },
         {
             "id": 1857,
@@ -331751,7 +331879,7 @@
                     "name": "fastmcp_tasks"
                 }
             ],
-            "last_checked_revision": "b3cdbc96796f0294f1ac6943cdba70d14af8a0ef\n"
+            "last_checked_revision": "606b0e581272eb9f06ca989d88be5828047eed9c\n"
         },
         {
             "id": 1858,
@@ -332153,7 +332281,7 @@
                     "name": "component_owners"
                 }
             ],
-            "last_checked_revision": "0b39e7280a14dd61d0faa3efef9c95206363f60c\n"
+            "last_checked_revision": "aa6a07bc97f1759a113ad39af1331a29d8649e05\n"
         },
         {
             "id": 1859,
@@ -332197,7 +332325,7 @@
             "id": 1860,
             "url": "https://github.com/huggingface/transformers",
             "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-            "stars": 161675,
+            "stars": 164217,
             "source_graph_repo_id": 37020168,
             "dependencies": [
                 {
@@ -333421,7 +333549,7 @@
                     "name": "github_utils"
                 }
             ],
-            "last_checked_revision": "8c62d6f8d30a8c155b0c4d5efc34e39ff9797242\n"
+            "last_checked_revision": "f9b76f2dfc44fdc6109468925bf0e1856fd34278\n"
         },
         {
             "id": 1861,
@@ -333725,7 +333853,7 @@
                     "name": "agentic_commerce"
                 }
             ],
-            "last_checked_revision": "9a9d99e936c18e95ed5559cb0afa861710fa007b\n"
+            "last_checked_revision": "41fc688c711955530e8dcc832c22d97a5da6d679\n"
         },
         {
             "id": 1863,
@@ -334379,6 +334507,10 @@
                     "name": "mammoth"
                 },
                 {
+                    "id": 4174,
+                    "name": "sqlglot"
+                },
+                {
                     "id": 4196,
                     "name": "quart_cors"
                 },
@@ -334639,7 +334771,7 @@
                     "name": "ucloud_sandbox"
                 }
             ],
-            "last_checked_revision": "68f8260821c5c41a612666a90afc899e422c02ef\n"
+            "last_checked_revision": "b6b6c4de97156e60c46de517c75ec057969eae22\n"
         },
         {
             "id": 1864,
@@ -337193,7 +337325,7 @@
                     "name": "repackage_cua_train_wheel"
                 }
             ],
-            "last_checked_revision": "3af8db7111fe409f0d02d26a4a018f0807358912\n"
+            "last_checked_revision": "c43f10243856658fe706c08c155a95628fc81248\n"
         },
         {
             "id": 1869,
@@ -338922,7 +339054,7 @@
                     "name": "speechify"
                 }
             ],
-            "last_checked_revision": "f34ad64a6fdec4d379e133091c88827ad98ce6a7\n"
+            "last_checked_revision": "a0aa46979195f59a094bac37e7f4d4465d147168\n"
         },
         {
             "id": 1878,
@@ -339646,7 +339778,7 @@
                     "name": "lxml_html_clean"
                 }
             ],
-            "last_checked_revision": "6e7bddcf42bc2d5359f8e3a8e7b94a8c2f6f58b0\n"
+            "last_checked_revision": "c5bb9133fbb8c7c36d48e8348fa1ccbf9d8eae43\n"
         },
         {
             "id": 1882,
@@ -339738,7 +339870,7 @@
                     "name": "mcp"
                 }
             ],
-            "last_checked_revision": "d10ee225f1dde59c81efffe3e53fd1bf7a1a626d\n"
+            "last_checked_revision": "8ea69e4706906b0d7331a54cd019bc90a1c251c7\n"
         },
         {
             "id": 1884,
@@ -339980,7 +340112,7 @@
                     "name": "ag2"
                 }
             ],
-            "last_checked_revision": "faadf11ece3867131074583e4e8327df1f9787bb\n"
+            "last_checked_revision": "36657900ecc759adeac3ee331e7d8bb2771188e0\n"
         },
         {
             "id": 1885,
@@ -340958,7 +341090,7 @@
                     "name": "hatch_build"
                 }
             ],
-            "last_checked_revision": "0e7ae48589f8e8252e4dbb5702d7a7ea2ee96216\n"
+            "last_checked_revision": "9f4aff72fbee143d94031b412816c42089e0d90c\n"
         },
         {
             "id": 1890,
@@ -341080,7 +341212,7 @@
                     "name": "mcp_use"
                 }
             ],
-            "last_checked_revision": "5710d284d109d11f56ad673075bc380a0ac20cc7\n"
+            "last_checked_revision": "bcd9befbcd8ac3e939d5cb5b027e2025f0bc5d37\n"
         },
         {
             "id": 1891,
@@ -341638,7 +341770,7 @@
                     "name": "gen_python_api"
                 }
             ],
-            "last_checked_revision": "af146a0b8be58bd2de2fd4fae756241f9c89b14d\n"
+            "last_checked_revision": "880511c98cb8b9d3fc5e80b02816d70622cdfa79\n"
         },
         {
             "id": 1892,
@@ -346138,7 +346270,7 @@
                     "name": "maru"
                 }
             ],
-            "last_checked_revision": "5703ad9dcc92ceb20cbf22ef2a5dc2340533690e\n"
+            "last_checked_revision": "f7c0f50259e9c79ede095af9fc945780fb3194b0\n"
         },
         {
             "id": 1910,
@@ -346248,7 +346380,7 @@
                     "name": "crowdmail"
                 }
             ],
-            "last_checked_revision": "8614b4233830574cd40594c1c748533b54040a9e\n"
+            "last_checked_revision": "017ff361a3acbc4ede43ea3c7a1320fb0ea692b2\n"
         },
         {
             "id": 1911,
@@ -347182,7 +347314,7 @@
                     "name": "openenv"
                 }
             ],
-            "last_checked_revision": "8759c917358ff324d22913dc5040801459cbfedb\n"
+            "last_checked_revision": "62562670d512854f264bad1155cf2991f8e9b6ba\n"
         },
         {
             "id": 1914,
@@ -347978,7 +348110,7 @@
                     "name": "analyze_bot_phrase_patterns"
                 }
             ],
-            "last_checked_revision": "b043c99666ac9b691f33ef1dd755fe3ff2114367\n"
+            "last_checked_revision": "7ade2a8a967d6ca93b62538f753ed5110b65dc65\n"
         },
         {
             "id": 1918,
@@ -349668,7 +349800,7 @@
                     "name": "strands_mcp_server"
                 }
             ],
-            "last_checked_revision": "dd5c918180575f091f7d3a19b2bae4bb6b6a08d4\n"
+            "last_checked_revision": "0b46c8430636813f4f403d2436fd13c7d3278bb1\n"
         },
         {
             "id": 1927,
@@ -351274,7 +351406,7 @@
                     "name": "aiomoto"
                 }
             ],
-            "last_checked_revision": "d7607100e39dfee3919cd1116c10620eb6636104\n"
+            "last_checked_revision": "aee7b27da33a6cdf6beac5794f443cb6d100316a\n"
         },
         {
             "id": 1932,
@@ -351804,7 +351936,7 @@
                     "name": "pydantic_xml"
                 }
             ],
-            "last_checked_revision": "883d31fd75a3b49ae8bfda39ff7735439dc7e20d\n"
+            "last_checked_revision": "6cc7ebfa434324bbde6d5e94925ffebb56c8e5c7\n"
         },
         {
             "id": 1937,
@@ -353168,7 +353300,7 @@
                     "name": "resolve_cross_references"
                 }
             ],
-            "last_checked_revision": "0e94dd65899ff639fd779fc4581eb14df077b0ff\n"
+            "last_checked_revision": "e0b042fa5054f93a4642325bf7f12a8ed84fb0e6\n"
         },
         {
             "id": 1941,
@@ -353382,7 +353514,7 @@
                     "name": "great_expectations_provider"
                 }
             ],
-            "last_checked_revision": "0c53107cb5df23dc4ca6ecc90a478a2d751ccf56\n"
+            "last_checked_revision": "7a4efe3e4923207b85e2145862cac8d1f8ac6100\n"
         },
         {
             "id": 1942,
@@ -353668,7 +353800,7 @@
                     "name": "runtime_home"
                 }
             ],
-            "last_checked_revision": "b41c8996a8dcb9df81998cced68d11457ce950c3\n"
+            "last_checked_revision": "85532420387cf038424db3193732ee6b84c5fe27\n"
         },
         {
             "id": 1943,
@@ -353738,7 +353870,7 @@
                     "name": "argcomplete"
                 }
             ],
-            "last_checked_revision": "f72327d2020fb40167dc35dd2141ad62a7df10e6\n"
+            "last_checked_revision": "20d11e899019a467528df4799300d4144d65609d\n"
         },
         {
             "id": 1944,
@@ -354636,7 +354768,7 @@
                     "name": "uniir_for_pyserini"
                 }
             ],
-            "last_checked_revision": "f8af512b484848924d462a67dd0d1cdcd419eb64\n"
+            "last_checked_revision": "aa0cd5b43d43edb569a68e69ea726a3bbbb3484f\n"
         },
         {
             "id": 1949,
@@ -355119,6 +355251,10 @@
                     "name": "aiofiles"
                 },
                 {
+                    "id": 1123,
+                    "name": "common"
+                },
+                {
                     "id": 1134,
                     "name": "kubernetes"
                 },
@@ -355167,8 +355303,16 @@
                     "name": "pyserini"
                 },
                 {
+                    "id": 2990,
+                    "name": "tools"
+                },
+                {
                     "id": 3368,
                     "name": "jsonref"
+                },
+                {
+                    "id": 3436,
+                    "name": "runtime"
                 },
                 {
                     "id": 3627,
@@ -355191,6 +355335,10 @@
                     "name": "agents"
                 },
                 {
+                    "id": 4591,
+                    "name": "langfuse"
+                },
+                {
                     "id": 4677,
                     "name": "tavily"
                 },
@@ -355209,6 +355357,10 @@
                 {
                     "id": 6626,
                     "name": "consts"
+                },
+                {
+                    "id": 6662,
+                    "name": "evaluators"
                 },
                 {
                     "id": 6774,
@@ -355287,6 +355439,10 @@
                     "name": "mcp_service"
                 },
                 {
+                    "id": 17703,
+                    "name": "run_benchmark"
+                },
+                {
                     "id": 18279,
                     "name": "test_benchmark"
                 },
@@ -355309,9 +355465,13 @@
                 {
                     "id": 20013,
                     "name": "tool_collection"
+                },
+                {
+                    "id": 20366,
+                    "name": "provenance"
                 }
             ],
-            "last_checked_revision": "53a386c2e54f1bdf1822140fb1a4e7f486e4dc26\n"
+            "last_checked_revision": "32fe2ff9fba87a6054beb22d487b4fa82b102f4d\n"
         },
         {
             "id": 1953,
@@ -355933,6 +356093,10 @@
                     "name": "bs4"
                 },
                 {
+                    "id": 31,
+                    "name": "yaml"
+                },
+                {
                     "id": 64,
                     "name": "jose"
                 },
@@ -356037,7 +356201,7 @@
                     "name": "sleep"
                 }
             ],
-            "last_checked_revision": "bc4e5bb2a0796e18f46e5655b99a957342dd0a94\n"
+            "last_checked_revision": "e091a24027efcdfc437d327aad6d947b2ffdeeaf\n"
         },
         {
             "id": 1958,
@@ -357333,9 +357497,13 @@
                 {
                     "id": 19377,
                     "name": "contree_sdk"
+                },
+                {
+                    "id": 20367,
+                    "name": "monocle_bootstrap"
                 }
             ],
-            "last_checked_revision": "f567ece111b572d29846c10bc4259dcfee90f5ee\n"
+            "last_checked_revision": "0a30c50b94e1d0573f0d5b6dd8f05996aef4a84e\n"
         },
         {
             "id": 1963,
@@ -357393,7 +357561,7 @@
                     "name": "axllm"
                 }
             ],
-            "last_checked_revision": "94681b903c12282732479dc5960189bbcfc2cc6f\n"
+            "last_checked_revision": "4483dd85ca2eff4f6f3c34f423c2b0ef3500e752\n"
         },
         {
             "id": 1964,
@@ -357751,7 +357919,7 @@
                     "name": "yuxi_cli"
                 }
             ],
-            "last_checked_revision": "19826d2b8be03e7c11875e297afc60b57bef646c\n"
+            "last_checked_revision": "4923fd0d53abb16892dc950f2082412a0e3fdfd0\n"
         },
         {
             "id": 1965,
@@ -358523,7 +358691,7 @@
                     "name": "wiki_search"
                 }
             ],
-            "last_checked_revision": "88de7294f35e85da014d8ec61fe10f93f74cfb03\n"
+            "last_checked_revision": "25769ab64e663c5dda9bf96e7bbca3dec220992a\n"
         },
         {
             "id": 1969,
@@ -359881,7 +360049,7 @@
                     "name": "uhashring"
                 }
             ],
-            "last_checked_revision": "ff09d568f625ce10c74ffa6c2d15b63eb9799c7d\n"
+            "last_checked_revision": "58a0935955d5b29f615c784a3533ff2433075bdd\n"
         },
         {
             "id": 1974,
@@ -360075,7 +360243,7 @@
                     "name": "pyrender"
                 }
             ],
-            "last_checked_revision": "625f71fae24f0d5c5ee7f1ec747094e815393405\n"
+            "last_checked_revision": "20eec6cb5564c6a196b046d869d2081c29e3ff92\n"
         },
         {
             "id": 1975,
@@ -361459,7 +361627,7 @@
                     "name": "model_inference"
                 }
             ],
-            "last_checked_revision": "426979f45121b3a69dc4bf73f221327df994e7b6\n"
+            "last_checked_revision": "c6bbe59b4e64a442beb545901fab09cbaa3beacd\n"
         },
         {
             "id": 1983,
@@ -361599,7 +361767,7 @@
                     "name": "openapi"
                 }
             ],
-            "last_checked_revision": "28a2cb23297261b422805dc66387eaa2c8ac914e\n"
+            "last_checked_revision": "6295b1f49abec61076e063f5a789f92cc5e290fc\n"
         },
         {
             "id": 1985,
@@ -363117,7 +363285,7 @@
                     "name": "a2a_pb2"
                 }
             ],
-            "last_checked_revision": "bc92b6850b4e1342fd6b9483961aa163ece94836\n"
+            "last_checked_revision": "30e056d1c328438d40c45d82c723a21750792351\n"
         },
         {
             "id": 1996,
@@ -364131,7 +364299,7 @@
                     "name": "lmslim"
                 }
             ],
-            "last_checked_revision": "b0b10a58ff0639b9f2ed41311d3e1c298e585d85\n"
+            "last_checked_revision": "b23dc64995368b5ffacb5ec74018c092b8b569ea\n"
         },
         {
             "id": 2003,
@@ -364335,7 +364503,7 @@
                     "name": "stpages"
                 }
             ],
-            "last_checked_revision": "713ccf196baa2001a1b9a22dc849e6dad7c45c47\n"
+            "last_checked_revision": "33b9716770628aca03c2b05cd93c5f7caff5780c\n"
         },
         {
             "id": 2005,
@@ -368621,7 +368789,7 @@
                     "name": "gate_run"
                 }
             ],
-            "last_checked_revision": "58ad6edc5f61fee85a5e9632992952259049db24\n"
+            "last_checked_revision": "d32c2c2a56927b4d5b40f1a3e678f7e33632bc0a\n"
         },
         {
             "id": 2018,
@@ -369017,7 +369185,7 @@
                     "name": "b9bench"
                 }
             ],
-            "last_checked_revision": "7fe6fdb641ef543af811407707314b504bea624a\n"
+            "last_checked_revision": "9194847b2cf84f85b45e94d7d549e3fc8d92a90a\n"
         },
         {
             "id": 2022,
@@ -369099,7 +369267,7 @@
                     "name": "hatch"
                 }
             ],
-            "last_checked_revision": "4e1f9ceede4a72068a4faf40b252a9a9608e1e72\n"
+            "last_checked_revision": "790567859971a10fee6abd98c15ec25cbf5a302a\n"
         },
         {
             "id": 2023,
@@ -369527,7 +369695,7 @@
                     "name": "pydeseq2"
                 }
             ],
-            "last_checked_revision": "b57c5c1e85a784aaf8e834a7e4997f3d56279542\n"
+            "last_checked_revision": "8546d44fdec5c9775bf92ef881090820e568198e\n"
         },
         {
             "id": 2025,
@@ -370227,7 +370395,7 @@
                     "name": "voltdbclient"
                 }
             ],
-            "last_checked_revision": "d041c3eddeabe81dc468f311c28261fa40c317e5\n"
+            "last_checked_revision": "05afc4849b4f764f9b616baf24145a69b69d219a\n"
         },
         {
             "id": 2027,
@@ -370449,7 +370617,7 @@
                     "name": "xue"
                 }
             ],
-            "last_checked_revision": "25b362c0b26944621a209b5015568ad60eef1e46\n"
+            "last_checked_revision": "72caf4fe3c45f83f642a412ea9596089831a0732\n"
         },
         {
             "id": 2030,
@@ -371815,7 +371983,7 @@
                     "name": "perf_regression_compare"
                 }
             ],
-            "last_checked_revision": "e6a5722be2d93ae1cdb865080e3cd07318fc97e6\n"
+            "last_checked_revision": "a85c79a9829b1121179c64accfb73c93655bacd0\n"
         },
         {
             "id": 2033,
@@ -373285,7 +373453,7 @@
                     "name": "canary_test_supported_agents"
                 }
             ],
-            "last_checked_revision": "3f4122571528cc7e70de045ba952b8956d39fd9a\n"
+            "last_checked_revision": "e21cff359453ee760ebd0145c540ad74dc8b75c6\n"
         },
         {
             "id": 2044,
@@ -375165,7 +375333,7 @@
                     "name": "langchain_classic"
                 }
             ],
-            "last_checked_revision": "b71d0185c681436eb0737c3830304ffb4b664a25\n"
+            "last_checked_revision": "7c2a2caafbbd9fba15827a9d4c0d4b4410d6890a\n"
         },
         {
             "id": 2056,
@@ -376852,7 +377020,7 @@
                     "name": "jsonrpc"
                 }
             ],
-            "last_checked_revision": "3a5d466b0ff00a8fcf9776102f421122f2a54c13\n"
+            "last_checked_revision": "4e71245bf2bf4b31f6429f12d97991f1f3d4b3f4\n"
         },
         {
             "id": 2070,
@@ -378410,7 +378578,7 @@
                     "name": "local_places"
                 }
             ],
-            "last_checked_revision": "720da745d9988a9020ac7cab86e98008bd6dc97d\n"
+            "last_checked_revision": "614b503704adff30663b151136891b9e6e8793e7\n"
         },
         {
             "id": 2079,
@@ -378547,7 +378715,7 @@
                     "name": "jcs"
                 }
             ],
-            "last_checked_revision": "15ad10ca60577b75199c1ba828887ab7e66bac87\n"
+            "last_checked_revision": "01777b05e8afeba6bf5a6dbe74cc2293372d3693\n"
         },
         {
             "id": 2082,
@@ -378869,7 +379037,7 @@
                     "name": "streamlit_pdf"
                 }
             ],
-            "last_checked_revision": "cf124741c596f0bb689710f1d7d741a63db0b136\n"
+            "last_checked_revision": "576fcde0a0d4a066415dffa3e89680511a36e2f0\n"
         },
         {
             "id": 2083,
@@ -380531,7 +380699,7 @@
                     "name": "deltalite"
                 }
             ],
-            "last_checked_revision": "da3fb53817b2cac0be6e5921a94c3c61e90e0167\n"
+            "last_checked_revision": "0d7cdfce4cea8da6e00da92cdab0af2ac08bbf7c\n"
         },
         {
             "id": 2088,
@@ -381193,7 +381361,7 @@
                     "name": "plugin_eval"
                 }
             ],
-            "last_checked_revision": "d6837ae274c2cd817acad3fb98f193a4390a4c3e\n"
+            "last_checked_revision": "367cb6a4a182cf7e9b0a17c9429f7411ddd9cf35\n"
         },
         {
             "id": 2091,
@@ -383285,13 +383453,13 @@
                     "name": "mx_zixuan"
                 }
             ],
-            "last_checked_revision": "606a07d341a47be773fab7f4b71177f53f96b2c3\n"
+            "last_checked_revision": "45dd84e626a91997294ac8d4d44f18b29a411c6e\n"
         },
         {
             "id": 2097,
             "url": "https://github.com/supermemoryai/supermemory",
             "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
-            "stars": 28938,
+            "stars": 28950,
             "source_graph_repo_id": 63077504,
             "dependencies": [
                 {
@@ -383371,7 +383539,7 @@
                     "name": "supermemory_cartesia"
                 }
             ],
-            "last_checked_revision": "e2be9c9edd2f657771399b9d960b1cc7f3669892\n"
+            "last_checked_revision": "149589ae7e6b72a5be57ddb052a41f3eee0e7614\n"
         },
         {
             "id": 2098,
@@ -384293,9 +384461,13 @@
                 {
                     "id": 20225,
                     "name": "github_slack_utils"
+                },
+                {
+                    "id": 20368,
+                    "name": "gdp_attn"
                 }
             ],
-            "last_checked_revision": "dd8c825b3ad59ac15f70c7d075e1527cf8e29215\n"
+            "last_checked_revision": "5f9b2bb48c13d04803630a926cf71624dbd4722a\n"
         },
         {
             "id": 2100,
@@ -385518,7 +385690,7 @@
             "id": 2107,
             "url": "https://github.com/benoitc/gunicorn",
             "description": "gunicorn 'Green Unicorn' is a WSGI HTTP Server for UNIX, fast clients and sleepy applications.",
-            "stars": 10599,
+            "stars": 10654,
             "source_graph_repo_id": 48404,
             "dependencies": [
                 {
@@ -385678,7 +385850,7 @@
                     "name": "gunicorn_h1c"
                 }
             ],
-            "last_checked_revision": "ab0910b78df3b3c8469c196f3086705440a7e44d\n"
+            "last_checked_revision": "f6805fd40e33745ad8aa9ac05e9fa89d8590b0c0\n"
         },
         {
             "id": 2108,
@@ -385840,7 +386012,7 @@
                     "name": "modelaudit"
                 }
             ],
-            "last_checked_revision": "33cc8bc90e07d6c4ba36c83001cca1b4726b7593\n"
+            "last_checked_revision": "c149fcf36c2aeaac83a215906c2caa659cafecff\n"
         },
         {
             "id": 2109,
@@ -387394,7 +387566,7 @@
                     "name": "workflow_business"
                 }
             ],
-            "last_checked_revision": "e03019cfb0c6c2fafd8bff6194f043f1ba09377e\n"
+            "last_checked_revision": "ba3ec2c390370de3787ef04c41a01f67032182b0\n"
         },
         {
             "id": 2114,
@@ -389378,13 +389550,13 @@
                     "name": "ci_message"
                 }
             ],
-            "last_checked_revision": "10e5333754fe87a6d30c9e0fa54003a4c93d53fe\n"
+            "last_checked_revision": "2d0c272d4027b89a7f674e917c55d29811c98771\n"
         },
         {
             "id": 2120,
             "url": "https://github.com/OpenCTI-Platform/opencti",
             "description": "Open Cyber Threat Intelligence Platform",
-            "stars": 9559,
+            "stars": 9825,
             "source_graph_repo_id": 38876784,
             "dependencies": [
                 {
@@ -389520,7 +389692,7 @@
                     "name": "message_queue_consumer"
                 }
             ],
-            "last_checked_revision": "de730e40c54569de0326ea6a0962ea8775b069c5\n"
+            "last_checked_revision": "88fd5c3aef2c56c198ecc048c56786ed31f5d16b\n"
         },
         {
             "id": 2121,
@@ -391364,7 +391536,7 @@
                     "name": "waypoint_bio"
                 }
             ],
-            "last_checked_revision": "9e8b0cb0b09059f2fd4505e57ab4e00c8be1cef6\n"
+            "last_checked_revision": "48dc1cf173f01aea114a62d634066f6b272aaaf1\n"
         },
         {
             "id": 2123,
@@ -391450,7 +391622,7 @@
                     "name": "sqlfluff"
                 }
             ],
-            "last_checked_revision": "c2c8edc13a7cab275645bdf940d78ee07bbbaa81\n"
+            "last_checked_revision": "9f2206498cda2b5cd1983c41f051e64b0aa6ce20\n"
         },
         {
             "id": 2124,
@@ -392426,7 +392598,7 @@
                     "name": "agent_hooks"
                 }
             ],
-            "last_checked_revision": "a445e4815d4736a0269e58b4285205c812a2515f\n"
+            "last_checked_revision": "1f738cdeb7f51bfd5aa291c17165dfa6a98e216f\n"
         },
         {
             "id": 2126,
@@ -392788,7 +392960,7 @@
             "id": 2128,
             "url": "https://github.com/internetarchive/openlibrary",
             "description": "One webpage for every book ever published!",
-            "stars": 6481,
+            "stars": 6610,
             "source_graph_repo_id": 614319,
             "dependencies": [
                 {
@@ -393020,7 +393192,7 @@
                     "name": "amazon_creatorsapi"
                 }
             ],
-            "last_checked_revision": "41170b510463c99783196072610794311e5f0d13\n"
+            "last_checked_revision": "8e7f773caa031ef8bfe9f0104b32abf95eb1e06e\n"
         },
         {
             "id": 2129,
@@ -393428,7 +393600,7 @@
                     "name": "changed_skill_evidence"
                 }
             ],
-            "last_checked_revision": "1f67c44dc9aeaad2baa5130460a1f850d357a9ff\n"
+            "last_checked_revision": "746ad69f2524d2cc4ef1bd00eb73614592eee489\n"
         },
         {
             "id": 2131,
@@ -394046,7 +394218,7 @@
                     "name": "model_compact"
                 }
             ],
-            "last_checked_revision": "a76adc3c2fdf715919ea2bec5cec3a26d36cce74\n"
+            "last_checked_revision": "2c249ec8cb07978e77dfcf11d57e95a11edf09b6\n"
         },
         {
             "id": 2134,
@@ -394224,7 +394396,7 @@
                     "name": "dmPython"
                 }
             ],
-            "last_checked_revision": "0c885d5a677ed3f6551645a4c5a630ee4c4eb437\n"
+            "last_checked_revision": "2a86aa926c4a22400a4ab4506c3ec384f7855a9d\n"
         },
         {
             "id": 2135,
@@ -394306,7 +394478,7 @@
                     "name": "agent_framework_foundry_hosting"
                 }
             ],
-            "last_checked_revision": "7adcc4c92d9c48d96050096a2c37afb0ee7ba219\n"
+            "last_checked_revision": "95ba0548da04adf7d7fe6866fff9e3df2d2ee549\n"
         },
         {
             "id": 2136,
@@ -394782,7 +394954,7 @@
                     "name": "catalog"
                 }
             ],
-            "last_checked_revision": "6dba93edc0b849b3fb11aa82a025083e7cfc834a\n"
+            "last_checked_revision": "75b519d0a3a7fd609a00b6d5bf684a6a9131fe25\n"
         },
         {
             "id": 2138,
@@ -395170,7 +395342,7 @@
                     "name": "deep_ep_cpp"
                 }
             ],
-            "last_checked_revision": "a0b7553f0cf87aacdf43154d086b43655ab225cf\n"
+            "last_checked_revision": "58710bcb2ce6eb94973dad78ea3d3f4c2f09b98a\n"
         },
         {
             "id": 2140,
@@ -397040,7 +397212,7 @@
                     "name": "speechify"
                 }
             ],
-            "last_checked_revision": "674ed282763ed992307cadb7e4e22f2b44babf61\n"
+            "last_checked_revision": "adc3523c5e7dc6b2095f0bff836de74bb345ea7f\n"
         },
         {
             "id": 2147,
@@ -398064,7 +398236,7 @@
                     "name": "tent"
                 }
             ],
-            "last_checked_revision": "b0cb83fdab0166268493f03584ccf50108bb0387\n"
+            "last_checked_revision": "12928dde4001b16da3af264cad6bd7a8db1d6c52\n"
         },
         {
             "id": 2149,
@@ -398464,6 +398636,10 @@
                     "name": "pyroscope"
                 },
                 {
+                    "id": 3378,
+                    "name": "client"
+                },
+                {
                     "id": 3627,
                     "name": "services"
                 },
@@ -398528,7 +398704,7 @@
                     "name": "vipe"
                 }
             ],
-            "last_checked_revision": "b36d2a46402de1b7731b43124ab38b37dbc945d4\n"
+            "last_checked_revision": "136197c8db5ab353052234749a53d0534b3590de\n"
         },
         {
             "id": 2151,
@@ -398658,7 +398834,7 @@
                     "name": "pynndescent"
                 }
             ],
-            "last_checked_revision": "f2542e2f803ca3ab3be7cfb307745f42402b7521\n"
+            "last_checked_revision": "c20a539b6ff7a4f9e49a50c6a2c157e7c9861746\n"
         },
         {
             "id": 2152,
@@ -399979,7 +400155,7 @@
             "id": 2160,
             "url": "https://github.com/getzep/zep",
             "description": "Zep | Examples, Integrations, & More",
-            "stars": 4844,
+            "stars": 4850,
             "source_graph_repo_id": 60969981,
             "dependencies": [
                 {
@@ -400889,7 +401065,7 @@
                     "name": "plotnine"
                 }
             ],
-            "last_checked_revision": "d5b03a14ca51a15ffe1aad4b73328fd557c8f503\n"
+            "last_checked_revision": "dba0863cd400a11488dba4d56d8c541457e881c8\n"
         },
         {
             "id": 2164,
@@ -401091,7 +401267,7 @@
                     "name": "llmai"
                 }
             ],
-            "last_checked_revision": "fb186b302fed376233d3202f57484fb2d125dab8\n"
+            "last_checked_revision": "7f60076bf4cd113172cfc8efd3a516878754866a\n"
         },
         {
             "id": 2165,
@@ -402304,7 +402480,7 @@
                     "name": "feedparser"
                 }
             ],
-            "last_checked_revision": "fa5cf39bd66b9d6f7e31d1ab27c5443b2d5759dd\n"
+            "last_checked_revision": "35a1817dc330de0a60adcf165ab5980c3fd9cd86\n"
         },
         {
             "id": 2168,
@@ -403190,7 +403366,7 @@
                     "name": "textual_image"
                 }
             ],
-            "last_checked_revision": "c28bbce58eed495cb531b004b7e1633c80a099fc\n"
+            "last_checked_revision": "610a2f575c469134479f2101f92255aa4bc642a3\n"
         },
         {
             "id": 2171,
@@ -405324,7 +405500,7 @@
                     "name": "memory_migrations"
                 }
             ],
-            "last_checked_revision": "1270f264d400de62d82036fa83b9033dccf8fa87\n"
+            "last_checked_revision": "626df983ff9e2367b1744fd5fc7daaddde8d5b56\n"
         },
         {
             "id": 2180,
@@ -406380,7 +406556,7 @@
                     "name": "cpex_retry_with_backoff"
                 }
             ],
-            "last_checked_revision": "f32b2107085564cfe788a193752a6ba56d46d3a2\n"
+            "last_checked_revision": "a5b96fb4211dd931294be1e0882f861ca71ae792\n"
         },
         {
             "id": 2186,
@@ -406564,7 +406740,7 @@
                     "name": "openmemory"
                 }
             ],
-            "last_checked_revision": "9dc9b443095c3fa2cf6d6d1428be3b38e2feff86\n"
+            "last_checked_revision": "ac9c2a586ba71ce35536d74dd0c1688188437893\n"
         },
         {
             "id": 2188,
@@ -406902,9 +407078,17 @@
                 {
                     "id": 20235,
                     "name": "test_domain_registry"
+                },
+                {
+                    "id": 20370,
+                    "name": "check_version_contract"
+                },
+                {
+                    "id": 20371,
+                    "name": "snapshot_model_catalog"
                 }
             ],
-            "last_checked_revision": "ef9e5dd99c953a21d20a99a93547e57468bae863\n"
+            "last_checked_revision": "cdbb6134abdc161c6c4947e3d5c0539602956684\n"
         },
         {
             "id": 2190,
@@ -407444,6 +407628,14 @@
                     "name": "flashinfer"
                 },
                 {
+                    "id": 6766,
+                    "name": "mlx"
+                },
+                {
+                    "id": 6767,
+                    "name": "mlx_lm"
+                },
+                {
                     "id": 7572,
                     "name": "comfy"
                 },
@@ -407610,9 +407802,13 @@
                 {
                     "id": 20231,
                     "name": "mmaudio"
+                },
+                {
+                    "id": 20369,
+                    "name": "rife_mlx"
                 }
             ],
-            "last_checked_revision": "8208536cd1db7a1d32b68aaa6a679953ae23ab8b\n"
+            "last_checked_revision": "8537dcd6ded64052327c4c8e2d7acdfa903c845e\n"
         },
         {
             "id": 2192,
@@ -408166,7 +408362,7 @@
             "id": 2194,
             "url": "https://github.com/darkoperator/dnsrecon",
             "description": "DNS Enumeration Script",
-            "stars": 3020,
+            "stars": 3059,
             "source_graph_repo_id": 66949,
             "dependencies": [
                 {
@@ -411166,7 +411362,7 @@
                     "name": "voice_code_bench_run"
                 }
             ],
-            "last_checked_revision": "19ee5ed5ac15767e7a7a5a7f2622b9e814a777f1\n"
+            "last_checked_revision": "2885415c6b737624cb90c0b57f15dba9940dbcb5\n"
         },
         {
             "id": 2201,
@@ -411759,6 +411955,10 @@
                     "name": "aiohttp"
                 },
                 {
+                    "id": 30,
+                    "name": "certifi"
+                },
+                {
                     "id": 34,
                     "name": "uvicorn"
                 },
@@ -411831,7 +412031,7 @@
                     "name": "lazyllm"
                 }
             ],
-            "last_checked_revision": "96fd3ec08853b40a9e4c743794446553df0a3bc4\n"
+            "last_checked_revision": "f3e9f05bad0547e63604ad96c52bbfe9c568f5db\n"
         },
         {
             "id": 2206,
@@ -412177,7 +412377,7 @@
             "id": 2208,
             "url": "https://github.com/coleifer/peewee",
             "description": "a small, expressive orm -- supports postgresql, mysql, sqlite, now with asyncio",
-            "stars": 11971,
+            "stars": 11985,
             "source_graph_repo_id": 48420,
             "dependencies": [
                 {
@@ -412644,7 +412844,7 @@
                     "name": "html_processing"
                 }
             ],
-            "last_checked_revision": "97cc8fe1733582bb091adee999464da3bfa8dd92\n"
+            "last_checked_revision": "eb932bac1eb17cb02a035726044b2cbad9c55a95\n"
         },
         {
             "id": 2211,
@@ -413182,7 +413382,7 @@
                     "name": "vendor"
                 }
             ],
-            "last_checked_revision": "8d689a4c334b09bbe33f3e2c50ee1a3b8bcf30af\n"
+            "last_checked_revision": "38006dda2d9632ec8cba376b89684376a6f0b1d9\n"
         },
         {
             "id": 2212,
@@ -413656,6 +413856,10 @@
                     "name": "pydantic"
                 },
                 {
+                    "id": 49,
+                    "name": "grpc"
+                },
+                {
                     "id": 56,
                     "name": "redis"
                 },
@@ -413702,6 +413906,10 @@
                 {
                     "id": 932,
                     "name": "tomli"
+                },
+                {
+                    "id": 1412,
+                    "name": "pytest_asyncio"
                 },
                 {
                     "id": 3074,
@@ -413756,7 +413964,7 @@
                     "name": "langchain_opensandbox"
                 }
             ],
-            "last_checked_revision": "96175e2836ab8d44cc8bc6fb3c258b3d10ec3642\n"
+            "last_checked_revision": "415259e527d2d692deffda80a50faddd046bf49c\n"
         },
         {
             "id": 2215,
@@ -414102,7 +414310,7 @@
                     "name": "drivers"
                 }
             ],
-            "last_checked_revision": "4468aa21315353102380d3182a3ce8aae06664b6\n"
+            "last_checked_revision": "99c37c7c1b668c46364ecb767ad085838a3cbfef\n"
         },
         {
             "id": 2218,
@@ -414350,7 +414558,7 @@
                     "name": "genkit_google_cloud"
                 }
             ],
-            "last_checked_revision": "889d0f428b29f76ec920f808fdb949b1ab9be22a\n"
+            "last_checked_revision": "31370a8f9b4bae1efe2b39399b1f8cd89908ffd1\n"
         },
         {
             "id": 2220,
@@ -415433,7 +415641,7 @@
                     "name": "langchain_openviking"
                 }
             ],
-            "last_checked_revision": "87d5142e0666821180ea969a1d135a93497e3b4a\n"
+            "last_checked_revision": "3590b47a25bd008068e35c8423149e3baa3203b8\n"
         },
         {
             "id": 2224,
@@ -415655,7 +415863,7 @@
                     "name": "fake_cmux_server"
                 }
             ],
-            "last_checked_revision": "0fc34d7067f838933e9ff394e8c6d3597c749312\n"
+            "last_checked_revision": "786a35d099ec09b3334a31358e589415b9f0562a\n"
         },
         {
             "id": 2227,
@@ -416209,7 +416417,7 @@
             "id": 2234,
             "url": "https://github.com/apache/tika",
             "description": "The Apache Tika toolkit detects and extracts metadata and text from over a thousand different file types (such as PPT, XLS, and PDF).",
-            "stars": 3806,
+            "stars": 3984,
             "source_graph_repo_id": 54222,
             "dependencies": [
                 {
@@ -416229,7 +416437,7 @@
                     "name": "fasttext"
                 }
             ],
-            "last_checked_revision": "532a685ea1bd4db96befd17447f3a9aec70bca54\n"
+            "last_checked_revision": "424bfd2fcf6d70478965c101a162728463aa38e9\n"
         },
         {
             "id": 2235,
@@ -417771,7 +417979,7 @@
                     "name": "check_tts_adapter"
                 }
             ],
-            "last_checked_revision": "d7216ef5144866c2f039947e1cc396b1984fcf09\n"
+            "last_checked_revision": "07ceb3324a52061d6fb0cd4293b573783d287896\n"
         },
         {
             "id": 2241,
@@ -417915,7 +418123,7 @@
                     "name": "garth"
                 }
             ],
-            "last_checked_revision": "4eddf0953df1c0fcb16cfd4c0e1eccd9668ea38a\n"
+            "last_checked_revision": "313a506753a6eb504f5400910fd7ba32b0affd76\n"
         },
         {
             "id": 2243,
@@ -418025,7 +418233,7 @@
                     "name": "cursor_sdk"
                 }
             ],
-            "last_checked_revision": "ae2ffbe2beee40576b19bd24b0d24acdc33f7ef9\n"
+            "last_checked_revision": "5a5d4140778eb683e8206c315d6d4c5b9b1693f2\n"
         },
         {
             "id": 2246,
@@ -418651,7 +418859,7 @@
                     "name": "omnigent"
                 }
             ],
-            "last_checked_revision": "1f282c8fcbe751297053134331704dae1febc093\n"
+            "last_checked_revision": "aae73250a21195099835b35f92b1514c6c0030a8\n"
         },
         {
             "id": 2247,
@@ -419849,7 +420057,7 @@
                     "name": "india_context"
                 }
             ],
-            "last_checked_revision": "a9fa86d0c6af0b12775211aff4188fdf6c3d9d0d\n"
+            "last_checked_revision": "c592600ba9c959c61f2d2c818fdd31761d3a099a\n"
         },
         {
             "id": 2252,
@@ -421253,7 +421461,7 @@
                     "name": "x402_services"
                 }
             ],
-            "last_checked_revision": "105307698425ef7dca60f059ac7e238db87ba31c\n"
+            "last_checked_revision": "bb1e5155eee0bdcdd79e9cf2dc562d457ac2bda8\n"
         },
         {
             "id": 2256,
@@ -421759,7 +421967,7 @@
                     "name": "hindsight_copilot_cli"
                 }
             ],
-            "last_checked_revision": "b64943d195422ec62c1b7c7704d27c7e04c3f250\n"
+            "last_checked_revision": "8b78b4ac04ddce55cdf1599880f75d1f07c084c3\n"
         },
         {
             "id": 2257,
@@ -422447,7 +422655,7 @@
             "id": 2262,
             "url": "https://github.com/rspamd/rspamd",
             "description": "Rapid spam filtering system.",
-            "stars": 2462,
+            "stars": 2511,
             "source_graph_repo_id": 39959266,
             "dependencies": [
                 {
@@ -422759,7 +422967,7 @@
                     "name": "bcrypt"
                 }
             ],
-            "last_checked_revision": "1dfcb0031a8da1781685fee289878a2c338907f5\n"
+            "last_checked_revision": "6b26c8723b58f3555aa483f784804f70d6f69b7f\n"
         },
         {
             "id": 2267,
@@ -432203,6 +432411,10 @@
                     "name": "uvicorn"
                 },
                 {
+                    "id": 38,
+                    "name": "pydantic"
+                },
+                {
                     "id": 183,
                     "name": "openai"
                 },
@@ -432217,9 +432429,33 @@
                 {
                     "id": 3929,
                     "name": "yt_dlp"
+                },
+                {
+                    "id": 3982,
+                    "name": "pipeline"
+                },
+                {
+                    "id": 10178,
+                    "name": "mcp"
+                },
+                {
+                    "id": 13049,
+                    "name": "summarizer"
+                },
+                {
+                    "id": 15449,
+                    "name": "video_processor"
+                },
+                {
+                    "id": 15707,
+                    "name": "transcriber"
+                },
+                {
+                    "id": 19562,
+                    "name": "translator"
                 }
             ],
-            "last_checked_revision": "ade833b790d482f7a5c0a722c67bc33f71e9d2b5\n"
+            "last_checked_revision": "3afd2ac8a704e018fb050d6fc8311d10dd62ed87\n"
         },
         {
             "id": 2271,
@@ -432618,7 +432854,7 @@
                     "name": "evalchemy"
                 }
             ],
-            "last_checked_revision": "c5a148fa92dcab3a0ee807c20599209c2f1d7803\n"
+            "last_checked_revision": "6762cbb41c8bb3c61825cab9acd8b79d87a02cce\n"
         },
         {
             "id": 2273,
@@ -433376,7 +433612,7 @@
                     "name": "olm"
                 }
             ],
-            "last_checked_revision": "bc76f62c2034515dcd8dd0e71dffb582f69e7806\n"
+            "last_checked_revision": "1f234a1033ca15be0aff851657f542af408ab2e7\n"
         },
         {
             "id": 2274,
@@ -434310,7 +434546,7 @@
                     "name": "ast_grep_py"
                 }
             ],
-            "last_checked_revision": "76e393c733adba9bf2813a258bc5426d801dd946\n"
+            "last_checked_revision": "7bc04db000908b8381e7aaf9147b7e4c1557d465\n"
         },
         {
             "id": 2280,
@@ -434852,7 +435088,7 @@
                     "name": "robolab"
                 }
             ],
-            "last_checked_revision": "d034a6b0ecaa31aa07c81aeb7bbe69b225f1d7be\n"
+            "last_checked_revision": "b9cd165ef6bb0554ff65edc872b3768f8bc613b0\n"
         },
         {
             "id": 2281,
@@ -435336,7 +435572,7 @@
                     "name": "reme_ai_studio"
                 }
             ],
-            "last_checked_revision": "fd2894f9399206645b3adc634982f88c32f36dd9\n"
+            "last_checked_revision": "c792fd197ce8732846dd8d38684b75546537e4f8\n"
         },
         {
             "id": 2283,
@@ -436914,6 +437150,10 @@
                     "name": "mlx_vlm"
                 },
                 {
+                    "id": 10178,
+                    "name": "mcp"
+                },
+                {
                     "id": 10683,
                     "name": "outetts"
                 },
@@ -437112,9 +437352,13 @@
                 {
                     "id": 20287,
                     "name": "studio_client"
+                },
+                {
+                    "id": 20372,
+                    "name": "lan_access"
                 }
             ],
-            "last_checked_revision": "ee68d9e2add48c8dcc1bad45029736a3bd6493c6\n"
+            "last_checked_revision": "6e5360ca91ffb058b418d5efca82a3e6f2389774\n"
         },
         {
             "id": 2288,
@@ -437749,7 +437993,7 @@
                     "name": "opendataloader_pdf"
                 }
             ],
-            "last_checked_revision": "a7789b8e77dd05e2b8659eb3ea12fc458f80bfb8\n"
+            "last_checked_revision": "f0dd82c7983ff32a8eb09d37c6edca71fc409dff\n"
         },
         {
             "id": 2292,
@@ -441499,7 +441743,7 @@
                     "name": "mcp_http"
                 }
             ],
-            "last_checked_revision": "62044b60119900be9fe66375f70bbd2121f5fc5d\n"
+            "last_checked_revision": "1f47f97538601ea1d29efd8e5d470e666a4acbe3\n"
         },
         {
             "id": 2299,
@@ -442294,7 +442538,7 @@
                     "name": "gcf"
                 }
             ],
-            "last_checked_revision": "810ea8a9f04fddb2b298b61d752a5e619e19245a\n"
+            "last_checked_revision": "f9661ec8859b60b17674bcedcb72f71eca5a3857\n"
         },
         {
             "id": 2305,
@@ -443568,7 +443812,7 @@
                     "name": "harness"
                 }
             ],
-            "last_checked_revision": "8ba04220e3de2bb9699e672703846b7201fa56ac\n"
+            "last_checked_revision": "85dba51a326fc69d16b22c9e2232890f30e9c15f\n"
         },
         {
             "id": 2312,
@@ -444414,7 +444658,7 @@
                     "name": "machinery"
                 }
             ],
-            "last_checked_revision": "02f0e8cffaaa3e5033b29404c5746597acc14b9e\n"
+            "last_checked_revision": "b78a3462c9a6452bb2077c52a7908fd07a07dd02\n"
         },
         {
             "id": 2313,
@@ -444524,7 +444768,7 @@
                     "name": "workflow_bench"
                 }
             ],
-            "last_checked_revision": "fe3d7e56be5a557e051f12684dfbdce9d5a31920\n"
+            "last_checked_revision": "fc885a4bf3edddf9214df633d8d1c0767ef58af9\n"
         },
         {
             "id": 2314,
@@ -444744,7 +444988,7 @@
                     "name": "free_claude_code"
                 }
             ],
-            "last_checked_revision": "41045e738060afa95b480add1c43d18210402dc4\n"
+            "last_checked_revision": "c52da4286132c40cd0694adc7c3d7f1155e49193\n"
         },
         {
             "id": 2316,
@@ -444864,7 +445108,7 @@
                     "name": "ksuid"
                 }
             ],
-            "last_checked_revision": "cfc7a04bc859376b1d70b49747b2cd0830c0ece0\n"
+            "last_checked_revision": "0f3b3dfb07cdedfb37270996d55ef8c94afb4b63\n"
         },
         {
             "id": 2318,
@@ -445176,7 +445420,7 @@
                     "name": "dash_testing_stub"
                 }
             ],
-            "last_checked_revision": "c06fbe7cbed7b9707c751b2da1ddf64f05f8c856\n"
+            "last_checked_revision": "e88f1448afd089bc30e05e2a901842ab3be57b0a\n"
         },
         {
             "id": 2320,
@@ -445566,7 +445810,7 @@
                     "name": "drbench"
                 }
             ],
-            "last_checked_revision": "32f35d5e01f460549c10365eb569978909f5c969\n"
+            "last_checked_revision": "25aa2735dabbca6a8c82afae2c7c9f35830d151c\n"
         },
         {
             "id": 2321,
@@ -445581,7 +445825,7 @@
             "id": 2322,
             "url": "https://github.com/espressif/esp-idf",
             "description": "Espressif IoT Development Framework. Official development framework for Espressif SoCs.",
-            "stars": 18801,
+            "stars": 18811,
             "source_graph_repo_id": 301749,
             "dependencies": [
                 {
@@ -446447,7 +446691,7 @@
                     "name": "cohere_melody"
                 }
             ],
-            "last_checked_revision": "6307e396acfdfff7b75d3ceb9b4756272fb03b6b\n"
+            "last_checked_revision": "1f1aff3018c097bcbeafca9a483e58d04dee38ba\n"
         },
         {
             "id": 2326,
@@ -446621,7 +446865,7 @@
                     "name": "optimize_format"
                 }
             ],
-            "last_checked_revision": "29b715fa89fc5bb8351d2ea0116f03d4f2e212f2\n"
+            "last_checked_revision": "d6fc9c156d1d6c3ba0df455fb0a37b587ecdd421\n"
         },
         {
             "id": 2327,
@@ -447882,7 +448126,7 @@
                     "name": "pr_checker_bot"
                 }
             ],
-            "last_checked_revision": "76c8cf0882411467c93f83a2fb05a4a0ae3a1646\n"
+            "last_checked_revision": "3dad32dbdf9fcc8dac99f0caac3255011995977b\n"
         },
         {
             "id": 2334,
@@ -448132,7 +448376,7 @@
                     "name": "anthropic_api"
                 }
             ],
-            "last_checked_revision": "644ad30d6e9436074a00f8bd08ecadcd98992fc1\n"
+            "last_checked_revision": "565d53515b54df32fada2564d1fe9caf1a17b738\n"
         },
         {
             "id": 2337,
@@ -448197,6 +448441,10 @@
                 {
                     "id": 38,
                     "name": "pydantic"
+                },
+                {
+                    "id": 49,
+                    "name": "grpc"
                 },
                 {
                     "id": 50,
@@ -448395,6 +448643,10 @@
                     "name": "errors"
                 },
                 {
+                    "id": 9268,
+                    "name": "yandex"
+                },
+                {
                     "id": 9692,
                     "name": "h2"
                 },
@@ -448427,7 +448679,7 @@
                     "name": "check_imports"
                 }
             ],
-            "last_checked_revision": "74abb20cc123e13b4c0ebd05043ca81fd0bf0abf\n"
+            "last_checked_revision": "bd3649e79789ec787cf773b22de83d06cbd5edb0\n"
         },
         {
             "id": 2339,
@@ -448567,7 +448819,7 @@
                     "name": "cubesandbox"
                 }
             ],
-            "last_checked_revision": "2962ba74c879728b501efd566a3655689008c9b8\n"
+            "last_checked_revision": "a59396362cc957cda2f87014e7cc10782723de2e\n"
         },
         {
             "id": 2341,
@@ -448666,6 +448918,10 @@
                 {
                     "id": 498,
                     "name": "coverage"
+                },
+                {
+                    "id": 613,
+                    "name": "platformdirs"
                 },
                 {
                     "id": 690,
@@ -448992,7 +449248,7 @@
                     "name": "WebView2"
                 }
             ],
-            "last_checked_revision": "699efe8ef73e25c5a7af393bd769362f04d2dfff\n"
+            "last_checked_revision": "0386b4cd2d3e1d5b42208f8c344ea46a0716372f\n"
         },
         {
             "id": 2344,
@@ -449006,7 +449262,7 @@
                     "name": "scrapling"
                 }
             ],
-            "last_checked_revision": "86c798e4f35b7922d974ee8c11db853333daf0a1\n"
+            "last_checked_revision": "cc8cc34b54d177a5b2891d28d92c0f206ba09271\n"
         },
         {
             "id": 2345,
@@ -449140,7 +449396,7 @@
                     "name": "pypdfium2"
                 }
             ],
-            "last_checked_revision": "52f93c65be22148bcd36c76ba77ec78a4418ddc0\n"
+            "last_checked_revision": "618631e44dbf8cbd21588ef01fe93522883f2b93\n"
         },
         {
             "id": 2348,
@@ -449330,7 +449586,7 @@
                     "name": "moonshine"
                 }
             ],
-            "last_checked_revision": "08dbc862ea3aa2f91bf38b5c429a3173860db87d\n"
+            "last_checked_revision": "b21e54d6a845c54308bc62500b57f9a2b2aa93ac\n"
         },
         {
             "id": 2349,
@@ -449798,7 +450054,7 @@
                     "name": "apple_fm_sdk"
                 }
             ],
-            "last_checked_revision": "7c55bddaf04caaf8301c73aa93754ac7e8512cd7\n"
+            "last_checked_revision": "a61da32b6a06f0bc541bd8955cbae7beaad6c3dd\n"
         },
         {
             "id": 2351,
@@ -450235,7 +450491,7 @@
                     "name": "honcho_cli"
                 }
             ],
-            "last_checked_revision": "f88892b0715adbd852c6b846532cc39a335d2de4\n"
+            "last_checked_revision": "2163ab1aa3cd74c74abe7cf7f832a29b581bee4a\n"
         },
         {
             "id": 2356,
@@ -451085,7 +451341,7 @@
                     "name": "mysite"
                 }
             ],
-            "last_checked_revision": "8a44a3eab13c3229bf93dc3e50b1123e18b0bda0\n"
+            "last_checked_revision": "e0ea4add32d18fadf62bd40046d81023d0bc568d\n"
         },
         {
             "id": 2363,
@@ -451287,7 +451543,7 @@
                     "name": "aioapns"
                 }
             ],
-            "last_checked_revision": "fa4aeb8e8ecc59e6317fd4fdd7edcf1eb89cb183\n"
+            "last_checked_revision": "fadab8f097520ab48db15263ac50e123d058a50d\n"
         },
         {
             "id": 2364,
@@ -452451,9 +452707,17 @@
                 {
                     "id": 20323,
                     "name": "embedding_video"
+                },
+                {
+                    "id": 20373,
+                    "name": "image_orient"
+                },
+                {
+                    "id": 20374,
+                    "name": "scan_cropper"
                 }
             ],
-            "last_checked_revision": "1b3943231cc5ef6c18a46cd6609a26224b82b1ab\n"
+            "last_checked_revision": "aa4b0c85188ecd20f2e02619617ab2da14d87177\n"
         },
         {
             "id": 2369,
@@ -452815,6 +453079,10 @@
                     "name": "trimesh"
                 },
                 {
+                    "id": 3770,
+                    "name": "keyring"
+                },
+                {
                     "id": 3970,
                     "name": "rpyc"
                 },
@@ -453079,7 +453347,7 @@
                     "name": "graspgenx"
                 }
             ],
-            "last_checked_revision": "11e70d00b7ad82c4519509d9168b62398b26b98c\n"
+            "last_checked_revision": "888280e7bad8b255803a36f407bbb2ad5f52c62b\n"
         },
         {
             "id": 2370,
@@ -453125,7 +453393,7 @@
                     "name": "deep_translator"
                 }
             ],
-            "last_checked_revision": "8459024d4c82ee16a2e14537553884a623ae9c4e\n"
+            "last_checked_revision": "2566c34e0f8ea22992a85f3ff16e048307b49365\n"
         },
         {
             "id": 2371,
@@ -454057,7 +454325,7 @@
                     "name": "hermes_constants"
                 }
             ],
-            "last_checked_revision": "d4430ff7e5a5cf2a642ffe2885c250648f39d96d\n"
+            "last_checked_revision": "d7c0520f84fe75877b94bdbb39ca0f57b9cb6a0e\n"
         },
         {
             "id": 2377,
@@ -454083,7 +454351,7 @@
                     "name": "flask"
                 }
             ],
-            "last_checked_revision": "96b729caeb84bc51776b65779286a98a91cb74c5\n"
+            "last_checked_revision": "7598d80d2c485aa9d29b4956e2c730738343ccac\n"
         },
         {
             "id": 2378,
@@ -454945,7 +455213,7 @@
                     "name": "noveum_trace"
                 }
             ],
-            "last_checked_revision": "fc5bb9b2384f0de20472ff9314c3fb34667d3adb\n"
+            "last_checked_revision": "689ca048bb0ab03183d6904b6c6eb6a405084dd0\n"
         },
         {
             "id": 2381,
@@ -454971,7 +455239,7 @@
                     "name": "codebase_memory_mcp"
                 }
             ],
-            "last_checked_revision": "4d7d9f1117b8e0c9322ff8c73e5124b0b5f7a185\n"
+            "last_checked_revision": "46ae198fc11cda80e817acbc5f5908d7c2de7032\n"
         },
         {
             "id": 2382,
@@ -455204,13 +455472,13 @@
                     "name": "glide_shared"
                 }
             ],
-            "last_checked_revision": "4c50c6e6c09e0d8ca7bc8003a20a8ccd767c28b5\n"
+            "last_checked_revision": "984f06387f17c8afae8569239f60cb87efdf50df\n"
         },
         {
             "id": 2385,
             "url": "https://github.com/phongnguyend/Practical.CleanArchitecture",
-            "description": "Full-stack .Net 10 Clean Architecture (Microservices, Modular Monolith, Monolith), Blazor, Angular 21, React 19, Vue 3.5, BFF with YARP, NextJs 16, Domain-Driven Design, CQRS, SOLID, Asp.Net Core Identity Custom Storage, OpenID Connect, EF Core, OpenTelemetry, SignalR, Background Services, Health Checks, Rate Limiting, Clouds (Azure, AWS, GCP), ...",
-            "stars": 2443,
+            "description": "Full-stack .Net 10 Clean Architecture (Microservices, Modular Monolith, Monolith), Blazor, Angular 22, React 19, Vue 3.5, BFF with YARP, NextJs 16, Domain-Driven Design, CQRS, SOLID, Asp.Net Core Identity Custom Storage, OpenID Connect, EF Core, OpenTelemetry, SignalR, Background Services, Health Checks, Rate Limiting, Clouds (Azure, AWS, GCP), ...",
+            "stars": 2454,
             "source_graph_repo_id": 37865691,
             "dependencies": [
                 {
@@ -455790,7 +456058,7 @@
                     "name": "omlx"
                 }
             ],
-            "last_checked_revision": "f2d400c372ed57d852ea02f31e0c8986c18b5329\n"
+            "last_checked_revision": "86894d0f60e30e2043160390a93363d109402eb9\n"
         },
         {
             "id": 2388,
@@ -456511,7 +456779,7 @@
                     "name": "k8s_agent_sandbox_mcp_server"
                 }
             ],
-            "last_checked_revision": "2c40f1acdbc316a6984f20fd42616e3bec951130\n"
+            "last_checked_revision": "ac864a6fe3bdec6af59f50b5105e33980fb9da3a\n"
         },
         {
             "id": 2393,
@@ -456649,7 +456917,7 @@
                     "name": "pyJianYingDraft"
                 }
             ],
-            "last_checked_revision": "4d8e86d6bedf17f7d2799bf15703fb4f33709aab\n"
+            "last_checked_revision": "e505735c6b9e984acef9a6fbf43ff59f34f760c2\n"
         },
         {
             "id": 2394,
@@ -456975,7 +457243,7 @@
                     "name": "pydantic_monty"
                 }
             ],
-            "last_checked_revision": "e0a4f51109cbe6b8a239700d8348f0cbebd70b26\n"
+            "last_checked_revision": "a7cb96de56212d3c93b22b9d9d6fc7d25638d77a\n"
         },
         {
             "id": 2395,
@@ -457983,7 +458251,7 @@
                     "name": "pr_classifier"
                 }
             ],
-            "last_checked_revision": "8558c10dd5c29f62d74b4463a69fa922dd56cfc0\n"
+            "last_checked_revision": "ddf7e6ab371c80648f442ab4ddd85e6a57a7aaad\n"
         },
         {
             "id": 2397,
@@ -458242,7 +458510,7 @@
                     "name": "markdown_parity"
                 }
             ],
-            "last_checked_revision": "457cd1b71bc140658e04be4265d802c69bad152b\n"
+            "last_checked_revision": "c0e60a4464a0d7abcba58bdf02a2d9ed65813be3\n"
         },
         {
             "id": 2399,
@@ -458300,7 +458568,7 @@
                     "name": "filesplit"
                 }
             ],
-            "last_checked_revision": "81fde2832017208be5c3da2730b23a79e24ba49a\n"
+            "last_checked_revision": "f5d7a3cfa1e18a6e10840c44a71af8324158fbb1\n"
         },
         {
             "id": 2400,
@@ -459372,7 +459640,7 @@
                     "name": "cann_ops_transformer"
                 }
             ],
-            "last_checked_revision": "6b424bfa9e891d78544c2fd737a5486ddc5f1e35\n"
+            "last_checked_revision": "cfd93bb24f34808bdf6379ed3b664bf2289321ff\n"
         },
         {
             "id": 2404,
@@ -459530,9 +459798,13 @@
                 {
                     "id": 20254,
                     "name": "ds4_context_sweep"
+                },
+                {
+                    "id": 20375,
+                    "name": "bench_he"
                 }
             ],
-            "last_checked_revision": "7bea91924969f697a3b28e8c19ce67b89a255f46\n"
+            "last_checked_revision": "99ab4cebd331310adcc37c5ab89e30323b3ddf27\n"
         },
         {
             "id": 2406,
@@ -459962,7 +460234,7 @@
                     "name": "_control"
                 }
             ],
-            "last_checked_revision": "010583a13c28bb62d850038dfa89f8a738361be5\n"
+            "last_checked_revision": "d8fc8fcbde743726443fadb8e8ad010f0a2fd38d\n"
         },
         {
             "id": 2407,
@@ -460154,7 +460426,7 @@
                     "name": "images"
                 }
             ],
-            "last_checked_revision": "2e5b0daefdfef0efb8d1f197f69e3c7a3d0abb26\n"
+            "last_checked_revision": "0f1f96382713e360d7bc8a7b8e5ab78ee7b8853a\n"
         },
         {
             "id": 2409,
@@ -460320,7 +460592,7 @@
                     "name": "math_to_manim"
                 }
             ],
-            "last_checked_revision": "4c9c1956d3644ee7309ac290377eca01a3086716\n"
+            "last_checked_revision": "c2450364fed4dba8e5c000bafcdf4a6d2b941e76\n"
         },
         {
             "id": 2410,
@@ -460830,6 +461102,10 @@
                     "name": "claude_agent_sdk"
                 },
                 {
+                    "id": 12470,
+                    "name": "vercel"
+                },
+                {
                     "id": 12651,
                     "name": "swesmith"
                 },
@@ -461086,7 +461362,7 @@
                     "name": "harbor_atif2otel"
                 }
             ],
-            "last_checked_revision": "f03db62fd2ed2ed1f79aefe024cfcbc68a0d759e\n"
+            "last_checked_revision": "56069804099992bb072ba0db467422593f6bd7c8\n"
         },
         {
             "id": 2411,
@@ -461989,7 +462265,7 @@
                     "name": "urandom"
                 }
             ],
-            "last_checked_revision": "990cced209e1509f5eba0470ec3d9a9e61e93594\n"
+            "last_checked_revision": "149fbee1e9eec7485e182f26d95dff4a4cfeccce\n"
         },
         {
             "id": 2417,
@@ -464541,7 +464817,7 @@
                     "name": "product_context"
                 }
             ],
-            "last_checked_revision": "54d370494c3dcba04ca28a1c6e771f7416ab0130\n"
+            "last_checked_revision": "64294b215035da46385911c8ed423d7d1f3cb601\n"
         },
         {
             "id": 2425,
@@ -464883,7 +465159,7 @@
                     "name": "agent_evals"
                 }
             ],
-            "last_checked_revision": "c16be9bbbec4aec6d4b35e482c166daef8afa72c\n"
+            "last_checked_revision": "b77d61291399976985f12adcd6014aba2f0275cf\n"
         },
         {
             "id": 2426,
@@ -466416,9 +466692,17 @@
                 {
                     "id": 20304,
                     "name": "ioc_match"
+                },
+                {
+                    "id": 20376,
+                    "name": "ip_denylist"
+                },
+                {
+                    "id": 20377,
+                    "name": "pytest_isolated"
                 }
             ],
-            "last_checked_revision": "aa3c6fb18529ecfc8d9f792dbc7d849c36ad3e2b\n"
+            "last_checked_revision": "e9bdb1a176242d91dd352495d8b22a8976569a44\n"
         },
         {
             "id": 2434,
@@ -467588,7 +467872,7 @@
                     "name": "arctic_platform"
                 }
             ],
-            "last_checked_revision": "125cb814fcfecf40d32ac2fbb99d68258b041616\n"
+            "last_checked_revision": "9719b4f74ae9cbb6ec022a8d67c1e8a835b52c7d\n"
         },
         {
             "id": 2437,
@@ -469378,7 +469662,7 @@
                     "name": "pydantic_settings"
                 }
             ],
-            "last_checked_revision": "a8dda59f35b2a1845fdeaa2a7bfe4e8222f47523\n"
+            "last_checked_revision": "6cb390faee447f4fdbe5c2f1b491b883ea1d9931\n"
         },
         {
             "id": 2444,
@@ -469540,7 +469824,7 @@
                     "name": "measure"
                 }
             ],
-            "last_checked_revision": "b85ef61ca767ff681fdc74e7f124e461e4829464\n"
+            "last_checked_revision": "0e0a9ac28c8e0d194ebd52b96840cf0b22d703d0\n"
         },
         {
             "id": 2445,
@@ -470993,6 +471277,10 @@
                     "name": "tree_sitter_typescript"
                 },
                 {
+                    "id": 13850,
+                    "name": "tree_sitter_rust"
+                },
+                {
                     "id": 16807,
                     "name": "repowise"
                 },
@@ -471009,7 +471297,7 @@
                     "name": "kg_fixtures"
                 }
             ],
-            "last_checked_revision": "d22dc3c2b8d4c0bee431e2f22ab27e55c0fe271d\n"
+            "last_checked_revision": "13cc339a7a7c0582c0aa14d65ed637a3c058fe17\n"
         },
         {
             "id": 2454,
@@ -471447,7 +471735,7 @@
                     "name": "supersonic"
                 }
             ],
-            "last_checked_revision": "2f0728eac912e3ad6b110774c9095330779d53e5\n"
+            "last_checked_revision": "1149607941ced65edb831dd9952c49e5a793b8cf\n"
         },
         {
             "id": 2459,
@@ -473343,7 +473631,7 @@
                     "name": "fastmcp"
                 }
             ],
-            "last_checked_revision": "ac98c1d847f0a639ab51ca51b8d089baf4789a10\n"
+            "last_checked_revision": "d28f58307f32b5ada7e7977b51f7a4edb6851916\n"
         },
         {
             "id": 2469,
@@ -473806,7 +474094,7 @@
             "id": 2472,
             "url": "https://github.com/brainflow-dev/brainflow",
             "description": "BrainFlow is a library intended to obtain, parse and analyze EEG, EMG, ECG and other kinds of data from biosensors",
-            "stars": 1712,
+            "stars": 1735,
             "source_graph_repo_id": 38956171,
             "dependencies": [
                 {
@@ -473926,7 +474214,7 @@
                     "name": "simplepyble"
                 }
             ],
-            "last_checked_revision": "a9d9c1f17f96d7a89a970d82161a2e840d21ccfa\n"
+            "last_checked_revision": "9097190cc70ff039172b7c56bfc44bf1c8f3be25\n"
         },
         {
             "id": 2473,
@@ -474216,7 +474504,7 @@
                     "name": "asposeslidescloud"
                 }
             ],
-            "last_checked_revision": "b7f8162ebb738b7fa249c4f34a11502b9ba355e5\n"
+            "last_checked_revision": "ad8ff258b67e32a6c660a9540ceebe004ba7c3d6\n"
         },
         {
             "id": 2474,
@@ -474620,7 +474908,7 @@
                     "name": "app_logic"
                 }
             ],
-            "last_checked_revision": "40070001709e5f7d9b7797e8193d330e3e93f125\n"
+            "last_checked_revision": "8059d690f2ff3f0eae9b22f35e6f4d2617ae330c\n"
         },
         {
             "id": 2476,
@@ -474650,7 +474938,7 @@
                     "name": "agents"
                 }
             ],
-            "last_checked_revision": "06381c5195178b349fa5b77648179775f0b1d839\n"
+            "last_checked_revision": "85746d5b41513b014231aa1d88739c520e51a171\n"
         },
         {
             "id": 2477,
@@ -475525,7 +475813,7 @@
                     "name": "_posixshmem"
                 }
             ],
-            "last_checked_revision": "7591f1f8cc684a667a2f85a9be67792733821b15\n"
+            "last_checked_revision": "3501627e06c0567d3e4a15b0ee75f2ff729448c9\n"
         },
         {
             "id": 2483,
@@ -476167,6 +476455,10 @@
                     "name": "math_verify"
                 },
                 {
+                    "id": 10601,
+                    "name": "torch_memory_saver"
+                },
+                {
                     "id": 11223,
                     "name": "mooncake"
                 },
@@ -476207,7 +476499,7 @@
                     "name": "run_grpo"
                 }
             ],
-            "last_checked_revision": "e181c9f8f8dcae4df3f45b27f26a1f64e5878f68\n"
+            "last_checked_revision": "f8ed2952713739f89f631f69f8981e17790a4821\n"
         },
         {
             "id": 2486,
@@ -476998,7 +477290,7 @@
                     "name": "neucodec"
                 }
             ],
-            "last_checked_revision": "54f42abf4460e68aac79c985b9446557c2180f2f\n"
+            "last_checked_revision": "5556af4d045583dd08c395bce42c327702079563\n"
         },
         {
             "id": 2494,
@@ -477128,11 +477420,15 @@
                     "name": "python_multipart"
                 },
                 {
+                    "id": 18247,
+                    "name": "httpx2"
+                },
+                {
                     "id": 20143,
                     "name": "aiohappyeyeballs"
                 }
             ],
-            "last_checked_revision": "b26df4176463b51d310b56a41b05b70163e4d30f\n"
+            "last_checked_revision": "8e7589e4286869b9030eb1b19726297c63852ed3\n"
         },
         {
             "id": 2495,
@@ -477610,7 +477906,7 @@
                     "name": "agently_stage"
                 }
             ],
-            "last_checked_revision": "8e1dba588cc1c77953e3f29f99f98281fe88a4a3\n"
+            "last_checked_revision": "5ecfa97f587c6fa07dd4a2bf1106487d1d122379\n"
         },
         {
             "id": 2498,
@@ -478626,7 +478922,7 @@
                     "name": "invisible_playwright"
                 }
             ],
-            "last_checked_revision": "9afb3e09035e1baa3b8e08c781d24be77769fb81\n"
+            "last_checked_revision": "cb2a862386e92f141e8aa3b58f8532ef2fc36ed0\n"
         },
         {
             "id": 2506,
@@ -479765,7 +480061,7 @@
                     "name": "ch14"
                 }
             ],
-            "last_checked_revision": "12f23d0c5a340dff16bb8eaa0a97551828431530\n"
+            "last_checked_revision": "4c9d8ec9e0eb5fab1dfb7d8bb9b5e28abcbe8948\n"
         },
         {
             "id": 2514,
@@ -480159,7 +480455,7 @@
                     "name": "webauthn"
                 }
             ],
-            "last_checked_revision": "0ba134eddfc35f47898cfa4dbb55413971172ef5\n"
+            "last_checked_revision": "3b4de76cbc71defb61c90f7d1f6046fae4ce412f\n"
         },
         {
             "id": 2517,
@@ -480541,7 +480837,7 @@
                     "name": "anonymizer_service"
                 }
             ],
-            "last_checked_revision": "0d6c2d084e354bd61ca93511f8de6ab3445c7416\n"
+            "last_checked_revision": "8d0a1afa81b9d659c2c8a7aedf2d6a04413817f3\n"
         },
         {
             "id": 2520,
@@ -481661,7 +481957,7 @@
                     "name": "agent_sessions"
                 }
             ],
-            "last_checked_revision": "3a3fc577b0ac855bbcf7feff69cf8d2a8c3c0353\n"
+            "last_checked_revision": "e199029e1be0bc10bd10c5fbae8e60e3523c967d\n"
         },
         {
             "id": 2528,
@@ -481799,7 +482095,7 @@
                     "name": "random_package"
                 }
             ],
-            "last_checked_revision": "9afd19c325e819fb8b6429b1a6528f659e173a2a\n"
+            "last_checked_revision": "1c37f8e5d54d6013150fce12ec77824cd1c6ca8c\n"
         },
         {
             "id": 2529,
@@ -481823,9 +482119,13 @@
                 {
                     "id": 183,
                     "name": "openai"
+                },
+                {
+                    "id": 13320,
+                    "name": "a2ui"
                 }
             ],
-            "last_checked_revision": "700148e98d7a5d0d5882332ffafead499d25de43\n"
+            "last_checked_revision": "5a6a215cab712f3fa3099d8f87124269f5c6c193\n"
         },
         {
             "id": 2530,
@@ -482115,13 +482415,13 @@
                     "name": "pypdf"
                 }
             ],
-            "last_checked_revision": "8428a63d016b2c2f92c54c2c6df3c46a0b9bfaf9\n"
+            "last_checked_revision": "90de9862b7ba2d0b526aeeb40726ad3caed17914\n"
         },
         {
             "id": 2533,
             "url": "https://github.com/Atmosphere/atmosphere",
             "description": "Real-time transport layer for Java AI agents. Build once with @Agent \u2014 deliver over WebSocket, SSE, gRPC, and WebTransport/HTTP3. Talk MCP, A2A and AG-UI. ",
-            "stars": 3779,
+            "stars": 3792,
             "source_graph_repo_id": 51849,
             "dependencies": [
                 {
@@ -483171,7 +483471,7 @@
                     "name": "rtvi_vlm_client"
                 }
             ],
-            "last_checked_revision": "27bc8aa04855e9539d4ad423178cd062d609d268\n"
+            "last_checked_revision": "e024bef820201546305d371b00623836ea7bb313\n"
         },
         {
             "id": 2539,
@@ -483663,7 +483963,7 @@
                     "name": "openenv_launch_common"
                 }
             ],
-            "last_checked_revision": "62a66297ba7f6eb9ca2b6d762747fa3c14536353\n"
+            "last_checked_revision": "fc04f666c08aebd72b241cef586a3939fdd6fa8e\n"
         },
         {
             "id": 2541,
@@ -484995,6 +485295,10 @@
                     "name": "docx"
                 },
                 {
+                    "id": 1255,
+                    "name": "helpers"
+                },
+                {
                     "id": 1412,
                     "name": "pytest_asyncio"
                 },
@@ -485267,7 +485571,7 @@
                     "name": "squidpy"
                 }
             ],
-            "last_checked_revision": "e2d9673fdd31c31187acab764d828254b6fcd7e0\n"
+            "last_checked_revision": "bf7eb70002ed94fb881b46137d8aefbd98de8257\n"
         },
         {
             "id": 2551,
@@ -485805,9 +486109,13 @@
                 {
                     "id": 20147,
                     "name": "check_component_core_api"
+                },
+                {
+                    "id": 20378,
+                    "name": "gaia_agent"
                 }
             ],
-            "last_checked_revision": "9ed3c352327fa5af0fbac1448c0df7de51f5dbf7\n"
+            "last_checked_revision": "62e5611d930b4bad77d123e824823b7d61c580dc\n"
         },
         {
             "id": 2553,
@@ -485857,7 +486165,7 @@
                     "name": "yfinance"
                 }
             ],
-            "last_checked_revision": "718bcf5c6d40fb92a095466fde9b6f1953b751b1\n"
+            "last_checked_revision": "25703326405cdde2bbfa7a5a3687024420424692\n"
         },
         {
             "id": 2554,
@@ -487245,7 +487553,7 @@
                     "name": "pysilero_vad"
                 }
             ],
-            "last_checked_revision": "aa28e8be28c4bfea3a433fee31017f8ff2c5b4ab\n"
+            "last_checked_revision": "fb9ad7884aa270da576326424133ea2226ea43ec\n"
         },
         {
             "id": 2558,
@@ -489153,7 +489461,7 @@
                     "name": "vcp_scanner"
                 }
             ],
-            "last_checked_revision": "20e576c9d43799e826c8e2eb938815d3e3299d91\n"
+            "last_checked_revision": "a78921274ec90d8f4d8fea688ac28bd716dde48d\n"
         },
         {
             "id": 2570,
@@ -489765,7 +490073,7 @@
                     "name": "airunner_native"
                 }
             ],
-            "last_checked_revision": "6a0885ecd153db37fc1c3650633b3b8266f580ad\n"
+            "last_checked_revision": "5e97a0c8a15e170f692af4c84efb6a60a9203f5e\n"
         },
         {
             "id": 2572,
@@ -490241,7 +490549,7 @@
                     "name": "cache_pool_test_utils"
                 }
             ],
-            "last_checked_revision": "64d8e513980dc799c21efda9d1f0e9b52608c58e\n"
+            "last_checked_revision": "9f62e8c8d7c2593e0b034e9f6aca87e04e895867\n"
         },
         {
             "id": 2574,
@@ -491963,7 +492271,7 @@
                     "name": "openmed_example_plugin"
                 }
             ],
-            "last_checked_revision": "576520381df7500adf4dd42aa3967f44c7096e8a\n"
+            "last_checked_revision": "54bec02947745ece3ef069538a6afdc465f7d2eb\n"
         },
         {
             "id": 2579,
@@ -492371,7 +492679,7 @@
                     "name": "mediafile"
                 }
             ],
-            "last_checked_revision": "40b51806baba7ac0a1ee3623e930f79b68d5ed75\n"
+            "last_checked_revision": "048df0d890e9a27ed4825c8d22a9d94859999c19\n"
         },
         {
             "id": 2583,
@@ -492919,7 +493227,7 @@
                     "name": "wx_key"
                 }
             ],
-            "last_checked_revision": "68079f23a75e42c57643d9c5ac3f0f5f57f5d6c5\n"
+            "last_checked_revision": "156ae8841d9ff1422c8a9fdbc25146cb9c9d8f19\n"
         },
         {
             "id": 2587,
@@ -493816,7 +494124,7 @@
                     "name": "agentify_tau_bench"
                 }
             ],
-            "last_checked_revision": "c3398666e6559e3a063da3fc04b5acf7f941464e\n"
+            "last_checked_revision": "a2c024725189473d2d7cea3a5cfdbcc67478e41f\n"
         },
         {
             "id": 2594,
@@ -494566,7 +494874,7 @@
                     "name": "datus_semantic_dosi"
                 }
             ],
-            "last_checked_revision": "2903a06e9a1a03d5f67243dfe53f5a4eab3c33d3\n"
+            "last_checked_revision": "7dc9651491043f344336f0431747528adc12062b\n"
         },
         {
             "id": 2597,
@@ -496132,7 +496440,7 @@
                     "name": "nao_core"
                 }
             ],
-            "last_checked_revision": "50f3e4712d8723a4460c817a545ba1e632639817\n"
+            "last_checked_revision": "136cd875b154e3e4a4644d8b4ebdfc49b9669f30\n"
         },
         {
             "id": 2606,
@@ -496446,7 +496754,7 @@
                     "name": "getitune"
                 }
             ],
-            "last_checked_revision": "df78d42f7395264ba7916ca859265ec073322cac\n"
+            "last_checked_revision": "6b95c2facc5c505dbf0da4a7d4ee4614bb67e352\n"
         },
         {
             "id": 2607,
@@ -496916,7 +497224,7 @@
                     "name": "a2a"
                 }
             ],
-            "last_checked_revision": "ba4a78e7523497947d8d9479cf646aa37f352b96\n"
+            "last_checked_revision": "8632c2aed6600b9c7731c012283ab11878d8d1cc\n"
         },
         {
             "id": 2612,
@@ -496986,7 +497294,7 @@
                     "name": "prompty"
                 }
             ],
-            "last_checked_revision": "76a8ab1ec8370feae992faddb4d474c57406b4e3\n"
+            "last_checked_revision": "cff605fe305d447a83a22d4131627f45134b56a9\n"
         },
         {
             "id": 2613,
@@ -497494,7 +497802,7 @@
                     "name": "deprecation"
                 }
             ],
-            "last_checked_revision": "e51d6ec7bc01988cd2e2e107f92c387248e8a3f7\n"
+            "last_checked_revision": "95c14230bbcb3cd89287d9f1017b8f60f089bd1d\n"
         },
         {
             "id": 2617,
@@ -499608,6 +499916,10 @@
                     "name": "pdf2image"
                 },
                 {
+                    "id": 778,
+                    "name": "docker"
+                },
+                {
                     "id": 802,
                     "name": "xmltodict"
                 },
@@ -499626,6 +499938,10 @@
                 {
                     "id": 1045,
                     "name": "chardet"
+                },
+                {
+                    "id": 1061,
+                    "name": "jwt"
                 },
                 {
                     "id": 1068,
@@ -499866,9 +500182,13 @@
                 {
                     "id": 20148,
                     "name": "document_parse_service"
+                },
+                {
+                    "id": 20379,
+                    "name": "mcp_gateway"
                 }
             ],
-            "last_checked_revision": "3f2ff921005f65aab2d03ecb39e33cba39e73d0c\n"
+            "last_checked_revision": "4c4b6f08c1c078883cac1ce267f31bb014dea299\n"
         },
         {
             "id": 2624,
@@ -500878,7 +501198,7 @@
                     "name": "job_support"
                 }
             ],
-            "last_checked_revision": "89d8ffec5d1266251b7feeb05a3d998a6d5c747f\n"
+            "last_checked_revision": "ec3de16c0862c01190bf45896bae87e9f0e10ca7\n"
         },
         {
             "id": 2629,
@@ -501102,7 +501422,7 @@
                     "name": "instantdb"
                 }
             ],
-            "last_checked_revision": "1bbf73865cbcf5629a02c730ef1577c09a8037e1\n"
+            "last_checked_revision": "56f5eea92944f2cdfc0f94aaf096b5c42b04b173\n"
         },
         {
             "id": 2631,
@@ -501248,7 +501568,7 @@
                     "name": "langchain_e2b"
                 }
             ],
-            "last_checked_revision": "ff9b4b3b1dbc5df203e38d9e2bad2b5197a12064\n"
+            "last_checked_revision": "3f0ee0411a377f1a44d7957744bfb52a90e6b770\n"
         },
         {
             "id": 2632,
@@ -501262,7 +501582,7 @@
                     "name": "jinja2"
                 }
             ],
-            "last_checked_revision": "07ce908fcf44e06abe320b08a93fc01f57b25ec1\n"
+            "last_checked_revision": "7b1dae5e5b075f66a07319d24b0b1bcba07bbc13\n"
         },
         {
             "id": 2633,
@@ -502070,7 +502390,7 @@
                     "name": "generate_register_all_kernels"
                 }
             ],
-            "last_checked_revision": "a1eee717fff9950406cb01af1a1b726772038381\n"
+            "last_checked_revision": "ed2d9ec001bbda3a4f23d657fbd50bc1104afbe3\n"
         },
         {
             "id": 2635,
@@ -502186,9 +502506,13 @@
                 {
                     "id": 14831,
                     "name": "data_ingestion_pipeline"
+                },
+                {
+                    "id": 19046,
+                    "name": "agentplatform"
                 }
             ],
-            "last_checked_revision": "5a306f8956cb1eeae69f9709de0e4d61b44e11e7\n"
+            "last_checked_revision": "66976f5cf53c39995dce1cdb3638c6b5e7cb2e4b\n"
         },
         {
             "id": 2636,
@@ -502594,7 +502918,7 @@
             "id": 2638,
             "url": "https://github.com/XRPLF/xrpl-dev-portal",
             "description": "Source code for xrpl.org including developer documentation",
-            "stars": 1908,
+            "stars": 2114,
             "source_graph_repo_id": 728243,
             "dependencies": [
                 {
@@ -502638,7 +502962,7 @@
                     "name": "cryptoconditions"
                 }
             ],
-            "last_checked_revision": "1845446bcbf35846ea40f3e38f758160454eeaaa\n"
+            "last_checked_revision": "c07aa58697d73f26ce68439fde94baca0d26a614\n"
         },
         {
             "id": 2639,
@@ -502688,7 +503012,7 @@
                     "name": "simstudio"
                 }
             ],
-            "last_checked_revision": "804a452bbee12c9ea5a76a55934c81ef72dfdf0f\n"
+            "last_checked_revision": "e741923f72c310bba6c508132bb2d342f904ed64\n"
         },
         {
             "id": 2640,
@@ -502810,7 +503134,7 @@
                     "name": "locust_plugins"
                 }
             ],
-            "last_checked_revision": "2e05c45b85b985a691cc75082c234e8d6ac0b2e9\n"
+            "last_checked_revision": "52af62266c60241da7edcdc24b136fa014b52a1d\n"
         },
         {
             "id": 2641,
@@ -502972,7 +503296,7 @@
                     "name": "latitude_telemetry_prime_intellect"
                 }
             ],
-            "last_checked_revision": "082d2a8c6cf23950a6514aab2b35951cced23929\n"
+            "last_checked_revision": "eb62ee07de978e3f35142976f1773fc61d7a8ca2\n"
         },
         {
             "id": 2642,
@@ -502986,7 +503310,7 @@
                     "name": "env"
                 }
             ],
-            "last_checked_revision": "0343917aeb4c5954051ad2ae3e1110ccd1a6206f\n"
+            "last_checked_revision": "ce567c8202e038a00e003c6ba04fc38fc4d51def\n"
         },
         {
             "id": 2643,
@@ -503360,7 +503684,7 @@
                     "name": "octen"
                 }
             ],
-            "last_checked_revision": "7ee24356ebf060689b59de8d198ac85960d38fce\n"
+            "last_checked_revision": "de408853e206d14daa1cc5db1448059cb59101ed\n"
         },
         {
             "id": 2644,
@@ -503386,7 +503710,7 @@
                     "name": "openwa"
                 }
             ],
-            "last_checked_revision": "4e3d28349a2073ddce6a7ddbe2c892e21af03fcf\n"
+            "last_checked_revision": "181d1a599f56cf009c9282794f05dbf89496ccd1\n"
         },
         {
             "id": 2645,
@@ -504022,9 +504346,13 @@
                 {
                     "id": 18998,
                     "name": "fednova"
+                },
+                {
+                    "id": 19295,
+                    "name": "dp_accounting"
                 }
             ],
-            "last_checked_revision": "85cf6618dca698bcd472e6121f9c32b1f0a8a98b\n"
+            "last_checked_revision": "721f7432785979216a56058473c8065d4568cd3f\n"
         },
         {
             "id": 2646,
@@ -504220,7 +504548,7 @@
                     "name": "sadtalker"
                 }
             ],
-            "last_checked_revision": "95e1c3d0ab93482159818560f6a8c8e866b9139f\n"
+            "last_checked_revision": "1bab711820828c2e5fc1f87ed274a32587cb048f\n"
         },
         {
             "id": 2648,
@@ -505442,7 +505770,7 @@
             "id": 2652,
             "url": "https://github.com/google-research/google-research",
             "description": "Google Research",
-            "stars": 38150,
+            "stars": 38575,
             "source_graph_repo_id": 36843074,
             "dependencies": [
                 {
@@ -508148,13 +508476,13 @@
                     "name": "openbb_ai"
                 }
             ],
-            "last_checked_revision": "4ad3b6b077b7ecf33744d1582064c109ca8234c0\n"
+            "last_checked_revision": "40cecda83ef5734d2fe1f520043cef531148b080\n"
         },
         {
             "id": 2654,
             "url": "https://github.com/python/peps",
             "description": "Python Enhancement Proposals",
-            "stars": 4941,
+            "stars": 4994,
             "source_graph_repo_id": 92195,
             "dependencies": [
                 {
@@ -508237,7 +508565,7 @@
                     "name": "workers"
                 }
             ],
-            "last_checked_revision": "6b73819a02f609e8942b1d9286dc197fbca200ab\n"
+            "last_checked_revision": "926605c55c978c2f10f429cfcf4ea8d1ce58a56d\n"
         },
         {
             "id": 2657,
@@ -508845,7 +509173,7 @@
                     "name": "hudi_agent_gateway"
                 }
             ],
-            "last_checked_revision": "989badc3952e05052754dc1f028800c660646aee\n"
+            "last_checked_revision": "42e885f9678321711e0d1563b1f651efac5794f5\n"
         },
         {
             "id": 2661,
@@ -509394,7 +509722,7 @@
             "id": 2663,
             "url": "https://github.com/bokeh/bokeh",
             "description": "Interactive Data Visualization in the browser, from  Python",
-            "stars": 20386,
+            "stars": 20430,
             "source_graph_repo_id": 49925,
             "dependencies": [
                 {
@@ -509652,7 +509980,7 @@
                     "name": "src"
                 }
             ],
-            "last_checked_revision": "d31547cb84b0df6f6cf800206667b6868df2d1c4\n"
+            "last_checked_revision": "196d05e4b4f24ca3a506f747dacbfea156a3448b\n"
         },
         {
             "id": 2665,
@@ -510335,7 +510663,7 @@
                     "name": "row_bot"
                 }
             ],
-            "last_checked_revision": "9fe2b8410f4939bcbf40880895ce75cc11eb045f\n"
+            "last_checked_revision": "dae4d0dd69cd92d09774014f944f28d8179c3a72\n"
         },
         {
             "id": 2669,
@@ -510380,7 +510708,7 @@
             "id": 2671,
             "url": "https://github.com/crewAIInc/crewAI",
             "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-            "stars": 57215,
+            "stars": 57265,
             "source_graph_repo_id": 62044873,
             "dependencies": [
                 {
@@ -510876,13 +511204,13 @@
                     "name": "qdrant_edge"
                 }
             ],
-            "last_checked_revision": "63884215103e287c87fa1e9f3010938dc6c12404\n"
+            "last_checked_revision": "7942ce0c7677e48013682e0be16078b871e42ba2\n"
         },
         {
             "id": 2672,
             "url": "https://github.com/coleifer/huey",
             "description": "a little task queue for python",
-            "stars": 5959,
+            "stars": 6004,
             "source_graph_repo_id": 48844,
             "dependencies": [
                 {
@@ -510989,6 +511317,578 @@
                 }
             ],
             "last_checked_revision": "d73fbb5c0930dcb586a114d10bee851fd65428f4\n"
+        },
+        {
+            "id": 2674,
+            "url": "https://github.com/kevoreilly/CAPEv2",
+            "description": "Malware Configuration And Payload Extraction",
+            "stars": 3283,
+            "source_graph_repo_id": 39360000,
+            "dependencies": [
+                {
+                    "id": 3,
+                    "name": "fastapi"
+                },
+                {
+                    "id": 13,
+                    "name": "pytest"
+                },
+                {
+                    "id": 14,
+                    "name": "numpy"
+                },
+                {
+                    "id": 19,
+                    "name": "requests"
+                },
+                {
+                    "id": 22,
+                    "name": "bs4"
+                },
+                {
+                    "id": 26,
+                    "name": "dateutil"
+                },
+                {
+                    "id": 29,
+                    "name": "aiohttp"
+                },
+                {
+                    "id": 34,
+                    "name": "uvicorn"
+                },
+                {
+                    "id": 37,
+                    "name": "httpx"
+                },
+                {
+                    "id": 38,
+                    "name": "pydantic"
+                },
+                {
+                    "id": 46,
+                    "name": "azure"
+                },
+                {
+                    "id": 59,
+                    "name": "elasticsearch"
+                },
+                {
+                    "id": 61,
+                    "name": "alembic"
+                },
+                {
+                    "id": 68,
+                    "name": "sqlalchemy"
+                },
+                {
+                    "id": 71,
+                    "name": "cv2"
+                },
+                {
+                    "id": 73,
+                    "name": "jinja2"
+                },
+                {
+                    "id": 81,
+                    "name": "boto3"
+                },
+                {
+                    "id": 82,
+                    "name": "PIL"
+                },
+                {
+                    "id": 92,
+                    "name": "pymongo"
+                },
+                {
+                    "id": 98,
+                    "name": "pytz"
+                },
+                {
+                    "id": 115,
+                    "name": "packaging"
+                },
+                {
+                    "id": 122,
+                    "name": "psutil"
+                },
+                {
+                    "id": 206,
+                    "name": "langchain"
+                },
+                {
+                    "id": 215,
+                    "name": "cryptography"
+                },
+                {
+                    "id": 224,
+                    "name": "google"
+                },
+                {
+                    "id": 246,
+                    "name": "sentence_transformers"
+                },
+                {
+                    "id": 259,
+                    "name": "asgiref"
+                },
+                {
+                    "id": 272,
+                    "name": "bson"
+                },
+                {
+                    "id": 341,
+                    "name": "paramiko"
+                },
+                {
+                    "id": 348,
+                    "name": "django"
+                },
+                {
+                    "id": 399,
+                    "name": "orjson"
+                },
+                {
+                    "id": 409,
+                    "name": "watchdog"
+                },
+                {
+                    "id": 430,
+                    "name": "urllib3"
+                },
+                {
+                    "id": 479,
+                    "name": "regex"
+                },
+                {
+                    "id": 508,
+                    "name": "setproctitle"
+                },
+                {
+                    "id": 539,
+                    "name": "pydantic_core"
+                },
+                {
+                    "id": 569,
+                    "name": "deepdiff"
+                },
+                {
+                    "id": 615,
+                    "name": "faiss"
+                },
+                {
+                    "id": 620,
+                    "name": "networkx"
+                },
+                {
+                    "id": 628,
+                    "name": "magic"
+                },
+                {
+                    "id": 946,
+                    "name": "pytest_mock"
+                },
+                {
+                    "id": 974,
+                    "name": "cachetools"
+                },
+                {
+                    "id": 1045,
+                    "name": "chardet"
+                },
+                {
+                    "id": 1061,
+                    "name": "jwt"
+                },
+                {
+                    "id": 1067,
+                    "name": "dns"
+                },
+                {
+                    "id": 1086,
+                    "name": "win32api"
+                },
+                {
+                    "id": 1256,
+                    "name": "rest_framework"
+                },
+                {
+                    "id": 1259,
+                    "name": "Cryptodome"
+                },
+                {
+                    "id": 1418,
+                    "name": "pyautogui"
+                },
+                {
+                    "id": 1438,
+                    "name": "pebble"
+                },
+                {
+                    "id": 1463,
+                    "name": "gevent"
+                },
+                {
+                    "id": 1483,
+                    "name": "win32com"
+                },
+                {
+                    "id": 1528,
+                    "name": "channels"
+                },
+                {
+                    "id": 1577,
+                    "name": "httpretty"
+                },
+                {
+                    "id": 1640,
+                    "name": "github"
+                },
+                {
+                    "id": 1790,
+                    "name": "maxminddb"
+                },
+                {
+                    "id": 2267,
+                    "name": "captcha"
+                },
+                {
+                    "id": 2559,
+                    "name": "pyinotify"
+                },
+                {
+                    "id": 2668,
+                    "name": "tldextract"
+                },
+                {
+                    "id": 2711,
+                    "name": "scp"
+                },
+                {
+                    "id": 2883,
+                    "name": "msrest"
+                },
+                {
+                    "id": 2931,
+                    "name": "scapy"
+                },
+                {
+                    "id": 3133,
+                    "name": "pyzipper"
+                },
+                {
+                    "id": 3560,
+                    "name": "elftools"
+                },
+                {
+                    "id": 3594,
+                    "name": "users"
+                },
+                {
+                    "id": 4075,
+                    "name": "ratelimit"
+                },
+                {
+                    "id": 4172,
+                    "name": "rarfile"
+                },
+                {
+                    "id": 4334,
+                    "name": "pyVim"
+                },
+                {
+                    "id": 4355,
+                    "name": "Xlib"
+                },
+                {
+                    "id": 4360,
+                    "name": "pythoncom"
+                },
+                {
+                    "id": 4393,
+                    "name": "pefile"
+                },
+                {
+                    "id": 4454,
+                    "name": "olefile"
+                },
+                {
+                    "id": 5222,
+                    "name": "whois"
+                },
+                {
+                    "id": 5340,
+                    "name": "pycares"
+                },
+                {
+                    "id": 5568,
+                    "name": "langchain_community"
+                },
+                {
+                    "id": 5727,
+                    "name": "pygal"
+                },
+                {
+                    "id": 5836,
+                    "name": "yara"
+                },
+                {
+                    "id": 5842,
+                    "name": "dnfile"
+                },
+                {
+                    "id": 5845,
+                    "name": "LnkParse3"
+                },
+                {
+                    "id": 6190,
+                    "name": "django_otp"
+                },
+                {
+                    "id": 6288,
+                    "name": "proxmoxer"
+                },
+                {
+                    "id": 6483,
+                    "name": "oletools"
+                },
+                {
+                    "id": 6670,
+                    "name": "dashboard"
+                },
+                {
+                    "id": 6673,
+                    "name": "plyara"
+                },
+                {
+                    "id": 6894,
+                    "name": "dbus_next"
+                },
+                {
+                    "id": 7288,
+                    "name": "allauth"
+                },
+                {
+                    "id": 7554,
+                    "name": "zxingcpp"
+                },
+                {
+                    "id": 8002,
+                    "name": "imagehash"
+                },
+                {
+                    "id": 8523,
+                    "name": "asn1crypto"
+                },
+                {
+                    "id": 8865,
+                    "name": "evtx"
+                },
+                {
+                    "id": 9148,
+                    "name": "cybox"
+                },
+                {
+                    "id": 9162,
+                    "name": "mixbox"
+                },
+                {
+                    "id": 9259,
+                    "name": "re2"
+                },
+                {
+                    "id": 9905,
+                    "name": "tlsh"
+                },
+                {
+                    "id": 10948,
+                    "name": "fastmcp"
+                },
+                {
+                    "id": 11176,
+                    "name": "pydeep"
+                },
+                {
+                    "id": 11788,
+                    "name": "yara_x"
+                },
+                {
+                    "id": 12208,
+                    "name": "analysis"
+                },
+                {
+                    "id": 13538,
+                    "name": "guacamole"
+                },
+                {
+                    "id": 14130,
+                    "name": "compare"
+                },
+                {
+                    "id": 14414,
+                    "name": "audit"
+                },
+                {
+                    "id": 14961,
+                    "name": "Evtx"
+                },
+                {
+                    "id": 14972,
+                    "name": "dpkt"
+                },
+                {
+                    "id": 18074,
+                    "name": "apikey"
+                },
+                {
+                    "id": 20331,
+                    "name": "captcha_admin"
+                },
+                {
+                    "id": 20332,
+                    "name": "apiv2"
+                },
+                {
+                    "id": 20333,
+                    "name": "httpreplay"
+                },
+                {
+                    "id": 20334,
+                    "name": "mscerts"
+                },
+                {
+                    "id": 20335,
+                    "name": "libvirt"
+                },
+                {
+                    "id": 20336,
+                    "name": "cape_parsers"
+                },
+                {
+                    "id": 20337,
+                    "name": "pymsi"
+                },
+                {
+                    "id": 20338,
+                    "name": "XenAPI"
+                },
+                {
+                    "id": 20339,
+                    "name": "sflock"
+                },
+                {
+                    "id": 20340,
+                    "name": "socks5man"
+                },
+                {
+                    "id": 20341,
+                    "name": "peutils"
+                },
+                {
+                    "id": 20342,
+                    "name": "admin_conf"
+                },
+                {
+                    "id": 20343,
+                    "name": "malwareconfig"
+                },
+                {
+                    "id": 20344,
+                    "name": "submission"
+                },
+                {
+                    "id": 20345,
+                    "name": "etw"
+                },
+                {
+                    "id": 20346,
+                    "name": "mmbot"
+                },
+                {
+                    "id": 20347,
+                    "name": "django_recaptcha"
+                },
+                {
+                    "id": 20348,
+                    "name": "pyattck"
+                },
+                {
+                    "id": 20349,
+                    "name": "batch_deobfuscator"
+                },
+                {
+                    "id": 20350,
+                    "name": "guac"
+                },
+                {
+                    "id": 20351,
+                    "name": "certvalidator"
+                },
+                {
+                    "id": 20352,
+                    "name": "pyclamd"
+                },
+                {
+                    "id": 20353,
+                    "name": "capemon_pb2"
+                },
+                {
+                    "id": 20354,
+                    "name": "volatility3"
+                },
+                {
+                    "id": 20355,
+                    "name": "binGraph"
+                },
+                {
+                    "id": 20356,
+                    "name": "django_ratelimit"
+                },
+                {
+                    "id": 20357,
+                    "name": "maec"
+                }
+            ],
+            "last_checked_revision": "909363786abcdfcb449a59c32b0ab396a6215027\n"
+        },
+        {
+            "id": 2675,
+            "url": "https://github.com/Exorust/TorchLeet",
+            "description": "Leetcode for Pytorch",
+            "stars": 2059,
+            "source_graph_repo_id": 64103808,
+            "dependencies": [
+                {
+                    "id": 2,
+                    "name": "starlette"
+                },
+                {
+                    "id": 3,
+                    "name": "fastapi"
+                },
+                {
+                    "id": 37,
+                    "name": "httpx"
+                },
+                {
+                    "id": 118,
+                    "name": "gradio"
+                },
+                {
+                    "id": 157,
+                    "name": "triton"
+                },
+                {
+                    "id": 574,
+                    "name": "websockets"
+                },
+                {
+                    "id": 20330,
+                    "name": "torchleet"
+                }
+            ],
+            "last_checked_revision": "9dafbac9a257a65c2e383d9fcd45e22903bc405a\n"
         }
     ]
 }
