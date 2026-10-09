@@ -90863,6 +90863,1066 @@
         {
             "id": 22717,
             "name": "sync_figures"
+        },
+        {
+            "id": 22718,
+            "name": "appwrite"
+        },
+        {
+            "id": 22719,
+            "name": "normalizer_plugin"
+        },
+        {
+            "id": 22720,
+            "name": "hosted_embed_plugin"
+        },
+        {
+            "id": 22721,
+            "name": "jev_rerank"
+        },
+        {
+            "id": 22722,
+            "name": "fixture_plugin"
+        },
+        {
+            "id": 22723,
+            "name": "subscription_plugin"
+        },
+        {
+            "id": 22724,
+            "name": "api_contract"
+        },
+        {
+            "id": 22725,
+            "name": "prepare_tokenizer"
+        },
+        {
+            "id": 22726,
+            "name": "measure_metrics"
+        },
+        {
+            "id": 22727,
+            "name": "plugin_environment"
+        },
+        {
+            "id": 22728,
+            "name": "connector_plugin"
+        },
+        {
+            "id": 22729,
+            "name": "prepare_embeddings"
+        },
+        {
+            "id": 22730,
+            "name": "__PLUGIN_MODULE__"
+        },
+        {
+            "id": 22731,
+            "name": "pdf_text"
+        },
+        {
+            "id": 22732,
+            "name": "quivr_plugin"
+        },
+        {
+            "id": 22733,
+            "name": "bundle"
+        },
+        {
+            "id": 22734,
+            "name": "push_plugin"
+        },
+        {
+            "id": 22735,
+            "name": "ingestion_plugin"
+        },
+        {
+            "id": 22736,
+            "name": "push_source"
+        },
+        {
+            "id": 22737,
+            "name": "cosmos_transfer2"
+        },
+        {
+            "id": 22738,
+            "name": "alpamayo_nurec"
+        },
+        {
+            "id": 22739,
+            "name": "alpamayo_coordinates"
+        },
+        {
+            "id": 22740,
+            "name": "py_trees"
+        },
+        {
+            "id": 22741,
+            "name": "alpamayo_rig"
+        },
+        {
+            "id": 22742,
+            "name": "alpamayo2_super"
+        },
+        {
+            "id": 22743,
+            "name": "exposure_calib"
+        },
+        {
+            "id": 22744,
+            "name": "carla_cosmos"
+        },
+        {
+            "id": 22745,
+            "name": "scenic_xodr"
+        },
+        {
+            "id": 22746,
+            "name": "projection_functions"
+        },
+        {
+            "id": 22747,
+            "name": "crdesigner"
+        },
+        {
+            "id": 22748,
+            "name": "skymap"
+        },
+        {
+            "id": 22749,
+            "name": "alpamayo_control"
+        },
+        {
+            "id": 22750,
+            "name": "nurec_integration"
+        },
+        {
+            "id": 22751,
+            "name": "invertedai"
+        },
+        {
+            "id": 22752,
+            "name": "autoware_perception_msgs"
+        },
+        {
+            "id": 22753,
+            "name": "blueprint_library"
+        },
+        {
+            "id": 22754,
+            "name": "nre"
+        },
+        {
+            "id": 22755,
+            "name": "carla_agentic_tools"
+        },
+        {
+            "id": 22756,
+            "name": "alpamayo_schema"
+        },
+        {
+            "id": 22757,
+            "name": "cosmos_workers"
+        },
+        {
+            "id": 22758,
+            "name": "alpamayo_protocol"
+        },
+        {
+            "id": 22759,
+            "name": "pcd_io"
+        },
+        {
+            "id": 22760,
+            "name": "carla_cosmos_server"
+        },
+        {
+            "id": 22761,
+            "name": "generate_lanelet2_map"
+        },
+        {
+            "id": 22762,
+            "name": "alpamayo_controller"
+        },
+        {
+            "id": 22763,
+            "name": "alpamayo_display"
+        },
+        {
+            "id": 22764,
+            "name": "ai_agent_project"
+        },
+        {
+            "id": 22765,
+            "name": "version_check"
+        },
+        {
+            "id": 22766,
+            "name": "unpublish_container_image"
+        },
+        {
+            "id": 22767,
+            "name": "check_no_remote_cache_tags"
+        },
+        {
+            "id": 22768,
+            "name": "build_cmk_container"
+        },
+        {
+            "id": 22769,
+            "name": "dump_fastapi_openapi_spec"
+        },
+        {
+            "id": 22770,
+            "name": "wallycore"
+        },
+        {
+            "id": 22771,
+            "name": "phase_budget"
+        },
+        {
+            "id": 22772,
+            "name": "junit_properties"
+        },
+        {
+            "id": 22773,
+            "name": "datadog_reader"
+        },
+        {
+            "id": 22774,
+            "name": "test_quality_gate"
+        },
+        {
+            "id": 22775,
+            "name": "ruff_strict_gate"
+        },
+        {
+            "id": 22776,
+            "name": "guardrails_client"
+        },
+        {
+            "id": 22777,
+            "name": "proxy_usage"
+        },
+        {
+            "id": 22778,
+            "name": "session_anomaly"
+        },
+        {
+            "id": 22779,
+            "name": "locust_load"
+        },
+        {
+            "id": 22780,
+            "name": "type_discipline_gate"
+        },
+        {
+            "id": 22781,
+            "name": "type_check_gate"
+        },
+        {
+            "id": 22782,
+            "name": "fixture_canonical"
+        },
+        {
+            "id": 22783,
+            "name": "litellm_admin_mcp"
+        },
+        {
+            "id": 22784,
+            "name": "stack_lock"
+        },
+        {
+            "id": 22785,
+            "name": "torchrunx"
+        },
+        {
+            "id": 22786,
+            "name": "frappe"
+        },
+        {
+            "id": 22787,
+            "name": "odoo"
+        },
+        {
+            "id": 22788,
+            "name": "gribapi"
+        },
+        {
+            "id": 22789,
+            "name": "eccodes"
+        },
+        {
+            "id": 22790,
+            "name": "mutmut"
+        },
+        {
+            "id": 22791,
+            "name": "kandinsky_sr"
+        },
+        {
+            "id": 22792,
+            "name": "augmented_assistant_agent"
+        },
+        {
+            "id": 22793,
+            "name": "ldobserve"
+        },
+        {
+            "id": 22794,
+            "name": "destroy_ci_ref_env"
+        },
+        {
+            "id": 22795,
+            "name": "ci_environment_id"
+        },
+        {
+            "id": 22796,
+            "name": "turso"
+        },
+        {
+            "id": 22797,
+            "name": "send"
+        },
+        {
+            "id": 22798,
+            "name": "kaapana_auth"
+        },
+        {
+            "id": 22799,
+            "name": "hill_climb_checks"
+        },
+        {
+            "id": 22800,
+            "name": "harbor_verifiers"
+        },
+        {
+            "id": 22801,
+            "name": "remote_desktop"
+        },
+        {
+            "id": 22802,
+            "name": "pulsectl_asyncio"
+        },
+        {
+            "id": 22803,
+            "name": "jack"
+        },
+        {
+            "id": 22804,
+            "name": "fidelity"
+        },
+        {
+            "id": 22805,
+            "name": "fetch"
+        },
+        {
+            "id": 22806,
+            "name": "opf"
+        },
+        {
+            "id": 22807,
+            "name": "firestore_read_reconcile"
+        },
+        {
+            "id": 22808,
+            "name": "sync_ts_sdk_schemas"
+        },
+        {
+            "id": 22809,
+            "name": "check_go_sdk_serialization_conformance"
+        },
+        {
+            "id": 22810,
+            "name": "check_applies_to_roots_in_sync"
+        },
+        {
+            "id": 22811,
+            "name": "run_pre_extras_install"
+        },
+        {
+            "id": 22812,
+            "name": "check_contextmanager_class_decorators"
+        },
+        {
+            "id": 22813,
+            "name": "OktaIAMApiModule"
+        },
+        {
+            "id": 22814,
+            "name": "material_host_context"
+        },
+        {
+            "id": 22815,
+            "name": "surfsense_plugin_sdk"
+        },
+        {
+            "id": 22816,
+            "name": "surfsense_plugin_manifest"
+        },
+        {
+            "id": 22817,
+            "name": "surfsense_plugin_cli"
+        },
+        {
+            "id": 22818,
+            "name": "decider"
+        },
+        {
+            "id": 22819,
+            "name": "deerflow_extension_agent_teams"
+        },
+        {
+            "id": 22820,
+            "name": "image_pins"
+        },
+        {
+            "id": 22821,
+            "name": "smoke_speech_loop"
+        },
+        {
+            "id": 22822,
+            "name": "autoscaling_arena"
+        },
+        {
+            "id": 22823,
+            "name": "delivery_behaviors"
+        },
+        {
+            "id": 22824,
+            "name": "dmd2"
+        },
+        {
+            "id": 22825,
+            "name": "vote_census_reader"
+        },
+        {
+            "id": 22826,
+            "name": "vote_census_recipe"
+        },
+        {
+            "id": 22827,
+            "name": "pca2_votes"
+        },
+        {
+            "id": 22828,
+            "name": "fold_declared"
+        },
+        {
+            "id": 22829,
+            "name": "vote_fixtures"
+        },
+        {
+            "id": 22830,
+            "name": "fake_child"
+        },
+        {
+            "id": 22831,
+            "name": "vote_census"
+        },
+        {
+            "id": 22832,
+            "name": "vote_census_verifier"
+        },
+        {
+            "id": 22833,
+            "name": "vote_census_registry"
+        },
+        {
+            "id": 22834,
+            "name": "replay_pins_convention"
+        },
+        {
+            "id": 22835,
+            "name": "tt_perf_report"
+        },
+        {
+            "id": 22836,
+            "name": "tt_llk_perf"
+        },
+        {
+            "id": 22837,
+            "name": "triage_hw_utils"
+        },
+        {
+            "id": 22838,
+            "name": "mimo_checkpoint_model"
+        },
+        {
+            "id": 22839,
+            "name": "acli_aqua"
+        },
+        {
+            "id": 22840,
+            "name": "task_reader"
+        },
+        {
+            "id": 22841,
+            "name": "_acli"
+        },
+        {
+            "id": 22842,
+            "name": "ambient_quality_cli"
+        },
+        {
+            "id": 22843,
+            "name": "ambient_quality_shared"
+        },
+        {
+            "id": 22844,
+            "name": "acli_ui"
+        },
+        {
+            "id": 22845,
+            "name": "acli_deploy"
+        },
+        {
+            "id": 22846,
+            "name": "ambient_quality_agent"
+        },
+        {
+            "id": 22847,
+            "name": "acli_infra"
+        },
+        {
+            "id": 22848,
+            "name": "agent_framework_oracle"
+        },
+        {
+            "id": 22849,
+            "name": "lerobot_robot_xlerobot_2wheels"
+        },
+        {
+            "id": 22850,
+            "name": "xlerobot_model"
+        },
+        {
+            "id": 22851,
+            "name": "lerobot_robot_xlerobot"
+        },
+        {
+            "id": 22852,
+            "name": "agent_with_zep"
+        },
+        {
+            "id": 22853,
+            "name": "agent_with_zep_adk"
+        },
+        {
+            "id": 22854,
+            "name": "my_vdb"
+        },
+        {
+            "id": 22855,
+            "name": "k6_sr_tiny"
+        },
+        {
+            "id": 22856,
+            "name": "av_bench"
+        },
+        {
+            "id": 22857,
+            "name": "torio"
+        },
+        {
+            "id": 22858,
+            "name": "vqeval"
+        },
+        {
+            "id": 22859,
+            "name": "nitrous_ema"
+        },
+        {
+            "id": 22860,
+            "name": "fastgen"
+        },
+        {
+            "id": 22861,
+            "name": "infinite_livestream"
+        },
+        {
+            "id": 22862,
+            "name": "fxmacrodata_public"
+        },
+        {
+            "id": 22863,
+            "name": "run_platform_batch"
+        },
+        {
+            "id": 22864,
+            "name": "vela2_inference"
+        },
+        {
+            "id": 22865,
+            "name": "flaky_report"
+        },
+        {
+            "id": 22866,
+            "name": "vllm_srun"
+        },
+        {
+            "id": 22867,
+            "name": "vllm_sr_example"
+        },
+        {
+            "id": 22868,
+            "name": "revision_ipc"
+        },
+        {
+            "id": 22869,
+            "name": "revision_publication"
+        },
+        {
+            "id": 22870,
+            "name": "pm"
+        },
+        {
+            "id": 22871,
+            "name": "eliza_training"
+        },
+        {
+            "id": 22872,
+            "name": "functionnal_tests"
+        },
+        {
+            "id": 22873,
+            "name": "text_to_image"
+        },
+        {
+            "id": 22874,
+            "name": "main_full_suite"
+        },
+        {
+            "id": 22875,
+            "name": "test_ios_appstore_lane_identity"
+        },
+        {
+            "id": 22876,
+            "name": "reverse_test_impact_route"
+        },
+        {
+            "id": 22877,
+            "name": "lt"
+        },
+        {
+            "id": 22878,
+            "name": "internal_acceptance"
+        },
+        {
+            "id": 22879,
+            "name": "install_audio_cpp_prebuilt"
+        },
+        {
+            "id": 22880,
+            "name": "update_lemonade_pins"
+        },
+        {
+            "id": 22881,
+            "name": "install_q4nx_converter"
+        },
+        {
+            "id": 22882,
+            "name": "check_test_execution"
+        },
+        {
+            "id": 22883,
+            "name": "agent_sandbox_fleet"
+        },
+        {
+            "id": 22884,
+            "name": "ltx_pipelines_mlx"
+        },
+        {
+            "id": 22885,
+            "name": "backend_module_state"
+        },
+        {
+            "id": 22886,
+            "name": "_mirage_exit"
+        },
+        {
+            "id": 22887,
+            "name": "hixl"
+        },
+        {
+            "id": 22888,
+            "name": "inspect_sentinel"
+        },
+        {
+            "id": 22889,
+            "name": "profile_text_parser"
+        },
+        {
+            "id": 22890,
+            "name": "compare_eq_perf_jsonl"
+        },
+        {
+            "id": 22891,
+            "name": "annotate_query_timings"
+        },
+        {
+            "id": 22892,
+            "name": "tau2_harness"
+        },
+        {
+            "id": 22893,
+            "name": "mujoco_utils"
+        },
+        {
+            "id": 22894,
+            "name": "mink"
+        },
+        {
+            "id": 22895,
+            "name": "goal_auto_encoder"
+        },
+        {
+            "id": 22896,
+            "name": "pi05_omy_utils"
+        },
+        {
+            "id": 22897,
+            "name": "dm_env_wrappers"
+        },
+        {
+            "id": 22898,
+            "name": "robopianist"
+        },
+        {
+            "id": 22899,
+            "name": "multi_task"
+        },
+        {
+            "id": 22900,
+            "name": "g05"
+        },
+        {
+            "id": 22901,
+            "name": "training_models"
+        },
+        {
+            "id": 22902,
+            "name": "train_classifiers"
+        },
+        {
+            "id": 22903,
+            "name": "training_export"
+        },
+        {
+            "id": 22904,
+            "name": "training_data"
+        },
+        {
+            "id": 22905,
+            "name": "test_pixel_model_transition"
+        },
+        {
+            "id": 22906,
+            "name": "linear_attn_reference"
+        },
+        {
+            "id": 22907,
+            "name": "jit"
+        },
+        {
+            "id": 22908,
+            "name": "fetch_fonts"
+        },
+        {
+            "id": 22909,
+            "name": "_gaia_missing_transitive_dep"
+        },
+        {
+            "id": 22910,
+            "name": "fetch_agent_ui_setup"
+        },
+        {
+            "id": 22911,
+            "name": "release_tag"
+        },
+        {
+            "id": 22912,
+            "name": "acme_widgetstats"
+        },
+        {
+            "id": 22913,
+            "name": "download_capsules"
+        },
+        {
+            "id": 22914,
+            "name": "probe_tool_call"
+        },
+        {
+            "id": 22915,
+            "name": "run_ablation"
+        },
+        {
+            "id": 22916,
+            "name": "allotropy"
+        },
+        {
+            "id": 22917,
+            "name": "verify_reference_values"
+        },
+        {
+            "id": 22918,
+            "name": "cli_runtime"
+        },
+        {
+            "id": 22919,
+            "name": "regrade_nearest_option"
+        },
+        {
+            "id": 22920,
+            "name": "propka"
+        },
+        {
+            "id": 22921,
+            "name": "artifact_runtime_gate"
+        },
+        {
+            "id": 22922,
+            "name": "check_artifact_imports"
+        },
+        {
+            "id": 22923,
+            "name": "ci_result_source"
+        },
+        {
+            "id": 22924,
+            "name": "pr_ci_state"
+        },
+        {
+            "id": 22925,
+            "name": "pr_ci_assist"
+        },
+        {
+            "id": 22926,
+            "name": "pr_ci_repair"
+        },
+        {
+            "id": 22927,
+            "name": "run_eval_flows"
+        },
+        {
+            "id": 22928,
+            "name": "search_eval"
+        },
+        {
+            "id": 22929,
+            "name": "nvdataset"
+        },
+        {
+            "id": 22930,
+            "name": "pack_schema"
+        },
+        {
+            "id": 22931,
+            "name": "compare_eval_runs"
+        },
+        {
+            "id": 22932,
+            "name": "score_replay_set"
+        },
+        {
+            "id": 22933,
+            "name": "eval_alltools_unseen_compare"
+        },
+        {
+            "id": 22934,
+            "name": "venv_setup"
+        },
+        {
+            "id": 22935,
+            "name": "project_resolver"
+        },
+        {
+            "id": 22936,
+            "name": "timestamp_utils"
+        },
+        {
+            "id": 22937,
+            "name": "trace_searcher"
+        },
+        {
+            "id": 22938,
+            "name": "cleanup_env"
+        },
+        {
+            "id": 22939,
+            "name": "observability_scopes"
+        },
+        {
+            "id": 22940,
+            "name": "log_fetcher"
+        },
+        {
+            "id": 22941,
+            "name": "lock_manager"
+        },
+        {
+            "id": 22942,
+            "name": "check_breaking_release"
+        },
+        {
+            "id": 22943,
+            "name": "mechanism_cost"
+        },
+        {
+            "id": 22944,
+            "name": "bitexact"
+        },
+        {
+            "id": 22945,
+            "name": "hass_frontend"
+        },
+        {
+            "id": 22946,
+            "name": "generate_app_options"
+        },
+        {
+            "id": 22947,
+            "name": "deepagents_backends"
+        },
+        {
+            "id": 22948,
+            "name": "brenda_client"
+        },
+        {
+            "id": 22949,
+            "name": "sql_manager"
+        },
+        {
+            "id": 22950,
+            "name": "dataset_manager"
+        },
+        {
+            "id": 22951,
+            "name": "rolloutengine"
+        },
+        {
+            "id": 22952,
+            "name": "bubblewrap_bin"
+        },
+        {
+            "id": 22953,
+            "name": "migration"
+        },
+        {
+            "id": 22954,
+            "name": "wenyi_backend"
+        },
+        {
+            "id": 22955,
+            "name": "wenyi_desktop"
+        },
+        {
+            "id": 22956,
+            "name": "anydoc"
+        },
+        {
+            "id": 22957,
+            "name": "wheel_update_test_helpers"
+        },
+        {
+            "id": 22958,
+            "name": "spawn_test_helpers"
+        },
+        {
+            "id": 22959,
+            "name": "test_gate_tiers"
+        },
+        {
+            "id": 22960,
+            "name": "audit_bypass_merge"
+        },
+        {
+            "id": 22961,
+            "name": "turn_harness"
+        },
+        {
+            "id": 22962,
+            "name": "market_protocol"
+        },
+        {
+            "id": 22963,
+            "name": "download_original_preview"
+        },
+        {
+            "id": 22964,
+            "name": "render_api_capture"
+        },
+        {
+            "id": 22965,
+            "name": "check_archive_storage"
+        },
+        {
+            "id": 22966,
+            "name": "release_readiness"
+        },
+        {
+            "id": 22967,
+            "name": "build_manual_catalog"
+        },
+        {
+            "id": 22968,
+            "name": "packaging_policy"
+        },
+        {
+            "id": 22969,
+            "name": "check_reader_delivery"
+        },
+        {
+            "id": 22970,
+            "name": "check_skill_release"
+        },
+        {
+            "id": 22971,
+            "name": "skill_read_plan"
+        },
+        {
+            "id": 22972,
+            "name": "household_plans"
+        },
+        {
+            "id": 22973,
+            "name": "initialize_household"
+        },
+        {
+            "id": 22974,
+            "name": "collect_home_status"
+        },
+        {
+            "id": 22975,
+            "name": "configure_home_report"
+        },
+        {
+            "id": 22976,
+            "name": "build_release"
+        },
+        {
+            "id": 22977,
+            "name": "household_state"
+        },
+        {
+            "id": 22978,
+            "name": "boat_sdk"
+        },
+        {
+            "id": 22979,
+            "name": "publication_client_models"
+        },
+        {
+            "id": 22980,
+            "name": "publication_client"
+        },
+        {
+            "id": 22981,
+            "name": "agentzero_driver"
+        },
+        {
+            "id": 22982,
+            "name": "hermes_mcp_breaker"
         }
     ]
 }
