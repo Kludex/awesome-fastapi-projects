@@ -94575,6 +94575,666 @@
         {
             "id": 23645,
             "name": "tracecontext"
+        },
+        {
+            "id": 23646,
+            "name": "reference_agent"
+        },
+        {
+            "id": 23647,
+            "name": "metadata_propagation"
+        },
+        {
+            "id": 23648,
+            "name": "laya_coreml"
+        },
+        {
+            "id": 23649,
+            "name": "fonoster"
+        },
+        {
+            "id": 23650,
+            "name": "fonoster_conformance"
+        },
+        {
+            "id": 23651,
+            "name": "generate_messages"
+        },
+        {
+            "id": 23652,
+            "name": "hidagent"
+        },
+        {
+            "id": 23653,
+            "name": "opc"
+        },
+        {
+            "id": 23654,
+            "name": "shopify_auth_adapter"
+        },
+        {
+            "id": 23655,
+            "name": "kvcache_warm_probe_20260703"
+        },
+        {
+            "id": 23656,
+            "name": "laguna_compiled_lane_bench"
+        },
+        {
+            "id": 23657,
+            "name": "mtplx_native_mlp"
+        },
+        {
+            "id": 23658,
+            "name": "ddtree_mlx"
+        },
+        {
+            "id": 23659,
+            "name": "mtplx_qsa_kernels"
+        },
+        {
+            "id": 23660,
+            "name": "laguna_lane"
+        },
+        {
+            "id": 23661,
+            "name": "dflash"
+        },
+        {
+            "id": 23662,
+            "name": "quant_schema"
+        },
+        {
+            "id": 23663,
+            "name": "fa2_fp8kv_vllm"
+        },
+        {
+            "id": 23664,
+            "name": "fa2_prefill"
+        },
+        {
+            "id": 23665,
+            "name": "pth_flash_attn"
+        },
+        {
+            "id": 23666,
+            "name": "harden_chat_template"
+        },
+        {
+            "id": 23667,
+            "name": "build_flags"
+        },
+        {
+            "id": 23668,
+            "name": "paged_prefill"
+        },
+        {
+            "id": 23669,
+            "name": "generation_state"
+        },
+        {
+            "id": 23670,
+            "name": "nanomuse_cloud"
+        },
+        {
+            "id": 23671,
+            "name": "showcase_gateway"
+        },
+        {
+            "id": 23672,
+            "name": "loopx_obelisk"
+        },
+        {
+            "id": 23673,
+            "name": "test_chat_ordinary_project"
+        },
+        {
+            "id": 23674,
+            "name": "loopx_finance_value_discovery"
+        },
+        {
+            "id": 23675,
+            "name": "test_delegation_cli"
+        },
+        {
+            "id": 23676,
+            "name": "stdio_utf8"
+        },
+        {
+            "id": 23677,
+            "name": "research_team"
+        },
+        {
+            "id": 23678,
+            "name": "hard24_subset"
+        },
+        {
+            "id": 23679,
+            "name": "goal30_subset"
+        },
+        {
+            "id": 23680,
+            "name": "acceptance"
+        },
+        {
+            "id": 23681,
+            "name": "synthetic_fixture"
+        },
+        {
+            "id": 23682,
+            "name": "loopx_finance_execution"
+        },
+        {
+            "id": 23683,
+            "name": "sforge"
+        },
+        {
+            "id": 23684,
+            "name": "external_scheduler_worker"
+        },
+        {
+            "id": 23685,
+            "name": "test_local_delegation"
+        },
+        {
+            "id": 23686,
+            "name": "test_native_steward_private"
+        },
+        {
+            "id": 23687,
+            "name": "test_manager_context_execution"
+        },
+        {
+            "id": 23688,
+            "name": "remaining4_subset"
+        },
+        {
+            "id": 23689,
+            "name": "loopx_memt_turn"
+        },
+        {
+            "id": 23690,
+            "name": "test_lark_private_conversations"
+        },
+        {
+            "id": 23691,
+            "name": "managed_effect_runtime_fixture"
+        },
+        {
+            "id": 23692,
+            "name": "traex_turn_host_adapter"
+        },
+        {
+            "id": 23693,
+            "name": "loopx_jev"
+        },
+        {
+            "id": 23694,
+            "name": "goal_state"
+        },
+        {
+            "id": 23695,
+            "name": "memt_sglang"
+        },
+        {
+            "id": 23696,
+            "name": "test_external_scheduler_worker"
+        },
+        {
+            "id": 23697,
+            "name": "drift_fixtures"
+        },
+        {
+            "id": 23698,
+            "name": "canonical_authority_fixture"
+        },
+        {
+            "id": 23699,
+            "name": "native_codex_goal"
+        },
+        {
+            "id": 23700,
+            "name": "goal_policy"
+        },
+        {
+            "id": 23701,
+            "name": "capability_docs"
+        },
+        {
+            "id": 23702,
+            "name": "test_independent_delegation_validation"
+        },
+        {
+            "id": 23703,
+            "name": "computer_use_runtime_contract_validator"
+        },
+        {
+            "id": 23704,
+            "name": "loopx_repo_health"
+        },
+        {
+            "id": 23705,
+            "name": "test_codex_operation_host"
+        },
+        {
+            "id": 23706,
+            "name": "loopx_ark_turn"
+        },
+        {
+            "id": 23707,
+            "name": "nokv"
+        },
+        {
+            "id": 23708,
+            "name": "operation_action_fixtures"
+        },
+        {
+            "id": 23709,
+            "name": "todo_lifecycle_fixtures"
+        },
+        {
+            "id": 23710,
+            "name": "test_delegation_result_use"
+        },
+        {
+            "id": 23711,
+            "name": "loopx_media"
+        },
+        {
+            "id": 23712,
+            "name": "loopx_text_stats"
+        },
+        {
+            "id": 23713,
+            "name": "loopx_community_discussion"
+        },
+        {
+            "id": 23714,
+            "name": "test_loopx_turn_driver"
+        },
+        {
+            "id": 23715,
+            "name": "loopx_codex_provider_routing"
+        },
+        {
+            "id": 23716,
+            "name": "arkruntime"
+        },
+        {
+            "id": 23717,
+            "name": "offline_profile"
+        },
+        {
+            "id": 23718,
+            "name": "retainpdf_math"
+        },
+        {
+            "id": 23719,
+            "name": "retainpdf_ai"
+        },
+        {
+            "id": 23720,
+            "name": "dev_stack"
+        },
+        {
+            "id": 23721,
+            "name": "inspect_capture"
+        },
+        {
+            "id": 23722,
+            "name": "retainpdf_pipeline"
+        },
+        {
+            "id": 23723,
+            "name": "checkpoint_benchmark"
+        },
+        {
+            "id": 23724,
+            "name": "live_smoke"
+        },
+        {
+            "id": 23725,
+            "name": "retainpdf_translation"
+        },
+        {
+            "id": 23726,
+            "name": "retainpdf_base"
+        },
+        {
+            "id": 23727,
+            "name": "test_gateway"
+        },
+        {
+            "id": 23728,
+            "name": "test_leases"
+        },
+        {
+            "id": 23729,
+            "name": "test_casdoor_invited_history_http_extend"
+        },
+        {
+            "id": 23730,
+            "name": "test_casdoor_identity_action_flow_extend"
+        },
+        {
+            "id": 23731,
+            "name": "test_auth_transactions"
+        },
+        {
+            "id": 23732,
+            "name": "test_casdoor_local_http_service_extend"
+        },
+        {
+            "id": 23733,
+            "name": "test_casdoor_restricted_result_service_extend"
+        },
+        {
+            "id": 23734,
+            "name": "test_claims"
+        },
+        {
+            "id": 23735,
+            "name": "test_casdoor_profile_repository_extend"
+        },
+        {
+            "id": 23736,
+            "name": "test_casdoor_repeated_namespace_recovery_flow_extend"
+        },
+        {
+            "id": 23737,
+            "name": "test_casdoor_invited_local_recovery_http_extend"
+        },
+        {
+            "id": 23738,
+            "name": "test_invitation_token_consumption_extend"
+        },
+        {
+            "id": 23739,
+            "name": "test_invitation_publication_transport_extend"
+        },
+        {
+            "id": 23740,
+            "name": "test_casdoor_avatar_attempt_extend"
+        },
+        {
+            "id": 23741,
+            "name": "test_casdoor_required_intent_repository_extend"
+        },
+        {
+            "id": 23742,
+            "name": "test_casdoor_cross_namespace_adoption_flow_extend"
+        },
+        {
+            "id": 23743,
+            "name": "test_casdoor_login_account_service_extend"
+        },
+        {
+            "id": 23744,
+            "name": "test_casdoor_local_role_repository_extend"
+        },
+        {
+            "id": 23745,
+            "name": "test_casdoor_namespace_reset_repository_extend"
+        },
+        {
+            "id": 23746,
+            "name": "test_casdoor_namespace_reset_flow_extend"
+        },
+        {
+            "id": 23747,
+            "name": "test_casdoor_avatar_retry_mounted_extend"
+        },
+        {
+            "id": 23748,
+            "name": "test_casdoor_invitation_operation_repository_extend"
+        },
+        {
+            "id": 23749,
+            "name": "test_casdoor_managed_local_login_extend"
+        },
+        {
+            "id": 23750,
+            "name": "test_casdoor_avatar_intent_extend"
+        },
+        {
+            "id": 23751,
+            "name": "test_casdoor_avatar_consumer_extend"
+        },
+        {
+            "id": 23752,
+            "name": "test_casdoor_local_http_extend"
+        },
+        {
+            "id": 23753,
+            "name": "test_auth_initialization"
+        },
+        {
+            "id": 23754,
+            "name": "test_casdoor_avatar_retry_lineage_extend"
+        },
+        {
+            "id": 23755,
+            "name": "test_casdoor_invited_local_http_extend"
+        },
+        {
+            "id": 23756,
+            "name": "test_casdoor_avatar_pre_storage_recovery_extend"
+        },
+        {
+            "id": 23757,
+            "name": "test_casdoor_avatar_attachment_extend"
+        },
+        {
+            "id": 23758,
+            "name": "test_casdoor_local_login_service_extend"
+        },
+        {
+            "id": 23759,
+            "name": "test_casdoor_avatar_pre_storage_termination_extend"
+        },
+        {
+            "id": 23760,
+            "name": "test_casdoor_avatar_cleanup_flow_extend"
+        },
+        {
+            "id": 23761,
+            "name": "test_casdoor_local_lifecycle_flow_extend"
+        },
+        {
+            "id": 23762,
+            "name": "test_casdoor_diagnostic_flow_extend"
+        },
+        {
+            "id": 23763,
+            "name": "ask_sdk_core"
+        },
+        {
+            "id": 23764,
+            "name": "ask_sdk_model"
+        },
+        {
+            "id": 23765,
+            "name": "roadster_env"
+        },
+        {
+            "id": 23766,
+            "name": "skyrl"
+        },
+        {
+            "id": 23767,
+            "name": "prompting"
+        },
+        {
+            "id": 23768,
+            "name": "submit"
+        },
+        {
+            "id": 23769,
+            "name": "databricks_agentkit"
+        },
+        {
+            "id": 23770,
+            "name": "pr_preflight"
+        },
+        {
+            "id": 23771,
+            "name": "max_private"
+        },
+        {
+            "id": 23772,
+            "name": "tiny_fixture"
+        },
+        {
+            "id": 23773,
+            "name": "mimo_runner"
+        },
+        {
+            "id": 23774,
+            "name": "vec_add"
+        },
+        {
+            "id": 23775,
+            "name": "deerflow_extension_lightrag"
+        },
+        {
+            "id": 23776,
+            "name": "daily_git"
+        },
+        {
+            "id": 23777,
+            "name": "tpc_provider"
+        },
+        {
+            "id": 23778,
+            "name": "rcr_lazy_helpers"
+        },
+        {
+            "id": 23779,
+            "name": "test_eltwise_unary_sfpu"
+        },
+        {
+            "id": 23780,
+            "name": "tt_transformers"
+        },
+        {
+            "id": 23781,
+            "name": "test_eltwise_binary_sfpu"
+        },
+        {
+            "id": 23782,
+            "name": "test_unary_sfpu_ulp"
+        },
+        {
+            "id": 23783,
+            "name": "perf_schema_derive"
+        },
+        {
+            "id": 23784,
+            "name": "compare_test_and_perf"
+        },
+        {
+            "id": 23785,
+            "name": "sam_tool_sdk"
+        },
+        {
+            "id": 23786,
+            "name": "summarize_miles"
+        },
+        {
+            "id": 23787,
+            "name": "run_identity"
+        },
+        {
+            "id": 23788,
+            "name": "nasiko_state"
+        },
+        {
+            "id": 23789,
+            "name": "check_vendored"
+        },
+        {
+            "id": 23790,
+            "name": "nasiko_adk_sessions"
+        },
+        {
+            "id": 23791,
+            "name": "skill_metadata"
+        },
+        {
+            "id": 23792,
+            "name": "scope_groups"
+        },
+        {
+            "id": 23793,
+            "name": "audit_panel_alignment"
+        },
+        {
+            "id": 23794,
+            "name": "pkai"
+        },
+        {
+            "id": 23795,
+            "name": "emcee"
+        },
+        {
+            "id": 23796,
+            "name": "simulation_gate"
+        },
+        {
+            "id": 23797,
+            "name": "submit_navigation_mission"
+        },
+        {
+            "id": 23798,
+            "name": "std_srvs"
+        },
+        {
+            "id": 23799,
+            "name": "http_transport"
+        },
+        {
+            "id": 23800,
+            "name": "prepare_cli_repository"
+        },
+        {
+            "id": 23801,
+            "name": "qwen_mm_plugins_omnidr"
+        },
+        {
+            "id": 23802,
+            "name": "conftest_floor_restores"
+        },
+        {
+            "id": 23803,
+            "name": "conftest_floor_services"
+        },
+        {
+            "id": 23804,
+            "name": "conftest_floor_home"
+        },
+        {
+            "id": 23805,
+            "name": "conftest_floor_determinism"
+        },
+        {
+            "id": 23806,
+            "name": "conftest_floor_reporting"
+        },
+        {
+            "id": 23807,
+            "name": "conftest_floor_tmp"
+        },
+        {
+            "id": 23808,
+            "name": "conftest_floor_configure"
+        },
+        {
+            "id": 23809,
+            "name": "conftest_floor_seams"
+        },
+        {
+            "id": 23810,
+            "name": "weclone_cloud"
         }
     ]
 }
