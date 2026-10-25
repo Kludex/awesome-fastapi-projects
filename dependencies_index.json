@@ -95551,6 +95551,258 @@
         {
             "id": 23889,
             "name": "test_native_steward_managed_mode"
+        },
+        {
+            "id": 23890,
+            "name": "synology_chat_notifier"
+        },
+        {
+            "id": 23891,
+            "name": "ntfy_notifier"
+        },
+        {
+            "id": 23892,
+            "name": "custom_rss_site"
+        },
+        {
+            "id": 23893,
+            "name": "apprise_notifier"
+        },
+        {
+            "id": 23894,
+            "name": "strm_writer"
+        },
+        {
+            "id": 23895,
+            "name": "slack_notifier"
+        },
+        {
+            "id": 23896,
+            "name": "webhook_on_event"
+        },
+        {
+            "id": 23897,
+            "name": "wpush_notifier"
+        },
+        {
+            "id": 23898,
+            "name": "manual_pick"
+        },
+        {
+            "id": 23899,
+            "name": "nfo_writer"
+        },
+        {
+            "id": 23900,
+            "name": "ab_sdk"
+        },
+        {
+            "id": 23901,
+            "name": "run_command"
+        },
+        {
+            "id": 23902,
+            "name": "onebot_notifier"
+        },
+        {
+            "id": 23903,
+            "name": "template_rename"
+        },
+        {
+            "id": 23904,
+            "name": "openai_server"
+        },
+        {
+            "id": 23905,
+            "name": "reader_io"
+        },
+        {
+            "id": 23906,
+            "name": "check_fork_ci_gate_config"
+        },
+        {
+            "id": 23907,
+            "name": "check_ci_gate_needs"
+        },
+        {
+            "id": 23908,
+            "name": "_multion"
+        },
+        {
+            "id": 23909,
+            "name": "deerflow_extension_report_sections"
+        },
+        {
+            "id": 23910,
+            "name": "fake_backend"
+        },
+        {
+            "id": 23911,
+            "name": "_cua_entry"
+        },
+        {
+            "id": 23912,
+            "name": "pyqwest"
+        },
+        {
+            "id": 23913,
+            "name": "slideplot"
+        },
+        {
+            "id": 23914,
+            "name": "dataset_inspector"
+        },
+        {
+            "id": 23915,
+            "name": "profile_card"
+        },
+        {
+            "id": 23916,
+            "name": "assess_profile"
+        },
+        {
+            "id": 23917,
+            "name": "github_thread"
+        },
+        {
+            "id": 23918,
+            "name": "test_moltbook_publish"
+        },
+        {
+            "id": 23919,
+            "name": "source_io"
+        },
+        {
+            "id": 23920,
+            "name": "scaffold_template"
+        },
+        {
+            "id": 23921,
+            "name": "match_profiles"
+        },
+        {
+            "id": 23922,
+            "name": "estimate_cost"
+        },
+        {
+            "id": 23923,
+            "name": "validate_profile"
+        },
+        {
+            "id": 23924,
+            "name": "vision_safety"
+        },
+        {
+            "id": 23925,
+            "name": "changelog_fragments"
+        },
+        {
+            "id": 23926,
+            "name": "kda_replay_reference"
+        },
+        {
+            "id": 23927,
+            "name": "check_ca_trust"
+        },
+        {
+            "id": 23928,
+            "name": "conftest_floor_git"
+        },
+        {
+            "id": 23929,
+            "name": "crew_log_drain"
+        },
+        {
+            "id": 23930,
+            "name": "autoswarm"
+        },
+        {
+            "id": 23931,
+            "name": "mapped_beside_pydantic_v2_basemodel"
+        },
+        {
+            "id": 23932,
+            "name": "mapped_beside_typing_typeddict"
+        },
+        {
+            "id": 23933,
+            "name": "mapped_beside_pydantic_v2_dataclass"
+        },
+        {
+            "id": 23934,
+            "name": "mapped_msgspec_struct"
+        },
+        {
+            "id": 23935,
+            "name": "mapped_dataclasses_dataclass"
+        },
+        {
+            "id": 23936,
+            "name": "mapped_subdirectory_pydantic_v2_basemodel"
+        },
+        {
+            "id": 23937,
+            "name": "mapped_beside_dataclasses_dataclass"
+        },
+        {
+            "id": 23938,
+            "name": "python_import_grandchild"
+        },
+        {
+            "id": 23939,
+            "name": "mapped_subdirectory_pydantic_v2_dataclass"
+        },
+        {
+            "id": 23940,
+            "name": "mapped_subdirectory_typing_typeddict"
+        },
+        {
+            "id": 23941,
+            "name": "mapped_subdirectory_msgspec_struct"
+        },
+        {
+            "id": 23942,
+            "name": "mapped_pydantic_v2_dataclass"
+        },
+        {
+            "id": 23943,
+            "name": "mapped_subdirectory_dataclasses_dataclass"
+        },
+        {
+            "id": 23944,
+            "name": "mapped_typing_typeddict"
+        },
+        {
+            "id": 23945,
+            "name": "mapped_extra_items"
+        },
+        {
+            "id": 23946,
+            "name": "mapped_beside_msgspec_struct"
+        },
+        {
+            "id": 23947,
+            "name": "python_import_bases"
+        },
+        {
+            "id": 23948,
+            "name": "mapped"
+        },
+        {
+            "id": 23949,
+            "name": "mapped_pydantic_v2_basemodel"
+        },
+        {
+            "id": 23950,
+            "name": "twig_app"
+        },
+        {
+            "id": 23951,
+            "name": "mapped_modules"
+        },
+        {
+            "id": 23952,
+            "name": "test_native_steward_turn_host"
         }
     ]
 }
