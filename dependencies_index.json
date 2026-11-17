@@ -100715,6 +100715,742 @@
         {
             "id": 25180,
             "name": "this_is_not_real"
+        },
+        {
+            "id": 25181,
+            "name": "durations"
+        },
+        {
+            "id": 25182,
+            "name": "calc"
+        },
+        {
+            "id": 25183,
+            "name": "pager"
+        },
+        {
+            "id": 25184,
+            "name": "benchclub"
+        },
+        {
+            "id": 25185,
+            "name": "triton_aot_manifest"
+        },
+        {
+            "id": 25186,
+            "name": "bench_evidence"
+        },
+        {
+            "id": 25187,
+            "name": "glm_video_fixtures"
+        },
+        {
+            "id": 25188,
+            "name": "bench_auth"
+        },
+        {
+            "id": 25189,
+            "name": "vision_encoder"
+        },
+        {
+            "id": 25190,
+            "name": "bench_image_session"
+        },
+        {
+            "id": 25191,
+            "name": "bench_timing"
+        },
+        {
+            "id": 25192,
+            "name": "fake_server"
+        },
+        {
+            "id": 25193,
+            "name": "bench_stream"
+        },
+        {
+            "id": 25194,
+            "name": "bench_cache"
+        },
+        {
+            "id": 25195,
+            "name": "evidence_index"
+        },
+        {
+            "id": 25196,
+            "name": "shared_prefix_load"
+        },
+        {
+            "id": 25197,
+            "name": "startup_receipt_format"
+        },
+        {
+            "id": 25198,
+            "name": "qual_work"
+        },
+        {
+            "id": 25199,
+            "name": "gen_qwen35_kernels"
+        },
+        {
+            "id": 25200,
+            "name": "gen_nemotron_metal"
+        },
+        {
+            "id": 25201,
+            "name": "bench_openai"
+        },
+        {
+            "id": 25202,
+            "name": "bench_thinking"
+        },
+        {
+            "id": 25203,
+            "name": "conformance_lifecycle"
+        },
+        {
+            "id": 25204,
+            "name": "bench_metrics"
+        },
+        {
+            "id": 25205,
+            "name": "prefill_cold"
+        },
+        {
+            "id": 25206,
+            "name": "startup_receipt"
+        },
+        {
+            "id": 25207,
+            "name": "bench_fill"
+        },
+        {
+            "id": 25208,
+            "name": "mcdma_kv"
+        },
+        {
+            "id": 25209,
+            "name": "tensorfold_web"
+        },
+        {
+            "id": 25210,
+            "name": "qual_client"
+        },
+        {
+            "id": 25211,
+            "name": "living_weights_v2"
+        },
+        {
+            "id": 25212,
+            "name": "qual_run"
+        },
+        {
+            "id": 25213,
+            "name": "bench_concurrent"
+        },
+        {
+            "id": 25214,
+            "name": "murea_agent"
+        },
+        {
+            "id": 25215,
+            "name": "murea_fast"
+        },
+        {
+            "id": 25216,
+            "name": "absolute_pkg"
+        },
+        {
+            "id": 25217,
+            "name": "test_modeling_deepseekv41"
+        },
+        {
+            "id": 25218,
+            "name": "_cf_internal_snapshot_info"
+        },
+        {
+            "id": 25219,
+            "name": "npu_suites"
+        },
+        {
+            "id": 25220,
+            "name": "amd_suites"
+        },
+        {
+            "id": 25221,
+            "name": "sgl_fa3"
+        },
+        {
+            "id": 25222,
+            "name": "cognee_integration_hermes"
+        },
+        {
+            "id": 25223,
+            "name": "tree_sitter_ada"
+        },
+        {
+            "id": 25224,
+            "name": "cadwyn_core"
+        },
+        {
+            "id": 25225,
+            "name": "baresip"
+        },
+        {
+            "id": 25226,
+            "name": "start_lock"
+        },
+        {
+            "id": 25227,
+            "name": "agent_daemons"
+        },
+        {
+            "id": 25228,
+            "name": "unit_control"
+        },
+        {
+            "id": 25229,
+            "name": "check_fork_ci_tests_merge"
+        },
+        {
+            "id": 25230,
+            "name": "check_scheduled_workflows_skip_forks"
+        },
+        {
+            "id": 25231,
+            "name": "redimatch"
+        },
+        {
+            "id": 25232,
+            "name": "readiness_contract"
+        },
+        {
+            "id": 25233,
+            "name": "publish_operator"
+        },
+        {
+            "id": 25234,
+            "name": "readiness_probe"
+        },
+        {
+            "id": 25235,
+            "name": "registry_access"
+        },
+        {
+            "id": 25236,
+            "name": "qualify_operator"
+        },
+        {
+            "id": 25237,
+            "name": "operator_ingress"
+        },
+        {
+            "id": 25238,
+            "name": "image_smoke"
+        },
+        {
+            "id": 25239,
+            "name": "veragrid_stamp"
+        },
+        {
+            "id": 25240,
+            "name": "ThreePhasePowerFlow"
+        },
+        {
+            "id": 25241,
+            "name": "andes"
+        },
+        {
+            "id": 25242,
+            "name": "run_veragrid_three_bus_powersystems_models"
+        },
+        {
+            "id": 25243,
+            "name": "veragrid_templates"
+        },
+        {
+            "id": 25244,
+            "name": "opendssdirect"
+        },
+        {
+            "id": 25245,
+            "name": "run_veragrid_omib_powersystems_models"
+        },
+        {
+            "id": 25246,
+            "name": "upload_to_pypi"
+        },
+        {
+            "id": 25247,
+            "name": "run_veragrid_ieee9_powersystems_models"
+        },
+        {
+            "id": 25248,
+            "name": "linacodec"
+        },
+        {
+            "id": 25249,
+            "name": "vllm_tied_patch"
+        },
+        {
+            "id": 25250,
+            "name": "test_extension_agent_runs"
+        },
+        {
+            "id": 25251,
+            "name": "deerflow_extension_skill_evolution"
+        },
+        {
+            "id": 25252,
+            "name": "deerflow_workspace_search"
+        },
+        {
+            "id": 25253,
+            "name": "no_progress"
+        },
+        {
+            "id": 25254,
+            "name": "openjev_model"
+        },
+        {
+            "id": 25255,
+            "name": "literal_text_plan"
+        },
+        {
+            "id": 25256,
+            "name": "guarded_completion"
+        },
+        {
+            "id": 25257,
+            "name": "browser_provider"
+        },
+        {
+            "id": 25258,
+            "name": "rocm"
+        },
+        {
+            "id": 25259,
+            "name": "suite_terminal"
+        },
+        {
+            "id": 25260,
+            "name": "daily_process"
+        },
+        {
+            "id": 25261,
+            "name": "mlx_checkpoint_store"
+        },
+        {
+            "id": 25262,
+            "name": "contribution_review_validation"
+        },
+        {
+            "id": 25263,
+            "name": "compile_contribution_review"
+        },
+        {
+            "id": 25264,
+            "name": "diag"
+        },
+        {
+            "id": 25265,
+            "name": "test_name_aliases"
+        },
+        {
+            "id": 25266,
+            "name": "fitfile"
+        },
+        {
+            "id": 25267,
+            "name": "fithealth_agent"
+        },
+        {
+            "id": 25268,
+            "name": "fps_helper"
+        },
+        {
+            "id": 25269,
+            "name": "thread_pool_selector"
+        },
+        {
+            "id": 25270,
+            "name": "speko_asr_python"
+        },
+        {
+            "id": 25271,
+            "name": "speko_tts2_python"
+        },
+        {
+            "id": 25272,
+            "name": "speko_llm2_python"
+        },
+        {
+            "id": 25273,
+            "name": "pwned_passwords_django"
+        },
+        {
+            "id": 25274,
+            "name": "check_plugin_versions"
+        },
+        {
+            "id": 25275,
+            "name": "check_skill_catalog"
+        },
+        {
+            "id": 25276,
+            "name": "pytest_file_timings"
+        },
+        {
+            "id": 25277,
+            "name": "merge_shard_timings"
+        },
+        {
+            "id": 25278,
+            "name": "runtime_shard"
+        },
+        {
+            "id": 25279,
+            "name": "mujoco_warp"
+        },
+        {
+            "id": 25280,
+            "name": "salt"
+        },
+        {
+            "id": 25281,
+            "name": "bench_costclass"
+        },
+        {
+            "id": 25282,
+            "name": "fake_ai"
+        },
+        {
+            "id": 25283,
+            "name": "memory_contracts"
+        },
+        {
+            "id": 25284,
+            "name": "error_core"
+        },
+        {
+            "id": 25285,
+            "name": "check_dockerfile_downloads"
+        },
+        {
+            "id": 25286,
+            "name": "ws_monitor"
+        },
+        {
+            "id": 25287,
+            "name": "auto_fix_deps"
+        },
+        {
+            "id": 25288,
+            "name": "dify_trace_otel"
+        },
+        {
+            "id": 25289,
+            "name": "ida_pro"
+        },
+        {
+            "id": 25290,
+            "name": "irodori_tts"
+        },
+        {
+            "id": 25291,
+            "name": "security_floors"
+        },
+        {
+            "id": 25292,
+            "name": "cli_process"
+        },
+        {
+            "id": 25293,
+            "name": "writer_check"
+        },
+        {
+            "id": 25294,
+            "name": "sandbox_runs"
+        },
+        {
+            "id": 25295,
+            "name": "_run_registry"
+        },
+        {
+            "id": 25296,
+            "name": "_safe_env"
+        },
+        {
+            "id": 25297,
+            "name": "_auth_middleware"
+        },
+        {
+            "id": 25298,
+            "name": "kali_auth"
+        },
+        {
+            "id": 25299,
+            "name": "mcp_toolset_guard"
+        },
+        {
+            "id": 25300,
+            "name": "llm_budget"
+        },
+        {
+            "id": 25301,
+            "name": "nmap_server"
+        },
+        {
+            "id": 25302,
+            "name": "job_credential"
+        },
+        {
+            "id": 25303,
+            "name": "metasploit_server"
+        },
+        {
+            "id": 25304,
+            "name": "ai_attack_surface_scan"
+        },
+        {
+            "id": 25305,
+            "name": "machine_credential"
+        },
+        {
+            "id": 25306,
+            "name": "decision_check"
+        },
+        {
+            "id": 25307,
+            "name": "run_full"
+        },
+        {
+            "id": 25308,
+            "name": "native_q6"
+        },
+        {
+            "id": 25309,
+            "name": "ocr"
+        },
+        {
+            "id": 25310,
+            "name": "spwproto"
+        },
+        {
+            "id": 25311,
+            "name": "pywayland"
+        },
+        {
+            "id": 25312,
+            "name": "hiwbc"
+        },
+        {
+            "id": 25313,
+            "name": "hirobot"
+        },
+        {
+            "id": 25314,
+            "name": "ncu_report"
+        },
+        {
+            "id": 25315,
+            "name": "autofix_outcome"
+        },
+        {
+            "id": 25316,
+            "name": "tokenspeed_scheduler_ext"
+        },
+        {
+            "id": 25317,
+            "name": "entity_store"
+        },
+        {
+            "id": 25318,
+            "name": "resolver"
+        },
+        {
+            "id": 25319,
+            "name": "gateway_minute_restart_probe"
+        },
+        {
+            "id": 25320,
+            "name": "python_otbr_api"
+        },
+        {
+            "id": 25321,
+            "name": "xknx"
+        },
+        {
+            "id": 25322,
+            "name": "zwave_js_server"
+        },
+        {
+            "id": 25323,
+            "name": "zigpy"
+        },
+        {
+            "id": 25324,
+            "name": "matter_server"
+        },
+        {
+            "id": 25325,
+            "name": "sync_dev_integration_pins"
+        },
+        {
+            "id": 25326,
+            "name": "plugin_runner"
+        },
+        {
+            "id": 25327,
+            "name": "b200_utilization_alert"
+        },
+        {
+            "id": 25328,
+            "name": "render_common"
+        },
+        {
+            "id": 25329,
+            "name": "_bfcache_evidence"
+        },
+        {
+            "id": 25330,
+            "name": "test_a_worker_comes_back_with_its_page_from_the_cache_e2e"
+        },
+        {
+            "id": 25331,
+            "name": "_e2e_clocks"
+        },
+        {
+            "id": 25332,
+            "name": "work_ledger_projection_helpers"
+        },
+        {
+            "id": 25333,
+            "name": "cron_gateway_integration_helpers"
+        },
+        {
+            "id": 25334,
+            "name": "redaction_structured_cases"
+        },
+        {
+            "id": 25335,
+            "name": "chat_runtime_sharing_helpers"
+        },
+        {
+            "id": 25336,
+            "name": "mpp"
+        },
+        {
+            "id": 25337,
+            "name": "droppedneedle_plugin"
+        },
+        {
+            "id": 25338,
+            "name": "_audio_object"
+        },
+        {
+            "id": 25339,
+            "name": "git_projection"
+        },
+        {
+            "id": 25340,
+            "name": "transcribe_local_mlx"
+        },
+        {
+            "id": 25341,
+            "name": "pdf_preview"
+        },
+        {
+            "id": 25342,
+            "name": "lark_result"
+        },
+        {
+            "id": 25343,
+            "name": "speaker_transcribe"
+        },
+        {
+            "id": 25344,
+            "name": "shared_evidence"
+        },
+        {
+            "id": 25345,
+            "name": "semgrep"
+        },
+        {
+            "id": 25346,
+            "name": "diarize_speakers"
+        },
+        {
+            "id": 25347,
+            "name": "history_projection"
+        },
+        {
+            "id": 25348,
+            "name": "build_archive_reader"
+        },
+        {
+            "id": 25349,
+            "name": "task_evidence_archive"
+        },
+        {
+            "id": 25350,
+            "name": "daudio"
+        },
+        {
+            "id": 25351,
+            "name": "capture_table"
+        },
+        {
+            "id": 25352,
+            "name": "transcribe_long_whispercpp"
+        },
+        {
+            "id": 25353,
+            "name": "dispatch_compat"
+        },
+        {
+            "id": 25354,
+            "name": "budoux"
+        },
+        {
+            "id": 25355,
+            "name": "toys"
+        },
+        {
+            "id": 25356,
+            "name": "birds"
+        },
+        {
+            "id": 25357,
+            "name": "shelter"
+        },
+        {
+            "id": 25358,
+            "name": "dogs"
+        },
+        {
+            "id": 25359,
+            "name": "trees"
+        },
+        {
+            "id": 25360,
+            "name": "task_recovery"
+        },
+        {
+            "id": 25361,
+            "name": "task_trace"
+        },
+        {
+            "id": 25362,
+            "name": "runtime_observability"
+        },
+        {
+            "id": 25363,
+            "name": "agentteams_receipts"
+        },
+        {
+            "id": 25364,
+            "name": "logging_helpers"
         }
     ]
 }
